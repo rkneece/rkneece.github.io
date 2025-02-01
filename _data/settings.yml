@@ -25,6 +25,9 @@ hero_settings:
   headline_text: Hi, nice to meet you! I'm a Boston-based engineering leader, recovering founder, and investor.
   subline_text: I build high-performing teams with exceptional humans as the fundamental ingredient.
 
+listing_settings:
+  listing_header: Things that have defined my professional life.
+  
 post_settings:
   grid_spacing: 10
 
