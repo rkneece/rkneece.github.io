@@ -3,10 +3,10 @@ title: 'Engineering Leadership'
 subtitle: 'Roles as a CTO and VP of Engineering'
 date: 2018-06-30 00:00:00
 description: I've had multiple stops in engineering and product leadership at SaaS B2B(2C) VC and PE backed firms. Experience as a member of the executive leadership team and key participant in board activities.
-featured_image: '/images/projects/eskalera.svg'
+featured_image: '/images/projects/engineering_leadership.png'
 ---
 
-![](/images/projects/eskalera.svg)
+![](/images/projects/engineering_leadership.png)
 
 ## Demo content
 
