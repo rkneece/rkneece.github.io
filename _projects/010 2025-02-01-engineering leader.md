@@ -2,7 +2,7 @@
 title: 'Engineering Leadership'
 subtitle: 'Roles as a CTO and VP of Engineering'
 date: 2018-06-30 00:00:00
-description: A member of the executive leadership team and key participant in board meetings for a leading VC-backed HR tech and people analytics platform. Proud of the team we built that brought to market mobile and web B2B/2C apps, data science/engineering, AI+ML and intelligence that serves the needs of a number of Fortune 500 firms.
+description: I've had multiple stops in engineering and product leadership at SaaS B2B(2C) VC and PE backed firms. Experience as a member of the executive leadership team and key participant in board activities.
 featured_image: '/images/projects/eskalera.svg'
 ---
 
