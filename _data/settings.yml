@@ -8,17 +8,17 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Projects'
+    - title: 'Experiences'
       url: '/'
-    - title: 'Blog'
-      url: '/blog/'
+    #- title: 'Blog'
+    #  url: '/blog/'
     - title: 'About'
       url: '/about'
     - title: 'Contact'
       url: '/contact'
 
 footer_settings:
-  footer_tagline: A sleek, modern Jekyll theme for personal websites.
+  footer_tagline: Boston-based CTO, VP of Engineering, recovering founder, investor and dad.
 
 hero_settings:
   overlay_opacity: 0.8
@@ -58,7 +58,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: ''
+  linkedin_url: 'https://www.linkedin.com/in/richkneece'
 
 color_settings:
   background_color: '#ffffff'
