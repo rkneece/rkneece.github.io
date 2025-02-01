@@ -1,8 +1,8 @@
 ---
-title: 'Demo Project'
-subtitle: 'This is a demo'
+title: 'Eskalera'
+subtitle: 'Chief Technology Officer'
 date: 2018-06-30 00:00:00
-description: This page is a demo that shows everything you can do inside portfolio and blog posts.
+description: A member of the executive leadership team and key participant in board meetings for a leading VC-backed HR tech and people analytics platform. Proud of the team we built that brought to market mobile and web B2B/2C apps, data science/engineering, AI+ML and intelligence that serves the needs of a number of Fortune 500 firms.
 featured_image: '/images/demo/demo-square.jpg'
 ---
 
