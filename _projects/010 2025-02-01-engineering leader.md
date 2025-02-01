@@ -6,8 +6,6 @@ description: I've had multiple stops in engineering and product leadership at Sa
 featured_image: '/images/projects/engineering_leadership.png'
 ---
 
-![](/images/projects/engineering_leadership.png)
-
 ## Demo content
 
 This page is a demo that shows everything you can do inside portfolio and blog posts.
