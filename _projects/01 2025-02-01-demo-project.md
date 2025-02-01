@@ -6,7 +6,7 @@ description: A member of the executive leadership team and key participant in bo
 featured_image: '/images/projects/eskalera.svg'
 ---
 
-![](/images/demo/demo-landscape.jpg)
+![](/images/projects/eskalera.svg)
 
 ## Demo content
 
