@@ -1,9 +1,9 @@
 ---
-title: 'Engineering Leadership'
-subtitle: 'Roles as a CTO and VP of Engineering'
+title: 'Founder and operator'
+subtitle: 'Multiple exits and 2x Inc 5000 founder'
 date: 2018-06-30 00:00:00
-description: I've had multiple stops in engineering and product leadership at SaaS B2B(2C) VC and PE backed firms. Experience as a member of the executive leadership team and key participant in board activities.
-featured_image: '/images/projects/engineering_leadership.png'
+description: I founded MTC Labs, which was twice an Inc 5000 company as one of America's fastest growing private firms, co-founded a leading niche job board and had two successful exits.
+featured_image: '/images/projects/founder.png'
 ---
 
 ## Demo content
