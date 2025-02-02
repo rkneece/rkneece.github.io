@@ -2,7 +2,7 @@
 title: 'Founder and operator'
 subtitle: 'Multiple exits and 2x Inc 5000 founder'
 date: 2018-06-30 00:00:00
-description: I founded MTC Labs, which was twice an Inc 5000 company as one of America's fastest growing private firms, co-founded a leading niche job board and had two successful exits.
+description: I founded MTC Labs, which was twice an Inc 5000 company as one of America's fastest growing private firms, co-founded a leading niche job board and had two successful exits. My primary focus has been on enterprise SaaS with an emphasis on HR tech and healthcare.
 featured_image: '/images/projects/founder.png'
 ---
 
