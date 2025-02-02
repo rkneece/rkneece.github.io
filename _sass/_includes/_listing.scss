@@ -8,6 +8,7 @@
 .listing {
 	margin-top: -40px;
 	background-color: #3c3a3afa;
+	padding-bottom:50px;
 
 	@include mq(tabletp) {
 		margin-top: -60px;
