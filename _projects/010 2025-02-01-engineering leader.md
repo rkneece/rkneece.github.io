@@ -6,99 +6,15 @@ description: I've had multiple stops in engineering and product leadership at Sa
 featured_image: '/images/projects/engineering_leadership.png'
 ---
 
-## Demo content
+## My north star
 
-This page is a demo that shows everything you can do inside portfolio and blog posts.
+To build outstanding engineering cultures, I believe in fostering inclusive, high-performing engineering and product teams by merging scalability, collaboration, and innovation with a strong emphasis on psychological safety and diversity. Throughout my career, I've prioritized building great teams that deliver high-quality, scalable, and efficient technology solutions while ensuring an environment where individuals feel valued, empowered, and able to contribute their best work. My leadership philosophy centers on mentorship, open communication, and structured processes that balance speed, quality, and innovation, resulting in successful product launches, operational excellence, and business growth.
 
-We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
+## How I've done it
 
-**Obviously,** we’ve styled up *all the basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+As CTO at Eskalera, at a leading enterprise (B2B2C) SaaS provider, I led a diverse multi-region team of engineers, QA, and cloud operators. During my time at Eskalera, we doubled the size of the team, mentored stakeholders to build workflows/processes to decrease mental load, led machine learning, AI, data science and analytics efforts, implemented scalable architecture, launched the UX/UI, QA and data engineering teams, and migrated our large content library to a headless CMS. I was a key leader in a SOC2 certification (and re-certification, twice), and furthered an agile culture by right-sizing scrum teams, introducing guilds, chapters and practices and evangelizing better communication.
 
-You can create lists:
+At IFS Core (now Operix), I led a distributed product and engineering team with members in Boston, Peru, India, Japan, Ireland composed of 50+ engineers, product managers, QA members and UX/UI. I stood-up the QA and UX practices and guided a maturation of a collaborative team culture.
 
-* Simple bulleted lists
-* Like this one
-* Are cool
+I have significant experience in highly regulated industries (e.g., HIPAA, HITECH, GDPR, CCPA). My technical stack is broad (and I am hands-on when and where it needs to happen), but as importantly, I encourage scalability, collaboration, mentoring, and open communication within and across teams.
 
-And:
-
-1. Numbered lists
-2. Like this other one
-3. Are great too
-
-You can also add blockquotes, which are shown at a larger width to help break up the layout and draw attention to key parts of your content:
-
-> “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”
-
-The theme also supports markdown tables:
-
-| Item                 | Author        | Supports tables? | Price |
-|----------------------|---------------|------------------|-------|
-| Duet Jekyll Theme    | Jekyll Themes | Yes              | $49   |
-| Index Jekyll Theme   | Jekyll Themes | Yes              | $49   |
-| Journal Jekyll Theme | Jekyll Themes | Yes              | $49   |
-
-And footnotes[^1], which link to explanations[^2] at the bottom of the page[^3].
-
-[^1]: Beautiful modern, minimal theme design.
-[^2]: Powerful features to show off your work.
-[^3]: Maintained and supported by the theme developer.
-
-You can throw in some horizontal rules too:
-
----
-
-### Image galleries
-
-Here's a really neat custom feature we added – galleries:
-
-<div class="gallery" data-columns="3">
-	<img src="/images/demo/demo-portrait.jpg">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-square.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
-</div>
-
-Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a bit of simple HTML in your post to create a masonry grid image layout:
-
-```html
-<div class="gallery" data-columns="3">
-    <img src="/images/demo/demo-portrait.jpg">
-    <img src="/images/demo/demo-landscape.jpg">
-    <img src="/images/demo/demo-square.jpg">
-    <img src="/images/demo/demo-landscape-2.jpg">
-</div>
-```
-
-*See what we did there? Code and syntax highlighting is built-in too!*
-
-Change the number inside the 'columns' setting to create different types of gallery for all kinds of purposes. You can even click on each image to seamlessly enlarge it on the page.
-
----
-
-### Image carousels
-
-Here's another gallery with only one column, which creates a carousel slide-show instead.
-
-A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
-
-<div class="gallery" data-columns="1">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
-</div>
-
-### What about videos?
-
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
-
-<iframe src="https://player.vimeo.com/video/148003889" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-
----
-
-## Pretty cool, huh?
-
-We've packed this theme with powerful features to show off your work.
-
-Why not put them to use on your new portfolio?
-
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--large">Get This Theme</a>
