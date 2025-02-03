@@ -9,7 +9,7 @@ featured_image: /images/demo/about.jpg
 
 I love building stuff. Full stop. 
 
-Products, companies, and high performing teams.
+**Products, companies, and high performing teams.**
 
 I've had multiple stops as a CTO in scale-up roles, as well as battle scars as a co-founder and operator. I'm proud that my teams have pushed the envelope of innovation, mainly in HR tech and digital health. This includes launching data-centric platforms, applied AI and machine learning, and scalable/secure B2B+2C solutions. But success isn't just about innovative technology. As a people leader, I believe you bring out the best in teams by focusing on empathy, clear paths of communication, individual/team growth and by encouraging psychological safety. 
 
