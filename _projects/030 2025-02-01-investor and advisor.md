@@ -17,7 +17,7 @@ Some examples of recent engagements include:
 - VC backed deep learning/AI firm involved in legal tech/patents
 - Health tech firm using LLMs to better outcomes on clinical notes.
 
-[Reach out to me here](/contact) if you want to my help in bringing products to market or building your team.
+[Reach out to me here](/contact) if you want to chat!
 
 ## Investor
 
