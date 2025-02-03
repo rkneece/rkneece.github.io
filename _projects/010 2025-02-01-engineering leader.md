@@ -18,3 +18,5 @@ At IFS Core (now Operix), I led a distributed product and engineering team with 
 
 I have significant experience in highly regulated industries (e.g., HIPAA, HITECH, GDPR, CCPA). My technical stack is broad (and I am hands-on when and where it needs to happen), but as importantly, I encourage scalability, collaboration, mentoring, and open communication within and across teams.
 
+![](/images/projects/engineering_leadership.png)
+
