@@ -30,9 +30,9 @@ I focus on technology that meets the moment, and while I have strong opinions, t
 
 I also don't promote being an expert in every part of the stack, but on having street cred with my team so they can do their jobs. I drive a fundamentally strong bond between product and engineering (with the right amount of friction), combined with aggressive cycle/deployment goals to meet customer needs, modern, serverful+serverless technologies and brilliant data engineering that takes advantage of cutting-edge AI tech.
 
-As a teammate: I get my hands dirty across the stack (especially in data engineering challenges). 
-As a customer advocate: I advocate for the end-user through research+understanding+impact. 
-As a servant-leader: nothing gives me more satisfaction than building an inclusive team of performers that exceed expectations (and actually enjoy each other).
+* As a teammate: I get my hands dirty across the stack (especially in data engineering challenges).
+* As a customer advocate: I advocate for the end-user through research+understanding+impact.
+* As a servant-leader: nothing gives me more satisfaction than building an inclusive team of performers that exceed expectations (and actually enjoy each other).
 
 ## Outside of work
 
