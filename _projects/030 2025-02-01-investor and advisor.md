@@ -17,6 +17,8 @@ Some examples of recent engagements include:
 - VC backed deep learning/AI firm involved in legal tech/patents
 - Health tech firm using LLMs to better outcomes on clinical notes.
 
+[Reach out to me here](/contact) if you want to my help in bringing products to market or building your team.
+
 ## Investor
 
 I've been an investor (either directly or via a syndicate) in a number of seed and VC-backed startups. Early investments in Allset, Audigent (acq by EXPN), Begin, Figure, Grapevine (acq by SSC), Droneseed, Electric Sheep, Ergatta, Deep Sentinel, Kraken, Turing, and others.
