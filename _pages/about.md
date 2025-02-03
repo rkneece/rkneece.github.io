@@ -1,7 +1,7 @@
 ---
 title: About me
 subtitle: Hi, it's nice to meet you. I'm Rich Kneece!
-description: Personal is the perfect theme for developers, designers and other creatives.
+description: About Rich Kneece
 featured_image: /images/demo/about.jpg
 ---
 
