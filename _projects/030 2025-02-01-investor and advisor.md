@@ -6,99 +6,15 @@ description: I advise (and sometimes write small checks) in promising companies,
 featured_image: '/images/projects/advisor.png'
 ---
 
-## Demo content
+## Advisory and Fractional CTO
 
-This page is a demo that shows everything you can do inside portfolio and blog posts.
+With extensive experience as a founder, a product and engineering leader, and a people leader, I offer advisory and fractional CTO services to startups and scaleups looking to stand-up and expand their technology, optimize operations, and build high-performing teams. As a two-time Inc. 5000 entrepreneur with successful exits, I understand the challenges of growing a startup and can provide strategic guidance on SaaS scalability, data architecture, AI/ML integration, security compliance, and agile team structuring. My background includes leading distributed teams, streamlining workflows, implementing cloud-based architectures, and driving product innovation across B2B and B2B2C sectors. Whether mentoring founders, securing funding through investor networks, or building engineering cultures that balance speed with quality, I help startups navigate their technology and growth challenges efficiently and cost-effectively.
 
-We've included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
+Some examples of recent engagements include:
+- Seed stage HR tech using AI to ensure compensation results in maximum ROI and employee satisfaction
+- VC backed deep learning/AI firm involved in legal tech/patents
+- Health tech firm using LLMs to better outcomes on clinical notes.
 
-**Obviously,** we’ve styled up *all the basic* text formatting options [available in markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+## Investor
 
-You can create lists:
-
-* Simple bulleted lists
-* Like this one
-* Are cool
-
-And:
-
-1. Numbered lists
-2. Like this other one
-3. Are great too
-
-You can also add blockquotes, which are shown at a larger width to help break up the layout and draw attention to key parts of your content:
-
-> “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”
-
-The theme also supports markdown tables:
-
-| Item                 | Author        | Supports tables? | Price |
-|----------------------|---------------|------------------|-------|
-| Duet Jekyll Theme    | Jekyll Themes | Yes              | $49   |
-| Index Jekyll Theme   | Jekyll Themes | Yes              | $49   |
-| Journal Jekyll Theme | Jekyll Themes | Yes              | $49   |
-
-And footnotes[^1], which link to explanations[^2] at the bottom of the page[^3].
-
-[^1]: Beautiful modern, minimal theme design.
-[^2]: Powerful features to show off your work.
-[^3]: Maintained and supported by the theme developer.
-
-You can throw in some horizontal rules too:
-
----
-
-### Image galleries
-
-Here's a really neat custom feature we added – galleries:
-
-<div class="gallery" data-columns="3">
-	<img src="/images/demo/demo-portrait.jpg">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-square.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
-</div>
-
-Inspired by the Galleries feature from WordPress, we've made it easy to create grid layouts for your images. Just use a bit of simple HTML in your post to create a masonry grid image layout:
-
-```html
-<div class="gallery" data-columns="3">
-    <img src="/images/demo/demo-portrait.jpg">
-    <img src="/images/demo/demo-landscape.jpg">
-    <img src="/images/demo/demo-square.jpg">
-    <img src="/images/demo/demo-landscape-2.jpg">
-</div>
-```
-
-*See what we did there? Code and syntax highlighting is built-in too!*
-
-Change the number inside the 'columns' setting to create different types of gallery for all kinds of purposes. You can even click on each image to seamlessly enlarge it on the page.
-
----
-
-### Image carousels
-
-Here's another gallery with only one column, which creates a carousel slide-show instead.
-
-A nice little feature: the carousel only advances when it is in view, so your visitors won't scroll down to find it half way through your images.
-
-<div class="gallery" data-columns="1">
-	<img src="/images/demo/demo-landscape.jpg">
-	<img src="/images/demo/demo-landscape-2.jpg">
-</div>
-
-### What about videos?
-
-Videos are an awesome way to show off your work in a more engaging and personal way, and we’ve made sure they work great on our themes. Just paste an embed code from YouTube or Vimeo, and the theme makes sure it displays perfectly:
-
-<iframe src="https://player.vimeo.com/video/148003889" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-
----
-
-## Pretty cool, huh?
-
-We've packed this theme with powerful features to show off your work.
-
-Why not put them to use on your new portfolio?
-
-<a href="https://jekyllthemes.io/theme/personal-website-jekyll-theme" class="button button--large">Get This Theme</a>
+I selectively invest in promising early-stage startups. I've been an investor (either directly or via a syndicate) in a number of seed and VC-backed startups. Early investments in Allset, Audigent (acq by EXPN), Begin, Figure, Grapevine (acq by SSC), Droneseed, Electric Sheep, Ergatta, Deep Sentinel, Kraken, Turing, and others.
