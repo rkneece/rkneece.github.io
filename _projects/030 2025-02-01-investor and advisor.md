@@ -2,7 +2,7 @@
 title: 'An advisor and investor'
 subtitle: 'I share my battle scars and invest in promising startups'
 date: 2018-06-30 00:00:00
-description: I advise (and sometimes write small checks) in promising companies, usually in B2B(2C) SaaS.
+description: I advise (and sometimes write small checks) in promising companies, usually in B2B(2C) SaaS. Engagements include HR and recruit tech, legal AI, and healthcare analytic firms that are seed, VC and PE backed.
 featured_image: '/images/projects/advisor.png'
 ---
 
