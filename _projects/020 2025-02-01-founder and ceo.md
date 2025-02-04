@@ -6,7 +6,7 @@ description: I founded MTC Labs, which was twice an Inc 5000 company as one of A
 featured_image: '/images/projects/founder.png'
 ---
 
-## Founder and operator
+## Founder and operator.
 
 As a founder, operator, and CEO, I have built and led multiple successful startups, demonstrating a track record of scaling businesses, driving innovation, and fostering high-performing teams. 
 
@@ -14,7 +14,7 @@ At MTC, I bootstrapped the company with an initial investment of just $10,000, t
 
 My ability to merge technical execution with strategic vision has resulted in multiple successful exits, including MTC’s acquisition in 2019.
 
-## Building outstanding products
+## Building outstanding products.
 
 At [Vocoli](https://www.vocoli.com) (a spin-out of MTC), I led an award-winning HR tech and workforce engagement platform, recognized with the MiTX award for Best Employee Engagement Software. I led product strategy, technical architecture, and go-to-market execution, integrating AI, secure video chat, live streaming, and surveys to enhance employee engagement. 
 
@@ -24,7 +24,7 @@ At HireCentral, I co-founded a leading niche career network in healthcare and li
 
 Both ventures showcased my ability to scale businesses, drive innovation, and build high-value digital products.
 
-## My north star
+## My north star.
 
 My north star has always been to build world-class teams that deliver exceptional results by fostering a culture of technical inclusion, trust, and psychological safety. 
 
