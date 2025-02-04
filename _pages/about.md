@@ -37,3 +37,7 @@ I also don't promote being an expert in every part of the stack, but on having s
 ## Outside of work
 
 I'm a former nationally-ranked bicycle racer. I love bikes, cars and all things sports. I'm a proud dad of two young boys. I'm an admitted gadget lover, and I love drilling holes in walls. Oh, and I fully embrace my dad jokes.
+
+## Reach out!
+
+I'm open to full-time and fractional roles in startup and scale-up firms. If you're interested in chatting, [here's a copy of my resume](/_resources/Kneece_Resume_3.01_2025_01_GEN_NCI.pdf). I've removed contact info (spammers), so you can contact me [here](/contact).
