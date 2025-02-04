@@ -6,13 +6,13 @@ description: I've had multiple stops in engineering and product leadership at Sa
 featured_image: '/images/projects/engineering_leadership.png'
 ---
 
-## My north star
+## My north star.
 
 To build outstanding engineering cultures, I believe in fostering inclusive, high-performing engineering and product teams by merging scalability, collaboration, and innovation with a strong emphasis on psychological safety and diversity. 
 
 Throughout my career, I've prioritized building great teams that deliver high-quality, scalable, and efficient technology solutions while ensuring an environment where individuals feel valued, empowered, and able to contribute their best work. My leadership philosophy centers on mentorship, open communication, and structured processes that balance speed, quality, and innovation, resulting in successful product launches, operational excellence, and business growth.
 
-## How I've done it
+## How I've done it.
 
 As **CTO at [Eskalera](https://www.eskalera.com)**, at a leading enterprise (B2B2C) SaaS provider, I led a diverse multi-region team of engineers, QA, and cloud operators. During my time at Eskalera, we doubled the size of the team, mentored stakeholders to build workflows/processes to decrease mental load, led machine learning, AI, data science and analytics efforts, implemented scalable architecture, launched the UX/UI, QA and data engineering teams, and migrated our large content library to a headless CMS. I was a key leader in a SOC2 certification (and re-certification, twice), and furthered an agile culture by right-sizing scrum teams, introducing guilds, chapters and practices and evangelizing better communication.
 
