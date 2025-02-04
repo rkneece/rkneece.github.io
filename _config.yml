@@ -1,7 +1,7 @@
 site: Personal Jekyll Theme
 
 url: 
-baseurl: https://richkneece.com
+baseurl: 
 
 collections:
   pages:
