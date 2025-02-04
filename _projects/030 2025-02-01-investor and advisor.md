@@ -6,7 +6,7 @@ description: I advise (and sometimes write small checks) in promising companies,
 featured_image: '/images/projects/advisor.png'
 ---
 
-## Advisory and Fractional CTO
+## Advisory and fractional CTO.
 
 With extensive experience as a founder, a product and engineering leader, and a people leader, I offer advisory and fractional CTO services to startups and scaleups looking to determine product-market fit, stand-up and expand their technology, optimize operations, and build high-performing teams. 
 
@@ -19,6 +19,6 @@ Some examples of recent engagements include:
 
 [Reach out to me here](/contact) if you want to chat!
 
-## Investor
+## Investor.
 
 I've been an investor (either directly or via a syndicate) in a number of seed and VC-backed startups. Early investments in Allset, Audigent (acq by EXPN), Begin, Figure, Grapevine (acq by SSC), Droneseed, Electric Sheep, Ergatta, Deep Sentinel, Kraken, Turing, and others.
