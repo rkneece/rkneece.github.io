@@ -1,6 +1,7 @@
 basic_settings:
   site_title: Rich Kneece
   favicon_image: /images/favicon.png
+  base_url: https://richkneece.com
 
 header_settings:
   logo_image: 
