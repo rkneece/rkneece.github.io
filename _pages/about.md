@@ -39,4 +39,4 @@ I'm a former nationally-ranked bicycle racer. I love bikes, cars and all things 
 
 ## Reach out!
 
-I'm open to full-time and fractional roles in startup and scale-up firms. If you're interested in chatting, [here's a copy of my resume](/_resources/Kneece_Resume_3.01_2025_01_GEN_NCI.pdf). I've removed contact info (spammers), so you can contact me [here](/contact).
+I'm open to full-time and fractional roles in startup and scale-up firms. If you're interested in chatting, <a href="{{ site.baseurl }}/_resources/Kneece_Resume_3.01_2025_01_GEN_NCI.pdf" target="_blank" download="download">here's my resume</a>. I've removed contact info (spammers), so you can contact me [here](/contact).
