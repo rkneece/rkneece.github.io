@@ -30,4 +30,8 @@ My north star has always been to build world-class teams that deliver exceptiona
 
 Throughout my career, I have championed mentorship, agile leadership, and technical excellence, ensuring that teams not only meet but exceed expectations in terms of quality, speed, and innovation. Whether as a founder, CEO, or fractional executive, I remain committed to helping organizations scale, innovate, and achieve their highest potential through a combination of technical excellence, strategic foresight, and strong, people-centered leadership.
 
+## Reach out!
+
+I'm open to full-time roles in startup and scaleup firms. If you're interested in chatting, [here's a copy of my resume]({{ site.data.settings.basic_settings.base_url }}/downloads/Kneece-Resume-3.01-2025-01-GEN-NCI.pdf). I've removed contact info (spammers), so you can contact me here.
+
 ![](/images/projects/founder.png)
