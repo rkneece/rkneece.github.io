@@ -14,14 +14,14 @@ Throughout my career, I've prioritized building great teams that deliver high-qu
 
 ## How I've done it.
 
-As **CTO at [Eskalera](https://www.eskalera.com)**, at a leading enterprise (B2B2C) SaaS provider, I led a diverse multi-region team of engineers, QA, and cloud operators. During my time at Eskalera, we doubled the size of the team, mentored stakeholders to build workflows/processes to decrease mental load, led machine learning, AI, data science and analytics efforts, implemented scalable architecture, launched the UX/UI, QA and data engineering teams, and migrated our large content library to a headless CMS. I was a key leader in a SOC2 certification (and re-certification, twice), and furthered an agile culture by right-sizing scrum teams, introducing guilds, chapters and practices and evangelizing better communication.
+As **CTO at [Eskalera](https://www.eskalera.com)**, at a leading enterprise (B2B2C) SaaS provider, I led a diverse multi-region team of engineers, QA, and cloud operators. During my time there, we doubled the size of the team, built workflows/processes to decrease mental load, led machine learning, AI, data science and analytics efforts, implemented scalable architecture, launched the UX/UI, QA and data engineering teams, and migrated our large content library to a headless CMS. I was a key leader in a SOC2 certification (and re-certification, twice), and furthered an agile culture by right-sizing scrum teams, introducing guilds, chapters and practices and evangelizing better communication.
 
 At **IFS Core (now [Operix](https://www.operix.com))**, I led a distributed product and engineering team with members in Boston, Peru, India, Japan, Ireland composed of 50+ engineers, product managers, QA members and UX/UI. I stood-up the QA and UX practices and guided a maturation of a collaborative team culture.
 
-I have significant experience in highly regulated industries (e.g., HIPAA, HITECH, GDPR, CCPA). My technical stack is broad (and I am hands-on when and where it needs to happen), but as importantly, I encourage scalability, collaboration, mentoring, and open communication within and across teams.
+I have significant experience in highly regulated industries (e.g., HIPAA, HITECH, GDPR, CCPA). My technical stack is broad (and I'm hands-on when and where it needs to happen), but as importantly, I encourage scalability, collaboration, mentoring, and open communication within and across teams.
 
 ## Reach out!
-I'm open to full-time roles in startup and scaleup firms. If you're interested in chatting, [here's a copy of my resume]({{ site.data.settings.basic_settings.base_url }}/downloads/Kneece-Resume-3.01-2025-01-GEN-NCI.pdf). I've removed contact info (spammers), so you can contact me [here](/contact).
+I'm open to full-time roles in startup and scale-up ventures. If you're interested in chatting, [here's a copy of my CV]({{ site.data.settings.basic_settings.base_url }}/downloads/Kneece-Resume-3.01-2025-01-GEN-NCI.pdf). I've removed contact info (sorry, spammers), so you can contact me [here](/contact).
 
 ![](/images/projects/engineering_leadership.png)
 
