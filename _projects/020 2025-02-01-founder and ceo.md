@@ -14,6 +14,16 @@ At MTC, I bootstrapped the company with an initial investment of just $10,000, t
 
 My ability to merge technical execution with strategic vision has resulted in multiple successful exits, including MTC’s acquisition in 2019.
 
+## Building outstanding products
+
+At Vocoli (a spin-out of MTC), I led an award-winning HR tech and workforce engagement platform, recognized with the MiTX award for Best Employee Engagement Software. I led product strategy, technical architecture, and go-to-market execution, integrating AI, secure video chat, live streaming, and surveys to enhance employee engagement. 
+
+Vocoli gained enterprise traction and media recognition in Wired, Fast Company, and Forbes.
+
+At HireCentral, I co-founded a leading niche career network in healthcare and life sciences, growing it to 500,000+ monthly visitors through SEO, content-driven marketing, and digital growth strategies. This success led to VC investment from Yahoo/HotJobs and positioned HireCentral as a top industry platform. 
+
+Both ventures showcased my ability to scale businesses, drive innovation, and build high-value digital products.
+
 ## My north star
 
 My north star has always been to build world-class teams that deliver exceptional results by fostering a culture of inclusion, trust, and psychological safety. 
