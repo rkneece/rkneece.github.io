@@ -5,9 +5,7 @@ description: About Rich Kneece
 featured_image: /images/demo/about.jpg
 ---
 
-## My professional background
-
-I love building stuff. Full stop. 
+## I love building stuff.
 
 **Products, companies, and high performing teams.**
 
@@ -15,7 +13,8 @@ I've had multiple stops as a CTO in scale-up roles, as well as battle scars as a
 
 By doing this, I directly affect the bottom line through high-performing teams that are built to last by caring about the product, the customer and each other. I've been lucky to use my unique background in entrepreneurship, engineering, recruiting, go-to-market, and scaling teams, to build processes and cultures that build cool stuff, while making work fun, reducing churn and improving profitability and long-term success.
 
-Some highlights that have gotten me there:
+## Some highlights
+
 * I **founded MTC Labs**, which was twice listed in the *Inc 5000* as one of America's fastest growing private firms. We were consistently listed as one of the top professional services firms in New England for our leading UX and engineering engagements, and won multiple awards. We turned a $10 bootstrap into a multi-million dollar agency.
 * My tenure as **Eskalera's CTO** was marked by triple-digit multi-year contracts and expansion in 30+ countries (while we tripled team size). We established a powerhouse product engine, delivered unparalleled people analytics insights, and effectively scaled as we grew.
 * I co-founded one of the top niche job boards, which focused on healthcare and life sciences. I was even interviewed on outlets such as **CNN, CNBC the Wall Street Journal, Forbes and Wired**.
