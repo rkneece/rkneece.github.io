@@ -5,7 +5,7 @@ description: About Rich Kneece
 featured_image: /images/demo/about.jpg
 ---
 
-## I build stuff
+## I build stuff.
 
 **Products, companies, and high performing teams.**
 
@@ -13,7 +13,7 @@ I've had multiple stops as a CTO in scale-up roles, as well as battle scars as a
 
 By doing this, I directly affect the bottom line through high-performing teams that are built to last by caring about the product, the customer and each other. I've been lucky to use my unique background in entrepreneurship, engineering, recruiting, go-to-market, and scaling teams, to build processes and cultures that build cool stuff, while making work fun, reducing churn and improving profitability and long-term success.
 
-## Some highlights
+## Some highlights.
 
 * I **founded MTC Labs**, which was twice listed in the *Inc 5000* as one of America's fastest growing private firms. We were consistently listed as one of the top professional services firms in New England for our leading UX and engineering engagements, and won multiple awards. We turned a $10 bootstrap into a multi-million dollar agency.
 * My tenure as **Eskalera's CTO** was marked by triple-digit multi-year contracts and expansion in 30+ countries (while we tripled team size). We established a powerhouse product engine, delivered unparalleled people analytics insights, and effectively scaled as we grew.
@@ -23,7 +23,7 @@ By doing this, I directly affect the bottom line through high-performing teams t
 
 I also have significant experience in highly regulated industries, security and compliance (HIPAA, HITECH, SOC2 Type II, ISO 27001, GDPR, CCPA, HL7 / FHIR).
 
-## I empower the smartest people in the room
+## I empower the smartest people in the room.
 
 I focus on technology that meets the moment, and while I have strong opinions, they're loosely held. 
 
@@ -33,9 +33,9 @@ I also don't promote being an expert in every part of the stack, but on having s
 * As a customer advocate: I advocate for the end-user through research+understanding+impact.
 * As a servant-leader: nothing gives me more satisfaction than building an inclusive team of performers that exceed expectations (and actually enjoy each other).
 
-## Outside of work
+## Outside of work.
 
-I'm a former nationally-ranked bicycle racer. I love bikes, cars and all things sports. I'm a proud dad of two young boys. I'm an admitted gadget lover, and I love drilling holes in walls. I'm a die-hard Boston Celtics fan. Oh, and I fully embrace my dad jokes.
+I'm a former nationally-ranked bicycle racer. I love bikes, cars and all things sports. I'm a proud dad of two young boys. I'm an admitted gadget lover, and I love drilling holes in walls. I'm actually a pretty good table tennis player. I'm a die-hard Boston Celtics fan. Oh, and I fully embrace my dad jokes.
 
 ## Reach out!
 
