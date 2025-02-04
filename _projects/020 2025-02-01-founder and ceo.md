@@ -26,7 +26,7 @@ Both ventures showcased my ability to scale businesses, drive innovation, and bu
 
 ## My north star.
 
-My north star has always been to build world-class teams that deliver exceptional results by fostering a culture of technical inclusion, trust, and psychological safety. 
+My north star has always been to build world-class teams that deliver exceptional results by fostering a culture of technical excellence, trust, and psychological safety. 
 
 Throughout my career, I have championed mentorship, agile leadership, and technical excellence, ensuring that teams not only meet but exceed expectations in terms of quality, speed, and innovation. Whether as a founder, CEO, or fractional executive, I remain committed to helping organizations scale, innovate, and achieve their highest potential through a combination of technical excellence, strategic foresight, and strong, people-centered leadership.
 
