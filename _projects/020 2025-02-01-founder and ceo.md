@@ -32,6 +32,6 @@ Throughout my career, I have championed mentorship, agile leadership, and techni
 
 ## Reach out!
 
-I'm open to full-time roles in startup and scaleup firms. If you're interested in chatting, [here's a copy of my resume]({{ site.data.settings.basic_settings.base_url }}/downloads/Kneece-Resume-3.01-2025-01-GEN-NCI.pdf). I've removed contact info (spammers), so you can contact me [here](/contact).
+I'm open to full-time roles in startup and scale-up ventures. If you're interested in chatting, [here's a copy of my CV]({{ site.data.settings.basic_settings.base_url }}/downloads/Kneece-Resume-3.01-2025-01-GEN-NCI.pdf). I've removed contact info (sorry, spammers), so you can contact me [here](/contact).
 
 ![](/images/projects/founder.png)
