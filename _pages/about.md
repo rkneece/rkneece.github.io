@@ -5,7 +5,7 @@ description: About Rich Kneece
 featured_image: /images/demo/about.jpg
 ---
 
-## I love building stuff.
+## I love building stuff
 
 **Products, companies, and high performing teams.**
 
