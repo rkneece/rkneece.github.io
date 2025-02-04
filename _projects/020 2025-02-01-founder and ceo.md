@@ -19,3 +19,5 @@ My ability to merge technical execution with strategic vision has resulted in mu
 My north star has always been to build world-class teams that deliver exceptional results by fostering a culture of inclusion, trust, and psychological safety. 
 
 Throughout my career, I have championed mentorship, agile leadership, and technical excellent, ensuring that teams not only meet but exceed expectations in terms of quality, speed, and innovation. My leadership philosophy is rooted in empowering teams, streamlining processes, and leveraging cutting-edge technology to drive sustainable business success. Whether as a founder, CEO, or fractional executive, I remain committed to helping organizations scale, innovate, and achieve their highest potential through a combination of technical excellence, strategic foresight, and strong, people-centered leadership.
+
+![](/images/projects/founder.png)
