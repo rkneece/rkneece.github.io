@@ -16,7 +16,7 @@ My ability to merge technical execution with strategic vision has resulted in mu
 
 ## Building outstanding products
 
-At Vocoli (a spin-out of MTC), I led an award-winning HR tech and workforce engagement platform, recognized with the MiTX award for Best Employee Engagement Software. I led product strategy, technical architecture, and go-to-market execution, integrating AI, secure video chat, live streaming, and surveys to enhance employee engagement. 
+At [Vocoli](https://www.vocoli.com) (a spin-out of MTC), I led an award-winning HR tech and workforce engagement platform, recognized with the MiTX award for Best Employee Engagement Software. I led product strategy, technical architecture, and go-to-market execution, integrating AI, secure video chat, live streaming, and surveys to enhance employee engagement. 
 
 Vocoli gained enterprise traction and media recognition in Wired, Fast Company, and Forbes.
 
