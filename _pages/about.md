@@ -23,7 +23,7 @@ By doing this, I directly affect the bottom line through high-performing teams t
 
 I also have significant experience in highly regulated industries, security and compliance (HIPAA, HITECH, SOC2 Type II, ISO 27001, GDPR, CCPA, HL7 / FHIR).
 
-## Technology in my teams
+## I empower the smartest people in the room
 
 I focus on technology that meets the moment, and while I have strong opinions, they're loosely held. 
 
