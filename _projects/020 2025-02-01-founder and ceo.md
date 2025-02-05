@@ -20,7 +20,7 @@ At [Vocoli](https://www.vocoli.com) (a spin-out of MTC), I led an award-winning 
 
 Vocoli gained enterprise traction and media recognition in Wired, Fast Company, and Forbes.
 
-At HireCentral, I co-founded a leading niche career network in healthcare and life sciences, growing it to 500,000+ monthly visitors through SEO, content-driven marketing, and digital growth strategies. This success led to VC investment from Yahoo/HotJobs and positioned HireCentral as a top industry platform. 
+At HireCentral, I co-founded a leading niche career network in healthcare and life sciences, growing it to 500,000+ monthly visitors through organic SEO, content-driven marketing, and digital growth strategies. This success led to VC investment from Yahoo/HotJobs and positioned HireCentral as a top industry platform. 
 
 Both ventures showcased my ability to scale businesses, drive innovation, and build high-value digital products.
 
