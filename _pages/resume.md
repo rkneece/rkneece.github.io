@@ -21,7 +21,7 @@ featured_image: /images/demo/contact.jpg
 			<div class="timeline__event__description">
 				
 				<p>Member of the executive leadership team and board participant for a leading VC-backed HR tech and people analytics platform. Brought to market mobile and web B2B/2C apps, data science/engineering, AI+ML and intelligence that serves the needs of a number of Fortune 500 firms.</p>
-				<p>During my tenure, we served numerous Fortune 500 firms, sold triple figure multi-year contracts, launched in 30+ countries, tripled the size of the team and built a scalable product building engine that was second to none.</p>
+				<p>We've served numerous Fortune 500 firms, sold triple figure multi-year contracts, launched in 30+ countries, tripled the size of the team and built a scalable product building engine.</p>
       			</div>
 
     		</div>
