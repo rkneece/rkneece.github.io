@@ -1,11 +1,10 @@
 ---
 title: Rich Kneece CV
-subtitle: I'd love to hear from you whether for full-time, advisory, investment or fractional CTO opportunities (or just to say hi).
+subtitle: Engineering and product leader, team builder, multi-headed.
 description: Rich Kneece resume
 featured_image: /images/demo/contact.jpg
 ---
 
-# ENGINEERING + PRODUCT LEADER  ::  TEAM BUILDER
 * I merge creativity, technology, process + people
 * Co-founder of Inc 5000 firm (twice!)
 * Two successful exits
