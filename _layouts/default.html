@@ -51,6 +51,16 @@
 	<!-- Google verification -->
 	<meta name="google-site-verification" content="68tAtOUV7hZCqW1yONI1Bl3zi6aoU3xLFNE4HHVZhwM" />
 	
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-V3TQHHQ8G7"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'G-V3TQHHQ8G7');
+	</script>
+	
 	{% if site.data.settings.advanced_settings.custom_styles %}
 	<!-- Custom Styles -->
 	<style>{{ site.data.settings.advanced_settings.custom_styles }}</style>
