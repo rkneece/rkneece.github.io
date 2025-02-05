@@ -17,7 +17,7 @@ featured_image: /images/demo/contact.jpg
 
 		<div class="timeline__event__date">2020 - Present</div>  
 		<div class="timeline__event__content ">
-			<div class="timeline__event__title">Eskalera</div>    
+			<div class="timeline__event__title">Eskalera - CTO</div>    
 			<div class="timeline__event__description">
 				
 				<p>Member of the executive leadership team and board participant for a leading VC-backed HR tech and people analytics platform. Brought to market mobile and web B2B/2C apps, data science/engineering, AI+ML and intelligence that serves the needs of a number of Fortune 500 firms.</p>
@@ -28,6 +28,27 @@ featured_image: /images/demo/contact.jpg
 
 </div>
 <!-- end first event -->
+
+
+<!-- begin second event -->
+<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type2">
+		<div class="timeline__event__icon ">
+			<!-- <i class="lni-sport"></i>-->
+
+		</div>  
+
+		<div class="timeline__event__date">2019 - 2020</div>  
+		<div class="timeline__event__content ">
+			<div class="timeline__event__title">Operix - SVP, Engineering & Product</div>    
+			<div class="timeline__event__description">
+				
+				<p>Built, grew and led an exceptional distributed team (Boston, India, South America) focused on disrupting the construction and field service management industries. Senior member of leadership team reporting to the CEO of this PE backed firm. We scaled the team significantly, addressed historic technical debt while modernizing the stack, raised the bar on technical capabilities and mentorship, uncovered hidden talents and removed blockers to create a highly effective product and engineering team.</p>
+      			</div>
+
+    		</div>
+
+</div>
+<!-- end second event -->
 
 
 ### Operix		2019 – 2020
