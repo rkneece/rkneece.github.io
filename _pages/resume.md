@@ -5,11 +5,6 @@ description: Rich Kneece resume
 featured_image: /images/demo/contact.jpg
 ---
 
-* I merge creativity, technology, process + people
-* Co-founder of Inc 5000 firm (twice!)
-* Two successful exits
-* Surfer between engineering (CTO, SVP Engineering), product (VP Product, Co-founder), leadership (CEO, Co-founder) and sales/client (national sales)
-
 <!-- begin timeline -->
 <div class="timeline">
 	
