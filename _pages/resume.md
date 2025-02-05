@@ -50,19 +50,27 @@ featured_image: /images/demo/contact.jpg
 </div>
 <!-- end second event -->
 
+<!-- begin third event -->
+<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type3">
+		<div class="timeline__event__icon ">
+			<!-- <i class="lni-sport"></i>-->
 
-### Operix		2019 – 2020
-#### SVP, Engineering and Product
-> Industry leading PE backed SaaS construction and service management software that streamlines work order, invoicing, dispatch, purchase order, resource assignments via integrations with major accounting packages, such as Sage CRE, Intacct and QuickBooks.
+		</div>  
 
-* Hired to replace founding CTO on day-to-day and strategic team, technical and product operations
-* Recruited top talent from companies such as Amazon, DraftKings, Wayfair and XPO and doubled the size of a multi-region team (Boston, Peru, Colombia, UK, India) of ~60 engineers, product managers, design, compliance/security and QA
-* Reorganized scrum teams into smaller, more focused, mission based squads with supporting guilds/chapters (called practices) to drive consistency, standards, psychological safety and ultimately to lessen mental load on product managers and engineers
-* Introduced new UX/UI, QA, data architecture, dev ops practices to improve developer efficiency, focus on end-user experience, minimize flaws/bugs, maintain scalability and address long-standing technical and design debt
-* Evangelized the product methodology to drive innovation, increase communication, level-set features, and focus on maximizing customer needs
-* Drove improved communication, knowledge sharing, code standards, story pointing, continuous integration, reliability engineering and methodologies across a multi-region team – all having a measurable result on meeting customer needs, team velocity, developer experience and quality
+		<div class="timeline__event__date">2015 - 2019</div>  
+		<div class="timeline__event__content ">
+			<div class="timeline__event__title">MTC Labs - CEO</div>    
+			<div class="timeline__event__description">
+				
+				<p>MTC was an award-winning digital services firm with deep expertise in HR tech, employee communications, health IT and product strategy. We started with $10k bootstrap and built it into a recognized industry leader and were twice listed on the Inc 5000 as one of America’s fastest growing private companies. Successfully exited via purchase in 2019</p>
+      			</div>
 
-Team Stack: AWS (EC2, Lambda/serverless, Redis, RDS), PHP, MySQL (single tenant), Vue.js, Xamarin.
+    		</div>
+
+</div>
+<!-- end third event -->
+
+
 
 ### MTC		2005 – 2019
 #### CEO and Founder
