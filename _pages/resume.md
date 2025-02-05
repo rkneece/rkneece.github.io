@@ -4,7 +4,8 @@ subtitle: Engineering and product leader, team builder, multi-headed.
 description: Rich Kneece resume
 featured_image: /images/demo/contact.jpg
 ---
-
+<!-- begin timeline -->
+<div class="timeline">
 * I merge creativity, technology, process + people
 * Co-founder of Inc 5000 firm (twice!)
 * Two successful exits
@@ -95,3 +96,5 @@ University of Connecticut (several credits short)
 * Varied technical stack including AWS (lots of services), PHP, Python, Node.js, MS SQL, PostgreSQL, MySQL, Oracle Pl/SQL, MongoDB, DynamoDB, Vue.js, jQuery, React.js, vanilla Javascript, HL7, JSON micro-services, containerization, virtualization, Azure, Twilio, and various technologies and frameworks
 * Former nationally-ranked bike racer and member of Junior National Cycling Team (at least 50 pounds ago).
 
+<!-- end timeline -->
+</div>
