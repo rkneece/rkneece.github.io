@@ -18,7 +18,7 @@ By doing this, I directly affect the bottom line through high-performing teams t
 * I **founded MTC Labs**, which was twice listed in the *Inc 5000* as one of America's fastest growing private firms. We were consistently listed as one of the top professional services firms in New England for our leading UX and engineering engagements, and won multiple awards. We turned a $10 bootstrap into a multi-million dollar agency.
 * My tenure as **Eskalera's CTO** was marked by triple-digit multi-year contracts and expansion in 30+ countries (while we tripled team size). We established a powerhouse product engine, delivered unparalleled people analytics insights, and effectively scaled as we grew.
 * I co-founded one of the top niche job boards, which focused on healthcare and life sciences. I was even interviewed on outlets such as **CNN, CNBC the Wall Street Journal, Forbes and Wired**.
-* Past roles at **Aetna and IBM** have flavored my fundamental belief that strong cultures, a shared vision, and passion in your work impact results and revenues.
+* Past roles at **Aetna and IBM** have flavored my fundamental belief that strong cultures, a shared vision, and passion in your work all impact results and revenues.
 * Alumni on my teams have gone onto *engineering and product leadership* roles at companies like Circle, Simplisafe, Workiva, Uber and Netflix. I'm like a proud papa when I see them succeed!
 
 I also have significant experience in highly regulated industries, security and compliance (HIPAA, HITECH, SOC2 Type II, ISO 27001, GDPR, CCPA, HL7 / FHIR).
