@@ -28,24 +28,11 @@ featured_image: /images/demo/contact.jpg
 				Eskalera
 			</div>
 			<div class="timeline__event__description">
-
-> Leading San Francisco based VC backed HR tech/people analytics platform serving large enterprises.
-
-* Member of five person executive leadership team (and board participant) of a fully remote company and distributed engineering team
-* Launched client-facing people analytics platform, data pipeline, content creation via gen AI, nudging/recommendations engine, and mobile app, while maintaining the highest standards of data privacy, security, vulnerability management and SOC 2, GDPR, CCPA compliance
-* Recruited for the entire stack (UI, back-end, cloud-ops, data engineering, data science, AI/LLM, QA) while being cost-conscious of recruitment spend
-* Set and accomplished a goal of 50% gender balance, while driving an inclusive and highly-efficient engineering culture
-* Mentored product team to ensure the right combination of speed, feature richness, and high-quality code output
-* Installed monitoring/observability (Vanta, Snyk, Dependabot, Sentry, Cloudwatch, Lens) to minimize downtime, disruption, response time and latency
-* Stood up data engineering team and infrastructure responsible for cyber-security, collection, engineering, analytics of highly confidential PI data
-* Implemented + maintained aggressive <1 week cycle times and 3/week deployment goals for major engineering tasks, while keeping rework rates <5%
-* Navigated two force reductions during economic downturn (team increased output and quality by focusing on trust, empathy and shared goals)
-* Launched in record time an enterprise AND consumer grade app on iOS and Google Play app stores (3 months dev from design handoff to launch)
-* Architected + drove a microservice (combo serverless and container-based) architecture across ~20 git repos with swift and flexible CI/CD pipelines
-* Migrated large content and video library (>10,000 nodes) from a BLOB based data environment to a headless CMS (Contentful)
-
-Team Stack: AWS (EC2, ECS/EKS, Kubernetes, Docker, Lambda/serverless, Redis, RDS, SQS), Python/Flask, postgreSQL/RDS (multi-tenant), node.js/nest, React.js/React Query, Flutter mobile, GitHub Actions, Snowflake, Apache Spark, Airflow, Airbyte, Contentful/Smartling, Elastic Search, GPT, Antropic).
-
+				
+				<p> Leading San Francisco based VC backed HR tech/people analytics platform serving large enterprises.</p>
+				<p>Member of the executive leadership team and key participant in board meetings for a leading VC-backed HR tech and people analytics platform. Proud of the team we built that brought to market mobile and web B2B/2C apps, data science/engineering, AI+ML and intelligence that serves the needs of a number of Fortune 500 firms.</p>
+				<p>During my tenure, we served numerous Fortune 500 firms, sold triple figure multi-year contracts, launched in 30+ countries, tripled the size of the team and built a scalable product building engine that was second to none. We've done all of this with zero security incidents and maintained SOC 2 Type II compliance through multiple audit periods, and have maintained a high throughput engineering culture with modern dev ops and deployment practices.</p>
+				<p>Team Stack: AWS (EC2, ECS/EKS, Kubernetes, Docker, Lambda/serverless, Redis, RDS, SQS), Python/Flask, postgreSQL/RDS (multi-tenant), node.js/nest, React.js/React Query, Flutter mobile, GitHub Actions, Snowflake, Apache Spark, Airflow, Airbyte, Contentful/Smartling, Elastic Search, GPT, Antropic).</p>
       			</div>
 
     		</div>
