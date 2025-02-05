@@ -29,10 +29,8 @@ featured_image: /images/demo/contact.jpg
 			</div>
 			<div class="timeline__event__description">
 				
-				<p> Leading San Francisco based VC backed HR tech/people analytics platform serving large enterprises.</p>
 				<p>Member of the executive leadership team and key participant in board meetings for a leading VC-backed HR tech and people analytics platform. Proud of the team we built that brought to market mobile and web B2B/2C apps, data science/engineering, AI+ML and intelligence that serves the needs of a number of Fortune 500 firms.</p>
-				<p>During my tenure, we served numerous Fortune 500 firms, sold triple figure multi-year contracts, launched in 30+ countries, tripled the size of the team and built a scalable product building engine that was second to none. We've done all of this with zero security incidents and maintained SOC 2 Type II compliance through multiple audit periods, and have maintained a high throughput engineering culture with modern dev ops and deployment practices.</p>
-				<p>Team Stack: AWS (EC2, ECS/EKS, Kubernetes, Docker, Lambda/serverless, Redis, RDS, SQS), Python/Flask, postgreSQL/RDS (multi-tenant), node.js/nest, React.js/React Query, Flutter mobile, GitHub Actions, Snowflake, Apache Spark, Airflow, Airbyte, Contentful/Smartling, Elastic Search, GPT, Antropic).</p>
+				<p>During my tenure, we served numerous Fortune 500 firms, sold triple figure multi-year contracts, launched in 30+ countries, tripled the size of the team and built a scalable product building engine that was second to none.</p>
       			</div>
 
     		</div>
