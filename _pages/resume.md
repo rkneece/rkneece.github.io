@@ -45,9 +45,9 @@ featured_image: /images/demo/contact.jpg
 
 Team Stack: AWS (EC2, ECS/EKS, Kubernetes, Docker, Lambda/serverless, Redis, RDS, SQS), Python/Flask, postgreSQL/RDS (multi-tenant), node.js/nest, React.js/React Query, Flutter mobile, GitHub Actions, Snowflake, Apache Spark, Airflow, Airbyte, Contentful/Smartling, Elastic Search, GPT, Antropic).
 
-      </div>
+      			</div>
 
-    </div>
+    		</div>
 
 </div>
 <!-- end first event -->
