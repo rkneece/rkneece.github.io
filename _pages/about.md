@@ -9,7 +9,7 @@ featured_image: /images/demo/about.jpg
 
 **Products, companies, and high performing teams.**
 
-I've had multiple stops as a CTO in scale-up roles, as well as battle scars as a co-founder and operator. I'm proud that my diverse and distributed teams have pushed the envelope of innovation, mainly in HR tech and digital health. This includes launching data-centric platforms, applied AI and machine learning, and scalable/secure B2B+2C solutions. But success isn't just about innovative technology. As a people leader, I believe you bring out the best in teams by focusing on empathy, clear paths of communication, individual/team growth and by encouraging psychological safety. 
+I've had multiple stops as a CTO in scale-up roles, as well as battle scars as a co-founder and operator. I'm proud that my diverse and distributed teams have pushed the envelope of innovation, mainly in HR tech and digital health. This includes launching data-centric platforms, applied AI and machine learning, and scalable/secure B2B+2C solutions. But success isn't just about innovative technology. As a people leader, I bring out the best in teams by focusing on empathy, clear paths of communication, individual/team growth and by encouraging psychological safety. 
 
 By doing this, I directly affect the bottom line through high-performing teams that are built to last by caring about the product, the customer and each other. I've been lucky to use my unique background in entrepreneurship, engineering, recruiting, go-to-market, and scaling teams, to build processes and cultures that build cool stuff, while making work fun, reducing churn and improving profitability and long-term success.
 
@@ -35,7 +35,9 @@ I also don't promote being an expert in every part of the stack, but on having s
 
 ## Outside of work.
 
-I'm a former nationally-ranked bicycle racer. I love bikes, cars and all things sports. I'm a proud dad of two young boys. I'm an admitted gadget lover, and I love drilling holes in walls. I'm actually a pretty good table tennis player. I'm a die-hard Boston Celtics fan. Oh, and I fully embrace my dad jokes.
+I'm a former nationally-ranked bicycle racer. I love bikes, cars and all things sports. I'm a proud dad of two young boys. I'm an admitted gadget lover, and I love drilling holes in walls. I'm actually a pretty good table tennis player. I'm a die-hard Boston Celtics fan. 
+
+Oh, and I fully embrace my dad jokes.
 
 ## Reach out!
 
