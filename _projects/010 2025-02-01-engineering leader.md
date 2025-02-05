@@ -8,9 +8,11 @@ featured_image: '/images/projects/engineering_leadership.png'
 
 ## My north star.
 
-To build outstanding engineering cultures, I believe in fostering inclusive, high-performing engineering and product teams by merging scalability, collaboration, and innovation with a strong emphasis on psychological safety and diversity. 
+To build outstanding engineering cultures, I believe in fostering inclusive, high-performing engineering and product teams by merging scalability, collaboration, and innovation with a strong emphasis on psychological safety. 
 
-I've prioritized building great teams that deliver high-quality, scalable, and efficient technology solutions while ensuring an environment where individuals feel valued, empowered, and able to contribute their best work. My leadership philosophy centers on mentorship, open communication, and structured processes that balance speed, quality, and innovation, resulting in successful product launches, operational excellence, and business growth.
+I've prioritized building great teams that deliver high-quality, scalable, and efficient technology solutions while ensuring an environment where individuals feel valued, empowered, and able to contribute their best work. My leadership philosophy centers on mentorship, open communication, and structured processes that balance speed, quality, and innovation.
+
+All of this results in successful product launches, operational excellence, and business growth.
 
 ## How I've done it.
 
