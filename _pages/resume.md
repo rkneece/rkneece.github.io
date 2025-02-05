@@ -12,8 +12,22 @@ featured_image: /images/demo/contact.jpg
 * Surfer between engineering (CTO, SVP Engineering), product (VP Product, Co-founder), leadership (CEO, Co-founder) and sales/client (national sales)
 
 ## WORK EXPERIENCE
-### Eskalera		2020 – Present
-#### CTO
+<!-- begin first event -->
+<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1"
+		<div class="timeline__event__icon ">
+			<!-- <i class="lni-sport"></i>-->
+
+		</div>  
+		<div class="timeline__event__date">
+			2020 - Present
+		</div>  
+		<div class="timeline__event__content ">
+  
+			<div class="timeline__event__title">
+				Eskalera
+			</div>
+			<div class="timeline__event__description">
+
 > Leading San Francisco based VC backed HR tech/people analytics platform serving large enterprises.
 
 * Member of five person executive leadership team (and board participant) of a fully remote company and distributed engineering team
@@ -30,6 +44,14 @@ featured_image: /images/demo/contact.jpg
 * Migrated large content and video library (>10,000 nodes) from a BLOB based data environment to a headless CMS (Contentful)
 
 Team Stack: AWS (EC2, ECS/EKS, Kubernetes, Docker, Lambda/serverless, Redis, RDS, SQS), Python/Flask, postgreSQL/RDS (multi-tenant), node.js/nest, React.js/React Query, Flutter mobile, GitHub Actions, Snowflake, Apache Spark, Airflow, Airbyte, Contentful/Smartling, Elastic Search, GPT, Antropic).
+
+      </div>
+
+    </div>
+
+</div>
+<!-- end first event -->
+
 
 ### Operix		2019 – 2020
 #### SVP, Engineering and Product
