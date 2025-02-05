@@ -13,7 +13,7 @@ featured_image: /images/demo/contact.jpg
 
 ## WORK EXPERIENCE
 <!-- begin first event -->
-<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1"
+<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
 		<div class="timeline__event__icon ">
 			<!-- <i class="lni-sport"></i>-->
 
