@@ -4,14 +4,15 @@ subtitle: Engineering and product leader, team builder, multi-headed.
 description: Rich Kneece resume
 featured_image: /images/demo/contact.jpg
 ---
-<!-- begin timeline -->
-<div class="timeline">
+
 * I merge creativity, technology, process + people
 * Co-founder of Inc 5000 firm (twice!)
 * Two successful exits
 * Surfer between engineering (CTO, SVP Engineering), product (VP Product, Co-founder), leadership (CEO, Co-founder) and sales/client (national sales)
 
-## WORK EXPERIENCE
+<!-- begin timeline -->
+<div class="timeline">
+	
 <!-- begin first event -->
 <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
 		<div class="timeline__event__icon ">
