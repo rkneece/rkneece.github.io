@@ -4,7 +4,8 @@ subtitle: Engineering and product leader, team builder, multi-headed.
 description: Rich Kneece resume
 featured_image: /images/demo/contact.jpg
 ---
-## A little bit about how I got here.
+## How'd I get here?
+<br/><br/>
 
 <!-- begin timeline -->
 <div class="timeline">
