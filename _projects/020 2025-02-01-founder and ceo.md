@@ -32,6 +32,6 @@ Because of this, my teams not only meet but exceed expectations in terms of qual
 
 ## Reach out!
 
-I'm open to full-time roles in startup and scale-up ventures. If you're interested in chatting, you can contact me [here](/contact).
+I'm open to full-time and fractional roles in startup and scale-up ventures. If you're interested in chatting, you can contact me [here](/contact).
 
 ![](/images/projects/founder.png)
