@@ -2,7 +2,7 @@
 title: About me.
 subtitle: Hi, it's nice to meet you. I'm Rich Kneece!
 description: About Rich Kneece
-featured_image: /images/demo/about.jpg
+featured_image: /images/vocoli_on_phone.jpg
 ---
 
 ## I build stuff.
