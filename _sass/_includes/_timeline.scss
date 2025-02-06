@@ -36,7 +36,7 @@ $color6: #aff1b6;
 				border-radius: 0 $bdrs $bdrs 0;
 			}
 			.timeline__event__company {
-				/* */
+				position: absolute;
 			}
 			
 			.timeline__event__content {
@@ -167,7 +167,7 @@ $color6: #aff1b6;
 			&:after {
 				background: $color4;
 			}
-			.timeline__event__date {
+			.timeline__event__date, .timeline__event__company {
 				color: $color3;
 				background: $color4;
 			}
@@ -200,7 +200,7 @@ $color6: #aff1b6;
 			&:after {
 				background: $color5;
 			}
-			.timeline__event__date {
+			.timeline__event__date, .timeline__event__company {
 				color: $color6;
 				background-color: $color5;
 			}
