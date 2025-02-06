@@ -76,7 +76,7 @@ featured_image: /images/demo/contact.jpg
 
 
 <!-- begin fifth event -->
-<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type2">
+<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
 		<div class="timeline__event__icon ">
 			<!-- <i class="lni-sport"></i>-->
 
@@ -96,7 +96,7 @@ featured_image: /images/demo/contact.jpg
 <!-- end fifth event -->
 
 <!-- begin sixth event -->
-<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type3">
+<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type2">
 		<div class="timeline__event__icon ">
 			<!-- <i class="lni-sport"></i>-->
 
@@ -116,7 +116,7 @@ featured_image: /images/demo/contact.jpg
 <!-- end sixth event -->
 
 <!-- begin seventh event -->
-<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type3">
 		<div class="timeline__event__icon ">
 			<!-- <i class="lni-sport"></i>-->
 
