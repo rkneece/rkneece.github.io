@@ -146,3 +146,5 @@ featured_image: /images/demo/contact.jpg
 
 <!-- end timeline -->
 </div>
+
+I'm open to full-time and fractional roles in startup and scale-up firms. If you're interested in chatting, <a href="{{ site.data.settings.basic_settings.base_url }}/downloads/Kneece-Resume-3.01-2025-01-GEN-NCI.pdf" target="_blank" download="download">here's my resume</a>. I've removed contact info (spammers), so you can contact me [here](/contact).
