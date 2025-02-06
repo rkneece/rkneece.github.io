@@ -34,6 +34,7 @@ featured_image: /images/demo/contact.jpg
 
 <!-- begin second event -->
 <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type2">
+		<div class="timeline__event__company">Operix</div> 		
 		<div class="timeline__event__icon ">
 			<!-- <i class="lni-sport"></i>-->
 
@@ -41,7 +42,7 @@ featured_image: /images/demo/contact.jpg
 
 		<div class="timeline__event__date">2019 - 2020</div>  
 		<div class="timeline__event__content ">
-			<div class="timeline__event__title">Operix - SVP, Engineering & Product</div>    
+			<div class="timeline__event__title">SVP, Engineering & Product</div>    
 			<div class="timeline__event__description">
 				
 				<p>Built, grew and led an exceptional distributed team (Boston, India, South America) focused on disrupting the construction and field service management industries. Senior member of leadership team reporting to the CEO of this PE backed firm. We scaled the team significantly, addressed historic technical debt while modernizing the stack, raised the bar on technical capabilities and mentorship, uncovered hidden talents and removed blockers to create a highly effective product and engineering team.</p>
@@ -59,6 +60,7 @@ featured_image: /images/demo/contact.jpg
 <!-- begin fourth event -->
 
 <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type3">
+		<div class="timeline__event__company">MTC Labs</div> 		
 		<div class="timeline__event__icon ">
 			<!-- <i class="lni-sport"></i>-->
 
@@ -66,7 +68,7 @@ featured_image: /images/demo/contact.jpg
 
 		<div class="timeline__event__date">2005 - 2019</div>  
 		<div class="timeline__event__content ">
-			<div class="timeline__event__title">MTC Labs - CEO</div>    
+			<div class="timeline__event__title">CEO</div>    
 			<div class="timeline__event__description">
 				
 				<p>MTC was an award-winning digital services firm with deep expertise in HR tech, employee communications, health IT and product strategy. We started with $10k bootstrap and built it into a recognized industry leader and were twice listed on the Inc 5000 as one of America’s fastest growing private companies. Successfully exited via purchase in 2019.</p>
@@ -81,6 +83,7 @@ featured_image: /images/demo/contact.jpg
 
 <!-- begin fifth event -->
 <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+		<div class="timeline__event__company">Vocoli</div> 		
 		<div class="timeline__event__icon ">
 			<!-- <i class="lni-sport"></i>-->
 
@@ -88,7 +91,7 @@ featured_image: /images/demo/contact.jpg
 
 		<div class="timeline__event__date">2014 - 2019</div>  
 		<div class="timeline__event__content ">
-			<div class="timeline__event__title">Vocoli - Founder</div>    
+			<div class="timeline__event__title">Founder</div>    
 			<div class="timeline__event__description">
 				
 				<p>Winner of the prestigious MiTX award for Best Employee Engagement Software, Vocoli is a workforce engagement and HR tech platform that combines employee surveys, a twist on the suggestion box, secure video chat, employee comms, live streaming, sprinkled with a dose of AI. Responsible for sales, marketing, operations, as well as technical, product and go-to-market strategy — asked the hard questions, mapped the journey, set vision, represented users, aligned the culture.</p>
@@ -101,6 +104,7 @@ featured_image: /images/demo/contact.jpg
 
 <!-- begin sixth event -->
 <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type2">
+		<div class="timeline__event__company">HireCentral</div> 		
 		<div class="timeline__event__icon ">
 			<!-- <i class="lni-sport"></i>-->
 
@@ -108,7 +112,7 @@ featured_image: /images/demo/contact.jpg
 
 		<div class="timeline__event__date">2001 - 2005</div>  
 		<div class="timeline__event__content ">
-			<div class="timeline__event__title">HireCentral - Founder</div>    
+			<div class="timeline__event__title">Founder</div>    
 			<div class="timeline__event__description">
 				
 				<p>One of the leading niche employee/career networks focused on healthcare (hireMedical + hireNursing) and life sciences (hireRx + hireBio). With a minimal advertising budget and a focus on SEO, content creation and black magic, we peaked with over 500,000 monthly unique visitors and was one of the top 3 job boards for life sciences and healthcare.</p>
@@ -121,6 +125,7 @@ featured_image: /images/demo/contact.jpg
 
 <!-- begin seventh event -->
 <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type3">
+		<div class="timeline__event__company">Paleozoic Era</div> 		
 		<div class="timeline__event__icon ">
 			<!-- <i class="lni-sport"></i>-->
 
