@@ -172,6 +172,10 @@ $color6: #aff1b6;
 				background: $color4;
 			}
 
+			.timeline__event__company {
+				right: 0px;
+			}
+
 			&:nth-child(2n + 1) {
 				.timeline__event__icon {
 					&:before,
@@ -203,6 +207,10 @@ $color6: #aff1b6;
 			.timeline__event__date, .timeline__event__company {
 				color: $color6;
 				background-color: $color5;
+			}
+
+			.timeline__event__company {
+				left: 0px;
 			}
 
 			&:nth-child(2n + 1) {
