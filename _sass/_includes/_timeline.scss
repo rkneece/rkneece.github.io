@@ -16,6 +16,7 @@ $color5: #24b47e;
 $color6: #aff1b6;
 
 .timeline {
+	z-index: 1;
 	display: flex;
 	flex-direction: column;
 	margin: $margin auto;
