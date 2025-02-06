@@ -86,7 +86,7 @@ featured_image: /images/demo/contact.jpg
 
 		<div class="timeline__event__date">2014 - 2019</div>  
 		<div class="timeline__event__content ">
-			<div class="timeline__event__title"Vocoli - Founder</div>    
+			<div class="timeline__event__title">Vocoli - Founder</div>    
 			<div class="timeline__event__description">
 				
 				<p>Winner of the prestigious MiTX award for Best Employee Engagement Software, Vocoli is a workforce engagement and HR tech platform that combines employee surveys, a twist on the suggestion box, secure video chat, employee comms, live streaming, sprinkled with a dose of AI. Responsible for sales, marketing, operations, as well as technical, product and go-to-market strategy — asked the hard questions, mapped the journey, set vision, represented users, aligned the culture.</p>
@@ -106,7 +106,7 @@ featured_image: /images/demo/contact.jpg
 
 		<div class="timeline__event__date">2001 - 2005</div>  
 		<div class="timeline__event__content ">
-			<div class="timeline__event__title"HireCentral - Founder</div>    
+			<div class="timeline__event__title">HireCentral - Founder</div>    
 			<div class="timeline__event__description">
 				
 				<p>One of the leading niche employee/career networks focused on healthcare (hireMedical + hireNursing) and life sciences (hireRx + hireBio). With a minimal advertising budget and a focus on SEO, content creation and black magic, we peaked with over 500,000 monthly unique visitors and was one of the top 3 job boards for life sciences and healthcare.</p>
@@ -126,7 +126,7 @@ featured_image: /images/demo/contact.jpg
 
 		<div class="timeline__event__date">Before 2001</div>  
 		<div class="timeline__event__content ">
-			<div class="timeline__event__title"Previous Roles</div>    
+			<div class="timeline__event__title">Previous Roles</div>    
 			<div class="timeline__event__description">
 				
 				<p>Prior roles at Aetna, IBM, ESPN. Founded a company called TrainerQuest and had my first successful exit.</p>
