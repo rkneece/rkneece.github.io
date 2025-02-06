@@ -51,23 +51,7 @@ featured_image: /images/demo/contact.jpg
 <!-- end second event -->
 
 <!-- begin third event -->
-<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type3">
-		<div class="timeline__event__icon ">
-			<!-- <i class="lni-sport"></i>-->
 
-		</div>  
-
-		<div class="timeline__event__date">2005 - 2019</div>  
-		<div class="timeline__event__content ">
-			<div class="timeline__event__title">MTC Labs - CEO</div>    
-			<div class="timeline__event__description">
-				
-				<p>MTC was an award-winning digital services firm with deep expertise in HR tech, employee communications, health IT and product strategy. We started with $10k bootstrap and built it into a recognized industry leader and were twice listed on the Inc 5000 as one of America’s fastest growing private companies. Successfully exited via purchase in 2019.</p>
-      			</div>
-
-    		</div>
-
-</div>
 <!-- end third event -->
 
 <!-- begin fourth event -->
