@@ -152,6 +152,12 @@ p, ul, ol {
 	}
 }
 
+ul {
+	margin-left: 0;
+	padding-left: 1em;
+	list-style: disc outside none;
+}
+
 ul, ol {
 	list-style-position: inside;
 }
