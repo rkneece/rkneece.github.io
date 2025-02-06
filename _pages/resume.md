@@ -71,7 +71,7 @@ featured_image: /images/demo/contact.jpg
 <!-- end third event -->
 
 <!-- begin fourth event -->
-<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type4">
 		<div class="timeline__event__icon ">
 			<!-- <i class="lni-sport"></i>-->
 
