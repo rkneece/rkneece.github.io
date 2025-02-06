@@ -5,7 +5,7 @@ description: Rich Kneece resume
 featured_image: /images/demo/contact.jpg
 ---
 ## How'd I get here?
-I merge creativity, technology, process + peoplel. I drive results through great teams. I'm a co-founder of a 2x Inc 5000 firm, and have two successful exits.
+I merge creativity, technology, process + people. I drive results through great teams. I'm a co-founder of a 2x Inc 5000 firm, and have two successful exits.
 <!-- begin timeline -->
 <div class="timeline">
 	
