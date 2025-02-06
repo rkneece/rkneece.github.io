@@ -57,12 +57,12 @@ featured_image: /images/demo/contact.jpg
 
 		</div>  
 
-		<div class="timeline__event__date">2015 - 2019</div>  
+		<div class="timeline__event__date">2005 - 2019</div>  
 		<div class="timeline__event__content ">
 			<div class="timeline__event__title">MTC Labs - CEO</div>    
 			<div class="timeline__event__description">
 				
-				<p>MTC was an award-winning digital services firm with deep expertise in HR tech, employee communications, health IT and product strategy. We started with $10k bootstrap and built it into a recognized industry leader and were twice listed on the Inc 5000 as one of America’s fastest growing private companies. Successfully exited via purchase in 2019</p>
+				<p>MTC was an award-winning digital services firm with deep expertise in HR tech, employee communications, health IT and product strategy. We started with $10k bootstrap and built it into a recognized industry leader and were twice listed on the Inc 5000 as one of America’s fastest growing private companies. Successfully exited via purchase in 2019.</p>
       			</div>
 
     		</div>
@@ -70,59 +70,86 @@ featured_image: /images/demo/contact.jpg
 </div>
 <!-- end third event -->
 
+<!-- begin fourth event -->
+<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+		<div class="timeline__event__icon ">
+			<!-- <i class="lni-sport"></i>-->
+
+		</div>  
+
+		<div class="timeline__event__date">2014 - 2019</div>  
+		<div class="timeline__event__content ">
+			<div class="timeline__event__title"Vocoli - Founder</div>    
+			<div class="timeline__event__description">
+				
+				<p>Winner of the prestigious MiTX award for Best Employee Engagement Software, Vocoli is a workforce engagement and HR tech platform that combines employee surveys, a twist on the suggestion box, secure video chat, employee comms, live streaming, sprinkled with a dose of AI. Responsible for sales, marketing, operations, as well as technical, product and go-to-market strategy — asked the hard questions, mapped the journey, set vision, represented users, aligned the culture.</p>
+      			</div>
+
+    		</div>
+
+</div>
+<!-- end fourth event -->
 
 
-### MTC		2005 – 2019
-#### CEO and Founder
-> MTC was an award-winning digital services firm with deep expertise in enterprise SaaS and product strategy. Bootstrapped with a $10k investment, twice listed on the Inc  5000 as one of America’s fastest growing private companies and built into a recognized leader. Successfully exited via a purchase in 2019.
+<!-- begin fifth event -->
+<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type2">
+		<div class="timeline__event__icon ">
+			<!-- <i class="lni-sport"></i>-->
 
-* Recruited and managed ~40 full-time employees; accountable for sales, marketing, engineering and product with total revenue of >$9m/year
-* Executive management of enterprise engagements (including machine learning, AI, predictive analytics, video chat + live streaming, data engineering) for clients such as Mass General/Brigham, Xtramart/Global Partners, Fidelity Investments, Biogen, Harvard University, University of Massachusetts
-* Key fractional exec to help MTC customers secure millions of seed/Series A+ using my investor contacts (e.g., Google/DeepMind, GE Ventures)
+		</div>  
 
-### Vocoli		2014 – 2019
-#### Co-Founder
-> Winner of the prestigious MiTX award for Best Employee Engagement Software, Vocoli is a workforce engagement and HR tech platform that combines employee surveys, a twist on the suggestion box, secure video chat, employee comms, live streaming, sprinkled with a dose of AI.
+		<div class="timeline__event__date">2014 - 2019</div>  
+		<div class="timeline__event__content ">
+			<div class="timeline__event__title"Vocoli - Founder</div>    
+			<div class="timeline__event__description">
+				
+				<p>Winner of the prestigious MiTX award for Best Employee Engagement Software, Vocoli is a workforce engagement and HR tech platform that combines employee surveys, a twist on the suggestion box, secure video chat, employee comms, live streaming, sprinkled with a dose of AI. Responsible for sales, marketing, operations, as well as technical, product and go-to-market strategy — asked the hard questions, mapped the journey, set vision, represented users, aligned the culture.</p>
+      			</div>
 
-* Responsible for sales, marketing, operations, as well as technical, product and go-to-market strategy — asked the hard questions, mapped the journey, set vision, represented users, aligned the culture
-* Championed an internal dev philosophy that focused on Jobs to be Done (JTBD) to focus on user outcomes vs features
-* Enterprise products launched on Google Play, iOS app store and web (used Apple APNS, Google Firebase and Twilio for SMS and native push)
-* Significant press coverage in Boston Business Journal, Wired, Fast Company, Forbes
-* Vocoli was a spin-out of MTC Labs.
+    		</div>
 
-### HireCentral		2001 – 2005
-#### Co-Founder
-> One of the leading niche employee/career networks focused on healthcare (hireMedical + hireNursing) and life sciences (hireRx + hireBio). With a minimal advertising budget and a focus on SEO, content creation and black magic, we peaked with over 500,000 monthly unique visitors.
+</div>
+<!-- end fifth event -->
 
-* Through social media and growth hacking, brought to market one of the top 3 destinations for job seekers and employers in life science and healthcare
-* Launched a scalable platform with monthly page views of ~500,000 monthly visitors and one of the largest Google AdSense publishers
-* Secured major VC funding from Yahoo/Hot Jobs.
+<!-- begin sixth event -->
+<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type3">
+		<div class="timeline__event__icon ">
+			<!-- <i class="lni-sport"></i>-->
 
-## EARLIER ROLES
+		</div>  
 
-### Granitar Systems		
-**Director, Organizational Capability:** Member of management team charged with building learning infrastructure for this leading digital services firm.
+		<div class="timeline__event__date">2001 - 2005</div>  
+		<div class="timeline__event__content ">
+			<div class="timeline__event__title"HireCentral - Founder</div>    
+			<div class="timeline__event__description">
+				
+				<p>One of the leading niche employee/career networks focused on healthcare (hireMedical + hireNursing) and life sciences (hireRx + hireBio). With a minimal advertising budget and a focus on SEO, content creation and black magic, we peaked with over 500,000 monthly unique visitors and was one of the top 3 job boards for life sciences and healthcare.</p>
+    			</div>
 
-### Educational Multimedia Corporation		
-**Senior Regional Account Executive:** Developed West Coast USA sales strategy and pipeline for this venture-backed HR tech startup. Called on HR heads, CXOs, VPs and senior management in locations such as Seattle, Portland, Phoenix, Los Angeles, San Francisco, and San Diego.
+    		</div>
 
-### Trainerquest		
-**Founder:** HR/organizational design/learning consulting and delivery services to firms in the Northeast US; Built from scratch to $2m+ ARR; successful sale and exit to a regional leader in the industry.
+</div>
+<!-- end sixth event -->
 
-### Aetna, IBM (Various Roles)		
-**Manager, National Sales & Key Accounts** (> 2000 employees across multiple sites)
-**Senior Training & Organizational Development Consultant**
-**Technical Communications Specialist**
+<!-- begin seventh event -->
+<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+		<div class="timeline__event__icon ">
+			<!-- <i class="lni-sport"></i>-->
 
-## EDUCATION + OTHER
-BA, Communication 	Radio, TV & Film / Journalism
-Central Connecticut State University, New Britain CT
+		</div>  
 
-Masters, Education 	Post Graduate work towards an mEd
-University of Connecticut (several credits short)
+		<div class="timeline__event__date">Before 2001</div>  
+		<div class="timeline__event__content ">
+			<div class="timeline__event__title"Previous Roles</div>    
+			<div class="timeline__event__description">
+				
+				<p>Prior roles at Aetna, IBM, ESPN. Founded a company called TrainerQuest and had my first successful exit.</p>
+    			</div>
 
-* Varied technical stack including AWS (lots of services), PHP, Python, Node.js, MS SQL, PostgreSQL, MySQL, Oracle Pl/SQL, MongoDB, DynamoDB, Vue.js, jQuery, React.js, vanilla Javascript, HL7, JSON micro-services, containerization, virtualization, Azure, Twilio, and various technologies and frameworks
-* Former nationally-ranked bike racer and member of Junior National Cycling Team (at least 50 pounds ago).
+    		</div>
+
+</div>
+<!-- end seventh event -->
 
 <!-- end timeline -->
 </div>
