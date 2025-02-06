@@ -32,9 +32,13 @@ $color6: #aff1b6;
 
 		&:nth-child(2n + 1) {
 			flex-direction: row-reverse;
-			.timeline__event__date {
+			.timeline__event__date, .timeline__event__company {
 				border-radius: 0 $bdrs $bdrs 0;
 			}
+			.timeline__event__company {
+				position: absolute;
+			}
+			
 			.timeline__event__content {
 				border-radius: $bdrs 0 0 $bdrs;
 			}
@@ -88,8 +92,6 @@ $color6: #aff1b6;
 		}
 
 		&__company {
-			position: absolute;
-			left: 0px;
 			padding: 10px;
 			margin-top: -30px;
 			border-radius: 5px;
