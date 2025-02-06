@@ -71,24 +71,7 @@ featured_image: /images/demo/contact.jpg
 <!-- end third event -->
 
 <!-- begin fourth event -->
-<div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
-		<div class="timeline__event__icon ">
-			<!-- <i class="lni-sport"></i>-->
 
-		</div>  
-
-		<div class="timeline__event__date">2014 - 2019</div>  
-		<div class="timeline__event__content ">
-			<div class="timeline__event__title"Vocoli - Founder</div>    
-			<div class="timeline__event__description">
-				
-				<p>Winner of the prestigious MiTX award for Best Employee Engagement Software, Vocoli is a workforce engagement and HR tech platform that combines employee surveys, a twist on the suggestion box, secure video chat, employee comms, live streaming, sprinkled with a dose of AI. Responsible for sales, marketing, operations, as well as technical, product and go-to-market strategy — asked the hard questions, mapped the journey, set vision, represented users, aligned the culture.</p>
-    
-      			</div>
-
-    		</div>
-
-</div>
 <!-- end fourth event -->
 
 
