@@ -10,13 +10,13 @@ featured_image: /images/demo/contact.jpg
 	
 <!-- begin first event -->
 <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+		<div class="timeline__event__company">Eskalera</div> 	
 		<div class="timeline__event__icon ">
 			<!-- <i class="lni-sport"></i>-->
 
 		</div>  
 
 		<div class="timeline__event__date">2020 - Present</div>
-		<div class="timeline__event__company">Eskalera</div> 
    
 		<div class="timeline__event__content ">   
 		<div class="timeline__event__title">Chief Technology Officer</div>   
