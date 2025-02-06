@@ -6,8 +6,6 @@ featured_image: /images/demo/contact.jpg
 ---
 ## How'd I get here?
 I merge creativity, technology, process + peoplel. I drive results through great teams. I'm a co-founder of a 2x Inc 5000 firm, and have two successful exits.
-<br/><br/>
-
 <!-- begin timeline -->
 <div class="timeline">
 	
