@@ -1,5 +1,5 @@
 ---
-title: My Resume (or CV, if you're in a fancy word mood)
+title: Here's my resume (or CV, if you're in a fancy word mood).
 subtitle: Engineering and product leader, team builder, multi-headed.
 description: Rich Kneece resume
 featured_image: /images/demo/contact.jpg
