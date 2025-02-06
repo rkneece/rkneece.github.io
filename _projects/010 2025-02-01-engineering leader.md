@@ -23,7 +23,7 @@ At **IFS Core (now [Operix](https://www.operix.com))**, I led a distributed prod
 I have significant experience in highly regulated industries (e.g., HIPAA, HITECH, GDPR, CCPA). My technical stack is broad (and I'm hands-on when and where it needs to happen), but as importantly, I encourage scalability, collaboration, mentoring, and open communication within and across teams.
 
 ## Reach out!
-I'm open to full-time roles in startup and scale-up ventures. If you're interested in chatting, [here's a copy of my CV]({{ site.data.settings.basic_settings.base_url }}/downloads/Kneece-Resume-3.01-2025-01-GEN-NCI.pdf). I've removed contact info (sorry, spammers), so you can contact me [here](/contact).
+I'm open to full-time roles in startup and scale-up ventures. If you're interested in chatting, you can contact me [here](/contact).
 
 ![](/images/projects/engineering_leadership.png)
 
