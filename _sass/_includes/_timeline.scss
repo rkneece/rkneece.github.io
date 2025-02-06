@@ -29,7 +29,8 @@ $color6: #aff1b6;
 		margin: $spacing 0;
 		border-radius: $bdrs;
 		align-self: center;
-		width: 58vw;
+		/* width: 58vw; */
+		width: 100%;
 
 		&:nth-child(2n + 1) {
 			flex-direction: row-reverse;
