@@ -86,7 +86,7 @@ $color6: #aff1b6;
 			width: $content-width;
 			border-radius: 0 $bdrs $bdrs 0;
 		}
-		&__date {
+		&__date, &__company {
 			color: $color2;
 			font-size: 1.5rem;
 			font-weight: 600;
@@ -245,7 +245,7 @@ $color6: #aff1b6;
 				display: none;
 			}
 		}
-		&__date {
+		&__date, &__company {
 			border-radius: 0;
 			padding: $spacing;
 		}
