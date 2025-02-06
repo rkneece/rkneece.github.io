@@ -147,6 +147,9 @@ $color6: #aff1b6;
 		&__description {
 			flex-basis: 100%;
 		}
+			&__description p {
+			font-size:14px;
+		}
 
 		&--type2 {
 			&:after {
