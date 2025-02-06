@@ -36,7 +36,7 @@ $color6: #aff1b6;
 				border-radius: 0 $bdrs $bdrs 0;
 			}
 			.timeline__event__company {
-				position: absolute;
+				/* */
 			}
 			
 			.timeline__event__content {
@@ -92,9 +92,10 @@ $color6: #aff1b6;
 		}
 
 		&__company {
-			padding: 10px;
+			position: absolute;
+			padding: 10px !important;
 			margin-top: -30px;
-			border-radius: 5px;
+			border-radius: 5px !important;
 		}
 		
 		&__date, &__company {
