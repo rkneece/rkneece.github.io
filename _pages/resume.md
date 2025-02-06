@@ -4,6 +4,7 @@ subtitle: Engineering and product leader, team builder, multi-headed.
 description: Rich Kneece resume
 featured_image: /images/demo/contact.jpg
 ---
+I merge creativity, technology, process and people. I drive results through great teams. I'm a co-founder of a 2x Inc 5000 firm (twice!) with two successful exits. Here's a little bit about me.
 
 <!-- begin timeline -->
 <div class="timeline">
