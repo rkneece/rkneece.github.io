@@ -2,7 +2,7 @@
 title: Contact me!
 subtitle: I'd love to hear from you whether for full-time, advisory, investment or fractional CTO opportunities (or just to say hi).
 description: Rich Kneece contact form
-featured_image: /images/me_01.jpg
+featured_image: /images/me_02.jpg
 ---
 
 {% include contact-form.html %}
