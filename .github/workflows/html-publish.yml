@@ -1,0 +1,49 @@
+name: 43 Cedar HTML publish
+run-name: "HTML publish · Zillow exterior photos and estimated camera pins"
+on:
+  push:
+    branches: [release/zillow-exterior]
+    paths: [releases/zillow-exterior/**]
+permissions:
+  contents: write
+concurrency:
+  group: cedar-html-production
+  cancel-in-progress: false
+jobs:
+  assemble:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble exterior update from current production
+        run: |
+          curl --fail --retry 3 -L https://raw.githubusercontent.com/rkneece/rkneece.github.io/main/sites/43cedar/interactive_map/index.html -o /tmp/cedar-base.html
+          python releases/zillow-exterior/build.py /tmp/cedar-base.html /tmp/cedar-output.html
+      - name: Verify interactive navigation and embedded images
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+          node releases/zillow-exterior/qa.cjs
+      - name: Prepare guarded production commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: python
+        run: |
+          import base64,hashlib,json,os,pathlib,urllib.request
+          base='https://api.github.com/repos/rkneece/rkneece.github.io'
+          headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','Content-Type':'application/json'}
+          def api(path,payload=None):
+              request=urllib.request.Request(base+path,data=None if payload is None else json.dumps(payload).encode(),headers=headers,method='GET' if payload is None else 'POST')
+              with urllib.request.urlopen(request) as response:return json.load(response)
+          def sha(raw):return hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()
+          head=api('/git/ref/heads/main')['object']['sha']
+          commit=api('/git/commits/'+head)
+          current=api('/contents/sites/43cedar/interactive_map/index.html?ref='+head)
+          assert current['sha']==sha(pathlib.Path('/tmp/cedar-base.html').read_bytes()),'Production changed concurrently'
+          raw=pathlib.Path('/tmp/cedar-output.html').read_bytes()
+          blob=api('/git/blobs',{'content':base64.b64encode(raw).decode(),'encoding':'base64'})
+          assert blob['sha']==sha(raw)
+          tree=api('/git/trees',{'base_tree':commit['tree']['sha'],'tree':[{'path':'sites/43cedar/interactive_map/index.html','mode':'100644','type':'blob','sha':blob['sha']}]})
+          prepared=api('/git/commits',{'message':'Add 12 Zillow exterior photos and provisional clickable camera positions','tree':tree['sha'],'parents':[head]})
+          print('APPROVED_PRODUCTION_COMMIT='+prepared['sha'])
+          print('EXPECTED_PRODUCTION_HEAD='+head)
+          print('APPROVED_HTML_BLOB='+blob['sha'])
