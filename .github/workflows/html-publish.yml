@@ -1,0 +1,37 @@
+name: 43 Cedar HTML publish
+run-name: "HTML publish · deploy verified production site"
+on:
+  push:
+    branches: [main]
+    paths: [sites/43cedar/interactive_map/**]
+  pull_request:
+    types: [closed]
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: cedar-html-production
+  cancel-in-progress: false
+jobs:
+  deploy:
+    if: github.event_name == 'push' || (github.event.pull_request.merged == true && github.event.pull_request.head.ref == 'release/exterior-publication')
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Build existing Jekyll site
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+      - name: Deploy verified site
+        id: deployment
+        uses: actions/deploy-pages@v4
