@@ -38,6 +38,9 @@ for record in release['records']:
                   if ident == 'R10' else '')),
     )
 data['buildId'] = release['release']
+data['proposedPlans']['F1'] = release['images']['B08']
+data['proposedPlanInfo']['F1'].update(source='FF4 reviewed furnished first-floor overview',
+    notes='Current BPR-inspired white mantel and equal alcoves. Navigation reference; all measurements remain provisional.')
 data['fireplaceRevision'] = {k:v for k,v in release.items() if k != 'images'}
 data['fireplaceRevision'].update(owner_approved=True, published=True,
     native_review='14 views visually checked; 12 fit tests pass; 18 prior runtime reports unchanged',
@@ -45,8 +48,12 @@ data['fireplaceRevision'].update(owner_approved=True, published=True,
 
 # All original photos, floor plans, locations, camera directions and UI code remain exact.
 for key in before:
-    if key not in {'photos','blenderImages','photorealImages','buildId'}:
+    if key not in {'photos','blenderImages','photorealImages','buildId','proposedPlans','proposedPlanInfo'}:
         assert data[key] == before[key], key
+for key in before['proposedPlans']:
+    if key != 'F1':
+        assert data['proposedPlans'][key] == before['proposedPlans'][key]
+        assert data['proposedPlanInfo'][key] == before['proposedPlanInfo'][key]
 for old,new in zip(before['photos'],data['photos']):
     assert old['id'] == new['id']
     if old['id'] not in changed:
@@ -69,7 +76,8 @@ qa = dict(release=release['release'], base_blob_sha=release['base_blob_sha'],
           photographic_images=len(data['photorealImages']), site_photos=len(data['photoImages']),
           updated_native_ids=sorted(i for i in changed if i.startswith('B')),
           updated_photo_ids=sorted(i for i in changed if i.startswith('R')),
-          unchanged_maps_cameras_original_photos_unrelated_records_and_ui=True,
+          unchanged_existing_plans_cameras_original_photos_unrelated_records_and_ui=True,
+          proposed_first_floor_navigation_overhead_updated=True,
           output_sha256=hashlib.sha256(rendered.encode()).hexdigest(),
           output_blob_sha=hashlib.sha1(b'blob '+str(len(rendered.encode())).encode()+b'\0'+rendered.encode()).hexdigest())
 (ROOT/'PUBLISH_QA.json').write_text(json.dumps(qa,indent=2)+'\n')
