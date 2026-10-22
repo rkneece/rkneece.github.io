@@ -1,6 +1,8 @@
 name: 43 Cedar HTML publish
 run-name: "HTML publish · Zillow exterior photos and estimated camera pins"
 on:
+  pull_request:
+    branches: [main]
   push:
     branches: [release/zillow-exterior]
     paths: [releases/zillow-exterior/**]
