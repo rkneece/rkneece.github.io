@@ -1,40 +1,22 @@
 name: 43 Cedar HTML publish
-run-name: "HTML publish · deploy verified production site"
+run-name: "HTML publish · refresh current production Pages"
 on:
-  workflow_run:
-    workflows: ['43 Cedar HTML publish', 'HTML publish · Zillow exterior photos and estimated camera pins']
-    types: [completed]
+  workflow_dispatch:
   push:
     branches: [main]
     paths: [sites/43cedar/interactive_map/**]
-  pull_request_target:
-    types: [closed]
 permissions:
-  contents: read
+  contents: write
   pages: write
-  id-token: write
 concurrency:
-  group: cedar-pages-production
+  group: cedar-pages-refresh
   cancel-in-progress: false
 jobs:
-  deploy:
-    if: github.event_name == 'push' || (github.event_name == 'pull_request_target' && github.event.pull_request.merged == true && github.event.pull_request.head.ref == 'release/exterior-publication') || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'release/zillow-exterior')
+  publish:
     runs-on: ubuntu-24.04
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-      - name: Build existing Jekyll site
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./_site
-      - name: Deploy verified site
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Request existing Pages build of current main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          curl --fail-with-body -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" https://api.github.com/repos/rkneece/rkneece.github.io/pages/builds
