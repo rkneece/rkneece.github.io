@@ -1,10 +1,10 @@
 name: 43 Cedar HTML publish
-run-name: "HTML publish · refresh current production Pages"
+run-name: "HTML publish · ${{ github.ref_name }} · reviewed render coverage"
 on:
   workflow_dispatch:
   push:
-    branches: [main]
-    paths: [sites/43cedar/interactive_map/**]
+    branches: [main, feature/render40-live]
+    paths: [sites/43cedar/interactive_map/**, releases/render40/downloads.json]
 permissions:
   contents: write
   pages: write
@@ -12,7 +12,18 @@ concurrency:
   group: cedar-pages-refresh
   cancel-in-progress: false
 jobs:
+  assemble:
+    if: github.ref_name == 'feature/render40-live'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install --quiet Pillow
+      - name: Assemble only checksum-reviewed native views
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python releases/render40/assemble.py
   publish:
+    if: github.ref_name == 'main'
     runs-on: ubuntu-24.04
     steps:
       - name: Request existing Pages build of current main
@@ -20,3 +31,19 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           curl --fail-with-body -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" https://api.github.com/repos/rkneece/rkneece.github.io/pages/builds
+      - name: Retire fully merged temporary render branch
+        if: contains(github.event.head_commit.message, '[retire:render40]')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: python
+        run: |
+          import json,os,urllib.request
+          base='https://api.github.com/repos/rkneece/rkneece.github.io'
+          headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'}
+          def get(p):
+            with urllib.request.urlopen(urllib.request.Request(base+p,headers=headers)) as r:return json.load(r)
+          branch='feature/render40-live'
+          head=get('/git/ref/heads/'+branch)['object']['sha']
+          assert get('/compare/main...'+head)['ahead_by']==0
+          assert get('/git/ref/heads/'+branch)['object']['sha']==head
+          with urllib.request.urlopen(urllib.request.Request(base+'/git/refs/heads/'+branch,headers=headers,method='DELETE')) as r:assert r.status==204
