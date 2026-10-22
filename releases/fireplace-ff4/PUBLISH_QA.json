@@ -1,0 +1,36 @@
+{
+  "release": "Rev19_BPR_White_Mantel",
+  "base_blob_sha": "85913d5ec7a6443f9d0f519118e6f691c512e57f",
+  "photos": 245,
+  "native_images": 62,
+  "photographic_images": 23,
+  "site_photos": 160,
+  "updated_native_ids": [
+    "B03",
+    "B04",
+    "B08",
+    "B26",
+    "B27",
+    "B28",
+    "B29",
+    "B32",
+    "B34",
+    "B39",
+    "B41",
+    "B42",
+    "B43",
+    "B44",
+    "B46"
+  ],
+  "updated_photo_ids": [
+    "R03",
+    "R05",
+    "R06",
+    "R07",
+    "R08",
+    "R10"
+  ],
+  "unchanged_maps_cameras_original_photos_unrelated_records_and_ui": true,
+  "output_sha256": "860b24e1213f1e6beb5e68f705cf15788d2d1e2822ee3f51b36bbf9d4194f551",
+  "output_blob_sha": "c4066506137bbe03df01156850439c8887081a29"
+}
