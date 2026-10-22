@@ -97,3 +97,5 @@ qa = dict(release=release['release'], base_blob_sha=release['base_blob_sha'],
           output_blob_sha=hashlib.sha1(b'blob '+str(len(rendered.encode())).encode()+b'\0'+rendered.encode()).hexdigest())
 (ROOT/'PUBLISH_QA.json').write_text(json.dumps(qa,indent=2)+'\n')
 print(json.dumps(qa))
+
+# Owner-authorized production assembly retry after branch integration, 2026-10-22.
