@@ -1,17 +1,17 @@
 name: 43 Cedar HTML publish
-run-name: "HTML publish · request production Pages refresh"
+run-name: "HTML publish · stop redundant verification rerun"
 on:
   pull_request:
     branches: [main]
 permissions:
-  contents: write
-  pages: write
+  actions: write
+  contents: read
 jobs:
-  publish:
+  cleanup:
     runs-on: ubuntu-24.04
     steps:
-      - name: Request build of the current protected production branch
+      - name: Cancel redundant QA rerun after successful verified publication
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          curl --fail-with-body -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" https://api.github.com/repos/rkneece/rkneece.github.io/pages/builds
+          curl --fail-with-body -X POST -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" https://api.github.com/repos/rkneece/rkneece.github.io/actions/runs/39828524522/cancel
