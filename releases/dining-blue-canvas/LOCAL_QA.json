@@ -1,0 +1,31 @@
+{
+  "release": "Rev20_Dining_Blue_Canvas",
+  "base_blob_sha": "d9b0cf1102ac81cae5db2e44021f7b8deff82d46",
+  "output_blob_sha": "c18268335b73e5288c32fb7765e4d80e723a7122",
+  "output_sha256": "98a4a3eb27cd59b09492f863f926ebcc9ad1e420a2594c844124425a1117d012",
+  "updated_native_ids": [
+    "B01",
+    "B03",
+    "B04",
+    "B08",
+    "B27",
+    "B28",
+    "B29",
+    "B32",
+    "B34",
+    "B39",
+    "B44",
+    "B46",
+    "B47"
+  ],
+  "updated_photo_ids": [
+    "R03",
+    "R08",
+    "R10",
+    "R12"
+  ],
+  "original_site_photos": 160,
+  "native_images": 62,
+  "photoreal_images": 23,
+  "original_photos_plans_camera_positions_viewpoint_ids_unrelated_records_and_UI_preserved": true
+}
