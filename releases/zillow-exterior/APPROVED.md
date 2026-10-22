@@ -1,0 +1,1 @@
+Owner requested publication of 43 Cedar Zillow exterior photographs and best-estimate clickable map positions on 2026-10-22. Preserve the current production fireplace and all unrelated content. Build from current production, validate navigation and images, and require expected-head matching for publication.
