@@ -1,0 +1,17 @@
+{
+  "release": "DD1_Double_Storage_Doors_5_Panel",
+  "native_ids": [
+    "B103",
+    "B104",
+    "B105"
+  ],
+  "photoreal_ids": [
+    "R68",
+    "R69",
+    "R70"
+  ],
+  "panels_per_leaf": 5,
+  "index_blob_sha": "458641711a5f709710e5ce504bd20d0bfb2244f9",
+  "source_model_commit": "6c491424ba662ad0e7629b8c4a13e82d3b11d3ee",
+  "owner_approved": true
+}

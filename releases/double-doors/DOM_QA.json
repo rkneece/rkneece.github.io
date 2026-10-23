@@ -1,0 +1,38 @@
+{
+  "buildId": "DD1_Double_Storage_Doors_5_Panel",
+  "records": 348,
+  "results": [
+    {
+      "render": "B103",
+      "photo": "R68",
+      "position": [
+        "63.437%",
+        "60.619%"
+      ],
+      "direction": 270,
+      "sourceNavigation": true
+    },
+    {
+      "render": "B104",
+      "photo": "R69",
+      "position": [
+        "51.862%",
+        "49.005%"
+      ],
+      "direction": 180,
+      "sourceNavigation": true
+    },
+    {
+      "render": "B105",
+      "photo": "R70",
+      "position": [
+        "45.152%",
+        "87.373%"
+      ],
+      "direction": 47.39,
+      "sourceNavigation": true
+    }
+  ],
+  "resourcesRetained": true,
+  "scriptErrors": []
+}
