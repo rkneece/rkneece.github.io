@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "added_photos": 43,
+  "total_photos": 392,
+  "floors": {
+    "F1": 35,
+    "F2": 8
+  },
+  "all_existing_records_and_images_preserved": true,
+  "all_new_assets_verified": true,
+  "all_new_locations_marked_approximate": true,
+  "source_sha256": "821c0b4959609b7f7e7220f9ce105d853059db94d6935155d98dba81866764b2",
+  "output_sha256": "5b1a62e7217b403bd224673d0159a37c2a90e40359cef2cea559b6cb1f1051fc"
+}
