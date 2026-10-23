@@ -1,10 +1,10 @@
 name: 43 Cedar HTML publish
-run-name: "HTML publish · ${{ github.ref_name }} · reviewed render coverage"
+run-name: "HTML publish · ${{ github.ref_name }}"
 on:
   workflow_dispatch:
   push:
     branches: [main, dev, feature/photoreal40-live]
-    paths: [sites/43cedar/interactive_map/**, releases/photoreal40/REVIEW.json, releases/double-doors/**]
+    paths: [sites/43cedar/interactive_map/**, releases/photoreal40/REVIEW.json, releases/double-doors/**, releases/mobile-ui/**]
 permissions:
   contents: write
   pages: write
@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   assemble:
-    if: github.ref_name == 'feature/photoreal40-live' || (github.ref_name == 'dev' && contains(github.event.head_commit.message, '[assemble:double-doors]'))
+    if: github.ref_name == 'feature/photoreal40-live' || (github.ref_name == 'dev' && (contains(github.event.head_commit.message, '[assemble:double-doors]') || contains(github.event.head_commit.message, '[assemble:mobile-ui]')))
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
@@ -24,15 +24,27 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: python releases/photoreal40/assemble.py
       - name: Assemble approved five-panel double-door images and mappings
-        if: github.ref_name == 'dev'
+        if: github.ref_name == 'dev' && contains(github.event.head_commit.message, '[assemble:double-doors]')
         run: python releases/double-doors/assemble.py
       - name: Commit reviewed double-door viewer on development branch
-        if: github.ref_name == 'dev'
+        if: github.ref_name == 'dev' && contains(github.event.head_commit.message, '[assemble:double-doors]')
         run: |
           set -euo pipefail
           test "$(git ls-remote origin refs/heads/dev | cut -f1)" = "$GITHUB_SHA"
           git add sites/43cedar/interactive_map/index.html releases/double-doors/PUBLISH_QA.json
           git -c user.name='43 Cedar publish' -c user.email='actions@users.noreply.github.com' commit -m 'Assemble approved DD1 five-panel double-door images and mappings [skip ci]'
+          git push origin HEAD:dev
+      - name: Assemble and verify the mobile navigation around current photo data
+        if: github.ref_name == 'dev' && contains(github.event.head_commit.message, '[assemble:mobile-ui]')
+        run: |
+          set -euo pipefail
+          test "$(git ls-remote origin refs/heads/dev | cut -f1)" = "$GITHUB_SHA"
+          node --check releases/mobile-ui/viewer.js
+          node releases/mobile-ui/test_panzoom.cjs
+          python releases/mobile-ui/apply_mobile_ui.py
+          test "$(git ls-remote origin refs/heads/dev | cut -f1)" = "$GITHUB_SHA"
+          git add sites/43cedar/interactive_map/index.html releases/mobile-ui/ASSEMBLY_QA.json
+          git -c user.name='43 Cedar publish' -c user.email='actions@users.noreply.github.com' commit -m 'Assemble reviewed mobile navigation; preserve all embedded photos and mappings [skip ci]'
           git push origin HEAD:dev
   publish:
     if: github.ref_name == 'main'
@@ -60,3 +72,22 @@ jobs:
           assert get('/git/ref/heads/'+branch)['object']['sha']==head
           with urllib.request.urlopen(urllib.request.Request(base+'/git/refs/heads/'+branch,headers=headers,method='DELETE')) as r:assert r.status==204
 
+      - name: Retire fully merged mobile navigation branch
+        if: contains(github.event.head_commit.message, '[retire:mobile-ui]')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: python
+        run: |
+          import json, os, urllib.request
+          base = 'https://api.github.com/repos/rkneece/rkneece.github.io'
+          headers = {'Authorization': 'Bearer '+os.environ['GH_TOKEN'], 'Accept': 'application/vnd.github+json'}
+          def get(path):
+              with urllib.request.urlopen(urllib.request.Request(base+path, headers=headers)) as response:
+                  return json.load(response)
+          branch = 'feature/mobile-navigation'
+          head = get('/git/ref/heads/'+branch)['object']['sha']
+          for target in ['dev', 'main']:
+              assert get('/compare/'+target+'...'+head)['ahead_by'] == 0
+          assert get('/git/ref/heads/'+branch)['object']['sha'] == head
+          with urllib.request.urlopen(urllib.request.Request(base+'/git/refs/heads/'+branch, headers=headers, method='DELETE')) as response:
+              assert response.status == 204

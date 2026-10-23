@@ -1,0 +1,58 @@
+{
+  "ui": "mobile-v1",
+  "browser_qa_fixture": "Exact JS/CSS and full records; embedded image bytes extracted only for managed proxy QA; one real embedded JPEG exercises Blob decoding; existing relative assets retained.",
+  "responsive_viewports": [
+    [
+      320,
+      740
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      820,
+      1000
+    ],
+    [
+      1333,
+      938
+    ]
+  ],
+  "passed": [
+    "Gallery thumbnails open full-screen photos immediately",
+    "Browser Back closes the viewer and restores scroll position (617 px verified)",
+    "Room stays Kitchen across Existing to Photoreal switch",
+    "Source render B83 comparison returns to R48 without filter changes",
+    "Image zoom and fit controls",
+    "Map zoom to 225% separates nearby markers",
+    "Map preview opens photo and returns at 225% zoom",
+    "Exterior site map and preserved Zillow markers",
+    "Advanced search filter badge, zero results and clear-filter recovery",
+    "Reference resource gallery on desktop",
+    "Desktop map and selected photo remain side by side",
+    "No horizontal overflow at 320 px, 390 px and desktop",
+    "Landscape map fits within 390 px viewport after compact-toolbar fix",
+    "Tablet gallery uses four columns and map fits viewport",
+    "Existing embedded JPEG converts to a loaded Blob image"
+  ],
+  "gesture_math_tests": [
+    "pinch zoom",
+    "drag pan",
+    "fit",
+    "zoom bounds",
+    "transform restoration",
+    "swipe",
+    "no swipe while zoomed",
+    "no false swipe after pinch"
+  ],
+  "limits": [
+    "Managed preview times out transferring full 33 MB HTML; browser behavior checked using asset-separated fixture with identical code, metadata and image bytes.",
+    "Physical Android touch gestures not exercised; pointer gesture math tested in Node."
+  ],
+  "data_preservation": "All 348 records, embedded image payloads, 17 existing relative image references and all mapping metadata preserved byte-for-byte in appdata."
+}
