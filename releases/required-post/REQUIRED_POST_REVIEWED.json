@@ -1,0 +1,16 @@
+{
+  "revision": "P135_East_Biased_Chase",
+  "source_code_commit": "a89461e0f612dd7ab277131cfbf8cd926ad34019",
+  "source_input_commit": "6e085243b268966a272920783fe4186af988b667",
+  "viewer_input_commit": "dc4306d540c1c2ea5fd538e9cd2640ba3a84ba01",
+  "native_views_audited": 100,
+  "native_views_updated": 34,
+  "photoreal_updated": 23,
+  "visual_review": "Native previews then source/AI pairs and normalized side-by-side grids. Narrow-column R24/R25 first attempts rejected and regenerated.",
+  "island_changed": false,
+  "post_required": true,
+  "structural_center_inches": 135,
+  "chase_provisional": true,
+  "roof_extension": "Intent recorded; exact bay width/beam section pending",
+  "geometry_authority": "Native Blender model; AI images are visually reviewed finish studies."
+}

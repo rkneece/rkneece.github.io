@@ -1,0 +1,500 @@
+{
+  "status": "ACCEPTED_VISUAL_REVIEW",
+  "photos": [
+    {
+      "id": "R01",
+      "sourceRenderId": "B37",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "db9dda93bfb191f2252ce0580b58c28835dfe64c686c8d3676f3a6c9978482af",
+      "native_source_sha256": "125b6537e05439366359492dab84b333ad109d50be704dbde1c0e3eb9061dd9c",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R02",
+      "sourceRenderId": "B38",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "5ec6e7cf67111dcd4f985a2aa575651f1651dc65faf4ccc63931177b7b7cb512",
+      "native_source_sha256": "cb90250b59cdcdcfd85a16515543dfbdbab5d0d6d54f0ee78ce7c4613bea9c03",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R03",
+      "sourceRenderId": "B39",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "dc05cee8446725722ad2a4b8489b188e1fdbc70dda9b563954a95cc1f2933758",
+      "native_source_sha256": "b0c9fcebfa006585120bf56406964238f577483968a7b1275d8cb8e32224f0ca",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R04",
+      "sourceRenderId": "B40",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R05",
+      "sourceRenderId": "B41",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R06",
+      "sourceRenderId": "B42",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R07",
+      "sourceRenderId": "B43",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R08",
+      "sourceRenderId": "B44",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "7583270288b69e6048172fcec2b0acb00782feecb52640e3293839101a5e7623",
+      "native_source_sha256": "bde79bd64090bdae75c80b03e932c260518a2a045f3f150079c13eb37328db55",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R09",
+      "sourceRenderId": "B45",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R10",
+      "sourceRenderId": "B46",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "5a708f6248ddad42fd3a352b7a7ec896eafd9f6cf7a75a54f7c202fad34ef7ee",
+      "native_source_sha256": "43096feffc8b82fb5b81d73dff0ab0e15f92bfec5df72ad32f1f43911ca66140",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R12",
+      "sourceRenderId": "B47",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "a4bbfc5fa38cc029846af7e8a0e6ce94e4e142b8c03b0d78a705dff9f197b937",
+      "native_source_sha256": "605fadef72ab3247bc8887da40c8a79ccb6d434a8b7a68bb868388b2a20f6565",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R13",
+      "sourceRenderId": "B48",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R14",
+      "sourceRenderId": "B49",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R15",
+      "sourceRenderId": "B50",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R16",
+      "sourceRenderId": "B51",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R18",
+      "sourceRenderId": "B53",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R19",
+      "sourceRenderId": "B54",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R22",
+      "sourceRenderId": "B57",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R23",
+      "sourceRenderId": "B58",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R24",
+      "sourceRenderId": "B59",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "3021ca6f202501e18b0973fe26450fec62b30c822fba3d0e5c14ca56b6d47cfe",
+      "native_source_sha256": "6048826feba3165c609a25060a4aea408d416adb3f50bfce7d0cf7badc560895",
+      "attempts": 2,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R25",
+      "sourceRenderId": "B60",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "40086eb7af4c216abd423ffe5fd22f0de9aa1377ea2f781c8a3c20ca6c1cbbc5",
+      "native_source_sha256": "1b7013fc53a347617f0443e360f1a73e479d7fe1ca23a9c12e86b304ee950e20",
+      "attempts": 2,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R26",
+      "sourceRenderId": "B61",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R27",
+      "sourceRenderId": "B62",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "275f7ed087f55f1fcbaf3940fd21cdfacb96cd63390bace3f28b17d729576b8f",
+      "native_source_sha256": "8d10ab9285e6c72c9ca45d8b429601f82de031c414b59b29bc5a516a8401e7ce",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R28",
+      "sourceRenderId": "B63",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R29",
+      "sourceRenderId": "B64",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R30",
+      "sourceRenderId": "B65",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R31",
+      "sourceRenderId": "B66",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R32",
+      "sourceRenderId": "B67",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "c30efddcdf13155e3f5436cc4cd214ed9809eedc794029c7a75413684f948b16",
+      "native_source_sha256": "b7323a69dcd6194a30b7f1183f0a422995a1b465e156b096b81f2521ec0eacf9",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R33",
+      "sourceRenderId": "B68",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R34",
+      "sourceRenderId": "B69",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R35",
+      "sourceRenderId": "B70",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R36",
+      "sourceRenderId": "B71",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R37",
+      "sourceRenderId": "B72",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R38",
+      "sourceRenderId": "B73",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R39",
+      "sourceRenderId": "B74",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R40",
+      "sourceRenderId": "B75",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R41",
+      "sourceRenderId": "B76",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R42",
+      "sourceRenderId": "B77",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "62c2cdd7203978d53d3ff601212bd3aaf4ed36085bb702b0a5ef26df93e530c8",
+      "native_source_sha256": "1c2a1aa767fb3593b98ae35fc08c454a60bd179bed0a78619de406d624184f5f",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R43",
+      "sourceRenderId": "B78",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R44",
+      "sourceRenderId": "B79",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "7a623c3b28769698f446cf7d4e203a4a18863c92bedb08fb1c4f17208c862873",
+      "native_source_sha256": "e1d233b65773cc63f8cc66cc4eccd4f38a513f5bde85d3cad066a2fdc4ef8e6f",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R45",
+      "sourceRenderId": "B80",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R46",
+      "sourceRenderId": "B81",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "a81a47a84ef1ef686b69e213f4db07b2ad7541f1abd85d731e9361bfe6241352",
+      "native_source_sha256": "e0c5a357ef9622cb41fe4927d789e8d7af668d9ca4ccb035812d881174833fae",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R47",
+      "sourceRenderId": "B82",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "2b9ec34540a3f9329644254fe137d1c796f32ab45954e733f67b73a1f600aa44",
+      "native_source_sha256": "09ceea5e51200a5aea3ba361e3ca2ef1ec35249e3c8ccef6f261f16988757f9c",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R48",
+      "sourceRenderId": "B83",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "e9144bcabd80787bf2622c87a8a16ad331d4fc05892ecdd6900fa37212416c99",
+      "native_source_sha256": "ebb969fc95fb56869ebf87e3af9c79a2e867e98829f8886d106eebe690b6ba2b",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R49",
+      "sourceRenderId": "B84",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "881335f1e246dc9ad10a33bf0df0aefd3ecf14a333075e682c4206d3bc2c163f",
+      "native_source_sha256": "fa50b3d1293b528b967311798ca944138af22ace76d2f82d692bc0ffd280b68f",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R50",
+      "sourceRenderId": "B85",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "9c7b5e974c17900f589e24e1d21fc5aa58ff051fb3521bb12c3aae5255790a73",
+      "native_source_sha256": "c540a94f9ffa5c89c1c9081758ed702831380f0719c0c20a4b6b8a27f8e5a2a4",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R51",
+      "sourceRenderId": "B86",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "cd4a9b1d4989ee4138c6d1af67d223f76112dd256b26829b3ab4fd8a8fdeaff6",
+      "native_source_sha256": "fead8a12bc708f6a6bb36fb3fa5b965b1f697a76f2793e702d213ef5330debfc",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R52",
+      "sourceRenderId": "B87",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "5b6850b9671d5ce088db75fe6157ec2e28d1f2b93a0461a7843de1bb12d06c18",
+      "native_source_sha256": "4f53eb5e764f58eff5e3b90238c58903ce7e8c27f7331ee8badab89235af0b0d",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R53",
+      "sourceRenderId": "B88",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "5b1102238a4b7823d5cdb0c0f5268e56a934ca98950e54fc22abd939a754a602",
+      "native_source_sha256": "bec5f78c89f978f5e8892db1f286ec4670b4e6a84d487eb0d30dc19aec2a19f1",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R54",
+      "sourceRenderId": "B89",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "a659afc677e6361a9521ea59d542ece73ab218f3aad16b62e5088a7edfd5161b",
+      "native_source_sha256": "4576b4fdf4e1498bc134ceb5c4707253a2e9096836fbd3bab88490e39e13224a",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R55",
+      "sourceRenderId": "B90",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "8521a289ebea291e042c7c969e2dea153ae61dca59d44bfbe02b2d3f1104c01d",
+      "native_source_sha256": "83afec322777bcfa17cb47b728985652536f0fb0ae851eab225d268637312040",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R56",
+      "sourceRenderId": "B91",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R57",
+      "sourceRenderId": "B92",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R58",
+      "sourceRenderId": "B93",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R59",
+      "sourceRenderId": "B94",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R60",
+      "sourceRenderId": "B95",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R61",
+      "sourceRenderId": "B96",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R62",
+      "sourceRenderId": "B97",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R63",
+      "sourceRenderId": "B98",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R64",
+      "sourceRenderId": "B99",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R65",
+      "sourceRenderId": "B100",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R66",
+      "sourceRenderId": "B101",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R67",
+      "sourceRenderId": "B102",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R68",
+      "sourceRenderId": "B103",
+      "changed": true,
+      "accepted": true,
+      "output_sha256": "f983b2d8e61a1427d6af9774357ff8089a597e27ad72c9447cef2fb6f7cd31a2",
+      "native_source_sha256": "3373254ad651aafbe565f06b824a11ba8923c09fa80a12d8481ab55bbcdee68d",
+      "attempts": 1,
+      "review": "Source/AI visual comparison and normalized side-by-side grid review: column silhouette/occlusions; opening counts; roof/ceiling; island/stools; doors; furnishings. AI finish study; native geometry remains dimensional authority."
+    },
+    {
+      "id": "R69",
+      "sourceRenderId": "B104",
+      "changed": false,
+      "accepted": false
+    },
+    {
+      "id": "R70",
+      "sourceRenderId": "B105",
+      "changed": false,
+      "accepted": false
+    }
+  ],
+  "reviewed_photo_count": 23,
+  "reviewed_native_count": 34,
+  "unchanged_views": "All 100 current first-floor cameras audited; 66 native and 43 AI views retained because post is outside view or occluded. Historical site photos untouched.",
+  "rejected_attempts": [
+    "R24 attempt 1: retained narrow column",
+    "R25 attempt 1: retained narrow foreground column"
+  ]
+}

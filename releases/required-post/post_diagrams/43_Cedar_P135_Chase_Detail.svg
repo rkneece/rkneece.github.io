@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="850" viewBox="0 0 1500 850">
+<rect width="1500" height="850" fill="#fbfcfd"/><g font-family="DejaVu Sans,sans-serif" fill="#173f51">
+<text x="70" y="70" font-size="30" font-weight="bold">43 CEDAR · REQUIRED POST / EAST-BIASED CHASE</text>
+<text x="70" y="110" font-size="19">Plan detail · west on left / east on right · all dimensions in inches</text>
+<rect x="90" y="225" width="670" height="280" fill="#d9e8ee" stroke="#173f51" stroke-width="3"/>
+<text x="140" y="340" font-size="23">ISLAND (partial) · position retained</text><text x="140" y="378" font-size="20">East countertop edge: 108″ from west wall</text>
+<rect x="997.5" y="325" width="100" height="80" fill="#f4d7bd" stroke="#b95d30" stroke-width="3"/>
+<rect x="1005" y="340" width="50" height="50" fill="#173f51"/>
+<path d="M1030 190V550" stroke="#b95d30" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="870" y="165" font-size="22" font-weight="bold">STRUCTURAL CENTER: 135″</text>
+<path d="M760 550H997.5M760 535V565M997.5 535V565" stroke="#177298" stroke-width="2"/>
+<text x="795" y="590" font-size="21" fill="#177298">23¾″ nominal gap</text>
+<text x="1130" y="285" font-size="20">10″ finished E–W chase</text><text x="1130" y="322" font-size="18">5″ core placeholder</text>
+<text x="1130" y="359" font-size="18">¾″ extra finish west</text><text x="1130" y="396" font-size="18">4¼″ extra finish east</text>
+<text x="1130" y="433" font-size="18">Chase center: 136¾″</text>
+<text x="70" y="680" font-size="20" font-weight="bold">Finish west face 131¾″ · finish east face 141¾″ · all provisional except owner-directed 135″ center.</text>
+<text x="70" y="725" font-size="18">Post / chase footprint and gap use one local scale. Island is partial; stools are omitted.</text>
+<text x="70" y="763" font-size="18">Island / bench adjustment deferred. Actual structural member, chase and beam connections remain to be designed.</text>
+</g></svg>

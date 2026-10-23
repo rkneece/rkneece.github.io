@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main, dev, feature/photoreal40-live]
-    paths: [sites/43cedar/interactive_map/**, releases/photoreal40/REVIEW.json, releases/double-doors/**, releases/mobile-ui/**]
+    paths: [sites/43cedar/interactive_map/**, releases/photoreal40/REVIEW.json, releases/double-doors/**, releases/mobile-ui/**, releases/required-post/**]
 permissions:
   contents: write
   pages: write
@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   assemble:
-    if: github.ref_name == 'feature/photoreal40-live' || (github.ref_name == 'dev' && (contains(github.event.head_commit.message, '[assemble:double-doors]') || contains(github.event.head_commit.message, '[assemble:mobile-ui]')))
+    if: github.ref_name == 'feature/photoreal40-live' || (github.ref_name == 'dev' && (contains(github.event.head_commit.message, '[assemble:double-doors]') || contains(github.event.head_commit.message, '[assemble:mobile-ui]') || contains(github.event.head_commit.message, '[assemble:required-post]')))
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
@@ -45,6 +45,18 @@ jobs:
           test "$(git ls-remote origin refs/heads/dev | cut -f1)" = "$GITHUB_SHA"
           git add sites/43cedar/interactive_map/index.html releases/mobile-ui/ASSEMBLY_QA.json
           git -c user.name='43 Cedar publish' -c user.email='actions@users.noreply.github.com' commit -m 'Assemble reviewed mobile navigation; preserve all embedded photos and mappings [skip ci]'
+          git push origin HEAD:dev
+      - name: Assemble reviewed required-post images and diagrams
+        if: github.ref_name == 'dev' && contains(github.event.head_commit.message, '[assemble:required-post]')
+        run: |
+          set -euo pipefail
+          test "$(git ls-remote origin refs/heads/dev | cut -f1)" = "$GITHUB_SHA"
+          python releases/required-post/verify_inputs.py
+          python releases/required-post/apply_required_post_release.py sites/43cedar/interactive_map/index.html sites/43cedar/interactive_map/index.html --external-assets
+          python releases/required-post/verify_release.py
+          test "$(git ls-remote origin refs/heads/dev | cut -f1)" = "$GITHUB_SHA"
+          git add sites/43cedar/interactive_map/index.html sites/43cedar/interactive_map/assets releases/required-post/REQUIRED_POST_PUBLISH_QA.json
+          git -c user.name='43 Cedar publish' -c user.email='actions@users.noreply.github.com' commit -m 'Assemble reviewed P135 required post images, maps and diagrams [skip ci]'
           git push origin HEAD:dev
   publish:
     if: github.ref_name == 'main'
@@ -91,3 +103,4 @@ jobs:
           assert get('/git/ref/heads/'+branch)['object']['sha'] == head
           with urllib.request.urlopen(urllib.request.Request(base+'/git/refs/heads/'+branch, headers=headers, method='DELETE')) as response:
               assert response.status == 204
+
