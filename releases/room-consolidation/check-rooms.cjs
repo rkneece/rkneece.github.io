@@ -13,13 +13,13 @@ for(const width of [1440,390]){
  // Programmatic desktop control also drives the same state on narrow screens.
  await page.locator('#zone').selectOption('Bedroom 1',{force:true});
  let count=await page.locator('#gallery .tile').count();if(count!==13)throw Error('Existing Bedroom 1 '+count);
- await page.getByRole('button',{name:'Proposed · Render',exact:true}).evaluate(b=>b.click());
+ await page.getByRole('button',{name:'Proposed · Render',exact:true,includeHidden:true}).evaluate(b=>b.click());
  count=await page.locator('#gallery .tile').count();if(count!==10)throw Error('Render Bedroom 1 '+count);
  await page.locator('#zone').selectOption('Bedroom 2',{force:true});
  count=await page.locator('#gallery .tile').count();if(count!==11)throw Error('Render Bedroom 2 '+count);
  await page.locator('#q').fill('north bedroom',{force:true}); await page.waitForTimeout(250);
  // Legacy names belong to historical photos; searching them under Existing finds that room.
- await page.getByRole('button',{name:'Existing',exact:true}).evaluate(b=>b.click());
+ await page.getByRole('button',{name:'Existing',exact:true,includeHidden:true}).evaluate(b=>b.click());
  count=await page.locator('#gallery .tile').count();if(count!==16)throw Error('Legacy search '+count);
  await page.locator('#reset').evaluate(b=>b.click());
  if(width===390){
