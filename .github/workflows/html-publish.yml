@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main, dev, feature/photoreal40-live]
-    paths: [sites/43cedar/interactive_map/**, releases/photoreal40/REVIEW.json, releases/double-doors/**, releases/mobile-ui/**, releases/required-post/**]
+    paths: [sites/43cedar/interactive_map/**, releases/photoreal40/REVIEW.json, releases/double-doors/**, releases/mobile-ui/**, releases/required-post/**, releases/demo-20261023/**]
 permissions:
   contents: write
   pages: write
@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   assemble:
-    if: github.ref_name == 'feature/photoreal40-live' || (github.ref_name == 'dev' && (contains(github.event.head_commit.message, '[assemble:double-doors]') || contains(github.event.head_commit.message, '[assemble:mobile-ui]') || contains(github.event.head_commit.message, '[assemble:required-post]')))
+    if: github.ref_name == 'feature/photoreal40-live' || (github.ref_name == 'dev' && (contains(github.event.head_commit.message, '[assemble:double-doors]') || contains(github.event.head_commit.message, '[assemble:mobile-ui]') || contains(github.event.head_commit.message, '[assemble:required-post]') || contains(github.event.head_commit.message, '[assemble:demo-20261023]')))
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
@@ -57,6 +57,16 @@ jobs:
           test "$(git ls-remote origin refs/heads/dev | cut -f1)" = "$GITHUB_SHA"
           git add sites/43cedar/interactive_map/index.html sites/43cedar/interactive_map/assets releases/required-post/REQUIRED_POST_PUBLISH_QA.json
           git -c user.name='43 Cedar publish' -c user.email='actions@users.noreply.github.com' commit -m 'Assemble reviewed P135 required post images, maps and diagrams [skip ci]'
+          git push origin HEAD:dev
+      - name: Append and verify October 23 demolition photos
+        if: github.ref_name == 'dev' && contains(github.event.head_commit.message, '[assemble:demo-20261023]')
+        run: |
+          set -euo pipefail
+          test "$(git ls-remote origin refs/heads/dev | cut -f1)" = "$GITHUB_SHA"
+          python releases/demo-20261023/assemble.py
+          test "$(git ls-remote origin refs/heads/dev | cut -f1)" = "$GITHUB_SHA"
+          git add sites/43cedar/interactive_map/index.html releases/demo-20261023/labels.json releases/demo-20261023/PUBLISH_QA.json
+          git -c user.name='43 Cedar publish' -c user.email='actions@users.noreply.github.com' commit -m 'Assemble October 23 demo photos and estimated floor mappings [skip ci]'
           git push origin HEAD:dev
   publish:
     if: github.ref_name == 'main'
@@ -104,3 +114,35 @@ jobs:
           with urllib.request.urlopen(urllib.request.Request(base+'/git/refs/heads/'+branch, headers=headers, method='DELETE')) as response:
               assert response.status == 204
 
+
+      - name: Retire published demo and superseded release branches
+        if: contains(github.event.head_commit.message, '[retire:demo-20261023]')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: python
+        run: |
+          import json, os, urllib.request, urllib.error
+          base='https://api.github.com/repos/rkneece/rkneece.github.io'
+          headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'}
+          def call(path, method='GET', body=None):
+              request=urllib.request.Request(base+path,headers=headers,method=method,data=json.dumps(body).encode() if body is not None else None)
+              with urllib.request.urlopen(request) as response:
+                  return json.load(response) if response.status!=204 else None
+          branches=['release/demo-20261023','fix/primary-bedroom-door','release/required-post-135','release/dining-blue-canvas','release/exterior-publication','release/fireplace-65-resources','release/fireplace-bpr-white','release/zillow-exterior']
+          for branch in branches:
+              try: head=call('/git/ref/heads/'+branch)['object']['sha']
+              except urllib.error.HTTPError as e:
+                  if e.code==404: continue
+                  raise
+              merged=all(call('/compare/'+target+'...'+head)['ahead_by']==0 for target in ['dev','main'])
+              if branch=='release/demo-20261023': assert merged, 'Current demo branch must be merged first'
+              # Older squash-published release snapshots retain their original commits as tags.
+              if not merged:
+                  tag='refs/tags/archive/retired-20261023/'+branch
+                  try: call('/git/refs','POST',{'ref':tag,'sha':head})
+                  except urllib.error.HTTPError as e:
+                      if e.code!=422: raise
+                      assert call('/git/ref/tags/archive/retired-20261023/'+branch)['object']['sha']==head
+              assert call('/git/ref/heads/'+branch)['object']['sha']==head
+              call('/git/refs/heads/'+branch,'DELETE')
+              print('Retired',branch,'merged' if merged else 'preserved in archive tag')
