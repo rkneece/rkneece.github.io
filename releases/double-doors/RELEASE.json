@@ -1,0 +1,396 @@
+{
+  "release": "DD1_Double_Storage_Doors_5_Panel",
+  "production_base_commit": "4d2b6562678fb68ae1b2a67796f1a3ea3dffb50d",
+  "base_blob_sha": "2968db88bb5eac6501f26f1bbed7d1ffa3aaed69",
+  "owner_authorization": "2026-10-22: merge dev, main, publish with mappings, retire model/double-storage-doors after verification",
+  "model_branch": "model/double-storage-doors",
+  "model_commit": "b70ce4d50a393475dbba44b6d04babb4d979662d",
+  "panels_per_leaf": 5,
+  "records": [
+    {
+      "photo": {
+        "id": "B103",
+        "type": "blender",
+        "floor": "F1",
+        "stage": "Proposed \u00b7 Render",
+        "zone": "Bedroom hallway",
+        "kind": "Blender closet-door view",
+        "filename": "43_Cedar_DD1_Linen_By_Hall_Bath_Render.jpg",
+        "sequence": 609,
+        "standing": "Renderer camera; map registration approximate",
+        "facing": "",
+        "looking": "Linen closet beside downstairs hall bathroom \u00b7 five panels per leaf",
+        "confirmed": false,
+        "mapX": 64.436,
+        "mapY": 62.992,
+        "proposedMapX": 63.437,
+        "proposedMapY": 60.619,
+        "proposedMapLocationType": "Renderer camera position \u00b7 approximate map alignment",
+        "viewpointId": "CEDAR-DD1-Linen_By_Hall_Bath",
+        "renderedAt": "2026-10-22",
+        "milestone": "Double storage doors",
+        "sourceType": "Blender render",
+        "designVersion": "DD1 \u00b7 paired storage doors \u00b7 provisional five panels",
+        "variant": "Two equal hinged leaves in existing opening",
+        "approval": "Owner approved merge and publication on 2026-10-22; five panels remains provisional",
+        "relatedPhotos": [
+          "R68"
+        ],
+        "geometryStatus": "Native model source and unrelated-object/camera guards passed",
+        "source": "https://github.com/rkneece/43-cedar-blender/actions/runs/39876451865",
+        "imageId": "B103",
+        "cameraEyeXY": [
+          24.65155792236328,
+          -16.75627326965332
+        ],
+        "cameraTargetXY": [
+          21.251558303833008,
+          -16.75627326965332
+        ],
+        "directionSource": "Renderer eye and target; existing map registration transforms",
+        "viewMode": "Perspective",
+        "mapDirectionDegrees": 270.0,
+        "notes": "Two closed hinged leaves, five recessed panels per leaf, outer hinges and paired meeting-edge bronze levers. Existing opening and surrounding architecture retained. Five-panel setting remains provisional; any change to four is a separate owner-requested global update.",
+        "qaStatus": "ACCEPTED_VISUAL_ARCHITECTURAL_REVIEW",
+        "sourcePNG_SHA256": "eb57d96fba722b3ed599a8ba89428d41aab899680a6c3d763ac3f270af249d8a"
+      },
+      "asset_path": "sites/43cedar/interactive_map/assets/renders/B103.jpg",
+      "jpeg_sha256": "011f3a2567f531d9beee3a9de279aa0de8ccc2550b221d0e7a52c4ae588991bd",
+      "native_pair": "B103"
+    },
+    {
+      "photo": {
+        "id": "R68",
+        "type": "photoreal",
+        "floor": "F1",
+        "stage": "Proposed \u00b7 Photoreal",
+        "zone": "Bedroom hallway",
+        "kind": "AI photographic finish study",
+        "filename": "43_Cedar_DD1_Linen_By_Hall_Bath_Photoreal.jpg",
+        "sequence": 610,
+        "standing": "Renderer camera; map registration approximate",
+        "facing": "",
+        "looking": "Linen closet beside downstairs hall bathroom \u00b7 five panels per leaf",
+        "confirmed": false,
+        "mapX": 64.436,
+        "mapY": 62.992,
+        "proposedMapX": 63.437,
+        "proposedMapY": 60.619,
+        "proposedMapLocationType": "Renderer camera position \u00b7 approximate map alignment",
+        "viewpointId": "CEDAR-DD1-Linen_By_Hall_Bath",
+        "renderedAt": "2026-10-22",
+        "milestone": "Double storage doors",
+        "sourceType": "AI image edit from Blender reference",
+        "designVersion": "DD1 \u00b7 paired storage doors \u00b7 provisional five panels",
+        "variant": "Two equal hinged leaves in existing opening",
+        "approval": "Owner approved merge and publication on 2026-10-22; five panels remains provisional",
+        "relatedPhotos": [],
+        "geometryStatus": "Visual architectural review; native render remains dimensional authority",
+        "source": "B103",
+        "imageId": "R68",
+        "cameraEyeXY": [
+          24.65155792236328,
+          -16.75627326965332
+        ],
+        "cameraTargetXY": [
+          21.251558303833008,
+          -16.75627326965332
+        ],
+        "directionSource": "Renderer eye and target; existing map registration transforms",
+        "viewMode": "Perspective",
+        "mapDirectionDegrees": 270.0,
+        "notes": "Two closed hinged leaves, five recessed panels per leaf, outer hinges and paired meeting-edge bronze levers. Existing opening and surrounding architecture retained. Five-panel setting remains provisional; any change to four is a separate owner-requested global update. Photographic finish preview; fine surface, lighting, background and trim details can vary.",
+        "qaStatus": "ACCEPTED_VISUAL_ARCHITECTURAL_REVIEW",
+        "sourcePNG_SHA256": "eb57d96fba722b3ed599a8ba89428d41aab899680a6c3d763ac3f270af249d8a",
+        "sourceRenderId": "B103",
+        "imageSHA256": "cc4c9b0ad5239f5ae2dca26b33b402f49cedec4d5e219bbf9a63c8b6e7f95e39"
+      },
+      "asset_path": "sites/43cedar/interactive_map/assets/photoreal/R68.jpg",
+      "jpeg_sha256": "063d60388497e17b10a1b75ea2ec568e9dbae3e105733ddd67d06780547ead08",
+      "native_pair": "B103"
+    },
+    {
+      "photo": {
+        "id": "B104",
+        "type": "blender",
+        "floor": "F1",
+        "stage": "Proposed \u00b7 Render",
+        "zone": "Bedroom hallway",
+        "kind": "Blender closet-door view",
+        "filename": "43_Cedar_DD1_Pantry_Across_Kitchen_Render.jpg",
+        "sequence": 611,
+        "standing": "Renderer camera; map registration approximate",
+        "facing": "",
+        "looking": "Double-door pantry across from kitchen \u00b7 five panels per leaf",
+        "confirmed": false,
+        "mapX": 52.767,
+        "mapY": 48.984,
+        "proposedMapX": 51.862,
+        "proposedMapY": 49.005,
+        "proposedMapLocationType": "Renderer camera position \u00b7 approximate map alignment",
+        "viewpointId": "CEDAR-DD1-Pantry_Across_Kitchen",
+        "renderedAt": "2026-10-22",
+        "milestone": "Double storage doors",
+        "sourceType": "Blender render",
+        "designVersion": "DD1 \u00b7 paired storage doors \u00b7 provisional five panels",
+        "variant": "Two equal hinged leaves in existing opening",
+        "approval": "Owner approved merge and publication on 2026-10-22; five panels remains provisional",
+        "relatedPhotos": [
+          "R69"
+        ],
+        "geometryStatus": "Native model source and unrelated-object/camera guards passed",
+        "source": "https://github.com/rkneece/43-cedar-blender/actions/runs/39876451865",
+        "imageId": "B104",
+        "cameraEyeXY": [
+          18.921611785888672,
+          -11.007580757141113
+        ],
+        "cameraTargetXY": [
+          18.921611785888672,
+          -15.307580947875977
+        ],
+        "directionSource": "Renderer eye and target; existing map registration transforms",
+        "viewMode": "Perspective",
+        "mapDirectionDegrees": 180.0,
+        "notes": "Two closed hinged leaves, five recessed panels per leaf, outer hinges and paired meeting-edge bronze levers. Existing opening and surrounding architecture retained. Five-panel setting remains provisional; any change to four is a separate owner-requested global update.",
+        "qaStatus": "ACCEPTED_VISUAL_ARCHITECTURAL_REVIEW",
+        "sourcePNG_SHA256": "a220cb7726403588aff21f0d44f8c773c045d4c55cd5f3dbcaad329ee6b390c1"
+      },
+      "asset_path": "sites/43cedar/interactive_map/assets/renders/B104.jpg",
+      "jpeg_sha256": "7807cc0b2ef3f1d86a2491c03d1b1ff452687bcc9bea7cc2263610812bad33f6",
+      "native_pair": "B104"
+    },
+    {
+      "photo": {
+        "id": "R69",
+        "type": "photoreal",
+        "floor": "F1",
+        "stage": "Proposed \u00b7 Photoreal",
+        "zone": "Bedroom hallway",
+        "kind": "AI photographic finish study",
+        "filename": "43_Cedar_DD1_Pantry_Across_Kitchen_Photoreal.jpg",
+        "sequence": 612,
+        "standing": "Renderer camera; map registration approximate",
+        "facing": "",
+        "looking": "Double-door pantry across from kitchen \u00b7 five panels per leaf",
+        "confirmed": false,
+        "mapX": 52.767,
+        "mapY": 48.984,
+        "proposedMapX": 51.862,
+        "proposedMapY": 49.005,
+        "proposedMapLocationType": "Renderer camera position \u00b7 approximate map alignment",
+        "viewpointId": "CEDAR-DD1-Pantry_Across_Kitchen",
+        "renderedAt": "2026-10-22",
+        "milestone": "Double storage doors",
+        "sourceType": "AI image edit from Blender reference",
+        "designVersion": "DD1 \u00b7 paired storage doors \u00b7 provisional five panels",
+        "variant": "Two equal hinged leaves in existing opening",
+        "approval": "Owner approved merge and publication on 2026-10-22; five panels remains provisional",
+        "relatedPhotos": [],
+        "geometryStatus": "Visual architectural review; native render remains dimensional authority",
+        "source": "B104",
+        "imageId": "R69",
+        "cameraEyeXY": [
+          18.921611785888672,
+          -11.007580757141113
+        ],
+        "cameraTargetXY": [
+          18.921611785888672,
+          -15.307580947875977
+        ],
+        "directionSource": "Renderer eye and target; existing map registration transforms",
+        "viewMode": "Perspective",
+        "mapDirectionDegrees": 180.0,
+        "notes": "Two closed hinged leaves, five recessed panels per leaf, outer hinges and paired meeting-edge bronze levers. Existing opening and surrounding architecture retained. Five-panel setting remains provisional; any change to four is a separate owner-requested global update. Photographic finish preview; fine surface, lighting, background and trim details can vary.",
+        "qaStatus": "ACCEPTED_VISUAL_ARCHITECTURAL_REVIEW",
+        "sourcePNG_SHA256": "a220cb7726403588aff21f0d44f8c773c045d4c55cd5f3dbcaad329ee6b390c1",
+        "sourceRenderId": "B104",
+        "imageSHA256": "ea9704f51cd93f6fa4953a35ce02367c7eabaa15687e76273aea2728860bc120"
+      },
+      "asset_path": "sites/43cedar/interactive_map/assets/photoreal/R69.jpg",
+      "jpeg_sha256": "82fbfdf570bd23fa4a8819bb75ba099d4d741d47d16cd063b3059a7a57989fbd",
+      "native_pair": "B104"
+    },
+    {
+      "photo": {
+        "id": "B105",
+        "type": "blender",
+        "floor": "F1",
+        "stage": "Proposed \u00b7 Render",
+        "zone": "Entrance hallway",
+        "kind": "Blender closet-door view",
+        "filename": "43_Cedar_DD1_Entry_Coat_Closet_Render.jpg",
+        "sequence": 613,
+        "standing": "Renderer camera; map registration approximate",
+        "facing": "",
+        "looking": "Double-door coat closet at entrance \u00b7 five panels per leaf",
+        "confirmed": false,
+        "mapX": 46.002,
+        "mapY": 95.263,
+        "proposedMapX": 45.152,
+        "proposedMapY": 87.373,
+        "proposedMapLocationType": "Renderer camera position \u00b7 approximate map alignment",
+        "viewpointId": "CEDAR-DD1-Entry_Coat_Closet",
+        "renderedAt": "2026-10-22",
+        "milestone": "Double storage doors",
+        "sourceType": "Blender render",
+        "designVersion": "DD1 \u00b7 paired storage doors \u00b7 provisional five panels",
+        "variant": "Two equal hinged leaves in existing opening",
+        "approval": "Owner approved merge and publication on 2026-10-22; five panels remains provisional",
+        "relatedPhotos": [
+          "R70"
+        ],
+        "geometryStatus": "Native model source and unrelated-object/camera guards passed",
+        "source": "https://github.com/rkneece/43-cedar-blender/actions/runs/39876793484",
+        "imageId": "B105",
+        "cameraEyeXY": [
+          15.600000381469727,
+          -30.0
+        ],
+        "cameraTargetXY": [
+          18.405277252197266,
+          -27.419355392456055
+        ],
+        "directionSource": "Renderer eye and target; existing map registration transforms",
+        "viewMode": "Perspective",
+        "mapDirectionDegrees": 47.39,
+        "notes": "Two closed hinged leaves, five recessed panels per leaf, outer hinges and paired meeting-edge bronze levers. Existing opening and surrounding architecture retained. Five-panel setting remains provisional; any change to four is a separate owner-requested global update.",
+        "qaStatus": "ACCEPTED_VISUAL_ARCHITECTURAL_REVIEW",
+        "sourcePNG_SHA256": "01640bd901c03feab4dc72be0eb03c676f5f2c26b270cefb29b0821f67fb5ac0"
+      },
+      "asset_path": "sites/43cedar/interactive_map/assets/renders/B105.jpg",
+      "jpeg_sha256": "94332f05cde8fe5aaeeb07e7de7824a03eceb06d243de832aac5f9af3cb6cdbf",
+      "native_pair": "B105"
+    },
+    {
+      "photo": {
+        "id": "R70",
+        "type": "photoreal",
+        "floor": "F1",
+        "stage": "Proposed \u00b7 Photoreal",
+        "zone": "Entrance hallway",
+        "kind": "AI photographic finish study",
+        "filename": "43_Cedar_DD1_Entry_Coat_Closet_Photoreal.jpg",
+        "sequence": 614,
+        "standing": "Renderer camera; map registration approximate",
+        "facing": "",
+        "looking": "Double-door coat closet at entrance \u00b7 five panels per leaf",
+        "confirmed": false,
+        "mapX": 46.002,
+        "mapY": 95.263,
+        "proposedMapX": 45.152,
+        "proposedMapY": 87.373,
+        "proposedMapLocationType": "Renderer camera position \u00b7 approximate map alignment",
+        "viewpointId": "CEDAR-DD1-Entry_Coat_Closet",
+        "renderedAt": "2026-10-22",
+        "milestone": "Double storage doors",
+        "sourceType": "AI image edit from Blender reference",
+        "designVersion": "DD1 \u00b7 paired storage doors \u00b7 provisional five panels",
+        "variant": "Two equal hinged leaves in existing opening",
+        "approval": "Owner approved merge and publication on 2026-10-22; five panels remains provisional",
+        "relatedPhotos": [],
+        "geometryStatus": "Visual architectural review; native render remains dimensional authority",
+        "source": "B105",
+        "imageId": "R70",
+        "cameraEyeXY": [
+          15.600000381469727,
+          -30.0
+        ],
+        "cameraTargetXY": [
+          18.405277252197266,
+          -27.419355392456055
+        ],
+        "directionSource": "Renderer eye and target; existing map registration transforms",
+        "viewMode": "Perspective",
+        "mapDirectionDegrees": 47.39,
+        "notes": "Two closed hinged leaves, five recessed panels per leaf, outer hinges and paired meeting-edge bronze levers. Existing opening and surrounding architecture retained. Five-panel setting remains provisional; any change to four is a separate owner-requested global update. Photographic finish preview; fine surface, lighting, background and trim details can vary.",
+        "qaStatus": "ACCEPTED_VISUAL_ARCHITECTURAL_REVIEW",
+        "sourcePNG_SHA256": "01640bd901c03feab4dc72be0eb03c676f5f2c26b270cefb29b0821f67fb5ac0",
+        "sourceRenderId": "B105",
+        "imageSHA256": "f631ce09e8bbb6110638b5e80baf2ed401d26955a60222bd8f9679f86f8b1cfb"
+      },
+      "asset_path": "sites/43cedar/interactive_map/assets/photoreal/R70.jpg",
+      "jpeg_sha256": "03a8f19b8ee0321fc6c0070efbeef10119590a6d502a12573b66afc68ab37d1e",
+      "native_pair": "B105"
+    }
+  ],
+  "mappings": [
+    {
+      "closet": "Linen closet beside downstairs hall bathroom",
+      "native_id": "B103",
+      "photoreal_id": "R68",
+      "eye": [
+        24.65155792236328,
+        -16.75627326965332
+      ],
+      "target": [
+        21.251558303833008,
+        -16.75627326965332
+      ],
+      "mapX": 64.436,
+      "mapY": 62.992,
+      "proposedMapX": 63.437,
+      "proposedMapY": 60.619,
+      "mapDirectionDegrees": 270.0
+    },
+    {
+      "closet": "Double-door pantry across from kitchen",
+      "native_id": "B104",
+      "photoreal_id": "R69",
+      "eye": [
+        18.921611785888672,
+        -11.007580757141113
+      ],
+      "target": [
+        18.921611785888672,
+        -15.307580947875977
+      ],
+      "mapX": 52.767,
+      "mapY": 48.984,
+      "proposedMapX": 51.862,
+      "proposedMapY": 49.005,
+      "mapDirectionDegrees": 180.0
+    },
+    {
+      "closet": "Double-door coat closet at entrance",
+      "native_id": "B105",
+      "photoreal_id": "R70",
+      "eye": [
+        15.600000381469727,
+        -30.0
+      ],
+      "target": [
+        18.405277252197266,
+        -27.419355392456055
+      ],
+      "mapX": 46.002,
+      "mapY": 95.263,
+      "proposedMapX": 45.152,
+      "proposedMapY": 87.373,
+      "mapDirectionDegrees": 47.39
+    }
+  ],
+  "mapping_fits": {
+    "mapX": [
+      14.233131240390062,
+      2.036554172393304,
+      5.499358031401898e-05
+    ],
+    "mapY": [
+      22.162747101003383,
+      -6.117695370289056e-05,
+      -2.4367222115055616
+    ],
+    "proposedMapX": [
+      13.636351584232054,
+      2.020195476876893,
+      -8.668805906156709e-06
+    ],
+    "proposedMapY": [
+      26.76758132062099,
+      8.392380786204079e-06,
+      -2.020192114277409
+    ]
+  },
+  "library_review_file_id": "libfile_22ba794f1abc8191ab3df995d3bf1ed9"
+}
