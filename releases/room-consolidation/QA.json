@@ -1,0 +1,599 @@
+{
+  "taxonomyVersion": "rooms-1",
+  "photoCount": 392,
+  "changedPhotoCount": 104,
+  "changes": [
+    {
+      "id": "R12",
+      "from": "Entrance hallway",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "R27",
+      "from": "Entrance hallway",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "B62",
+      "from": "Entrance hallway",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "C007",
+      "from": "Hall / kitchen approach",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "C008",
+      "from": "Hall / kitchen approach",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "C029",
+      "from": "Foyer / stairs",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "C030",
+      "from": "Foyer / stairs",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "C031",
+      "from": "Foyer / stairs",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "C032",
+      "from": "Foyer / stairs",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "C033",
+      "from": "Foyer / stairs",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "C034",
+      "from": "Foyer / stairs",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "C035",
+      "from": "Foyer / stairs",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "C036",
+      "from": "Foyer / stairs",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "C037",
+      "from": "Hall / tiled bathroom",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "C038",
+      "from": "Hall / tiled bathroom",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "C039",
+      "from": "Hall / tiled bathroom",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "C040",
+      "from": "Hall / tiled bathroom",
+      "to": "Hall bathroom"
+    },
+    {
+      "id": "C041",
+      "from": "Hall / tiled bathroom",
+      "to": "Hall bathroom"
+    },
+    {
+      "id": "C042",
+      "from": "Hall / tiled bathroom",
+      "to": "Hall bathroom"
+    },
+    {
+      "id": "C043",
+      "from": "Hall / tiled bathroom",
+      "to": "Hall bathroom"
+    },
+    {
+      "id": "C044",
+      "from": "Hall / tiled bathroom",
+      "to": "Hall bathroom"
+    },
+    {
+      "id": "C045",
+      "from": "Hall / tiled bathroom",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "C046",
+      "from": "Hall / tiled bathroom",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "C047",
+      "from": "Hall / tiled bathroom",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "C048",
+      "from": "Hall / tiled bathroom",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "C049",
+      "from": "Hall / tiled bathroom",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "C050",
+      "from": "North bedroom / closets",
+      "to": "Bedroom 2"
+    },
+    {
+      "id": "C051",
+      "from": "North bedroom / closets",
+      "to": "Bedroom 2"
+    },
+    {
+      "id": "C052",
+      "from": "North bedroom / closets",
+      "to": "Bedroom 2"
+    },
+    {
+      "id": "C053",
+      "from": "North bedroom / closets",
+      "to": "Bedroom 2"
+    },
+    {
+      "id": "C054",
+      "from": "North bedroom / closets",
+      "to": "Bedroom 2"
+    },
+    {
+      "id": "C055",
+      "from": "North bedroom / closets",
+      "to": "Bedroom 2"
+    },
+    {
+      "id": "C056",
+      "from": "North bedroom / closets",
+      "to": "Bedroom 2"
+    },
+    {
+      "id": "C057",
+      "from": "North bedroom / closets",
+      "to": "Bedroom 2"
+    },
+    {
+      "id": "C058",
+      "from": "North bedroom / closets",
+      "to": "Bedroom 2"
+    },
+    {
+      "id": "C059",
+      "from": "North bedroom / closets",
+      "to": "Bedroom 2"
+    },
+    {
+      "id": "C060",
+      "from": "North bedroom / closets",
+      "to": "Bedroom 2"
+    },
+    {
+      "id": "C061",
+      "from": "North bedroom / closets",
+      "to": "Bedroom 2"
+    },
+    {
+      "id": "C062",
+      "from": "North bedroom / closets",
+      "to": "Bedroom 2"
+    },
+    {
+      "id": "C063",
+      "from": "North bedroom / closets",
+      "to": "Bedroom 2"
+    },
+    {
+      "id": "C064",
+      "from": "North bedroom / closets",
+      "to": "Bedroom 2"
+    },
+    {
+      "id": "C065",
+      "from": "North bedroom / closets",
+      "to": "Bedroom 2"
+    },
+    {
+      "id": "C066",
+      "from": "Porch-side bedroom",
+      "to": "Bedroom 1"
+    },
+    {
+      "id": "C067",
+      "from": "Porch-side bedroom",
+      "to": "Bedroom 1"
+    },
+    {
+      "id": "C068",
+      "from": "Porch-side bedroom",
+      "to": "Bedroom 1"
+    },
+    {
+      "id": "C069",
+      "from": "Porch-side bedroom",
+      "to": "Bedroom 1"
+    },
+    {
+      "id": "C070",
+      "from": "Porch-side bedroom",
+      "to": "Bedroom 1"
+    },
+    {
+      "id": "C071",
+      "from": "Porch-side bedroom",
+      "to": "Bedroom 1"
+    },
+    {
+      "id": "C072",
+      "from": "Porch-side bedroom",
+      "to": "Bedroom 1"
+    },
+    {
+      "id": "C073",
+      "from": "Porch-side bedroom",
+      "to": "Bedroom 1"
+    },
+    {
+      "id": "C074",
+      "from": "Porch-side bedroom",
+      "to": "Bedroom 1"
+    },
+    {
+      "id": "C075",
+      "from": "Porch-side bedroom",
+      "to": "Bedroom 1"
+    },
+    {
+      "id": "C076",
+      "from": "Porch-side bedroom",
+      "to": "Bedroom 1"
+    },
+    {
+      "id": "C077",
+      "from": "Porch-side bedroom",
+      "to": "Bedroom 1"
+    },
+    {
+      "id": "C078",
+      "from": "Porch-side bedroom",
+      "to": "Bedroom 1"
+    },
+    {
+      "id": "C079",
+      "from": "Pink shower bathroom",
+      "to": "Primary bathroom"
+    },
+    {
+      "id": "C080",
+      "from": "Pink shower bathroom",
+      "to": "Primary bathroom"
+    },
+    {
+      "id": "C081",
+      "from": "Pink shower bathroom",
+      "to": "Primary bathroom"
+    },
+    {
+      "id": "C082",
+      "from": "Pink shower bathroom",
+      "to": "Primary bathroom"
+    },
+    {
+      "id": "C083",
+      "from": "Pink shower bathroom",
+      "to": "Primary bathroom"
+    },
+    {
+      "id": "C084",
+      "from": "Pink shower bathroom",
+      "to": "Primary bathroom"
+    },
+    {
+      "id": "C085",
+      "from": "Pink shower bathroom",
+      "to": "Primary bathroom"
+    },
+    {
+      "id": "C086",
+      "from": "Pink shower bathroom",
+      "to": "Primary bathroom"
+    },
+    {
+      "id": "C087",
+      "from": "Pink shower bathroom",
+      "to": "Primary bathroom"
+    },
+    {
+      "id": "C088",
+      "from": "Pink shower bathroom",
+      "to": "Primary bathroom"
+    },
+    {
+      "id": "C089",
+      "from": "Pink shower bathroom",
+      "to": "Primary bathroom"
+    },
+    {
+      "id": "C090",
+      "from": "Pink shower bathroom",
+      "to": "Primary bathroom"
+    },
+    {
+      "id": "C091",
+      "from": "Pink shower bathroom",
+      "to": "Primary bathroom"
+    },
+    {
+      "id": "C138",
+      "from": "Hall / closet details",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "C139",
+      "from": "Hall / closet details",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "C140",
+      "from": "Hall / closet details",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "C141",
+      "from": "Hall / closet details",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "C148",
+      "from": "Pink shower bathroom",
+      "to": "Primary bathroom"
+    },
+    {
+      "id": "C149",
+      "from": "Pink shower bathroom",
+      "to": "Primary bathroom"
+    },
+    {
+      "id": "C150",
+      "from": "Pink shower bathroom",
+      "to": "Primary bathroom"
+    },
+    {
+      "id": "C151",
+      "from": "Hall / closet details",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "C152",
+      "from": "Hall / closet details",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "C153",
+      "from": "Hall / closet details",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "C154",
+      "from": "Hall / closet details",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "B47",
+      "from": "Entrance hallway",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "B30",
+      "from": "Entrance hallway",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "RES01",
+      "from": "Fireplace / living room",
+      "to": "Living room"
+    },
+    {
+      "id": "RES02",
+      "from": "First-floor layout",
+      "to": "Whole first floor"
+    },
+    {
+      "id": "RES03",
+      "from": "First-floor layout",
+      "to": "Whole first floor"
+    },
+    {
+      "id": "B67",
+      "from": "Entrance hallway",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "B102",
+      "from": "Entrance hallway",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "R32",
+      "from": "Entrance hallway",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "R67",
+      "from": "Entrance hallway",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "B105",
+      "from": "Entrance hallway",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "R70",
+      "from": "Entrance hallway",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "D20261023-125143",
+      "from": "Foyer / stairs",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "D20261023-125155",
+      "from": "Hall / kitchen approach",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "D20261023-125206",
+      "from": "Hall / tiled bathroom",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "D20261023-125214",
+      "from": "Hall / kitchen approach",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "D20261023-125220",
+      "from": "Porch-side bedroom",
+      "to": "Bedroom 1"
+    },
+    {
+      "id": "D20261023-125226",
+      "from": "Porch-side bedroom",
+      "to": "Bedroom 1"
+    },
+    {
+      "id": "D20261023-125235",
+      "from": "Porch-side bedroom",
+      "to": "Bedroom 1"
+    },
+    {
+      "id": "D20261023-125242",
+      "from": "Pink shower bathroom",
+      "to": "Primary bathroom"
+    },
+    {
+      "id": "D20261023-125247",
+      "from": "Pink shower bathroom",
+      "to": "Primary bathroom"
+    },
+    {
+      "id": "D20261023-125252",
+      "from": "Pink shower bathroom",
+      "to": "Primary bathroom"
+    },
+    {
+      "id": "D20261023-125307",
+      "from": "North bedroom / closets",
+      "to": "Bedroom 2"
+    },
+    {
+      "id": "D20261023-125316",
+      "from": "Hall / closet details",
+      "to": "Bedroom hallway"
+    },
+    {
+      "id": "D20261023-132846",
+      "from": "Foyer / stairs",
+      "to": "Entry / stairs"
+    },
+    {
+      "id": "D20261023-132851",
+      "from": "Hall / kitchen approach",
+      "to": "Bedroom hallway"
+    }
+  ],
+  "roomsBefore": {
+    "F1": [
+      "Bedroom 1",
+      "Bedroom 2",
+      "Bedroom hallway",
+      "Dining area",
+      "Entrance hallway",
+      "Fireplace / living room",
+      "First-floor layout",
+      "Foyer / stairs",
+      "Hall / closet details",
+      "Hall / kitchen approach",
+      "Hall / tiled bathroom",
+      "Hall bathroom",
+      "Kitchen",
+      "Kitchen / dining structure",
+      "Laundry closet",
+      "Living / dining transition",
+      "Living room",
+      "North bedroom / closets",
+      "Pink shower bathroom",
+      "Porch-side bedroom",
+      "Primary bathroom",
+      "Screened porch",
+      "Trim / staircase details",
+      "Whole first floor"
+    ],
+    "F2": [
+      "Second-floor roof",
+      "Second-floor rooms",
+      "Upstairs / connected roof"
+    ],
+    "EXT": [
+      "Accessory building",
+      "Aerial context",
+      "Front exterior",
+      "Garage / driveway",
+      "Rear deck / yard"
+    ]
+  },
+  "roomsAfter": {
+    "F1": [
+      "Bedroom 1",
+      "Bedroom 2",
+      "Bedroom hallway",
+      "Dining area",
+      "Entry / stairs",
+      "Hall bathroom",
+      "Kitchen",
+      "Kitchen / dining structure",
+      "Laundry closet",
+      "Living / dining transition",
+      "Living room",
+      "Primary bathroom",
+      "Screened porch",
+      "Trim / staircase details",
+      "Whole first floor"
+    ],
+    "F2": [
+      "Second-floor roof",
+      "Second-floor rooms",
+      "Upstairs / connected roof"
+    ],
+    "EXT": [
+      "Accessory building",
+      "Aerial context",
+      "Front exterior",
+      "Garage / driveway",
+      "Rear deck / yard"
+    ]
+  },
+  "preserved": "All image assets, photo IDs, camera/viewpoint IDs, coordinates, dates, revisions and source-render links verified unchanged."
+}

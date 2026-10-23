@@ -2,6 +2,20 @@
 (() => {
   const $ = id => document.getElementById(id);
   const data = JSON.parse($('appdata').textContent);
+  // ROOM NORMALIZATION START
+  // Apply the shared floor-scoped taxonomy to legacy/imported records, too.
+  const roomRules = data.roomTaxonomy || {"version":"rooms-1","aliases":{"F1":{"Porch-side bedroom":"Bedroom 1","North bedroom / closets":"Bedroom 2","North bedroom":"Bedroom 2","Fireplace / living room":"Living room","Pink shower bathroom":"Primary bathroom","Hall / tiled bathroom":"Hall bathroom","Hall / closet details":"Bedroom hallway","Hall / kitchen approach":"Bedroom hallway","Foyer / stairs":"Entry / stairs","Entrance hallway":"Entry / stairs","First-floor layout":"Whole first floor"}},"photoOverrides":{"C037":"Bedroom hallway","C038":"Bedroom hallway","C039":"Bedroom hallway","C045":"Bedroom hallway","C046":"Bedroom hallway","C047":"Bedroom hallway","C048":"Bedroom hallway","C049":"Bedroom hallway","D20261023-125206":"Bedroom hallway"}};
+  for (const p of data.photos) {
+    const old = p.zone || '';
+    const room = roomRules.photoOverrides[p.id] || roomRules.aliases[p.floor]?.[old] || old;
+    if (room !== old) {
+      p.originalZone ||= old;
+      p.zoneAliases = [...new Set([...(p.zoneAliases || []), old])];
+      p.zone = room;
+    }
+  }
+  // ROOM NORMALIZATION END
+
   const byId = new Map(data.photos.map(p => [p.id, p]));
   const mobile = matchMedia('(max-width:1100px)');
   const floors = [['F1', 'Floor 1'], ['F2', 'Floor 2'], ['EXT', 'Exterior']];
@@ -31,7 +45,7 @@
   const photosFor = (change = {}) => {
     const s = {...state, ...change};
     const q = s.query.trim().toLowerCase();
-    return data.photos.filter(p => p.floor === s.floor && p.stage === s.stage && (!s.room || p.zone === s.room) && (!s.kind || p.kind === s.kind) && (!s.revision || p.designVersion === s.revision) && (!q || [p.id, p.zone, p.kind, p.looking, p.notes, p.filename, p.viewpointId, p.designVersion].join(' ').toLowerCase().includes(q)));
+    return data.photos.filter(p => p.floor === s.floor && p.stage === s.stage && (!s.room || p.zone === s.room) && (!s.kind || p.kind === s.kind) && (!s.revision || p.designVersion === s.revision) && (!q || [p.id, p.zone, p.originalZone, ...(p.zoneAliases || []), p.kind, p.looking, p.notes, p.filename, p.viewpointId, p.designVersion].join(' ').toLowerCase().includes(q)));
   };
   const active = () => data.photos.filter(p => p.floor === state.floor && p.stage === state.stage);
   const makeButton = (label, action, cls = '') => {
