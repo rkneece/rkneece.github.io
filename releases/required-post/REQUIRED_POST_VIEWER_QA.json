@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "mobile_dom_navigation": true,
+  "photoreal_gallery_count": 66,
+  "updated_photoreal_source_navigation_checked": 23,
+  "resource_gallery_count": 4,
+  "post_chase_detail_opens": true,
+  "browser_rendering": "Chromium download unavailable; actual production DOM/script navigation tested with jsdom. Image bytes and native geometry verified separately.",
+  "runtime_errors": []
+}

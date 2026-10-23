@@ -1,0 +1,17 @@
+{
+  "revision": "P135_East_Biased_Chase",
+  "required": true,
+  "structural_center_from_west_inches": 135.0,
+  "west_datum": "interior finish plane of the existing kitchen/dining west wall; model Y=0",
+  "north_south_registration": "retain source mesh153 center; field confirmation pending",
+  "core_width_inches_provisional": 5.0,
+  "core_depth_inches_provisional": 5.0,
+  "finished_chase_east_west_inches_provisional": 10.0,
+  "finished_chase_north_south_inches_provisional": 8.0,
+  "west_finish_beyond_core_inches_provisional": 0.75,
+  "east_finish_beyond_core_inches_provisional": 4.25,
+  "finish": "plain painted white rectangular chase; decorative treatment provisional",
+  "island": "retain current 78 x 66 inch countertop and position; seating/bench coordination deferred by owner",
+  "roof_intent": "fill dining roof notch one framing bay to align a single straight beam and gain upstairs primary-bath space; bay width and engineered beam section pending",
+  "limits": "135 inch centerline and east-biased finish are owner directions. Core, chase, beam and connection sizes are visualization assumptions, not structural specifications."
+}
