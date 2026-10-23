@@ -1,0 +1,103 @@
+{
+  "release": "DD1_Double_Storage_Doors_5_Panel",
+  "base_blob_sha": "2968db88bb5eac6501f26f1bbed7d1ffa3aaed69",
+  "output_blob_sha": "458641711a5f709710e5ce504bd20d0bfb2244f9",
+  "output_sha256": "9b1eb54f52089e73460e04e486fdbfdc8d52e42d5bab577aac067fa3bdef4e6b",
+  "output_bytes": 33552550,
+  "new_ids": [
+    "B103",
+    "R68",
+    "B104",
+    "R69",
+    "B105",
+    "R70"
+  ],
+  "dimensions": {
+    "B103": [
+      800,
+      800
+    ],
+    "R68": [
+      1254,
+      1254
+    ],
+    "B104": [
+      800,
+      800
+    ],
+    "R69": [
+      1254,
+      1254
+    ],
+    "B105": [
+      800,
+      800
+    ],
+    "R70": [
+      1254,
+      1254
+    ]
+  },
+  "total_records": 348,
+  "native_images": 105,
+  "photoreal_images": 66,
+  "existing_records_images_plans_and_resources_preserved": true,
+  "linked_view_navigation_resets_search_and_filters": true,
+  "native_photo_pairs_and_six_directional_mappings_verified": true,
+  "mappings": [
+    {
+      "closet": "Linen closet beside downstairs hall bathroom",
+      "native_id": "B103",
+      "photoreal_id": "R68",
+      "eye": [
+        24.65155792236328,
+        -16.75627326965332
+      ],
+      "target": [
+        21.251558303833008,
+        -16.75627326965332
+      ],
+      "mapX": 64.436,
+      "mapY": 62.992,
+      "proposedMapX": 63.437,
+      "proposedMapY": 60.619,
+      "mapDirectionDegrees": 270.0
+    },
+    {
+      "closet": "Double-door pantry across from kitchen",
+      "native_id": "B104",
+      "photoreal_id": "R69",
+      "eye": [
+        18.921611785888672,
+        -11.007580757141113
+      ],
+      "target": [
+        18.921611785888672,
+        -15.307580947875977
+      ],
+      "mapX": 52.767,
+      "mapY": 48.984,
+      "proposedMapX": 51.862,
+      "proposedMapY": 49.005,
+      "mapDirectionDegrees": 180.0
+    },
+    {
+      "closet": "Double-door coat closet at entrance",
+      "native_id": "B105",
+      "photoreal_id": "R70",
+      "eye": [
+        15.600000381469727,
+        -30.0
+      ],
+      "target": [
+        18.405277252197266,
+        -27.419355392456055
+      ],
+      "mapX": 46.002,
+      "mapY": 95.263,
+      "proposedMapX": 45.152,
+      "proposedMapY": 87.373,
+      "mapDirectionDegrees": 47.39
+    }
+  ]
+}
