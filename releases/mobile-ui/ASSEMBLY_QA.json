@@ -1,0 +1,11 @@
+{
+  "ui": "mobile-v1",
+  "input_sha256": "9b1eb54f52089e73460e04e486fdbfdc8d52e42d5bab577aac067fa3bdef4e6b",
+  "output_sha256": "7c252e1b6fb175afe3fb3c507ab9660625e9eb9ccf4a66b858f3bb29f14558b8",
+  "appdata_sha256": "6b9885736f2cc350a79ba8decb4066f9b0b6caec1a93e536324f9082b5427d06",
+  "embedded_data_byte_preserved": true,
+  "photo_count": 348,
+  "photo_ids_sha256": "85eb9af39899dcb1731eca1fc7234250543d04f154dcd6d78534b20fc0f3cf39",
+  "all_images_and_mappings_preserved": true,
+  "external_runtime_dependencies": 0
+}
