@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "added_resource_ids": [
+    "RES07",
+    "RES08"
+  ],
+  "before_records": 394,
+  "after_records": 396,
+  "original_records_images_plans_and_ui_unchanged": true,
+  "html_sha256": "1ee71f531e809be796198f496f290a4bb6a67f0973a6e5b2dc299dba7aad9395",
+  "assets": [
+    {
+      "path": "assets/island-studies/43_Cedar_Proposed_Island_Alternative.svg",
+      "sha256": "d5d0e9dd658f949e3cdedad486654aa69b73fb69cf6603673438305b8525e886"
+    },
+    {
+      "path": "assets/island-studies/43_Cedar_Island_Studies_Summary.svg",
+      "sha256": "ee2e434967ad71b531c89bfff27f1e07dab67dbf6f78c867284ea3b052963b46"
+    }
+  ]
+}
