@@ -1,0 +1,173 @@
+{
+  "status": "PASS",
+  "publication": "A",
+  "page_sha256": "5d67a873dc7c7d7874fa9bf89a5113465c9f4955ee1a866fba69aae5b7cd7cba",
+  "images": [
+    {
+      "id": "RES19",
+      "sha256": "52397e10b4daf07f2fa1b92cd70ed944aea1d984328bde5aff2858a94118e24c",
+      "dimensions": [
+        1513,
+        1040
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "RES22",
+      "sha256": "a247e4db55571849fadd8436b88b39cc205447f13672267717c9d4a4a24288e2",
+      "dimensions": [
+        1512,
+        1040
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "RES23",
+      "sha256": "58c077c72b4e4146e861feba3d07c1ada9658102f682cb944c017db0fd54cc67",
+      "dimensions": [
+        1512,
+        1040
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "RES24",
+      "sha256": "7abe4fa8f1105ff0d7d3f764277d099494dea414442e33dc96245ce41428d807",
+      "dimensions": [
+        1513,
+        1040
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "RES25",
+      "sha256": "1b3e08410bb3e40cd426c341fafef374d48a5286f487abb2dff260ed395e771f",
+      "dimensions": [
+        1512,
+        1040
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "RES26",
+      "sha256": "f64ce1e0b3f95224bfcfd5a4c02089cdedfe162c2589449d72d6b7be1cb4ceb6",
+      "dimensions": [
+        1512,
+        1040
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "RES09",
+      "sha256": "fd69e322dcf621fceaafa2212cff7483426b500f0b86529ec13caffd39964f58",
+      "dimensions": [
+        1512,
+        1040
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "RES11",
+      "sha256": "71eeeaa44b73b03cd48f5fbce92ba81c3fbba49f487fe055c4a71b59e07d7dd7",
+      "dimensions": [
+        1512,
+        1040
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "RES15",
+      "sha256": "c63930890ce34eda3e0d981ebc86eca91ef2128a047a9e8597c8786c91f34e81",
+      "dimensions": [
+        1512,
+        1040
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "RES20",
+      "sha256": "4ee56c7676d91dd3d9b4b19bd48fb2df3a5a1b775f66ec1968cfe3fef36a3fa1",
+      "dimensions": [
+        1512,
+        1040
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "RES12",
+      "sha256": "e29841468ff05c1f84d488c6dd226e6b6dc4c4d66088d278febbd7897e7e27ec",
+      "dimensions": [
+        1512,
+        1040
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "RES16",
+      "sha256": "8a5289b08578da634779a255eea69066b6fd8ad6c1d4ffe3f76af7a26e89d6c3",
+      "dimensions": [
+        1512,
+        1040
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "RES10",
+      "sha256": "c04ee7b104d75a7e05a00ad2410ae3b6e2b57f35eb925a855211a76ed08c5557",
+      "dimensions": [
+        1513,
+        1040
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "RES13",
+      "sha256": "4b8ee07a2fede918da6f5c88094a4bca4738ba306ba495dbd91549039b642d14",
+      "dimensions": [
+        1512,
+        1040
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "RES17",
+      "sha256": "5ac1fd8f1df9ed8ced97f7381aff823b2a4bc296b463d3cf3b48f060293544a2",
+      "dimensions": [
+        1513,
+        1040
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "RES21",
+      "sha256": "bc16a852a59d000ca39c2c1d527492cf40ec8e5995bba2081bb205a8a3a1fced",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "RES14",
+      "sha256": "04a18e3c753f3dfc4687efa6915247c53dcd13e93609ce8c87b6890d2b0f261c",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "RES18",
+      "sha256": "684667d1476ab891906fe56b331ea210da2c5ffaef47a84e2dd8784cd1912de2",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "status": "PASS"
+    }
+  ],
+  "view_first_order_verified": true,
+  "total_records": 414,
+  "deployment_run": 40126362429,
+  "commit": "241cb6dfcc639ab305bd22225b9666f78efb1c9b"
+}
