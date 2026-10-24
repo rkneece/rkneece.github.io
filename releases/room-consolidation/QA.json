@@ -1,15 +1,25 @@
 {
-  "taxonomyVersion": "rooms-3",
+  "taxonomyVersion": "rooms-4",
   "photoCount": 392,
-  "changedPhotoCount": 2,
+  "changedPhotoCount": 4,
   "changes": [
     {
-      "id": "C112",
+      "id": "C029",
       "from": "Foyer / Stairs",
       "to": "Living room"
     },
     {
-      "id": "C113",
+      "id": "C030",
+      "from": "Foyer / Stairs",
+      "to": "Living room"
+    },
+    {
+      "id": "C031",
+      "from": "Foyer / Stairs",
+      "to": "Living room"
+    },
+    {
+      "id": "C032",
       "from": "Foyer / Stairs",
       "to": "Living room"
     }
