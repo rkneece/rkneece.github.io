@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main, dev, feature/photoreal40-live, release/res01-only, release/pd1-bedroom-only]
-    paths: [sites/43cedar/interactive_map/**, releases/photoreal40/REVIEW.json, releases/double-doors/**, releases/mobile-ui/**, releases/required-post/**, releases/demo-20261023/**, releases/room-consolidation/**, releases/res01-only/**, releases/pd1-bedroom-only/**]
+    paths: [sites/43cedar/interactive_map/**, releases/photoreal40/REVIEW.json, releases/double-doors/**, releases/mobile-ui/**, releases/required-post/**, releases/demo-20261023/**, releases/room-consolidation/**, releases/res01-only/**, releases/pd1-bedroom-only/**, releases/coordination9/**]
 permissions:
   contents: write
   pages: write
