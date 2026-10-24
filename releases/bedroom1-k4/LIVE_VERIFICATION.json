@@ -1,0 +1,160 @@
+{
+  "status": "PASS",
+  "viewer_url": "https://richkneece.com/sites/43cedar/interactive_map/",
+  "html_sha256": "8403002776b666c3ec104db9d3967a3911bb4aa29f73271f7ba79d5680ac7dbb",
+  "record_count": 394,
+  "asset_count": 29,
+  "assets": [
+    {
+      "path": "assets/bedroom1-k4/B08.jpg",
+      "sha256": "edfe174629f8aa308550d2a9ac1f72d82c92513b62be8f907ac8466cff2261d6",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/B100.jpg",
+      "sha256": "4fe6ace1a80d61a479ed74ebd6f9ff242a1c0d0c1b5ab64ebab796e73410337c",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/B106.jpg",
+      "sha256": "55ec5b01c73406e9681144153eb25d9a5ab57f16ae8384b165dc64dc75ebb6f1",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/B17.jpg",
+      "sha256": "a97a19edf895af0f6bd50f2f657c34da1d737ccb30fece181d7c398d680205ef",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/B34.jpg",
+      "sha256": "edfe174629f8aa308550d2a9ac1f72d82c92513b62be8f907ac8466cff2261d6",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/B48.jpg",
+      "sha256": "edda269af0fce5806799d12ec83bb4ed69db4d057e45fcc7aa4d4d0ca1dec977",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/B49.jpg",
+      "sha256": "0d90fdbf46641a3ea0bd77f01c92bbba220a69884a94b09382169a7fb607aad9",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/B50.jpg",
+      "sha256": "9ca41f5b07674f42bc264c3f59caea5cb8690e28b4fad9229e0643162c4b4a5d",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/B61.jpg",
+      "sha256": "e547ea7082611b6784103b71a495500eae2f23d4a7e817e82402c13d94c4ee7e",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/B69.jpg",
+      "sha256": "d5c1eb5a30ec3097fff00f934698d818f05994931ea743696ba27f7218fada66",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/B70.jpg",
+      "sha256": "b4d64d70888a859e56925d611bc6ea108843e4bf3e66856b39fc1c4c092f9957",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/B71.jpg",
+      "sha256": "060aa40e741a3b711acfd6dad6ad83cdf12000a599381da770830a140c742871",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/B72.jpg",
+      "sha256": "a6e485e831f95f2bf71de5677375d131281c50cd166d2d35996800fff61c71a2",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/B92.jpg",
+      "sha256": "b6074c7a2577fc36ea2da6eb1e6691adc4333b89b4b1d79356f00391f6723057",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/B94.jpg",
+      "sha256": "b7d86f9703c918e2ec49b60ac1d19ea9268d205585be56d76e9b98a59b84638f",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/B99.jpg",
+      "sha256": "52c263a41219ffe80d0414dd229d7f86c9e5bc1a8862d5ba7a9cf29b26f645d4",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/R13.jpg",
+      "sha256": "43e02d65db92f2006f2378e5f1078fcc060328a7ad094e08cea30a03cbc9331e",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/R14.jpg",
+      "sha256": "8fa0146322454424c5779dea8e69750910d0ff2278f7a91e6b897ab38cd79b47",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/R15.jpg",
+      "sha256": "cfc287a7ea2f589209dd790ae5b0e99ca6ca1e51e9c97982ddf85f43552264ff",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/R26.jpg",
+      "sha256": "bc1c1862dfc15418935aae14ddaaf1fff286cccf561ee9193eb43fec74d5c344",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/R34.jpg",
+      "sha256": "8bd966fbed92176b574b0fd043a3ee7b605b8f7061bb159ad9eb45f2b1587bd7",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/R35.jpg",
+      "sha256": "bb0ad6a1489fac50baa2605565ac6ebcc05160328fd48254dda91c54acc3f6a8",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/R36.jpg",
+      "sha256": "510e47f69787fa26e49ec22b890ad50ed6a6822ced8abc07733cd7867898497a",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/R37.jpg",
+      "sha256": "27fe3bcfbab348e655f1a687bc8b241351c6cd1a90a4696959cfe452103b9eec",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/R57.jpg",
+      "sha256": "10788dbbb27f9b7ba45c94c3a8f48e7eb71d4c927b19e8ac442eed3da283c95e",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/R59.jpg",
+      "sha256": "a128886891c55b6612946fc4cff6ac459f28964e1dd0836c83eac4e71ebfb4ff",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/R64.jpg",
+      "sha256": "29a3be49537b1d3f4f335481f065220c1974d8fb3b87c6c358c2db1b8a67852d",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/R65.jpg",
+      "sha256": "cbb8070cf8c033e7004d18f48f9b526477f7eb0cf840d7214db65f5c7eca7410",
+      "status": "PASS"
+    },
+    {
+      "path": "assets/bedroom1-k4/R71.jpg",
+      "sha256": "63fd4dbd172ce475748a2c09ad2afb4ea2ba2b765b2045f0cd5b544d2888a553",
+      "status": "PASS"
+    }
+  ],
+  "model_source_qa_run": 40062148631,
+  "browser_qa_run": 40063347449,
+  "website_release_commit": "abbc268ae0732d575f8930cbe63c38f8f82f8677",
+  "native_scene_sha256": "fefc662d67e1a8b2cd4ddeda76d20726eda7c2c5f2b01c4e5de612f242cf3abe",
+  "updated_at": "2026-10-24",
+  "original_records_positions_taxonomy_site_photos_preserved": true
+}

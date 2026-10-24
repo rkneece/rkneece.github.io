@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "width": 1440,
+      "counts": {
+        "Proposed · Render": 11,
+        "Proposed · Photoreal": 10
+      },
+      "sourceLinksAndImages": "PASS",
+      "pageErrors": []
+    },
+    {
+      "width": 390,
+      "counts": {
+        "Proposed · Render": 11,
+        "Proposed · Photoreal": 10
+      },
+      "sourceLinksAndImages": "PASS",
+      "pageErrors": []
+    }
+  ]
+}
