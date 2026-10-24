@@ -1,20 +1,74 @@
 [
   {
     "width": 1440,
-    "uniqueRoomChoices": 15,
-    "existingBedroom1": 13,
-    "renderBedroom1": 10,
-    "renderBedroom2": 11,
-    "legacySearchBedroom2": 16,
+    "uniqueRoomChoices": 11,
+    "counts": {
+      "Bedroom 1 Bath": {
+        "Existing": 13,
+        "Demo": 6,
+        "Proposed · Render": 7,
+        "Proposed · Photoreal": 3,
+        "Proposed · Resources": 0
+      },
+      "Foyer / Stairs": {
+        "Existing": 12,
+        "Demo": 2,
+        "Proposed · Render": 6,
+        "Proposed · Photoreal": 5,
+        "Proposed · Resources": 0
+      },
+      "Dining Area": {
+        "Existing": 25,
+        "Demo": 2,
+        "Proposed · Render": 25,
+        "Proposed · Photoreal": 15,
+        "Proposed · Resources": 1
+      },
+      "Downstairs Hallway": {
+        "Existing": 20,
+        "Demo": 9,
+        "Proposed · Render": 12,
+        "Proposed · Photoreal": 8,
+        "Proposed · Resources": 0
+      }
+    },
+    "legacyKitchenSearch": 16,
     "pageErrors": []
   },
   {
     "width": 390,
-    "uniqueRoomChoices": 15,
-    "existingBedroom1": 13,
-    "renderBedroom1": 10,
-    "renderBedroom2": 11,
-    "legacySearchBedroom2": 16,
+    "uniqueRoomChoices": 11,
+    "counts": {
+      "Bedroom 1 Bath": {
+        "Existing": 13,
+        "Demo": 6,
+        "Proposed · Render": 7,
+        "Proposed · Photoreal": 3,
+        "Proposed · Resources": 0
+      },
+      "Foyer / Stairs": {
+        "Existing": 12,
+        "Demo": 2,
+        "Proposed · Render": 6,
+        "Proposed · Photoreal": 5,
+        "Proposed · Resources": 0
+      },
+      "Dining Area": {
+        "Existing": 25,
+        "Demo": 2,
+        "Proposed · Render": 25,
+        "Proposed · Photoreal": 15,
+        "Proposed · Resources": 1
+      },
+      "Downstairs Hallway": {
+        "Existing": 20,
+        "Demo": 9,
+        "Proposed · Render": 12,
+        "Proposed · Photoreal": 8,
+        "Proposed · Resources": 0
+      }
+    },
+    "legacyKitchenSearch": 25,
     "pageErrors": []
   }
 ]
