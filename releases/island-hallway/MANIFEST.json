@@ -1,0 +1,216 @@
+{
+  "created_at": "2026-10-24T22:25:42.647409+00:00",
+  "before_html_sha256": "d09d5ae7abd2cd1fe1b955ee92fa2d87fd4d21d7bbd841f523e4dd0d5238fe9a",
+  "view_order": [
+    "Couch",
+    "Kitchen",
+    "Hallway",
+    "Dining",
+    "Porch",
+    "Post",
+    "Plan"
+  ],
+  "test_branch": "test/island-DEG-photoreal",
+  "protected_refs": {
+    "model_main": "fdb63b893d605f8b69596732fdb9ba7a03ad2e55",
+    "model_dev": "fdb63b893d605f8b69596732fdb9ba7a03ad2e55",
+    "website_dev": "1966c264af9316be64fd7f39287064b5bfe18fc9"
+  },
+  "images": [
+    {
+      "id": "RES27",
+      "case": "D",
+      "path": "assets/island-hallway-tests/D_Hallway.jpg",
+      "sha256": "469593299abd7112e3610b63655e8f590938a715b00b4bb124b20725279361a4",
+      "native_qa": {
+        "case": "D",
+        "source_sha256": "4835090f1f62de8584cab1dcdd8be1c50c48c86a013da0a4ec3f25c71a02d740",
+        "model_branch": "test/island-DEG-photoreal",
+        "fixture_revision": "FAUCET3",
+        "faucet_south_lip_north_spout_nozzle_in_basin": true,
+        "island_bounds_feet": [
+          [
+            12.394265174865723,
+            -10.979166984558105,
+            2.9000000953674316
+          ],
+          [
+            16.894264221191406,
+            -2.9791667461395264,
+            3.049999952316284
+          ]
+        ],
+        "pantry_leaf_bounds_feet": [
+          [
+            17.04218292236328,
+            -14.513713836669922,
+            0.02500009536743164
+          ],
+          [
+            21.010934829711914,
+            -14.448713302612305,
+            6.691666603088379
+          ]
+        ],
+        "pantry_closed_door_front_y": -14.378713302612304,
+        "east_west_offset_to_closed_door_front_inches": 40.79455581665039,
+        "north_south_offset_of_nearest_edges_inches": 1.7750244140625,
+        "nearest_plan_distance_to_closed_door_front_inches": 40.83315437176415,
+        "measurement_limits": "Modeled countertop edge to closed pantry door front, excluding handles and door swing; x offset may make nearest distance diagonal. Verify in field.",
+        "microwave_face_inches": [
+          23.875,
+          15.875
+        ],
+        "views": [
+          {
+            "view": "HallNorth",
+            "camera_eye": [
+              21.6,
+              -8.8,
+              5.6
+            ],
+            "camera_target": [
+              16.6,
+              -11.5,
+              2.75
+            ],
+            "lens_mm": 24,
+            "file": "D_HallNorth_final.png",
+            "sha256": "a02e8c4931a0e3ed6fec758ca1468130f3fb55d318d0918ce974568d881954ca"
+          }
+        ],
+        "unrelated_original_transforms_and_visibility_unchanged": true,
+        "scene_sha256": "82ec0b1dcd2ac6ef04e0cbb8affdd73be998dd720d59ad38a82c28ee36c9a217"
+      }
+    },
+    {
+      "id": "RES28",
+      "case": "E",
+      "path": "assets/island-hallway-tests/E_Hallway.jpg",
+      "sha256": "affd415b4a7f39aab3408ab4e67b0864c1b2943d8a5955d697bfbd3f90c748cc",
+      "native_qa": {
+        "case": "E",
+        "source_sha256": "6aea61ceea3ddcaba595d10eb8ae9a5565625f58465029f99552da7744494248",
+        "model_branch": "test/island-DEG-photoreal",
+        "fixture_revision": "FAUCET3",
+        "faucet_south_lip_north_spout_nozzle_in_basin": true,
+        "island_bounds_feet": [
+          [
+            11.394265174865723,
+            -11.8125,
+            2.9000000953674316
+          ],
+          [
+            16.894264221191406,
+            -3.8125,
+            3.049999952316284
+          ]
+        ],
+        "pantry_leaf_bounds_feet": [
+          [
+            17.04218292236328,
+            -14.513713836669922,
+            0.02500009536743164
+          ],
+          [
+            21.010934829711914,
+            -14.448713302612305,
+            6.691666603088379
+          ]
+        ],
+        "pantry_closed_door_front_y": -14.378713302612304,
+        "east_west_offset_to_closed_door_front_inches": 30.794559631347653,
+        "north_south_offset_of_nearest_edges_inches": 1.7750244140625,
+        "nearest_plan_distance_to_closed_door_front_inches": 30.84567416282459,
+        "measurement_limits": "Modeled countertop edge to closed pantry door front, excluding handles and door swing; x offset may make nearest distance diagonal. Verify in field.",
+        "microwave_face_inches": [
+          23.875,
+          15.875
+        ],
+        "views": [
+          {
+            "view": "HallNorth",
+            "camera_eye": [
+              21.6,
+              -8.8,
+              5.6
+            ],
+            "camera_target": [
+              16.6,
+              -11.5,
+              2.75
+            ],
+            "lens_mm": 24,
+            "file": "E_HallNorth_final.png",
+            "sha256": "3e8c01b9f434d0cfb35d4c032f9571563958e090d40d402ca623240e7c783779"
+          }
+        ],
+        "unrelated_original_transforms_and_visibility_unchanged": true,
+        "scene_sha256": "1b174865cb84cb2154d6b092b7c8dbe02d0ef4bd288e284bb46c41797b13fdf2"
+      }
+    },
+    {
+      "id": "RES29",
+      "case": "G",
+      "path": "assets/island-hallway-tests/G_Hallway.jpg",
+      "sha256": "c6a36b49caa4c93acc341a10bf2ea305cd2d2d84fb91b2a6d0c188ed8e6b34e5",
+      "native_qa": {
+        "case": "G",
+        "source_sha256": "ee3bff012e941cbfa39253cc11cab17ff33b9235c0b6612cf95dd846b923c998",
+        "model_branch": "test/island-DEG-photoreal",
+        "fixture_revision": "FAUCET3",
+        "faucet_south_lip_north_spout_nozzle_in_basin": true,
+        "island_bounds_feet": [
+          [
+            12.894265174865723,
+            -10.979166984558105,
+            2.9000000953674316
+          ],
+          [
+            16.894264221191406,
+            -3.9791667461395264,
+            3.049999952316284
+          ]
+        ],
+        "pantry_leaf_bounds_feet": [
+          [
+            17.04218292236328,
+            -14.513713836669922,
+            0.02500009536743164
+          ],
+          [
+            21.010934829711914,
+            -14.448713302612305,
+            6.691666603088379
+          ]
+        ],
+        "pantry_closed_door_front_y": -14.378713302612304,
+        "east_west_offset_to_closed_door_front_inches": 40.79455581665039,
+        "north_south_offset_of_nearest_edges_inches": 1.7750244140625,
+        "nearest_plan_distance_to_closed_door_front_inches": 40.83315437176415,
+        "measurement_limits": "Modeled countertop edge to closed pantry door front, excluding handles and door swing; x offset may make nearest distance diagonal. Verify in field.",
+        "microwave_face_inches": null,
+        "views": [
+          {
+            "view": "HallNorth",
+            "camera_eye": [
+              21.6,
+              -8.8,
+              5.6
+            ],
+            "camera_target": [
+              16.6,
+              -11.5,
+              2.75
+            ],
+            "lens_mm": 24,
+            "file": "G_HallNorth_final.png",
+            "sha256": "2218c7f326e413c010df366a6849a983534f0cbc3ac96c5e62d2bcb5f283ee36"
+          }
+        ],
+        "unrelated_original_transforms_and_visibility_unchanged": true,
+        "scene_sha256": "8a444c911cdfc50a963c4ab9e04e01304c8d42ebf430bf800dbc63f71fffa000"
+      }
+    }
+  ]
+}
