@@ -1,0 +1,26 @@
+name: Island alternative resource publication
+on:
+  push:
+    branches: [release/island-studies]
+    paths: [releases/island-studies/**, sites/43cedar/interactive_map/assets/island-studies/**, .github/workflows/island-studies.yml]
+permissions:
+  contents: write
+jobs:
+  append-resources:
+    if: contains(github.event.head_commit.message, '[assemble:island-studies]')
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Append only new alternative-study resources
+        run: |
+          set -euo pipefail
+          test "$(git ls-remote origin refs/heads/release/island-studies | cut -f1)" = "$GITHUB_SHA"
+          python releases/island-studies/append_resources.py
+          test "$(git ls-remote origin refs/heads/release/island-studies | cut -f1)" = "$GITHUB_SHA"
+          git add sites/43cedar/interactive_map/index.html releases/island-studies/PUBLISH_QA.json
+          git -c user.name='43 Cedar publication' -c user.email='actions@users.noreply.github.com' commit -m 'Append isolated island-alternative resources; preserve all model images [skip ci]'
+          git push origin HEAD:release/island-studies
+      - uses: actions/upload-artifact@v4
+        with:
+          name: island-resource-publication-qa
+          path: releases/island-studies/PUBLISH_QA.json
