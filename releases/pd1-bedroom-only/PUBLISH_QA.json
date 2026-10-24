@@ -1,0 +1,24 @@
+{
+  "release": "PD1_Bedroom_Pair_Only",
+  "scope_ids": [
+    "B100",
+    "R65"
+  ],
+  "base_blob_sha": "c697066b5a785ca2d02ebc1e1a986ea3da0b422f",
+  "output_blob_sha": "eb037c94f58f3d1cb07093600f1c88387604c015",
+  "output_sha256": "cfa2d75f92de0d4c7dccecdb17197f184ffbc01e555e5ae62a5877cfc8a0e56d",
+  "records": 392,
+  "dimensions": {
+    "B100": [
+      900,
+      650
+    ],
+    "R65": [
+      1476,
+      1065
+    ]
+  },
+  "all_other_records_images_plans_resources_dates_room_labels_and_viewer_code_preserved": true,
+  "camera_locations_directions_and_source_link_preserved": true,
+  "R09_and_coordinated_work_unchanged": true
+}
