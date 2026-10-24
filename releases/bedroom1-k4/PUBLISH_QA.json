@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "record_count": 394,
+  "updated_records": 28,
+  "new_ids": [
+    "B106",
+    "R71"
+  ],
+  "reviewed_ids": [
+    "B08",
+    "B100",
+    "B106",
+    "B17",
+    "B34",
+    "B48",
+    "B49",
+    "B50",
+    "B61",
+    "B69",
+    "B70",
+    "B71",
+    "B72",
+    "B92",
+    "B94",
+    "B99",
+    "RES02",
+    "R13",
+    "R14",
+    "R15",
+    "R26",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "R57",
+    "R59",
+    "R64",
+    "R65",
+    "R71"
+  ],
+  "all_original_ids_positions_links_taxonomy_site_photos_unrelated_records_preserved": true,
+  "output_html_sha256": "8403002776b666c3ec104db9d3967a3911bb4aa29f73271f7ba79d5680ac7dbb"
+}
