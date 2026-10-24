@@ -1,5 +1,5 @@
 {
-  "version": "rooms-3",
+  "version": "rooms-4",
   "aliases": {
     "F1": {
       "Porch-side bedroom": "Bedroom 1",
@@ -34,6 +34,10 @@
     "C049": "Downstairs Hallway",
     "D20261023-125206": "Downstairs Hallway",
     "C112": "Living room",
-    "C113": "Living room"
+    "C113": "Living room",
+    "C029": "Living room",
+    "C030": "Living room",
+    "C031": "Living room",
+    "C032": "Living room"
   }
 }
