@@ -1,16 +1,17 @@
-# Room consolidation
+# Room consolidation · rooms-2
 
-`rooms.json` is the floor-scoped room taxonomy shared by the data migration and viewer startup normalization. Legacy names remain searchable in `originalZone` / `zoneAliases`. Stable photo IDs, viewpoint IDs, dates, original and proposed coordinates, image payloads and render links are unchanged.
+Canonical first-floor room names follow the owner-approved groupings:
 
 - Porch-side bedroom → Bedroom 1
 - North bedroom / closets → Bedroom 2
 - Fireplace / living room → Living room
-- Pink shower bathroom → Primary bathroom
-- Hall / tiled bathroom → Hall bathroom, with hall / closet subjects individually assigned to Bedroom hallway
-- Hall / closet details and Hall / kitchen approach → Bedroom hallway
-- Entrance hallway and Foyer / stairs → Entry / stairs
+- Primary bathroom and Pink shower bathroom → Bedroom 1 Bath
+- Entry / stairs, Foyer / stairs, Entrance hallway and Trim / staircase details → Foyer / Stairs
+- Dining area, Kitchen and Kitchen / dining structure → Dining Area
+- Laundry closet, Bedroom hallway, Hall / closet details and Hall / kitchen approach → Downstairs Hallway
+- Hall / tiled bathroom → Hall bathroom, with individual hall subjects assigned to Downstairs Hallway
 - First-floor layout → Whole first floor
 
-Keep distinct spaces and cross-room subjects separate: laundry, screened porch, living/dining transition, kitchen/dining structure, second-floor rooms and second-floor roof. Mixed trim detail records retain their category rather than assigning an unsupported location.
+`rooms.json` supplies the migration and viewer startup rules. Aliases map directly to the final room name so historical imports do not recreate old categories. Original names remain searchable in `originalZone` and `zoneAliases`.
 
-Run `python releases/room-consolidation/apply.py input.html output.html` against the latest viewer. It verifies that only room labels and their provenance change, patches the live inline script and the retained mobile viewer source, and writes `QA.json`. `check-rooms.cjs` checks both desktop and phone room controls, cross-stage filtering and legacy-name search using Playwright.
+Run `python releases/room-consolidation/apply.py input.html output.html` against the latest viewer. It preserves all image assets, photo IDs, viewpoint IDs, coordinates, dates and source-render links, patches the retained viewer source and writes `QA.json`. The Chromium checks exercise all four renamed groups across stages at desktop and phone widths, legacy kitchen search and matching mobile/desktop room choices.
