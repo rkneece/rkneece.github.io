@@ -1,0 +1,19 @@
+name: Bedroom1 K4 browser QA
+on:
+  push:
+    branches: [release/bedroom1-k4]
+    paths: ['releases/bedroom1-k4/check.cjs','.github/workflows/bedroom1-k4-ui.yml']
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm install --prefix "$RUNNER_TEMP/cedar-k4-qa" --no-save playwright
+      - env:
+          NODE_PATH: ${{ runner.temp }}/cedar-k4-qa/node_modules
+        run: node releases/bedroom1-k4/check.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: K4-browser-qa
+          path: releases/bedroom1-k4/BROWSER_QA.json
