@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "replaced_ids": [
+    "RES09",
+    "RES10",
+    "RES11",
+    "RES12",
+    "RES13",
+    "RES14",
+    "RES15",
+    "RES16",
+    "RES17",
+    "RES18",
+    "RES19",
+    "RES20",
+    "RES21",
+    "RES22",
+    "RES23"
+  ],
+  "added_ids": [
+    "RES24",
+    "RES25",
+    "RES26"
+  ],
+  "before_records": 411,
+  "after_records": 414,
+  "non_test_records_unchanged": 396,
+  "non_test_relative_order_unchanged": true,
+  "all_other_maps_plans_galleries_ui_unchanged": true,
+  "grouping": "viewpoint then alphabetical option",
+  "view_order": [
+    "Couch",
+    "Kitchen",
+    "Dining",
+    "Porch",
+    "Post",
+    "Plan"
+  ],
+  "option_order": [
+    "D",
+    "E",
+    "G"
+  ],
+  "ordered_test_ids": [
+    "RES19",
+    "RES22",
+    "RES23",
+    "RES24",
+    "RES25",
+    "RES26",
+    "RES09",
+    "RES11",
+    "RES15",
+    "RES20",
+    "RES12",
+    "RES16",
+    "RES10",
+    "RES13",
+    "RES17",
+    "RES21",
+    "RES14",
+    "RES18"
+  ],
+  "html_sha256": "4e1060b378f37493ae6347f5af8adcfaa30f70d7ebe570e9d5c5accd951b1960",
+  "model_branch": "test/island-DEG-photoreal"
+}
