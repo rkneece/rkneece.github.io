@@ -3,8 +3,8 @@ run-name: "HTML publish · ${{ github.ref_name }}"
 on:
   workflow_dispatch:
   push:
-    branches: [main, dev, feature/photoreal40-live, release/res01-only]
-    paths: [sites/43cedar/interactive_map/**, releases/photoreal40/REVIEW.json, releases/double-doors/**, releases/mobile-ui/**, releases/required-post/**, releases/demo-20261023/**, releases/room-consolidation/**, releases/res01-only/**]
+    branches: [main, dev, feature/photoreal40-live, release/res01-only, release/pd1-bedroom-only]
+    paths: [sites/43cedar/interactive_map/**, releases/photoreal40/REVIEW.json, releases/double-doors/**, releases/mobile-ui/**, releases/required-post/**, releases/demo-20261023/**, releases/room-consolidation/**, releases/res01-only/**, releases/pd1-bedroom-only/**]
 permissions:
   contents: write
   pages: write
@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   assemble:
-    if: (github.ref_name == 'release/res01-only' && contains(github.event.head_commit.message, '[assemble:res01]')) || github.ref_name == 'feature/photoreal40-live' || (github.ref_name == 'dev' && (contains(github.event.head_commit.message, '[assemble:double-doors]') || contains(github.event.head_commit.message, '[assemble:mobile-ui]') || contains(github.event.head_commit.message, '[assemble:required-post]') || contains(github.event.head_commit.message, '[assemble:demo-20261023]') || contains(github.event.head_commit.message, '[assemble:rooms]')))
+    if: (github.ref_name == 'release/pd1-bedroom-only' && contains(github.event.head_commit.message, '[assemble:pd1-bedroom]')) || (github.ref_name == 'release/res01-only' && contains(github.event.head_commit.message, '[assemble:res01]')) || github.ref_name == 'feature/photoreal40-live' || (github.ref_name == 'dev' && (contains(github.event.head_commit.message, '[assemble:double-doors]') || contains(github.event.head_commit.message, '[assemble:mobile-ui]') || contains(github.event.head_commit.message, '[assemble:required-post]') || contains(github.event.head_commit.message, '[assemble:demo-20261023]') || contains(github.event.head_commit.message, '[assemble:rooms]')))
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
@@ -90,6 +90,16 @@ jobs:
           git add sites/43cedar/interactive_map/index.html
           git -c user.name='43 Cedar publish' -c user.email='actions@users.noreply.github.com' commit -m 'Assemble approved RES01 measured fireplace concept only [skip ci]'
           git push origin HEAD:release/res01-only
+      - name: Assemble only approved B100 and R65 bedroom-door images
+        if: github.ref_name == 'release/pd1-bedroom-only' && contains(github.event.head_commit.message, '[assemble:pd1-bedroom]')
+        run: |
+          set -euo pipefail
+          test "$(git ls-remote origin refs/heads/release/pd1-bedroom-only | cut -f1)" = "$GITHUB_SHA"
+          python releases/pd1-bedroom-only/assemble.py
+          test "$(git ls-remote origin refs/heads/release/pd1-bedroom-only | cut -f1)" = "$GITHUB_SHA"
+          git add sites/43cedar/interactive_map/index.html releases/pd1-bedroom-only/PUBLISH_QA.json
+          git -c user.name='43 Cedar publish' -c user.email='actions@users.noreply.github.com' commit -m 'Assemble reviewed PD1 bedroom pair B100/R65 only [skip ci]'
+          git push origin HEAD:release/pd1-bedroom-only
   publish:
     if: github.ref_name == 'main'
     runs-on: ubuntu-24.04
@@ -168,3 +178,4 @@ jobs:
               assert call('/git/ref/heads/'+branch)['object']['sha']==head
               call('/git/refs/heads/'+branch,'DELETE')
               print('Retired',branch,'merged' if merged else 'preserved in archive tag')
+

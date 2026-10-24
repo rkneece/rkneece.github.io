@@ -1,0 +1,39 @@
+{
+  "release": "PD1_Bedroom_Pair_Only",
+  "scope_ids": [
+    "B100",
+    "R65"
+  ],
+  "owner_authorization": "Targeted publication approved in this thread; R09 and wider/overhead views remain with coordinator.",
+  "base_blob_sha": "c697066b5a785ca2d02ebc1e1a986ea3da0b422f",
+  "source_commit": "9f460768293b456cecc89b5defd819bad0042641",
+  "dev_model_merge": "ce36ed6eca6e28c6101d77e7cffe6514019f1b72",
+  "native_run": "https://github.com/rkneece/43-cedar-blender/actions/runs/39890620632",
+  "source_native_png_sha256": "5f699bdd1b2da3e8d593b63c52e511b5e3a1ec732d34c531c0cdcd8e4efbef1f",
+  "photoreal_reference_native_png_sha256": "3fcd8208bd24f833f98f36998ede45681b94764ecf214aa4115dd40b977275a0",
+  "handing": "From bedroom looking out: LEFT hinges; INWARD swing along bathroom-side wall; closets RIGHT; five panels provisional.",
+  "updated_at": "2026-10-23",
+  "compatibility": {
+    "visible_scope": "Bedroom corridor, existing right wardrobes and closed primary privacy door only.",
+    "FF6": "Living-room fireplace outside this view.",
+    "P135": "Existing B100 postInView=false; closed door isolates hallway.",
+    "straight_alignment": "Shared living/hall beam line outside this view.",
+    "PL2": "Revised hallway pantry/linen is hidden beyond closed bedroom door.",
+    "CW1": "Kitchen cooking-counter closure outside this view.",
+    "limits": "This is a narrow compatibility approval for B100/R65 only, not approval of other pre-combined-scene assets."
+  },
+  "assets": [
+    {
+      "id": "B100",
+      "asset_path": "sites/43cedar/interactive_map/assets/renders/B100.jpg",
+      "sha256": "ef53707c8378de611233bec7ce5ca8d3d78f53f4b708ee531dc9529ac18b3c9a",
+      "bytes": 49551
+    },
+    {
+      "id": "R65",
+      "asset_path": "sites/43cedar/interactive_map/assets/photoreal/R65.jpg",
+      "sha256": "6e1716677afd874f030e0b050d12da481ff5132f63bd27d1feb76460ac856831",
+      "bytes": 176634
+    }
+  ]
+}
