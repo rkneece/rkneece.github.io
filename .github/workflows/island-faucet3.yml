@@ -1,0 +1,22 @@
+name: Assemble faucet mounting correction TEST only
+on:
+  push:
+    branches: [release/island-faucet-tests]
+    paths: [releases/island-faucet3/**, sites/43cedar/interactive_map/assets/island-faucet3/**, .github/workflows/island-faucet3.yml]
+permissions:
+  contents: write
+jobs:
+  assemble:
+    if: contains(github.event.head_commit.message, '[assemble:island-faucet3]')
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble and verify only eighteen TEST resources
+        run: |
+          set -euo pipefail
+          test "$(git ls-remote origin refs/heads/release/island-faucet-tests | cut -f1)" = "$GITHUB_SHA"
+          python releases/island-faucet3/publish.py
+          test "$(git ls-remote origin refs/heads/release/island-faucet-tests | cut -f1)" = "$GITHUB_SHA"
+          git add sites/43cedar/interactive_map/index.html releases/island-faucet3/PUBLISH_QA_*.json
+          git -c user.name='43 Cedar publication' -c user.email='actions@users.noreply.github.com' commit -m 'Assemble corrected faucet mounting and spout direction; isolated TEST views only [skip ci]'
+          git push origin HEAD:release/island-faucet-tests
