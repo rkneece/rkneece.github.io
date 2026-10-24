@@ -1,0 +1,10 @@
+[
+  {
+    "branch": "release/pd1-bedroom-only",
+    "sha": "9288fac6b9bcf54dab2fdfef779570835ff1f8a1"
+  },
+  {
+    "branch": "release/res01-only",
+    "sha": "4107835e382e7e11300ba9657a2d2c8dee4733c9"
+  }
+]
