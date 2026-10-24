@@ -1,0 +1,107 @@
+{
+  "source_scene_sha256": "fefc662d67e1a8b2cd4ddeda76d20726eda7c2c5f2b01c4e5de612f242cf3abe",
+  "model_dev_baseline": "fdb63b893d605f8b69596732fdb9ba7a03ad2e55",
+  "test_branch": "test/island-E-G",
+  "images": [
+    {
+      "case": "D",
+      "view": "Dining",
+      "label": "Dining approach",
+      "path": "assets/island-tests/D_Dining.jpg",
+      "sha256": "d28b441445cf361929a2bcd93ff3de4d742c7d881734e58b1a5be1a5cb508e01",
+      "native_png_sha256": "e2500c23a4f9d6f90e5d9dc54110ed233dab4d463830fa894506909b299a1097",
+      "width": 1440,
+      "height": 990
+    },
+    {
+      "case": "D",
+      "view": "Post",
+      "label": "Pantry / post approach",
+      "path": "assets/island-tests/D_Post.jpg",
+      "sha256": "d2a47b5c27a6e86ac2bd8bd30a0f7e0862728ebe9a47c1d92b7d6eac71062ddd",
+      "native_png_sha256": "7969676340853d8263a622879a02b79b21c5ba5476de5f0af4dc446c91609f4e",
+      "width": 1440,
+      "height": 990
+    },
+    {
+      "case": "E",
+      "view": "Dining",
+      "label": "Dining approach",
+      "path": "assets/island-tests/E_Dining.jpg",
+      "sha256": "723e2646394d40383242d48c0dda3f34726eb2bced673580f02e86027856bc6b",
+      "native_png_sha256": "ddccb13b2235d35058931bd5526a868ea66876264d47c122405e9654e772491b",
+      "width": 1440,
+      "height": 990
+    },
+    {
+      "case": "E",
+      "view": "Porch",
+      "label": "West / slider approach",
+      "path": "assets/island-tests/E_Porch.jpg",
+      "sha256": "356795c7fbb3073700acce770c48fd33848ad2598d219d28b8dc73a2c6ca1d6d",
+      "native_png_sha256": "650f0ff6519a991e9eea3287017583aa098af165bdc84688a0f8e9a94e584ee8",
+      "width": 1440,
+      "height": 990
+    },
+    {
+      "case": "E",
+      "view": "Post",
+      "label": "Pantry / post approach",
+      "path": "assets/island-tests/E_Post.jpg",
+      "sha256": "356a6ca4cd5869b10df567a26a3a7a955094610d736dcbbba2e103c85c6c7de0",
+      "native_png_sha256": "6ef480a5bdd49fc769dd22401a685430ea933a6b7c6a58cbc1dabbb38b253fa7",
+      "width": 1440,
+      "height": 990
+    },
+    {
+      "case": "E",
+      "view": "Plan",
+      "label": "North-up overhead",
+      "path": "assets/island-tests/E_Plan.jpg",
+      "sha256": "3048c1e667c6d4fd656ff4b4aa1cbdb140977e18e94ad99539d7367f5e0d07e7",
+      "native_png_sha256": "a8258d0f51c70a3d843789b9e2ef3e8bc31a2e1055e1fd3f12ef437349407b61",
+      "width": 1440,
+      "height": 1440
+    },
+    {
+      "case": "G",
+      "view": "Dining",
+      "label": "Dining approach",
+      "path": "assets/island-tests/G_Dining.jpg",
+      "sha256": "264173f51100fecef51bb5296626c3cef885bb89e0eddf14f6f1fa604546fb3d",
+      "native_png_sha256": "3facfde220d6785ecadf7a05ab5035aa24f249f6b6586177f7a514c7f1e50eeb",
+      "width": 1440,
+      "height": 990
+    },
+    {
+      "case": "G",
+      "view": "Porch",
+      "label": "West / slider approach",
+      "path": "assets/island-tests/G_Porch.jpg",
+      "sha256": "153c3c0b17ae0c1328637084fea792caeed1f4511a2d87d679a42c5d62c63163",
+      "native_png_sha256": "a3a6f47c3e337726c6b513cc98819ff612031227c8df4047e33e5bf7052e5cac",
+      "width": 1440,
+      "height": 990
+    },
+    {
+      "case": "G",
+      "view": "Post",
+      "label": "Pantry / post approach",
+      "path": "assets/island-tests/G_Post.jpg",
+      "sha256": "e6d9975e2d56df5cd05950e47ffe1b7fac01b942ed252726601fe0cf4ad25d00",
+      "native_png_sha256": "48e7fb60490ef29676e707912a19c03baf45e5c220ffd38d21a47bf85c0f8c7b",
+      "width": 1440,
+      "height": 990
+    },
+    {
+      "case": "G",
+      "view": "Plan",
+      "label": "North-up overhead",
+      "path": "assets/island-tests/G_Plan.jpg",
+      "sha256": "1450db91deb79aabc73b041bb64adeda9ce703b1d67912d9d8099dc9e4629046",
+      "native_png_sha256": "235eaa6f414dcdf6a3b2edb97d443d84a21e8b0f5cd039307820ec6374b397a5",
+      "width": 1440,
+      "height": 1440
+    }
+  ]
+}

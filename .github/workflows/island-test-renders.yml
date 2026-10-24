@@ -1,0 +1,26 @@
+name: Publish isolated D-E-G test views
+on:
+  push:
+    branches: [release/island-studies]
+    paths: [releases/island-studies/TEST_RENDER_MANIFEST.json, releases/island-studies/append_test_views.py, sites/43cedar/interactive_map/assets/island-tests/**, .github/workflows/island-test-renders.yml]
+permissions:
+  contents: write
+jobs:
+  append-tests:
+    if: contains(github.event.head_commit.message, '[assemble:island-test-renders]')
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add isolated alternatives without replacing working-plan records
+        run: |
+          set -euo pipefail
+          test "$(git ls-remote origin refs/heads/release/island-studies | cut -f1)" = "$GITHUB_SHA"
+          python releases/island-studies/append_test_views.py
+          test "$(git ls-remote origin refs/heads/release/island-studies | cut -f1)" = "$GITHUB_SHA"
+          git add sites/43cedar/interactive_map/index.html releases/island-studies/TEST_RENDER_PUBLISH_QA.json
+          git -c user.name='43 Cedar publication' -c user.email='actions@users.noreply.github.com' commit -m 'Append ten isolated D/E/G native tests to Resources [skip ci]'
+          git push origin HEAD:release/island-studies
+      - uses: actions/upload-artifact@v4
+        with:
+          name: isolated-island-test-publication-qa
+          path: releases/island-studies/TEST_RENDER_PUBLISH_QA.json
