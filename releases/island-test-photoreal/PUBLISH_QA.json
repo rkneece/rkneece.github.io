@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "replaced_ids": [
+    "RES09",
+    "RES10",
+    "RES11",
+    "RES12",
+    "RES13",
+    "RES14",
+    "RES15",
+    "RES16",
+    "RES17",
+    "RES18"
+  ],
+  "added_ids": [
+    "RES19",
+    "RES20",
+    "RES21",
+    "RES22",
+    "RES23"
+  ],
+  "test_options": {
+    "D": 5,
+    "E": 5,
+    "G": 5
+  },
+  "before_records": 406,
+  "after_records": 411,
+  "non_test_records_plans_galleries_and_ui_unchanged": true,
+  "working_model_not_modified": true,
+  "html_sha256": "a3e600413c18f64203cee8c4554c8ec4c5ab6cb113278a312542174e8b86f2c3",
+  "photoreal_limit": "Visually checked illustrative finish images; native model remains geometry authority"
+}
