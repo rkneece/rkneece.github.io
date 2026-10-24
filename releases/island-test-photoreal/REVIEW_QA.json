@@ -1,0 +1,352 @@
+{
+  "status": "PASS",
+  "views": 15,
+  "cases": [
+    "D",
+    "E",
+    "G"
+  ],
+  "views_per_case": 5,
+  "all_images_decoded": true,
+  "all_aspect_ratios_match_sources": true,
+  "all_test_labels_visually_checked": true,
+  "visual_review": [
+    "D/E: four south stools; G: three south plus west stool, occlusion preserved",
+    "Fixed support casing abuts D/G; E countertop wraps casing",
+    "Round dining table/chairs kept fixed across comparisons",
+    "Sink and DW on north face; no microwave invented for G",
+    "Every perspective and overhead inspected against native source",
+    "E overhead cooking wall material corrected to white stone",
+    "Initial D couch image rejected for table/camera scale drift; conservative replacement reviewed"
+  ],
+  "native_source_qa": {
+    "D": {
+      "case": "D",
+      "source_scene_sha256": "4835090f1f62de8584cab1dcdd8be1c50c48c86a013da0a4ec3f25c71a02d740",
+      "blender": "5.2.2 LTS",
+      "phase": "final",
+      "test_branch": "test/island-DEG-photoreal",
+      "all_original_transforms_visibility_preserved": true,
+      "views": [
+        {
+          "name": "Couch",
+          "file": "D_Couch_native_final.png",
+          "sha256": "e4665e7b26e495f670275675baa2033fb643cd5199621e2b0f8a662759bfeb05",
+          "eye": [
+            6.199999809265137,
+            -17.299999237060547,
+            5.599999904632568
+          ],
+          "target": [
+            10.5,
+            -6.8,
+            2.6
+          ],
+          "lens": 22,
+          "camera_matrix": [
+            0.9254064559936523,
+            0.09687305986881256,
+            -0.36638569831848145,
+            6.199999809265137,
+            -0.37897607684135437,
+            0.23655037581920624,
+            -0.8946625590324402,
+            -17.299999237060547,
+            -2.8116092565255713e-08,
+            0.9667779207229614,
+            0.25561782717704773,
+            5.599999904632568,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "size": [
+            1440,
+            990
+          ]
+        },
+        {
+          "name": "Porch",
+          "file": "D_Porch_native_final.png",
+          "sha256": "628dd9d846bff61266ff9bb4482d9b2abc7dc9f12693ec3498c52aa222971859",
+          "eye": [
+            15.0,
+            -0.8999999761581421,
+            5.400000095367432
+          ],
+          "target": [
+            14.2,
+            -8.5,
+            2.8
+          ],
+          "lens": 26,
+          "camera_matrix": [
+            -0.9945054650306702,
+            -0.03371826186776161,
+            0.09910588711500168,
+            15.0,
+            0.1046847552061081,
+            -0.3203241527080536,
+            0.941506028175354,
+            -0.8999999761581421,
+            5.968101390863012e-08,
+            0.9467077255249023,
+            0.3220939040184021,
+            5.400000095367432,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "size": [
+            1440,
+            990
+          ]
+        },
+        {
+          "name": "Plan",
+          "file": "D_Plan_native_final.png",
+          "sha256": "4e2ed0fd197a4c58f396d959ef082db8dbe45c3474d221f95eaa5369ae24e08b",
+          "eye": [
+            12.199999809265137,
+            -8.0,
+            34.0
+          ],
+          "target": [
+            12.2,
+            -8,
+            0
+          ],
+          "lens": 35,
+          "camera_matrix": [
+            -4.371138828673793e-08,
+            1.0,
+            0.0,
+            12.199999809265137,
+            -1.0,
+            -4.371138828673793e-08,
+            0.0,
+            -8.0,
+            0.0,
+            0.0,
+            1.0,
+            34.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "size": [
+            1440,
+            1440
+          ]
+        }
+      ]
+    },
+    "E": {
+      "case": "E",
+      "source_scene_sha256": "6aea61ceea3ddcaba595d10eb8ae9a5565625f58465029f99552da7744494248",
+      "blender": "5.2.2 LTS",
+      "phase": "final",
+      "test_branch": "test/island-DEG-photoreal",
+      "all_original_transforms_visibility_preserved": true,
+      "views": [
+        {
+          "name": "Couch",
+          "file": "E_Couch_native_final.png",
+          "sha256": "896a81e1ecc016af3cc69bb5b89630f925671a9c769f059ebbad5a103f7416f3",
+          "eye": [
+            6.199999809265137,
+            -17.299999237060547,
+            5.599999904632568
+          ],
+          "target": [
+            10.5,
+            -6.8,
+            2.6
+          ],
+          "lens": 22,
+          "camera_matrix": [
+            0.9254064559936523,
+            0.09687305986881256,
+            -0.36638569831848145,
+            6.199999809265137,
+            -0.37897607684135437,
+            0.23655037581920624,
+            -0.8946625590324402,
+            -17.299999237060547,
+            -2.8116092565255713e-08,
+            0.9667779207229614,
+            0.25561782717704773,
+            5.599999904632568,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "size": [
+            1440,
+            990
+          ]
+        }
+      ]
+    },
+    "G": {
+      "case": "G",
+      "source_scene_sha256": "ee3bff012e941cbfa39253cc11cab17ff33b9235c0b6612cf95dd846b923c998",
+      "blender": "5.2.2 LTS",
+      "phase": "final",
+      "test_branch": "test/island-DEG-photoreal",
+      "all_original_transforms_visibility_preserved": true,
+      "views": [
+        {
+          "name": "Couch",
+          "file": "G_Couch_native_final.png",
+          "sha256": "edaf32365f9e7a76b3bd9fda5d54b8f36f96f2fb472b72ba80dccea3c1e8f775",
+          "eye": [
+            6.199999809265137,
+            -17.299999237060547,
+            5.599999904632568
+          ],
+          "target": [
+            10.5,
+            -6.8,
+            2.6
+          ],
+          "lens": 22,
+          "camera_matrix": [
+            0.9254064559936523,
+            0.09687305986881256,
+            -0.36638569831848145,
+            6.199999809265137,
+            -0.37897607684135437,
+            0.23655037581920624,
+            -0.8946625590324402,
+            -17.299999237060547,
+            -2.8116092565255713e-08,
+            0.9667779207229614,
+            0.25561782717704773,
+            5.599999904632568,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "size": [
+            1440,
+            990
+          ]
+        }
+      ]
+    }
+  },
+  "review_limits": "Photoreals are illustrative finish studies, not geometry or field-measurement certification. Native models and the dimensioned studies remain geometry authority.",
+  "images": [
+    {
+      "id": "RES19",
+      "case": "D",
+      "view": "Couch",
+      "sha256": "bcf4b9784f726b0ede51bb9611f57141ad3bd028f38f1c3483ab73268dd15acb",
+      "native_png_sha256": "e4665e7b26e495f670275675baa2033fb643cd5199621e2b0f8a662759bfeb05"
+    },
+    {
+      "id": "RES09",
+      "case": "D",
+      "view": "Dining",
+      "sha256": "306237381ed8bdb2c2f7e54f1b3c45bf9bbe1af4bb30a675716f52d494f6ae8a",
+      "native_png_sha256": "e2500c23a4f9d6f90e5d9dc54110ed233dab4d463830fa894506909b299a1097"
+    },
+    {
+      "id": "RES20",
+      "case": "D",
+      "view": "Porch",
+      "sha256": "eb6f953562eb17dc70cab35f10d84c1705b824eb13ccfe0f83e0f6a4e51be554",
+      "native_png_sha256": "628dd9d846bff61266ff9bb4482d9b2abc7dc9f12693ec3498c52aa222971859"
+    },
+    {
+      "id": "RES10",
+      "case": "D",
+      "view": "Post",
+      "sha256": "d2ff9ae443e05f38cd3b2d2085bcdab9713d9dafa4b5712e9eedfbdbc2af0ca5",
+      "native_png_sha256": "7969676340853d8263a622879a02b79b21c5ba5476de5f0af4dc446c91609f4e"
+    },
+    {
+      "id": "RES21",
+      "case": "D",
+      "view": "Plan",
+      "sha256": "1df2f86c3c6b56ae93f439e68f545c2d0f93d32e3b5f9c648f3b3feeddd38d44",
+      "native_png_sha256": "4e2ed0fd197a4c58f396d959ef082db8dbe45c3474d221f95eaa5369ae24e08b"
+    },
+    {
+      "id": "RES22",
+      "case": "E",
+      "view": "Couch",
+      "sha256": "5d096b9c99d59eab4d04a3cdcde2f1dddae51de0f8b28218293f721780242fcd",
+      "native_png_sha256": "896a81e1ecc016af3cc69bb5b89630f925671a9c769f059ebbad5a103f7416f3"
+    },
+    {
+      "id": "RES11",
+      "case": "E",
+      "view": "Dining",
+      "sha256": "473e4123943b62560623256e442f8c1611a0d5fe72d38da9d9779080622b6d75",
+      "native_png_sha256": "ddccb13b2235d35058931bd5526a868ea66876264d47c122405e9654e772491b"
+    },
+    {
+      "id": "RES12",
+      "case": "E",
+      "view": "Porch",
+      "sha256": "1d893cbd8489601aa4a287c883dd91f37500ef83a02b483008fda8a2153bbcfd",
+      "native_png_sha256": "650f0ff6519a991e9eea3287017583aa098af165bdc84688a0f8e9a94e584ee8"
+    },
+    {
+      "id": "RES13",
+      "case": "E",
+      "view": "Post",
+      "sha256": "c9a60ab9fd427fb397ffcbefdf673b6da81a8ba98cc0cad208f2b8cec64161fd",
+      "native_png_sha256": "6ef480a5bdd49fc769dd22401a685430ea933a6b7c6a58cbc1dabbb38b253fa7"
+    },
+    {
+      "id": "RES14",
+      "case": "E",
+      "view": "Plan",
+      "sha256": "cae60f9cf032101e1d586df2c4bc11b79428a6bee7837e1d2f7c560a09920ed5",
+      "native_png_sha256": "a8258d0f51c70a3d843789b9e2ef3e8bc31a2e1055e1fd3f12ef437349407b61"
+    },
+    {
+      "id": "RES23",
+      "case": "G",
+      "view": "Couch",
+      "sha256": "0a7ba9c46c235406d17a4bbc3bef3022a6451c9c8d791bb3581057280a95114e",
+      "native_png_sha256": "edaf32365f9e7a76b3bd9fda5d54b8f36f96f2fb472b72ba80dccea3c1e8f775"
+    },
+    {
+      "id": "RES15",
+      "case": "G",
+      "view": "Dining",
+      "sha256": "d5f041d214554b5f35408ecb44b6b06a39f4f2f9c4208c868756b0e78048d053",
+      "native_png_sha256": "3facfde220d6785ecadf7a05ab5035aa24f249f6b6586177f7a514c7f1e50eeb"
+    },
+    {
+      "id": "RES16",
+      "case": "G",
+      "view": "Porch",
+      "sha256": "35f6455b4ecdc65ddf97c03618fa414066c96c7628538cd59c405b54113f9d2d",
+      "native_png_sha256": "a3a6f47c3e337726c6b513cc98819ff612031227c8df4047e33e5bf7052e5cac"
+    },
+    {
+      "id": "RES17",
+      "case": "G",
+      "view": "Post",
+      "sha256": "11f5d113e17c9b789043b238f1d1c2e01c48a1c4f9326019f4cd3cdb08e33aad",
+      "native_png_sha256": "48e7fb60490ef29676e707912a19c03baf45e5c220ffd38d21a47bf85c0f8c7b"
+    },
+    {
+      "id": "RES18",
+      "case": "G",
+      "view": "Plan",
+      "sha256": "a51063e1126bc7735d6b76edbc51c4282b261415f74100025d81da7f441a6bb3",
+      "native_png_sha256": "235eaa6f414dcdf6a3b2edb97d443d84a21e8b0f5cd039307820ec6374b397a5"
+    }
+  ]
+}

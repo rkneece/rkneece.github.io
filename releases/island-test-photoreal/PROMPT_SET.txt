@@ -1,0 +1,10 @@
+Tool: built-in image_gen.imagegen, one image per view, all native targets inspected before edits.
+Mode: sketch-to-render, exact native architectural reference edit.
+Shared prompt: enhance realistic material texture, light bounce and natural daylight only; freeze camera, framing, architecture, furniture scale/positions and every visible gap. White oak hood and floor, navy island, white stone and white/oak upholstered seats. No extra furniture, people, openings or clutter. Label OPTION [D/E/G] · TEST.
+D: four south stools, post outside east island edge.
+E: four south stools, deeper top wraps fixed east post.
+G: three south stools and one west stool, north sink/DW, no allocated microwave; preserve west-stool occlusion.
+Couch: exact same eye (6.2,-17.3,5.6), target (10.5,-6.8,2.6), lens22 across all cases. Conservative finish-only edit. Round tabletop constrained x5–27% at left, right dining chair x28–35%, fixed post x75–89%; do not expand table or change floor gap.
+Overhead: north-up square architectural cutaway, fixed furniture and footprint positions, preserve pendants as circular shades; white cooking-wall counters.
+Rejected D couch first attempt: furniture scaling/crop drift. Replaced from original native target with normalized landmark constraints.
+E plan first attempt: cooking counters navy. Targeted material-only correction to white, all geometry retained.

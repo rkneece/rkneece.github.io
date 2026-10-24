@@ -1,0 +1,26 @@
+name: Assemble isolated D-E-G photoreal TEST views
+on:
+  push:
+    branches: [release/island-DEG-photoreal]
+    paths: [releases/island-test-photoreal/**, sites/43cedar/interactive_map/assets/island-test-photoreal/**, .github/workflows/island-test-photoreal.yml]
+permissions:
+  contents: write
+jobs:
+  replace-tests:
+    if: contains(github.event.head_commit.message, '[assemble:island-test-photoreal]')
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Replace only reviewed island TEST records and add missing TEST angles
+        run: |
+          set -euo pipefail
+          test "$(git ls-remote origin refs/heads/release/island-DEG-photoreal | cut -f1)" = "$GITHUB_SHA"
+          python releases/island-test-photoreal/replace_test_views.py
+          test "$(git ls-remote origin refs/heads/release/island-DEG-photoreal | cut -f1)" = "$GITHUB_SHA"
+          git add sites/43cedar/interactive_map/index.html releases/island-test-photoreal/PUBLISH_QA.json
+          git -c user.name='43 Cedar publication' -c user.email='actions@users.noreply.github.com' commit -m 'Replace island TEST resources with fifteen reviewed photoreals [skip ci]'
+          git push origin HEAD:release/island-DEG-photoreal
+      - uses: actions/upload-artifact@v4
+        with:
+          name: isolated-island-photoreal-publication-qa
+          path: releases/island-test-photoreal/PUBLISH_QA.json
