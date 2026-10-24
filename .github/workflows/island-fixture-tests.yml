@@ -1,0 +1,26 @@
+name: Assemble reviewed island fixture TEST views
+on:
+  push:
+    branches: [release/island-faucet-tests]
+    paths: [releases/island-fixture-tests/**, sites/43cedar/interactive_map/assets/island-fixture-tests/**, .github/workflows/island-fixture-tests.yml]
+permissions:
+  contents: write
+jobs:
+  assemble:
+    if: contains(github.event.head_commit.message, '[assemble:island-fixture-tests]')
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Replace reviewed test images and group viewpoints
+        run: |
+          set -euo pipefail
+          test "$(git ls-remote origin refs/heads/release/island-faucet-tests | cut -f1)" = "$GITHUB_SHA"
+          python releases/island-fixture-tests/publish_fixture_tests.py
+          test "$(git ls-remote origin refs/heads/release/island-faucet-tests | cut -f1)" = "$GITHUB_SHA"
+          git add sites/43cedar/interactive_map/index.html releases/island-fixture-tests/PUBLISH_QA.json
+          git -c user.name='43 Cedar publication' -c user.email='actions@users.noreply.github.com' commit -m 'Assemble eighteen corrected island TEST photoreals in view-first order [skip ci]'
+          git push origin HEAD:release/island-faucet-tests
+      - uses: actions/upload-artifact@v4
+        with:
+          name: island-fixture-test-publication-qa
+          path: releases/island-fixture-tests/PUBLISH_QA.json
