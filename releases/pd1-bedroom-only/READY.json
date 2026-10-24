@@ -1,0 +1,22 @@
+{
+  "release": "PD1_Bedroom_Pair_Only",
+  "scope_ids": [
+    "B100",
+    "R65"
+  ],
+  "assembly_run": 40052400995,
+  "assembly_commit": "9288fac6b9bcf54dab2fdfef779570835ff1f8a1",
+  "expected_html_blob": "eb037c94f58f3d1cb07093600f1c88387604c015",
+  "expected_html_sha256": "cfa2d75f92de0d4c7dccecdb17197f184ffbc01e555e5ae62a5877cfc8a0e56d",
+  "records": 392,
+  "validation": "Owner-approved two-image replacement; all other records, images, plans, room labels and viewer code unchanged; source/map identities retained.",
+  "native_source_commit": "9f460768293b456cecc89b5defd819bad0042641",
+  "render_model_dev_merge": "ce36ed6eca6e28c6101d77e7cffe6514019f1b72",
+  "pending_with_coordinator": [
+    "R09",
+    "wider hallway and living views",
+    "F1/RES02 overhead",
+    "combined scene runtime integration and audit"
+  ],
+  "note": "This publication does not promote the Blender repository's newer combined dev model to its main branch."
+}
