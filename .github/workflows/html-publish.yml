@@ -3,8 +3,8 @@ run-name: "HTML publish · ${{ github.ref_name }}"
 on:
   workflow_dispatch:
   push:
-    branches: [main, dev, feature/photoreal40-live]
-    paths: [sites/43cedar/interactive_map/**, releases/photoreal40/REVIEW.json, releases/double-doors/**, releases/mobile-ui/**, releases/required-post/**, releases/demo-20261023/**, releases/room-consolidation/**]
+    branches: [main, dev, feature/photoreal40-live, release/res01-only]
+    paths: [sites/43cedar/interactive_map/**, releases/photoreal40/REVIEW.json, releases/double-doors/**, releases/mobile-ui/**, releases/required-post/**, releases/demo-20261023/**, releases/room-consolidation/**, releases/res01-only/**]
 permissions:
   contents: write
   pages: write
@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   assemble:
-    if: github.ref_name == 'feature/photoreal40-live' || (github.ref_name == 'dev' && (contains(github.event.head_commit.message, '[assemble:double-doors]') || contains(github.event.head_commit.message, '[assemble:mobile-ui]') || contains(github.event.head_commit.message, '[assemble:required-post]') || contains(github.event.head_commit.message, '[assemble:demo-20261023]') || contains(github.event.head_commit.message, '[assemble:rooms]')))
+    if: (github.ref_name == 'release/res01-only' && contains(github.event.head_commit.message, '[assemble:res01]')) || github.ref_name == 'feature/photoreal40-live' || (github.ref_name == 'dev' && (contains(github.event.head_commit.message, '[assemble:double-doors]') || contains(github.event.head_commit.message, '[assemble:mobile-ui]') || contains(github.event.head_commit.message, '[assemble:required-post]') || contains(github.event.head_commit.message, '[assemble:demo-20261023]') || contains(github.event.head_commit.message, '[assemble:rooms]')))
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
@@ -81,6 +81,15 @@ jobs:
           git add sites/43cedar/interactive_map/index.html releases/mobile-ui/viewer.js releases/room-consolidation/QA.json releases/room-consolidation/BROWSER_QA.json
           git -c user.name='43 Cedar publish' -c user.email='actions@users.noreply.github.com' commit -m 'Assemble consolidated room labels; preserve photos and camera mappings [skip ci]'
           git push origin HEAD:dev
+      - name: Assemble approved RES01 illustration only
+        if: github.ref_name == 'release/res01-only' && contains(github.event.head_commit.message, '[assemble:res01]')
+        run: |
+          set -euo pipefail
+          test "$(git ls-remote origin refs/heads/release/res01-only | cut -f1)" = "$GITHUB_SHA"
+          python releases/res01-only/assemble_res01.py
+          git add sites/43cedar/interactive_map/index.html
+          git -c user.name='43 Cedar publish' -c user.email='actions@users.noreply.github.com' commit -m 'Assemble approved RES01 measured fireplace concept only [skip ci]'
+          git push origin HEAD:release/res01-only
   publish:
     if: github.ref_name == 'main'
     runs-on: ubuntu-24.04

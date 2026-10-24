@@ -1,0 +1,6 @@
+{
+  "approved_scope": "Replace existing RES01 image and its own metadata only",
+  "base_main_sha": "6baae40edf561657b20cde77532b675ddf3d6c98",
+  "base_blob_sha": "85dcaacc648c1af5c5982b67e6d7f75c8197619f",
+  "image_sha256": "f47b217aa801cecd516a823f0af8d9b1897d31ce9a0349863e72a5d684f224b4"
+}
