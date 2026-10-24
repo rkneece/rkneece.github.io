@@ -4,7 +4,7 @@
   const data = JSON.parse($('appdata').textContent);
   // ROOM NORMALIZATION START
   // Apply the shared floor-scoped taxonomy to legacy/imported records, too.
-  const roomRules = data.roomTaxonomy || {"version":"rooms-2","aliases":{"F1":{"Porch-side bedroom":"Bedroom 1","North bedroom / closets":"Bedroom 2","North bedroom":"Bedroom 2","Fireplace / living room":"Living room","Pink shower bathroom":"Bedroom 1 Bath","Hall / tiled bathroom":"Hall bathroom","Hall / closet details":"Downstairs Hallway","Hall / kitchen approach":"Downstairs Hallway","Foyer / stairs":"Foyer / Stairs","Entrance hallway":"Foyer / Stairs","First-floor layout":"Whole first floor","Primary bathroom":"Bedroom 1 Bath","Entry / stairs":"Foyer / Stairs","Trim / staircase details":"Foyer / Stairs","Dining area":"Dining Area","Kitchen":"Dining Area","Kitchen / dining structure":"Dining Area","Laundry closet":"Downstairs Hallway","Bedroom hallway":"Downstairs Hallway"}},"photoOverrides":{"C037":"Downstairs Hallway","C038":"Downstairs Hallway","C039":"Downstairs Hallway","C045":"Downstairs Hallway","C046":"Downstairs Hallway","C047":"Downstairs Hallway","C048":"Downstairs Hallway","C049":"Downstairs Hallway","D20261023-125206":"Downstairs Hallway"}};
+  const roomRules = data.roomTaxonomy || {"version":"rooms-3","aliases":{"F1":{"Porch-side bedroom":"Bedroom 1","North bedroom / closets":"Bedroom 2","North bedroom":"Bedroom 2","Fireplace / living room":"Living room","Pink shower bathroom":"Bedroom 1 Bath","Hall / tiled bathroom":"Hall bathroom","Hall / closet details":"Downstairs Hallway","Hall / kitchen approach":"Downstairs Hallway","Foyer / stairs":"Foyer / Stairs","Entrance hallway":"Foyer / Stairs","First-floor layout":"Whole first floor","Primary bathroom":"Bedroom 1 Bath","Entry / stairs":"Foyer / Stairs","Trim / staircase details":"Foyer / Stairs","Dining area":"Dining Area","Kitchen":"Dining Area","Kitchen / dining structure":"Dining Area","Laundry closet":"Downstairs Hallway","Bedroom hallway":"Downstairs Hallway"}},"photoOverrides":{"C037":"Downstairs Hallway","C038":"Downstairs Hallway","C039":"Downstairs Hallway","C045":"Downstairs Hallway","C046":"Downstairs Hallway","C047":"Downstairs Hallway","C048":"Downstairs Hallway","C049":"Downstairs Hallway","D20261023-125206":"Downstairs Hallway","C112":"Living room","C113":"Living room"}};
   for (const p of data.photos) {
     const old = p.zone || '';
     const room = roomRules.photoOverrides[p.id] || roomRules.aliases[p.floor]?.[old] || old;
@@ -15,6 +15,7 @@
     }
   }
   // ROOM NORMALIZATION END
+
 
 
   const byId = new Map(data.photos.map(p => [p.id, p]));
