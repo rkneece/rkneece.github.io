@@ -1,0 +1,367 @@
+{
+  "revision": "K4",
+  "issue": 13,
+  "updated_at": "2026-10-24",
+  "base_html_sha256": "b7bc8dc9266d21b50c3a60ded8b3cc3acfcba2bd707c4b20b21f99f03cbd7ef5",
+  "base_site_commit": "dae39746f50afd80070822d532eb7ebb0d6cd844",
+  "model_source_commit": "bc4532438090ab5e2574e5295dc287a061979be7",
+  "scene_sha256": "fefc662d67e1a8b2cd4ddeda76d20726eda7c2c5f2b01c4e5de612f242cf3abe",
+  "fresh_source_qa_run": 40062148631,
+  "native_visual_review": "All16 native views inspected; geometry/camera guard passed, overhead refreshed.",
+  "photoreal_visual_review": "All13 photographic finish views compared with paired native sources; openings/door counts/furniture placement and chair/console/decor checked. AI surface and small perspective details remain illustrative.",
+  "rejected_attempts": [
+    {
+      "id": "R26",
+      "reason": "Invented bedroom art/headboard orientation"
+    },
+    {
+      "id": "R26",
+      "reason": "Incorrect stainless hood; corrected to all wood"
+    }
+  ],
+  "images": [
+    {
+      "id": "B08",
+      "asset_path": "assets/bedroom1-k4/B08.jpg",
+      "sha256": "edfe174629f8aa308550d2a9ac1f72d82c92513b62be8f907ac8466cff2261d6",
+      "blob_sha": "dd660a23c13878a315b0b034cea94854bf9fbdf7",
+      "native_png_sha256": "d6e16ccaa170a1e346234b12dca7a6d17ebb3178a680b50cacb37d0d8221a5e0",
+      "dimensions": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "id": "B100",
+      "asset_path": "assets/bedroom1-k4/B100.jpg",
+      "sha256": "4fe6ace1a80d61a479ed74ebd6f9ff242a1c0d0c1b5ab64ebab796e73410337c",
+      "blob_sha": "af281cf7edeea036b0c56a1fce546db9773f7b62",
+      "native_png_sha256": "5024c6273210cdd558d0f35c5d592572948c91a8b2556809d1eee818371a01b2",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "B106",
+      "asset_path": "assets/bedroom1-k4/B106.jpg",
+      "sha256": "55ec5b01c73406e9681144153eb25d9a5ab57f16ae8384b165dc64dc75ebb6f1",
+      "blob_sha": "44c0d724015962c29dbe8d16fc3a7a83b1d143fd",
+      "native_png_sha256": "186c209acf26e95a877536a0128e96479066205f9d1dfff8f4053d5d9476945f",
+      "dimensions": [
+        1000,
+        750
+      ]
+    },
+    {
+      "id": "B17",
+      "asset_path": "assets/bedroom1-k4/B17.jpg",
+      "sha256": "a97a19edf895af0f6bd50f2f657c34da1d737ccb30fece181d7c398d680205ef",
+      "blob_sha": "940245f67553eb329183165a9777b00c670f90b1",
+      "native_png_sha256": "4f9f4cc59347de225c60f5adec828bf29de449393ecf0ab9a694cf8024e17dab",
+      "dimensions": [
+        1000,
+        750
+      ]
+    },
+    {
+      "id": "B34",
+      "asset_path": "assets/bedroom1-k4/B34.jpg",
+      "sha256": "edfe174629f8aa308550d2a9ac1f72d82c92513b62be8f907ac8466cff2261d6",
+      "blob_sha": "dd660a23c13878a315b0b034cea94854bf9fbdf7",
+      "native_png_sha256": "0cda29608e21db78194cda8a6e75efb5f6005a2494d1f301a0409d7ed6993103",
+      "dimensions": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "id": "B48",
+      "asset_path": "assets/bedroom1-k4/B48.jpg",
+      "sha256": "edda269af0fce5806799d12ec83bb4ed69db4d057e45fcc7aa4d4d0ca1dec977",
+      "blob_sha": "9586d469234cf0e35d74e1ef9a2d3038a8b4236f",
+      "native_png_sha256": "7f6cd316e371b50e8f4ea3f7f385256115356b8cba562c8b77353b7fbf727522",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "B49",
+      "asset_path": "assets/bedroom1-k4/B49.jpg",
+      "sha256": "0d90fdbf46641a3ea0bd77f01c92bbba220a69884a94b09382169a7fb607aad9",
+      "blob_sha": "681686ddbe2ff4a93f138221099c9b57da138006",
+      "native_png_sha256": "b982338b6bda23ddb386f68678f21d8ddab5d1e16e2179673bdc6208d9827f00",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "B50",
+      "asset_path": "assets/bedroom1-k4/B50.jpg",
+      "sha256": "9ca41f5b07674f42bc264c3f59caea5cb8690e28b4fad9229e0643162c4b4a5d",
+      "blob_sha": "46705fc8b9683197088873a479f0d90db47da0ac",
+      "native_png_sha256": "8f9bae90c10c3a993a4ce2261866f7af72da78b265a5e56304e0e35974dfac73",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "B61",
+      "asset_path": "assets/bedroom1-k4/B61.jpg",
+      "sha256": "e547ea7082611b6784103b71a495500eae2f23d4a7e817e82402c13d94c4ee7e",
+      "blob_sha": "8d5f88f0d35e77a43b8b69bc63681dbc1c5b7443",
+      "native_png_sha256": "f4be659e27f116b960c8b561cc24faf6c3bf965429c7ddf9e2e060ded517a8a1",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "B69",
+      "asset_path": "assets/bedroom1-k4/B69.jpg",
+      "sha256": "d5c1eb5a30ec3097fff00f934698d818f05994931ea743696ba27f7218fada66",
+      "blob_sha": "4c5eff3ca3c2d96fcc16720dc303b84d9379b18d",
+      "native_png_sha256": "a072fbb5bc6ccfc31bbb8a0938207d9c284cfb6f1f1eb6064af796c8ae809832",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "B70",
+      "asset_path": "assets/bedroom1-k4/B70.jpg",
+      "sha256": "b4d64d70888a859e56925d611bc6ea108843e4bf3e66856b39fc1c4c092f9957",
+      "blob_sha": "987dad7bcccfab4f588aa7579ade070d56b8f1e8",
+      "native_png_sha256": "5a9bcf17dfc964fd80112f442300098aec79d00a0893b3bfd32689c395b915a2",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "B71",
+      "asset_path": "assets/bedroom1-k4/B71.jpg",
+      "sha256": "060aa40e741a3b711acfd6dad6ad83cdf12000a599381da770830a140c742871",
+      "blob_sha": "31c1030e8cea1f71748a2a14678db5256f7ecf58",
+      "native_png_sha256": "8e8d604ec0341985a48a3cb901f13be7349a0dff375c89cfa95dae0c67eec2a1",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "B72",
+      "asset_path": "assets/bedroom1-k4/B72.jpg",
+      "sha256": "a6e485e831f95f2bf71de5677375d131281c50cd166d2d35996800fff61c71a2",
+      "blob_sha": "1fe245d2b12145e88ec267a8f47287947ff76229",
+      "native_png_sha256": "e2cc773253ab1c7c9d0a4b41c6054e04bebc38606e4df65288777dbaa312e826",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "B92",
+      "asset_path": "assets/bedroom1-k4/B92.jpg",
+      "sha256": "b6074c7a2577fc36ea2da6eb1e6691adc4333b89b4b1d79356f00391f6723057",
+      "blob_sha": "5ac827e107e1d9ab3a53177b4da054147cc12105",
+      "native_png_sha256": "16a10ac772beea64263a11d993dae0662a5ed8714b1ce209435220f830bbd284",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "B94",
+      "asset_path": "assets/bedroom1-k4/B94.jpg",
+      "sha256": "b7d86f9703c918e2ec49b60ac1d19ea9268d205585be56d76e9b98a59b84638f",
+      "blob_sha": "6cde0f5c29bf1268522aabcde71b912c604f7a2c",
+      "native_png_sha256": "c57d8827f8f9b4710713d9e707f454a3a03eaa522fb248920eede06e98acea60",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "B99",
+      "asset_path": "assets/bedroom1-k4/B99.jpg",
+      "sha256": "52c263a41219ffe80d0414dd229d7f86c9e5bc1a8862d5ba7a9cf29b26f645d4",
+      "blob_sha": "ba8a7f1ae54e3e59449ee43bc22f99701d205615",
+      "native_png_sha256": "0e247c33012a5647fadc18e54050dbc40ff892fb015eebeb518a7a43f0d0aa07",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "RES02",
+      "asset_path": "assets/bedroom1-k4/B08.jpg",
+      "sha256": "edfe174629f8aa308550d2a9ac1f72d82c92513b62be8f907ac8466cff2261d6",
+      "blob_sha": "dd660a23c13878a315b0b034cea94854bf9fbdf7",
+      "native_png_sha256": "d6e16ccaa170a1e346234b12dca7a6d17ebb3178a680b50cacb37d0d8221a5e0",
+      "dimensions": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "id": "R13",
+      "sourceRenderId": "B48",
+      "asset_path": "assets/bedroom1-k4/R13.jpg",
+      "sha256": "43e02d65db92f2006f2378e5f1078fcc060328a7ad094e08cea30a03cbc9331e",
+      "blob_sha": "a888ff47652ef50e62f01a262fd56bf0de7957cc",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "source_native_png_sha256": "7f6cd316e371b50e8f4ea3f7f385256115356b8cba562c8b77353b7fbf727522"
+    },
+    {
+      "id": "R14",
+      "sourceRenderId": "B49",
+      "asset_path": "assets/bedroom1-k4/R14.jpg",
+      "sha256": "8fa0146322454424c5779dea8e69750910d0ff2278f7a91e6b897ab38cd79b47",
+      "blob_sha": "e4e76679e660c4def28aaf2f402425fb4b3aaad2",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "source_native_png_sha256": "b982338b6bda23ddb386f68678f21d8ddab5d1e16e2179673bdc6208d9827f00"
+    },
+    {
+      "id": "R15",
+      "sourceRenderId": "B50",
+      "asset_path": "assets/bedroom1-k4/R15.jpg",
+      "sha256": "cfc287a7ea2f589209dd790ae5b0e99ca6ca1e51e9c97982ddf85f43552264ff",
+      "blob_sha": "61cb6375e09d0faba36891f6a1d7bcfd7037db62",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "source_native_png_sha256": "8f9bae90c10c3a993a4ce2261866f7af72da78b265a5e56304e0e35974dfac73"
+    },
+    {
+      "id": "R26",
+      "sourceRenderId": "B61",
+      "asset_path": "assets/bedroom1-k4/R26.jpg",
+      "sha256": "bc1c1862dfc15418935aae14ddaaf1fff286cccf561ee9193eb43fec74d5c344",
+      "blob_sha": "41b4f98c4fbf75b0a63103078e236cb8faed45dd",
+      "dimensions": [
+        1476,
+        1066
+      ],
+      "source_native_png_sha256": "f4be659e27f116b960c8b561cc24faf6c3bf965429c7ddf9e2e060ded517a8a1"
+    },
+    {
+      "id": "R34",
+      "sourceRenderId": "B69",
+      "asset_path": "assets/bedroom1-k4/R34.jpg",
+      "sha256": "8bd966fbed92176b574b0fd043a3ee7b605b8f7061bb159ad9eb45f2b1587bd7",
+      "blob_sha": "b9a0a579acd3ea369e988c6a49d9c0abd3c32c9d",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "source_native_png_sha256": "a072fbb5bc6ccfc31bbb8a0938207d9c284cfb6f1f1eb6064af796c8ae809832"
+    },
+    {
+      "id": "R35",
+      "sourceRenderId": "B70",
+      "asset_path": "assets/bedroom1-k4/R35.jpg",
+      "sha256": "bb0ad6a1489fac50baa2605565ac6ebcc05160328fd48254dda91c54acc3f6a8",
+      "blob_sha": "cc5f72b468db3b9fad5c3b221346a7f82831458d",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "source_native_png_sha256": "5a9bcf17dfc964fd80112f442300098aec79d00a0893b3bfd32689c395b915a2"
+    },
+    {
+      "id": "R36",
+      "sourceRenderId": "B71",
+      "asset_path": "assets/bedroom1-k4/R36.jpg",
+      "sha256": "510e47f69787fa26e49ec22b890ad50ed6a6822ced8abc07733cd7867898497a",
+      "blob_sha": "ce21aaa7861b2d7a5ea25074938f9a558412b1f8",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "source_native_png_sha256": "8e8d604ec0341985a48a3cb901f13be7349a0dff375c89cfa95dae0c67eec2a1"
+    },
+    {
+      "id": "R37",
+      "sourceRenderId": "B72",
+      "asset_path": "assets/bedroom1-k4/R37.jpg",
+      "sha256": "27fe3bcfbab348e655f1a687bc8b241351c6cd1a90a4696959cfe452103b9eec",
+      "blob_sha": "8ffd50d42c771a8772638f03be63386eff55a906",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "source_native_png_sha256": "e2cc773253ab1c7c9d0a4b41c6054e04bebc38606e4df65288777dbaa312e826"
+    },
+    {
+      "id": "R57",
+      "sourceRenderId": "B92",
+      "asset_path": "assets/bedroom1-k4/R57.jpg",
+      "sha256": "10788dbbb27f9b7ba45c94c3a8f48e7eb71d4c927b19e8ac442eed3da283c95e",
+      "blob_sha": "2fd42be4cb3dcef8eec988b960ea4d7501837bab",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "source_native_png_sha256": "16a10ac772beea64263a11d993dae0662a5ed8714b1ce209435220f830bbd284"
+    },
+    {
+      "id": "R59",
+      "sourceRenderId": "B94",
+      "asset_path": "assets/bedroom1-k4/R59.jpg",
+      "sha256": "a128886891c55b6612946fc4cff6ac459f28964e1dd0836c83eac4e71ebfb4ff",
+      "blob_sha": "11c7ed7729dd1c4191ef4e9bcc90f89f5170647e",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "source_native_png_sha256": "c57d8827f8f9b4710713d9e707f454a3a03eaa522fb248920eede06e98acea60"
+    },
+    {
+      "id": "R64",
+      "sourceRenderId": "B99",
+      "asset_path": "assets/bedroom1-k4/R64.jpg",
+      "sha256": "29a3be49537b1d3f4f335481f065220c1974d8fb3b87c6c358c2db1b8a67852d",
+      "blob_sha": "70467618971461d2601f44e4d54a50c695bf9a24",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "source_native_png_sha256": "0e247c33012a5647fadc18e54050dbc40ff892fb015eebeb518a7a43f0d0aa07"
+    },
+    {
+      "id": "R65",
+      "sourceRenderId": "B100",
+      "asset_path": "assets/bedroom1-k4/R65.jpg",
+      "sha256": "cbb8070cf8c033e7004d18f48f9b526477f7eb0cf840d7214db65f5c7eca7410",
+      "blob_sha": "17569fbc2f89829c947e7ae13adc99adc45a1eb3",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "source_native_png_sha256": "5024c6273210cdd558d0f35c5d592572948c91a8b2556809d1eee818371a01b2"
+    },
+    {
+      "id": "R71",
+      "sourceRenderId": "B106",
+      "asset_path": "assets/bedroom1-k4/R71.jpg",
+      "sha256": "63fd4dbd172ce475748a2c09ad2afb4ea2ba2b765b2045f0cd5b544d2888a553",
+      "blob_sha": "efbf48c03814a8698207038a538c717455ce56d1",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "source_native_png_sha256": "186c209acf26e95a877536a0128e96479066205f9d1dfff8f4053d5d9476945f"
+    }
+  ]
+}

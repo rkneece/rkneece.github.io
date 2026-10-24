@@ -1,0 +1,39 @@
+name: Bedroom1 K4 release
+on:
+  push:
+    branches: [release/bedroom1-k4, dev, main]
+    paths: ['releases/bedroom1-k4/**', '.github/workflows/bedroom1-k4.yml']
+permissions:
+  contents: write
+concurrency:
+  group: cedar-pages-refresh
+  cancel-in-progress: false
+jobs:
+  assemble:
+    if: github.ref_name == 'release/bedroom1-k4' && contains(github.event.head_commit.message, '[assemble:k4]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install Pillow
+      - name: Assemble checked bedroom images with stable IDs
+        run: |
+          test "$(git ls-remote origin refs/heads/release/bedroom1-k4 | cut -f1)" = "$GITHUB_SHA"
+          python releases/bedroom1-k4/assemble.py
+          test "$(git ls-remote origin refs/heads/release/bedroom1-k4 | cut -f1)" = "$GITHUB_SHA"
+          git add sites/43cedar/interactive_map/index.html releases/bedroom1-k4/PUBLISH_QA.json
+          git -c user.name='43 Cedar publisher' -c user.email='actions@users.noreply.github.com' commit -m 'Assemble reviewed K4 bedroom native/photo pairs and current floor plan [skip ci]'
+          git push
+  retire:
+    if: github.ref_name == 'main' && contains(github.event.head_commit.message, '[retire:k4]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          K4_LIVE_PROOF: releases/bedroom1-k4/LIVE_VERIFICATION.json
+          K4_RETIRE_BRANCHES: '["release/bedroom1-k4"]'
+        run: python releases/bedroom1-k4/retire.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: K4-website-retirement
+          path: K4_RETIREMENT_QA.json
