@@ -1,0 +1,39 @@
+{
+  "status": "Existing imagery reused; no new generation",
+  "current_views": [
+    {
+      "view": "Couch",
+      "blob": "f6d379218ddd50324cafae4ba1c78c9edab155da"
+    },
+    {
+      "view": "Kitchen",
+      "blob": "995875e35dc02c851c2cd24caf51040260276409"
+    },
+    {
+      "view": "Hallway",
+      "blob": "07908b6e5c7182d89dde3ce21ed15cc88987b45f"
+    },
+    {
+      "view": "Dining",
+      "blob": "4066ceb33f6e0153c99f4c4720f399204888ea92"
+    },
+    {
+      "view": "Porch",
+      "blob": "004b1c9c7d1424e42b3d5ea558a3f7f79c58e75b"
+    },
+    {
+      "view": "Post",
+      "blob": "f076d359409e334d7f535bc491e439aa03d9c843"
+    },
+    {
+      "view": "Plan",
+      "blob": "a5807e76f8544e2f8968cc1778478e9a6eb8cc82"
+    }
+  ],
+  "source_model_ref": "fdb63b893d605f8b69596732fdb9ba7a03ad2e55",
+  "source_scene_sha256": "fefc662d67e1a8b2cd4ddeda76d20726eda7c2c5f2b01c4e5de612f242cf3abe",
+  "geometry_unchanged": true,
+  "visual_review_completed": true,
+  "overhead_white_cooking_wall_fronts_corrected_before_selection": true,
+  "requested_category": "Proposed-Tests"
+}
