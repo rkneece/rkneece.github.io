@@ -13,3 +13,7 @@ Check related open issues before shared rendering or publishing. Coordinate over
 Close completed issues with validation/live verification as applicable. Close stale, superseded, duplicate or abandoned issues only after checking current activity, preserving useful work and recording the reason/successor. Inactivity alone does not mean success. Reuse/reopen an issue when the same scope resumes.
 
 Updates are made during execution; do not imply background monitoring. Current “Investigate Island Thread” work is tracked in https://github.com/rkneece/43-cedar-blender/issues/17.
+
+## Central asset archive
+
+Use the private Google Cloud archive described in [ops/cedar-archive/README.md](ops/cedar-archive/README.md). Save each completed render, photoreal, source-scene snapshot and its provenance promptly with the authenticated helper; record the verified object/manifest URI in its workstream issue. Temporary workspace files and disposable branches are not the archive. Before branch retirement, verify that the required outputs and provenance have independent archive receipts. Archival copies do not approve designs or authorize publication. New workflows archive changed committed 43 Cedar outputs; older branches and uncommitted local generation require explicit checkpoint integration. Do not claim coverage until it has been verified.
