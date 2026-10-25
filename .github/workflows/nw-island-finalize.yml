@@ -1,0 +1,96 @@
+name: Finalize reviewed NW island test gallery
+on:
+  push:
+    branches: [test/island-NW-side-access]
+    paths: [.github/workflows/nw-island-finalize.yml]
+permissions:
+  contents: write
+  id-token: write
+concurrency:
+  group: nw-island-gallery-release
+  cancel-in-progress: false
+jobs:
+  assemble:
+    if: contains(github.event.head_commit.message, '[finalize:nw]')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093
+        with:
+          project_id: cedar-assets
+          workload_identity_provider: projects/293109622606/locations/global/workloadIdentityPools/cedar-github/providers/github
+      - uses: google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db
+      - name: Recover only the reviewed archive
+        run: |
+          gcloud storage cp gs://rkneece-43cedar-assets/43cedar/objects/sha256/5e/5ea3c5adcd545862bab619b0d6c4c4d70db7fc5b7433c582fd4e5f00d2419244 /tmp/nw-review.zip
+          python - <<'PY'
+          import hashlib,json,zipfile
+          from pathlib import Path
+          raw=Path('/tmp/nw-review.zip').read_bytes()
+          assert hashlib.sha256(raw).hexdigest()=='5ea3c5adcd545862bab619b0d6c4c4d70db7fc5b7433c582fd4e5f00d2419244'
+          p=Path('releases/nw-side-access')
+          with zipfile.ZipFile('/tmp/nw-review.zip') as z:
+              assert all(not Path(n).is_absolute() and '..' not in Path(n).parts for n in z.namelist())
+              z.extractall(p)
+          m=json.loads((p/'PUBLICATION_MANIFEST.json').read_text())
+          qa=json.loads((p/'VISUAL_REVIEW.json').read_text())
+          assert qa['status']=='PASS' and len(m['images'])==31 and len(qa['images'])==31
+          for r in m['images']:
+              h=hashlib.sha256((p/r['path']).read_bytes()).hexdigest()
+              assert h==r['sha256']==qa['images'][r['metadata']['id']]['sha256']
+              assert qa['images'][r['metadata']['id']]['status']=='PASS'
+          print('Reviewed bundle: all 31 image hashes match recorded visual review.')
+          PY
+      - name: Assemble against current main
+        run: |
+          set -euo pipefail
+          git fetch --depth=1 origin main
+          git rev-parse origin/main > releases/nw-side-access/BASELINE_COMMIT.txt
+          git show origin/main:sites/43cedar/interactive_map/index.html > sites/43cedar/interactive_map/index.html
+          python releases/nw-side-access/assemble_live.py
+          node --check releases/nw-side-access/viewer-check.js
+      - name: Browser checks
+        env:
+          NODE_PATH: /tmp/cedar-browser/node_modules
+          CEDAR_BROWSER: /usr/bin/google-chrome
+        run: |
+          npm install --prefix /tmp/cedar-browser --no-audit --no-fund playwright
+          node releases/nw-side-access/browser_qa.cjs sites/43cedar/interactive_map/index.html
+          node - <<'JS'
+          const {chromium}=require('playwright');
+          const path=require('path');
+          (async()=>{
+            const b=await chromium.launch({executablePath:process.env.CEDAR_BROWSER,headless:true,args:['--no-sandbox']});
+            const p=await b.newPage({viewport:{width:1440,height:1000}});
+            await p.goto('file://'+path.resolve('sites/43cedar/interactive_map/index.html')+'#proposed-tests');
+            await p.waitForFunction(()=>document.querySelector('#results')?.textContent==='61 photos');
+            await p.screenshot({path:'releases/nw-side-access/desktop.png'});
+            await p.locator('[data-photo-id="NWP12"]').click();
+            await p.screenshot({path:'releases/nw-side-access/microwave-detail.png'});
+            await p.setViewportSize({width:390,height:844});
+            await p.goto('file://'+path.resolve('sites/43cedar/interactive_map/index.html')+'#proposed-tests');
+            await p.waitForFunction(()=>document.querySelector('#results')?.textContent==='61 photos');
+            await p.screenshot({path:'releases/nw-side-access/mobile.png'});
+            await b.close();
+          })().catch(e=>{console.error(e);process.exit(1)});
+          JS
+      - name: Checkpoint reviewed gallery on the existing test branch
+        run: |
+          set -euo pipefail
+          test "$(git ls-remote origin refs/heads/test/island-NW-side-access | cut -f1)" = "$GITHUB_SHA"
+          git config user.name '43 Cedar publication'
+          git config user.email 'actions@users.noreply.github.com'
+          git add releases/nw-side-access sites/43cedar/interactive_map/index.html
+          git commit -m 'Stage 31 reviewed NW test images and desktop/mobile gallery checks [skip ci]'
+          git push origin HEAD:test/island-NW-side-access
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: nw-final-gallery-review
+          path: |
+            releases/nw-side-access/*QA.json
+            releases/nw-side-access/BASELINE_COMMIT.txt
+            releases/nw-side-access/*.png
+            releases/nw-side-access/review/
+          if-no-files-found: warn
