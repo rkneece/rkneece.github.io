@@ -2,6 +2,7 @@ name: 43 Cedar asset archive
 run-name: "43 Cedar archive · ${{ github.ref_name }}"
 on:
   push:
+    branches: ['**']
     paths:
       - '.github/workflows/cedar-asset-archive.yml'
       - 'ops/cedar-archive/**'
@@ -44,8 +45,6 @@ jobs:
           project_id: cedar-assets
           workload_identity_provider: projects/293109622606/locations/global/workloadIdentityPools/cedar-github/providers/github
       - uses: google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db # v3
-      - name: Allow fresh job-scoped tokens during longer uploads
-        run: python ops/cedar-archive/refresh_credentials.py
       - name: Test upload, readback and repeat without overwriting
         run: |
           python - <<'PY'

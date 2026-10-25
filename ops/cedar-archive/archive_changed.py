@@ -10,10 +10,10 @@ from archive import selected_paths
 event = json.loads(Path(os.environ["GITHUB_EVENT_PATH"]).read_text())
 before = event.get("before", "")
 if not before or set(before) == {"0"}:
-    # A newly created branch has no previous output delta; use a manual snapshot
-    # for backfill rather than repeatedly copying the entire historical model.
-    print("New branch: connectivity checked; use snapshot for historical outputs.")
-    raise SystemExit(0)
+    # Include outputs on a newly pushed work branch without rearchiving dev's
+    # entire history. checkout fetch-depth=0 supplies origin/dev and the base.
+    before = subprocess.run(["git", "merge-base", "HEAD", "origin/dev"],
+                            capture_output=True, text=True, check=True).stdout.strip()
 changed = subprocess.run(["git", "diff", "--name-only", "--diff-filter=ACMRT", "-z", before, "HEAD"],
                          capture_output=True, text=True, check=True).stdout.split("\0")
 eligible = {p.relative_to(Path.cwd()).as_posix() for p in selected_paths(Path.cwd(), [], True)}

@@ -87,25 +87,6 @@ class ArchiveTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "Credential"):
                 archive.selected_paths(root, [credential], False)
 
-    def test_job_scoped_refresh_config_and_endpoint_validation(self):
-        spec = importlib.util.spec_from_file_location("refresh_credentials", Path(__file__).with_name("refresh_credentials.py"))
-        refresh = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(refresh)
-        with tempfile.TemporaryDirectory() as scratch:
-            path = Path(scratch) / "gha-creds-test.json"
-            path.write_text("{}")
-            environ = {"GOOGLE_GHA_CREDS_PATH": str(path), "GITHUB_WORKSPACE": scratch,
-                       "ACTIONS_ID_TOKEN_REQUEST_URL": "https://vstoken.actions.githubusercontent.com/token?api-version=2.0",
-                       "ACTIONS_ID_TOKEN_REQUEST_TOKEN": "test-runtime-token"}
-            refresh.configure(environ)
-            config = json.loads(path.read_text())
-            self.assertIn("audience=projects%2F293109622606", config["credential_source"]["url"])
-            self.assertEqual(config["credential_source"]["format"]["subject_token_field_name"], "value")
-            self.assertEqual(path.stat().st_mode & 0o777, 0o600)
-            environ["ACTIONS_ID_TOKEN_REQUEST_URL"] = "https://example.com/token"
-            with self.assertRaisesRegex(ValueError, "GitHub Actions OIDC"):
-                refresh.configure(environ)
-
 
 if __name__ == "__main__":
     unittest.main()
