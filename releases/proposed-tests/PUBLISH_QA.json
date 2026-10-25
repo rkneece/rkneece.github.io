@@ -1,7 +1,7 @@
 {
   "status": "PASS",
-  "category": "Proposed-Tests",
-  "html_sha256": "a56e755570569a0ef53522fecc5093ebb0dd82c0df8dbbcf6f91c081e7722501",
+  "category": "Proposed - Tests",
+  "html_sha256": "d06a6668737925d4da62aa0e5fd409930e53e6dd342e673ec59fdf298eba9b59",
   "no_rerenders": true,
   "original_image_paths_and_bytes_unchanged": true,
   "existing_image_types_and_kind_filters_unchanged": true,
@@ -79,5 +79,7 @@
   "total_resources": 13,
   "total_records": 424,
   "unrelated_original_records_unchanged": 394,
-  "model_dev_main_unchanged": true
+  "model_dev_main_unchanged": true,
+  "comparison_location": "Dining Area",
+  "all_current_references_in_tests": true
 }
