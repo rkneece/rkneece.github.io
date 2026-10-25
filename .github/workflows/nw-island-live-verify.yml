@@ -1,0 +1,64 @@
+name: Verify live NW island gallery
+on:
+  push:
+    branches: [test/island-NW-side-access]
+    paths: [.github/workflows/nw-island-live-verify.yml]
+permissions:
+  contents: write
+concurrency:
+  group: nw-island-live-verification
+  cancel-in-progress: false
+jobs:
+  verify:
+    if: contains(github.event.head_commit.message, '[verify:nw]')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify independent public response matches reviewed release
+        run: |
+          python - <<'PY'
+          import urllib.request,hashlib,json,datetime
+          from pathlib import Path
+          url='https://rkneece.github.io/sites/43cedar/interactive_map/index.html?release=299f3516b61f1221b3c8b4f62d5317364ff3c0af'
+          with urllib.request.urlopen(url,timeout=60) as r:
+              assert r.status==200
+              raw=r.read()
+          h=hashlib.sha256(raw).hexdigest()
+          assert h=='59b2691aaa12ae67f0ddb59828107a21abeda24065e30ff86b39b8ac7797d20c',h
+          d=dict(status='PASS',url=url,http_status=200,bytes=len(raw),sha256=h,release_commit='299f3516b61f1221b3c8b4f62d5317364ff3c0af',verified_at=datetime.datetime.now(datetime.timezone.utc).isoformat())
+          Path('releases/nw-side-access/LIVE_HTTP_QA.json').write_text(json.dumps(d,indent=2))
+          print(json.dumps(d))
+          PY
+      - name: Verify public desktop, mobile, images and source navigation
+        env:
+          NODE_PATH: /tmp/cedar-browser/node_modules
+          CEDAR_BROWSER: /usr/bin/google-chrome
+          CEDAR_LIVE_URL: https://rkneece.github.io/sites/43cedar/interactive_map/index.html?release=299f3516-browser
+        run: |
+          npm install --prefix /tmp/cedar-browser --no-audit --no-fund playwright
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('releases/nw-side-access/browser_qa.cjs')
+          s=p.read_text()
+          a="'file://'+path.resolve(process.argv[2])+'#proposed-tests'"
+          assert a in s
+          s=s.replace(a,"process.env.CEDAR_LIVE_URL+'#proposed-tests'").replace("BROWSER_QA.json","LIVE_BROWSER_QA.json")
+          Path('/tmp/live-qa.cjs').write_text(s)
+          PY
+          node /tmp/live-qa.cjs
+      - name: Save live receipts on existing test branch
+        run: |
+          set -euo pipefail
+          test "$(git ls-remote origin refs/heads/test/island-NW-side-access | cut -f1)" = "$GITHUB_SHA"
+          git config user.name '43 Cedar publication'
+          git config user.email 'actions@users.noreply.github.com'
+          git add releases/nw-side-access/LIVE_HTTP_QA.json releases/nw-side-access/LIVE_BROWSER_QA.json
+          git commit -m 'Record independent live NW gallery verification [skip ci]'
+          git push origin HEAD:test/island-NW-side-access
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: nw-live-verification
+          path: releases/nw-side-access/LIVE*QA.json
+          if-no-files-found: warn
