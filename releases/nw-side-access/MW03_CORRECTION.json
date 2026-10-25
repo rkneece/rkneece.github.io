@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "viewpointId": "MW03",
+  "change": "Restore the cooking-wall cabinet paint from erroneous navy to the native reference's warm white; retain camera/appliance/drawer geometry.",
+  "method": "Built-in image_gen image edit",
+  "prompt": "Use case: precise-object-edit. Asset: corrected MW03 architectural photographic finish study for 43 Cedar isolated NW island test. Image 1 is the EDIT TARGET, the existing realistic microwave closeup. Image 2 is the NATIVE GEOMETRY AND CABINET COLOR REFERENCE. Make ONE narrowly corrected photograph: change ALL navy blue cooking-wall cabinet paint visible in image 1 to the exact warm OFF-WHITE of the corresponding cabinet frames, door, bottom drawer, toe-kick and right end panel in native image 2. This is the perimeter cooking cabinet, which is WHITE, not the blue island. Preserve the existing photoreal lighting, pale quartz countertop, light oak floor, stainless microwave with dark glass, separate range/oven at left, brass knobs and pulls. Lock camera, crop, proportions, every appliance position, cabinet reveal and door/drawer geometry to the native reference. The microwave must stay under the rightmost cooking counter with ONE white storage drawer below. No new features, no geometry changes, no island, no extra appliances, no text, labels or collage. Output only the corrected single photograph at the same landscape aspect.",
+  "corrected_source_sha256": "62dd0cecc7c35b7f35ef9d71cc94b9b26d324eed939ef913babcc5b67a3fc6d1",
+  "published_jpeg_sha256": "d63b3bb592eb066cf89a0d64c334e4728c4efb3d1bd238ea2d5ea2a1ae76259e",
+  "native_reference_git_blob": "b447488a1e7698537661b25dbcacaeae814ef4fe",
+  "superseded_photoreal_git_blob": "3153cacd850276a13075b3fa2352c7bfbe8f28a4"
+}

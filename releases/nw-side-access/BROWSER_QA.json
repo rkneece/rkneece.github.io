@@ -1,0 +1,10 @@
+{
+  "added_images_decoded": 31,
+  "total_tests": 61,
+  "native_photoreal_pairs": 12,
+  "source_link_works": true,
+  "mobile_gallery": true,
+  "mobile_no_page_overflow": true,
+  "page_errors": [],
+  "status": "PASS"
+}
