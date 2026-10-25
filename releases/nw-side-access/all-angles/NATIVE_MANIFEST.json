@@ -1,0 +1,218 @@
+[
+  {
+    "id": "NW01",
+    "label": "North \u00b7 sink and dishwasher",
+    "eye_plan_inches": [
+      74,
+      -36,
+      69
+    ],
+    "target_plan_inches": [
+      74,
+      35,
+      26
+    ],
+    "lens_mm": 25,
+    "service_state": "closed",
+    "path": "NW01_native.png",
+    "sha256": "3c628866c0c6816acd4bd62a0cb3dd2a8ffb01e94ecffe769ff39f025b00c8a0"
+  },
+  {
+    "id": "NW02",
+    "label": "Northeast \u00b7 workface and seating",
+    "eye_plan_inches": [
+      154,
+      -30,
+      68
+    ],
+    "target_plan_inches": [
+      74,
+      34,
+      28
+    ],
+    "lens_mm": 27,
+    "service_state": "closed",
+    "path": "NW02_native.png",
+    "sha256": "60d2792f3a4baa53da8e1f77e49b531017f2f49487a0f121cfe7d5119e1587b5"
+  },
+  {
+    "id": "NW03",
+    "label": "East \u00b7 seating and fixed post",
+    "eye_plan_inches": [
+      180,
+      17,
+      66
+    ],
+    "target_plan_inches": [
+      72,
+      37,
+      28
+    ],
+    "lens_mm": 28,
+    "service_state": "closed",
+    "path": "NW03_native.png",
+    "sha256": "4ea0b1d43dca82389d73dcf1ccd4ed2d5161207d67ba29e97f3e069a7ea3779d"
+  },
+  {
+    "id": "NW04",
+    "label": "Southeast \u00b7 island and cooking wall",
+    "eye_plan_inches": [
+      165,
+      130,
+      67
+    ],
+    "target_plan_inches": [
+      74,
+      35,
+      29
+    ],
+    "lens_mm": 28,
+    "service_state": "closed",
+    "path": "NW04_native.png",
+    "sha256": "0fe332fe28a731158317ec06b332670e14231f6a6fb5e394ddab398e4d471336"
+  },
+  {
+    "id": "NW05",
+    "label": "South \u00b7 dining approach",
+    "eye_plan_inches": [
+      79,
+      148,
+      66
+    ],
+    "target_plan_inches": [
+      74,
+      33,
+      29
+    ],
+    "lens_mm": 29,
+    "service_state": "closed",
+    "path": "NW05_native.png",
+    "sha256": "9ea73c1bca25da0e173e8d752306a39305561e1175381b5ab0acace1cc54416e"
+  },
+  {
+    "id": "NW06",
+    "label": "Southwest \u00b7 west storage and cooking wall",
+    "eye_plan_inches": [
+      8,
+      116,
+      66
+    ],
+    "target_plan_inches": [
+      75,
+      34,
+      27
+    ],
+    "lens_mm": 26,
+    "service_state": "closed",
+    "path": "NW06_native.png",
+    "sha256": "34cf778b96065a764a2e65f720e2d17dd34133601b55afcd9476d284f1529032"
+  },
+  {
+    "id": "NW07",
+    "label": "West \u00b7 service door closed",
+    "eye_plan_inches": [
+      6,
+      46,
+      64
+    ],
+    "target_plan_inches": [
+      77,
+      37,
+      25
+    ],
+    "lens_mm": 25,
+    "service_state": "closed",
+    "path": "NW07_native.png",
+    "sha256": "c2c4b6fad3102ae226af82db81069e4daa53a8ff08911206ccb2dc153311807b"
+  },
+  {
+    "id": "NW08",
+    "label": "Northwest \u00b7 sink corner",
+    "eye_plan_inches": [
+      9,
+      -29,
+      66
+    ],
+    "target_plan_inches": [
+      75,
+      34,
+      26
+    ],
+    "lens_mm": 25,
+    "service_state": "closed",
+    "path": "NW08_native.png",
+    "sha256": "06990997ade419cef0dbf457774db2aa229a1989b64843158edb1310393ca6f7"
+  },
+  {
+    "id": "NW09",
+    "label": "West \u00b7 service door open",
+    "eye_plan_inches": [
+      6,
+      17,
+      57
+    ],
+    "target_plan_inches": [
+      60,
+      18,
+      20
+    ],
+    "lens_mm": 29,
+    "service_state": "open",
+    "path": "NW09_native.png",
+    "sha256": "f80dd60781ae16c38d98edff7bdfbd55b3a00072557a26dcd2dfadc0cc1eba31"
+  },
+  {
+    "id": "MW01",
+    "label": "Microwave \u00b7 straight on",
+    "eye_plan_inches": [
+      119.5,
+      -4,
+      47
+    ],
+    "target_plan_inches": [
+      119.5,
+      -49,
+      28
+    ],
+    "lens_mm": 38,
+    "service_state": "closed",
+    "path": "MW01_native.png",
+    "sha256": "4d57a120044d3a6f435de418a6a62e02ffc7a7cf5976d086d7f8ff25fed9d2fc"
+  },
+  {
+    "id": "MW02",
+    "label": "Microwave \u00b7 from cooking side",
+    "eye_plan_inches": [
+      83,
+      -13,
+      52
+    ],
+    "target_plan_inches": [
+      119,
+      -49,
+      29
+    ],
+    "lens_mm": 36,
+    "service_state": "closed",
+    "path": "MW02_native.png",
+    "sha256": "ff92c5fe0112702e1cf1ab514e0e7cae6221d4b57de9fccc5e1806b22c93a312"
+  },
+  {
+    "id": "MW03",
+    "label": "Microwave \u00b7 from pantry side",
+    "eye_plan_inches": [
+      157,
+      -13,
+      51
+    ],
+    "target_plan_inches": [
+      118,
+      -49,
+      28
+    ],
+    "lens_mm": 36,
+    "service_state": "closed",
+    "path": "MW03_native.png",
+    "sha256": "ac98443d4d9ba964cd697bcbebafe7398a05cf162beedb21fec5b6a838b256cf"
+  }
+]

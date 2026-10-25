@@ -1,0 +1,92 @@
+{
+  "test": "NW side access / current proposal footprint",
+  "branch": "test/island-NW-side-access",
+  "countertop_bounds_inches": [
+    41.93548393249512,
+    0,
+    107.93548965454102,
+    77.99999790161134
+  ],
+  "countertop_size_inches": [
+    66,
+    78
+  ],
+  "cabinet_body_width_inches": 51.84947490692139,
+  "sink_compartment_outer_width_inches": 27.099474906921387,
+  "sink_compartment_clear_width_inches": 25.599474906921387,
+  "dishwasher_opening_width_inches": 24,
+  "sink_rim_bounds_inches": [
+    47.00307655334473,
+    5.2866762158203215,
+    68.26844787597656,
+    21.71333103149415,
+    36.58800029754639,
+    36.74400043487549
+  ],
+  "sink_rim_width_inches": 21.265371322631836,
+  "sink_rim_depth_inches": 16.426654815673828,
+  "west_service_clear_opening_inches": [
+    29,
+    28.5
+  ],
+  "west_service_opening_ns": [
+    3.112893867187509,
+    32.11289386718751
+  ],
+  "sink_drain_reach_from_inside_west_plane_inches": 12.799737453460693,
+  "microwave_bay_width_inches": 27.569999999999993,
+  "microwave_body_bounds_inches": [
+    107.5949821472168,
+    -71.43600292236327,
+    131.47499084472656,
+    -47.79598827392577,
+    17.360000610351562,
+    33.359999656677246
+  ],
+  "illustrative_plumbing_not_surveyed": true,
+  "sink_manufacturer_minimum_cabinet_unverified": true,
+  "appliance_chassis_ventilation_installation_unverified": true,
+  "original_stool_transforms_retained": true,
+  "fixed_post_retained": true,
+  "existing_post_and_middle_stool_clearance_not_resolved": true,
+  "views": [
+    {
+      "view": "North_Workface",
+      "access_state": "closed",
+      "file": "North_Workface.png",
+      "sha256": "31f3c7815db4c233f349542773c6c55379583a84a6a206109b17b37be56175d6"
+    },
+    {
+      "view": "West_Access",
+      "access_state": "open",
+      "file": "West_Access.png",
+      "sha256": "9679060035140a7da399a49795b4e303b723a82791e0433077777128491b5841"
+    },
+    {
+      "view": "Service_Interior",
+      "access_state": "removed",
+      "file": "Service_Interior.png",
+      "sha256": "79169a3c1ac4ae45846fb2acdd741c22c7045384536dc2ab64d1c4fbfe3ae274"
+    },
+    {
+      "view": "Cooking_Wall",
+      "access_state": "closed",
+      "file": "Cooking_Wall.png",
+      "sha256": "d170c858e70025f448f8f48b699c79867cfa819252ba94501deea1cb9fe1da18"
+    },
+    {
+      "view": "Pantry_Approach",
+      "access_state": "closed",
+      "file": "Pantry_Approach.png",
+      "sha256": "8107c205c1d02cb47f506d29aa6271ad1dff93f576cdc9df9f78a31a9fcbb2a8"
+    }
+  ],
+  "unrelated_room_geometry_unchanged": true,
+  "service_door_leaf_width_inches": 28.3,
+  "tests_limited_to_modeled_sink": true,
+  "plumbing_routing_is_diagram_only": true,
+  "source_scene_sha256": "1b174865cb84cb2154d6b092b7c8dbe02d0ef4bd288e284bb46c41797b13fdf2",
+  "test_model_sha256": "b0eb7a45c839da57ecf99bbc75cd9efa1bf081518ac7dba07cddf247f05df5ac",
+  "category": "Proposed - Tests",
+  "zone": "Dining Area"
+}
