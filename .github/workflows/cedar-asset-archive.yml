@@ -1,0 +1,83 @@
+name: 43 Cedar asset archive
+run-name: "43 Cedar archive · ${{ github.ref_name }}"
+on:
+  push:
+    paths:
+      - '.github/workflows/cedar-asset-archive.yml'
+      - 'ops/cedar-archive/**'
+      - 'cedar_model/**'
+      - 'studies/**'
+      - 'sites/43cedar/**'
+      - 'releases/**'
+  workflow_dispatch:
+    inputs:
+      source_ref:
+        description: 'Source branch/tag/commit; blank means the selected workflow ref'
+        required: false
+        default: ''
+      snapshot:
+        description: 'Archive all eligible tracked 43 Cedar outputs in that source snapshot'
+        type: boolean
+        default: false
+      issue:
+        description: 'Related issue number in rkneece/43-cedar-blender'
+        required: false
+        default: '18'
+permissions:
+  contents: read
+  id-token: write
+concurrency:
+  group: cedar-archive-${{ github.repository }}-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  archive:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Check archive integrity behavior
+        run: python ops/cedar-archive/test_archive.py
+      - uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093 # v3
+        with:
+          project_id: cedar-assets
+          workload_identity_provider: projects/293109622606/locations/global/workloadIdentityPools/cedar-github/providers/github
+      - uses: google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db # v3
+      - name: Test upload, readback and repeat without overwriting
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json, os
+          Path('cedar-archive-smoke.txt').write_text(json.dumps({
+              'repository': os.environ['GITHUB_REPOSITORY'],
+              'run': os.environ['GITHUB_RUN_ID'], 'attempt': os.environ['GITHUB_RUN_ATTEMPT'],
+              'purpose': '43 Cedar archive connectivity test'
+          }) + '\n')
+          PY
+          python ops/cedar-archive/archive.py --issue 18 --receipt archive-receipts/smoke.json cedar-archive-smoke.txt
+          python ops/cedar-archive/archive.py --issue 18 --receipt archive-receipts/repeat.json cedar-archive-smoke.txt
+      - name: Checkout requested snapshot
+        if: github.event_name == 'workflow_dispatch' && inputs.snapshot
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.source_ref || github.ref }}
+          path: cedar-source
+          persist-credentials: false
+      - name: Archive complete requested snapshot
+        if: github.event_name == 'workflow_dispatch' && inputs.snapshot
+        env:
+          CEDAR_SOURCE_REF: ${{ inputs.source_ref || github.ref }}
+          CEDAR_ISSUE: ${{ inputs.issue }}
+        run: |
+          python ops/cedar-archive/archive.py --root cedar-source --tracked --issue "$CEDAR_ISSUE" --receipt archive-receipts/snapshot.json
+      - name: Archive changed committed outputs
+        if: github.event_name == 'push'
+        run: python ops/cedar-archive/archive_changed.py
+      - name: Preserve receipts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cedar-archive-receipts-${{ github.run_id }}-${{ github.run_attempt }}
+          path: archive-receipts/*.json
+          if-no-files-found: warn
