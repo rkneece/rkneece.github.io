@@ -5,7 +5,7 @@ Setup and receipts: https://github.com/rkneece/43-cedar-blender/issues/18.
 
 GitHub uses direct Workload Identity Federation via
 `projects/293109622606/locations/global/workloadIdentityPools/cedar-github/providers/github`.
-No service-account key is needed. Both authorized repositories have Object Creator and Object Viewer on this bucket only. The provider restricts numeric owner/repository IDs and trusted event types. These grants do not allow replacing or deleting objects. Owner/project administrators retain their existing rights.
+No service-account key is needed. Both authorized repositories have Object Creator and Object Viewer on this bucket only. The provider restricts numeric owner/repository IDs and trusted event types. These grants do not allow replacing or deleting objects. Owner/project administrators retain their existing rights. The workflow configures a job-scoped URL credential source so Google can request fresh short-lived GitHub tokens during longer batches. This temporary credential file is ignored, restricted to its runner workspace, and removed by the authentication action after the job.
 
 ## Save each completed output
 

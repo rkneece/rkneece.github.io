@@ -44,6 +44,8 @@ jobs:
           project_id: cedar-assets
           workload_identity_provider: projects/293109622606/locations/global/workloadIdentityPools/cedar-github/providers/github
       - uses: google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db # v3
+      - name: Allow fresh job-scoped tokens during longer uploads
+        run: python ops/cedar-archive/refresh_credentials.py
       - name: Test upload, readback and repeat without overwriting
         run: |
           python - <<'PY'
@@ -74,6 +76,27 @@ jobs:
       - name: Archive changed committed outputs
         if: github.event_name == 'push'
         run: python ops/cedar-archive/archive_changed.py
+      - name: Checkout pinned island outputs for first real-file verification
+        if: github.ref_name == 'infra/cedar-gcs-archive' && github.repository == 'rkneece/43-cedar-blender'
+        uses: actions/checkout@v4
+        with:
+          ref: 48f6801d62998ae9573138620e86a5827562ec7c
+          path: cedar-source
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /studies/island-NW-side-access/all-angles/NW01_native.png
+            /studies/island-NW-side-access/all-angles/NW01_photoreal.png
+            /studies/island-NW-side-access/all-angles/NATIVE_MANIFEST.json
+      - name: Verify a real native, photoreal and provenance archive
+        if: github.ref_name == 'infra/cedar-gcs-archive' && github.repository == 'rkneece/43-cedar-blender'
+        env:
+          CEDAR_SOURCE_REF: 48f6801d62998ae9573138620e86a5827562ec7c
+        run: |
+          python ops/cedar-archive/archive.py --root cedar-source --issue 16 --receipt archive-receipts/island-sample.json \
+            studies/island-NW-side-access/all-angles/NW01_native.png \
+            studies/island-NW-side-access/all-angles/NW01_photoreal.png \
+            studies/island-NW-side-access/all-angles/NATIVE_MANIFEST.json
       - name: Preserve receipts
         if: always()
         uses: actions/upload-artifact@v4
