@@ -1,0 +1,7 @@
+
+# Short-lived Google auth credentials and local archive receipts
+gha-creds-*.json
+cedar-archive-receipt.json
+cedar-archive-smoke.txt
+archive-receipts/
+cedar-source/
