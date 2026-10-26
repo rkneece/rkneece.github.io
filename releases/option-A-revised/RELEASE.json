@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "issue": 25,
+  "stage": "ready_for_gallery_assembly",
+  "model_branch": "test/island-C-west6",
+  "model_commit": "e1b80e06e895613b6d815c100f9eee57a4607fe3",
+  "source_scene_sha256": "4b7150cb1237b265ad2d85b9c4e3f1490c064e5344a47265f40687a6ea80bbaf",
+  "created_at": "2026-10-26T16:51:41.224Z",
+  "website_baseline_commit": "650af8c35fee89fed8b803e1354013f222937844",
+  "website_gallery_branch": "test/option-A-revised-gallery",
+  "images": [
+    {
+      "id": "CW6_N01",
+      "type": "blender",
+      "sha256": "c1059f6a79059ea289e9c1d78c3b0cb1e60d178756eb9b829bb1a811dbf7ac24",
+      "label": "Living toward island",
+      "key": "01",
+      "review": "PASS: exact-source native review saved",
+      "comparison_camera_id": "B37"
+    },
+    {
+      "id": "CW6_N02",
+      "type": "blender",
+      "sha256": "d53aea04a90790298d1e337bcd4628a08e6a07b1fce7c2300d134a73758a8878",
+      "label": "Dining toward island",
+      "key": "02",
+      "review": "PASS: exact-source native review saved",
+      "comparison_camera_id": "B38"
+    },
+    {
+      "id": "CW6_N03",
+      "type": "blender",
+      "sha256": "cca0e7af8c92213a6edeb372c3e4fc00067dad82fbd4f2c6afc82cb309a26054",
+      "label": "Pantry toward island",
+      "key": "03",
+      "review": "PASS: exact-source native review saved",
+      "comparison_camera_id": null
+    },
+    {
+      "id": "CW6_N04",
+      "type": "blender",
+      "sha256": "7b03f2239f5f911b608deef2983ea202c1fd50175d63a01630cc408ca22ead1a",
+      "label": "Island toward pantry and fixed post",
+      "key": "04",
+      "review": "PASS: exact-source native review saved",
+      "comparison_camera_id": null
+    },
+    {
+      "id": "CW6_N05",
+      "type": "blender",
+      "sha256": "546d697b5049f860ec3bb96f0d2bc317926d8bf4571bd43c2df7202488ff181c",
+      "label": "Porch approach toward island",
+      "key": "05",
+      "review": "PASS: exact-source native review saved",
+      "comparison_camera_id": null
+    },
+    {
+      "id": "CW6_N06",
+      "type": "blender",
+      "sha256": "c8aaf75861c6033fb72f85f595ee4c04e721a14816d6b9d7c5ad47651800ae78",
+      "label": "North sink and dishwasher",
+      "key": "06",
+      "review": "PASS: exact-source native review saved",
+      "comparison_camera_id": null
+    },
+    {
+      "id": "CW6_N07",
+      "type": "blender",
+      "sha256": "851da9743d22f77e5cff5198bea364bb2419553c32a4b1c6ed36feea8507b9a1",
+      "label": "South seating and dining",
+      "key": "07",
+      "review": "PASS: exact-source native review saved",
+      "comparison_camera_id": null
+    },
+    {
+      "id": "CW6_N08",
+      "type": "blender",
+      "sha256": "24452959b1385a66507b98397d884d4ec96898453e7d8982c3642a8260e04736",
+      "label": "Cooking-wall microwave and dish cabinets",
+      "key": "08",
+      "review": "PASS: exact-source native review saved",
+      "comparison_camera_id": null
+    },
+    {
+      "id": "CW6_P02",
+      "type": "photoreal",
+      "sha256": "4cbb12dd38ba17bc07a62ff5e24b599df960174a7400dafc10cf9eaa1777f3ec",
+      "label": "Dining toward island",
+      "key": "02",
+      "review": "PASS: compared exact native and output; framing, fixed post, three south stools, island footprint, single faucet, openings, and cooking-wall microwave retained where visible. Finish detail and daylight are illustrative; no clearance certification.",
+      "native_id": "CW6_N02",
+      "native_sha256": "d53aea04a90790298d1e337bcd4628a08e6a07b1fce7c2300d134a73758a8878",
+      "prompt_path": "studies/island-C-west6/photoreal/prompts/CW6_P02.txt",
+      "prompt_sha256": "93f74a589e5e5c63aa170f519d4e44a1d27430f28514b263f4722c7d280345ec"
+    },
+    {
+      "id": "CW6_P01",
+      "type": "photoreal",
+      "sha256": "a8d09381b95a7068d460c9c4ffd10c07b02559ea7af08a98fda157ce4c9556da",
+      "label": "Living toward island",
+      "key": "01",
+      "review": "PASS: compared exact native and output; framing, fixed post, three south stools, island footprint, single faucet, openings, and cooking-wall microwave retained where visible. Finish detail and daylight are illustrative; no clearance certification.",
+      "native_id": "CW6_N01",
+      "native_sha256": "c1059f6a79059ea289e9c1d78c3b0cb1e60d178756eb9b829bb1a811dbf7ac24",
+      "prompt_path": "studies/island-C-west6/photoreal/prompts/CW6_P01.txt",
+      "prompt_sha256": "09d9e2f8340909cac1e51028b1542cfd72460b82a4a60a58a29f623040203378"
+    },
+    {
+      "id": "CW6_P03",
+      "type": "photoreal",
+      "sha256": "d9d4fc832fb1c58b8d6d39b2bb16ede651d3f63a67335f8c2a0bc8fe5b6786b0",
+      "label": "Pantry toward island",
+      "key": "03",
+      "review": "PASS: exact native/output visually compared. Camera, visible island boundaries, fixed-post occlusion, sink/dishwasher, three south stools and cooking-wall microwave retained where visible. Surface finishes illustrative; no clearance certification.",
+      "native_id": "CW6_N03",
+      "native_sha256": "cca0e7af8c92213a6edeb372c3e4fc00067dad82fbd4f2c6afc82cb309a26054",
+      "prompt_path": "studies/island-C-west6/photoreal/prompts/CW6_P03.txt",
+      "prompt_sha256": "bf2084c541533af684634e5eae8d362baffaeed70395b7a27f9178549f5c6bbc"
+    },
+    {
+      "id": "CW6_P05",
+      "type": "photoreal",
+      "sha256": "e5c9fabe39858f4362e6bc658283d144a32f3fc979323c0f60f48c2caea63e5a",
+      "label": "Porch approach toward island",
+      "key": "05",
+      "review": "PASS: exact native/output visually compared. Camera, visible island boundaries, fixed-post occlusion, sink/dishwasher, three south stools and cooking-wall microwave retained where visible. Surface finishes illustrative; no clearance certification.",
+      "native_id": "CW6_N05",
+      "native_sha256": "546d697b5049f860ec3bb96f0d2bc317926d8bf4571bd43c2df7202488ff181c",
+      "prompt_path": "studies/island-C-west6/photoreal/prompts/CW6_P05.txt",
+      "prompt_sha256": "7bf8563ff6545bb0024c4562bf7cc4396b0e2fdf22c54e1f5b5c135cdd991c0b"
+    },
+    {
+      "id": "CW6_P06",
+      "type": "photoreal",
+      "sha256": "7a30267e9cb6355459dc59ba03439913e28f2d2149500bd73170f531ce4ee285",
+      "label": "North sink and dishwasher",
+      "key": "06",
+      "review": "PASS: exact native/output visually compared. Camera, visible island boundaries, fixed-post occlusion, sink/dishwasher, three south stools and cooking-wall microwave retained where visible. Surface finishes illustrative; no clearance certification.",
+      "native_id": "CW6_N06",
+      "native_sha256": "c8aaf75861c6033fb72f85f595ee4c04e721a14816d6b9d7c5ad47651800ae78",
+      "prompt_path": "studies/island-C-west6/photoreal/prompts/CW6_P06.txt",
+      "prompt_sha256": "ae33d0ef48d3c1c802fd7e7c462a2a6825b7fe1ad80d02148cd7502845ef0cc0"
+    },
+    {
+      "id": "CW6_P07",
+      "type": "photoreal",
+      "sha256": "a6d1b3a8094b7235e9d95e65e23498aec017a719e4838fce240c2aef5f390df2",
+      "label": "South seating and dining",
+      "key": "07",
+      "review": "PASS: exact native/output visually compared. Camera, visible island boundaries, fixed-post occlusion, sink/dishwasher, three south stools and cooking-wall microwave retained where visible. Surface finishes illustrative; no clearance certification.",
+      "native_id": "CW6_N07",
+      "native_sha256": "851da9743d22f77e5cff5198bea364bb2419553c32a4b1c6ed36feea8507b9a1",
+      "prompt_path": "studies/island-C-west6/photoreal/prompts/CW6_P07.txt",
+      "prompt_sha256": "c9a79af1961d3d6e3b1cf6d95479d15ccac1ec0f2867df4de345f89f400d4bc8"
+    },
+    {
+      "id": "CW6_P08",
+      "type": "photoreal",
+      "sha256": "9acd63e963495331017f2808ddec90bacdde56f465faa55f7640a327f260f02d",
+      "label": "Cooking-wall microwave and dish cabinets",
+      "key": "08",
+      "review": "PASS: exact native/output visually compared. Camera, visible island boundaries, fixed-post occlusion, sink/dishwasher, three south stools and cooking-wall microwave retained where visible. Surface finishes illustrative; no clearance certification.",
+      "native_id": "CW6_N08",
+      "native_sha256": "24452959b1385a66507b98397d884d4ec96898453e7d8982c3642a8260e04736",
+      "prompt_path": "studies/island-C-west6/photoreal/prompts/CW6_P08.txt",
+      "prompt_sha256": "e883db6ca80ded3c721be4b27e8ed1ad5a0c00d61fa138c44354082c42a6e564"
+    },
+    {
+      "id": "CW6_P04",
+      "type": "photoreal",
+      "sha256": "c0420e924c3626c58e753ec6247955f45601d19735a2594027ab824d16555956",
+      "label": "Island toward pantry and fixed post",
+      "key": "04",
+      "review": "PASS: targeted second attempt matches exact native framing and countertop foreground with no added chair/stool backs; paired pantry doors, hallway, fixed post and sofa/window retained. Rejected attempt 1 retained in attempt_history and immutable candidate.",
+      "native_id": "CW6_N04",
+      "native_sha256": "7b03f2239f5f911b608deef2983ea202c1fd50175d63a01630cc408ca22ead1a",
+      "prompt_path": "studies/island-C-west6/photoreal/prompts/CW6_P04_R02.txt",
+      "prompt_sha256": "abe8204ed30e790454237cab124b6b4fe067cd5ed7064e8f13ee197206b791e4"
+    },
+    {
+      "id": "CW6_PLAN01",
+      "type": "resource",
+      "sha256": "e8846735700b15752bbb2d48e776e6ccdc6b92c1b3a34c2fce19f91641c32b43",
+      "label": "Measured island/post/pantry planning exhibit",
+      "key": "plan",
+      "review": "PASS: visually inspected measured planning exhibit. 84×54 counter, three south seats, northwest sink/east dishwasher and fixed post preserved. Clearances explicitly marked study estimates requiring field verification."
+    }
+  ],
+  "constraints": [
+    "Proposed - Tests only",
+    "Do not merge isolated model branch outward",
+    "Preserve every existing production and A–G record",
+    "No branch retirement"
+  ],
+  "next_action": "Verify corrected P04 c0420e924c3626c58e753ec6247955f45601d19735a2594027ab824d16555956 in current archive receipt. Then refresh website baseline and prepared test/option-A-revised-gallery branch (existing execute.py/publish.py/browser check), populate RELEASE.json with this 17-image manifest and REQUEST phase assemble, inspect browser/archive QA, publish reviewed HTML only. No model branch merge.",
+  "baseline_html_sha256": "1491dcb68147de11bf54c344913e09ada9ef3e18c874a3400c5ec8986a21c020",
+  "notes": "Isolated Option A revised: 84×54 island shifted six inches west, three south seats. Sink product/support and field clearances provisional; fixed-post pinch remains. Native source governs geometry; AI finishes illustrative.",
+  "recovery_notes": {
+    "tool_result": "imagegen image_url is data:image/png;base64; retain raw bytes directly, never round-trip base64 through exec output (524288-character cap)",
+    "metadata": "Read small SHA256/dimensions/byte count only; raw image_url supplies blob content",
+    "local_outputs": "/workspace/scratch/d0448a97943f/recovery",
+    "native_generation": "0 new, 8 reused",
+    "ai_generation": "7 new calls this recovery including one P04 correction; prior P01/P02 reused; nine total retained candidates",
+    "uncertain_attempts": "none; P08 disconnect verified pre-registration and callback never ran before bounded retry",
+    "status": "No imagegen cell remains running."
+  },
+  "updated_at": "2026-10-26T16:53:14.276Z",
+  "archive_receipt": {
+    "run_id": 40362665112,
+    "job_id": 121711951945,
+    "manifest_uri": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/b027ba99f6fa6f7c511f3707015eb6f996bd1229379eed5f660f382dd65b7f00.json",
+    "current_ai_outputs_verified": 8
+  }
+}
