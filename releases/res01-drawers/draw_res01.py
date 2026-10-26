@@ -3,7 +3,7 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT=Path(__file__).resolve().parent
-W,H=1728,1440
+W,H=1728,1560
 BG='#faf8f3'; INK='#293d43'; TEAL='#32838b'; LINE='#afa99d'; WHITE='#fffdf7'
 img=Image.new('RGB',(W,H),BG);d=ImageDraw.Draw(img)
 def font(size,bold=False):return ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans'+('-Bold' if bold else '')+'.ttf',size)
@@ -15,7 +15,7 @@ def dim(x1,x2,y,label,size=23,fill=TEAL):
  b=d.textbbox((0,0),label,font=font(size,True)); tw=b[2]-b[0];d.rectangle(((x1+x2-tw)/2-12,y-19,(x1+x2+tw)/2+12,y+19),fill=BG);text((x1+x2)/2,y,label,size,fill,True,'mm')
 text(86,50,'43 CEDAR  /  FIREPLACE ALCOVE',36,bold=True)
 text(86,101,'Measured concept elevation • 75-inch TV • October 26, 2026',23)
-text(1642,61,'CONCEPT 01 / REV C',20,TEAL,True,'ra')
+text(1642,61,'CONCEPT 01 / REV D',20,TEAL,True,'ra')
 for x in (317,605,1123,1411):line((x,220 if x not in (317,1411) else 166,x,308),'#ccd0ca',1)
 dim(317,1411,178,'152″ TOTAL — FIELD MEASURED',26,INK)
 dim(317,605,250,'40″ PROPOSED',21);dim(605,1123,250,'72″ PROPOSED',21);dim(1123,1411,250,'40″ PROPOSED',21)
@@ -60,8 +60,12 @@ text(86,1064,'DESIGN DIMENSIONS',23,bold=True)
 for y,s in [(1103,'• Side bays: 40″ each; center bay: 72″ overall.'),(1140,'• Window units: approximately 24″ W × 48″ H.'),(1177,'• Bench seat: 18″ above floor, including cushion.'),(1214,'• Max two Shaker drawers per side; interior sizes TBD.')]:text(86,y,s,22)
 text(960,1064,'WINDOW CASING / FINAL COORDINATION',22,bold=True)
 for y,s in [(1103,'Square-edge Craftsman casing, matching rest of house:'),(1140,'3½–4″ legs; 5″ head; flat butt joints, no profiles.'),(1177,'TV / mantel heights, fireplace model and clearances,'),(1214,'Window size / opening, sill height and bench depth TBD.')]:text(960,y,s,19)
-text(86,1292,'Only the 152″ total width is field confirmed. Proposed dimensions are for design review, not construction.',20,'#687c7c')
-text(86,1327,'Width proportions drawn to scale. Vertical placement is illustrative; ceiling and roof geometry are intentionally omitted.',18,'#687c7c')
-text(86,1384,'Retained vertical T&G: entire fireplace / south wall and both alcoves • Swiss Coffee 75% • eggshell',21)
+box((86,1264,1642,1392),'#e8f0eb',outline=TEAL,width=2)
+text(114,1279,'TV MOUNT / BEFORE DRYWALL',23,TEAL,True)
+text(114,1318,'TV supported by MantelMount inside the stud cavity.',24)
+text(114,1354,'Add a receptacle and install the mount before drywall.',24)
+text(86,1418,'Only the 152″ total width is field confirmed. Proposed dimensions are for design review, not construction.',20,'#687c7c')
+text(86,1453,'Width proportions drawn to scale. Vertical placement is illustrative; ceiling and roof geometry are intentionally omitted.',18,'#687c7c')
+text(86,1510,'Retained vertical T&G: entire fireplace / south wall and both alcoves • Swiss Coffee 75% • eggshell',21)
 img.save(ROOT/'43_Cedar_Fireplace_Measured_Concept.png',optimize=True)
 print(ROOT/'43_Cedar_Fireplace_Measured_Concept.png')
