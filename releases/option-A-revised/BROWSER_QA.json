@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "desktop_opened": [
+    "CW6_N01",
+    "CW6_N02",
+    "CW6_N03",
+    "CW6_N04",
+    "CW6_N05",
+    "CW6_N06",
+    "CW6_N07",
+    "CW6_N08",
+    "CW6_P01",
+    "CW6_P02",
+    "CW6_P03",
+    "CW6_P04",
+    "CW6_P05",
+    "CW6_P06",
+    "CW6_P07",
+    "CW6_P08",
+    "CW6_PLAN01"
+  ],
+  "mobile_opened": "CW6_P01",
+  "page_errors": [],
+  "target": "file:///home/runner/work/rkneece.github.io/rkneece.github.io/sites/43cedar/interactive_map/index.html"
+}

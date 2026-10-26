@@ -1,0 +1,205 @@
+{
+  "status": "PASS",
+  "issue": 25,
+  "label": "Option A revised",
+  "before_records": 460,
+  "after_records": 477,
+  "new_test_records": 17,
+  "all_original_records_and_images_unchanged": true,
+  "production_gallery_unchanged": true,
+  "UI_and_floorplans_unchanged": true,
+  "all_new_images_embedded": true,
+  "html_sha256": "1c35b192fcece1d0eb348a83e5d105863b38770448eb09e7912415b882ccd2d6",
+  "new_ids": [
+    "CW6_N01",
+    "CW6_N02",
+    "CW6_N03",
+    "CW6_N04",
+    "CW6_N05",
+    "CW6_N06",
+    "CW6_N07",
+    "CW6_N08",
+    "CW6_P02",
+    "CW6_P01",
+    "CW6_P03",
+    "CW6_P05",
+    "CW6_P06",
+    "CW6_P07",
+    "CW6_P08",
+    "CW6_P04",
+    "CW6_PLAN01"
+  ],
+  "published_images": [
+    {
+      "id": "CW6_N01",
+      "type": "blender",
+      "display_sha256": "4a8ae50c2ba11f84bd22a2fc954562285c29b9f9540b98253b6544f29af238ec",
+      "source_sha256": "c1059f6a79059ea289e9c1d78c3b0cb1e60d178756eb9b829bb1a811dbf7ac24",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "CW6_N02",
+      "type": "blender",
+      "display_sha256": "4cdb758a10653edf24f275690f018d9290025bfcee6e3646f071f46ffe2bc77d",
+      "source_sha256": "d53aea04a90790298d1e337bcd4628a08e6a07b1fce7c2300d134a73758a8878",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "CW6_N03",
+      "type": "blender",
+      "display_sha256": "d0e88369a5da060c63845ee83e53ee51a020e522cb7303661a6e33b07081ad6e",
+      "source_sha256": "cca0e7af8c92213a6edeb372c3e4fc00067dad82fbd4f2c6afc82cb309a26054",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "CW6_N04",
+      "type": "blender",
+      "display_sha256": "ef28bbf18f4ec53e216f03941387deea4543477b7ff965d0dd281f76db01ab70",
+      "source_sha256": "7b03f2239f5f911b608deef2983ea202c1fd50175d63a01630cc408ca22ead1a",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "CW6_N05",
+      "type": "blender",
+      "display_sha256": "558f4a26c94d652fdadf8d09293ca2e7c721face00fc707ca1663e7a22745bb0",
+      "source_sha256": "546d697b5049f860ec3bb96f0d2bc317926d8bf4571bd43c2df7202488ff181c",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "CW6_N06",
+      "type": "blender",
+      "display_sha256": "bd08ad53b8d9f4e627c54e0224dcd655439e5ed40dbbbe2f56a405cc106a1cd7",
+      "source_sha256": "c8aaf75861c6033fb72f85f595ee4c04e721a14816d6b9d7c5ad47651800ae78",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "CW6_N07",
+      "type": "blender",
+      "display_sha256": "66ec2e95098779e0310e26c3f1fb47c313f47042a8016f82a316b4b02138f726",
+      "source_sha256": "851da9743d22f77e5cff5198bea364bb2419553c32a4b1c6ed36feea8507b9a1",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "CW6_N08",
+      "type": "blender",
+      "display_sha256": "edc1fa9c03261255b9521ef639b592e13a8f008784388f63c2ed5be0b2d0043e",
+      "source_sha256": "24452959b1385a66507b98397d884d4ec96898453e7d8982c3642a8260e04736",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "CW6_P02",
+      "type": "photoreal",
+      "display_sha256": "4a0c834c6debba03e8ceb1e36e857cf9f5df5420dda379a6f343e1aa1884664e",
+      "source_sha256": "4cbb12dd38ba17bc07a62ff5e24b599df960174a7400dafc10cf9eaa1777f3ec",
+      "dimensions": [
+        1476,
+        1065
+      ]
+    },
+    {
+      "id": "CW6_P01",
+      "type": "photoreal",
+      "display_sha256": "b841695d41c6f3417b0c16d33b271a6f7e3606df5782e6dfd6e074bd33e2337a",
+      "source_sha256": "a8d09381b95a7068d460c9c4ffd10c07b02559ea7af08a98fda157ce4c9556da",
+      "dimensions": [
+        1476,
+        1065
+      ]
+    },
+    {
+      "id": "CW6_P03",
+      "type": "photoreal",
+      "display_sha256": "6a83285ed09a084c0d9c2084ac222305626f11f2dc9e4fff0be997789fe87a66",
+      "source_sha256": "d9d4fc832fb1c58b8d6d39b2bb16ede651d3f63a67335f8c2a0bc8fe5b6786b0",
+      "dimensions": [
+        1476,
+        1066
+      ]
+    },
+    {
+      "id": "CW6_P05",
+      "type": "photoreal",
+      "display_sha256": "c1ba760e52f7afd1d5133298ca3ec97b2b3ae6da6eada303c423468f5cd16e38",
+      "source_sha256": "e5c9fabe39858f4362e6bc658283d144a32f3fc979323c0f60f48c2caea63e5a",
+      "dimensions": [
+        1476,
+        1065
+      ]
+    },
+    {
+      "id": "CW6_P06",
+      "type": "photoreal",
+      "display_sha256": "bae641b18a4cd6d5c609325a783c1bbb23669d9b93a41ab63f43a5bb4b40df26",
+      "source_sha256": "7a30267e9cb6355459dc59ba03439913e28f2d2149500bd73170f531ce4ee285",
+      "dimensions": [
+        1476,
+        1065
+      ]
+    },
+    {
+      "id": "CW6_P07",
+      "type": "photoreal",
+      "display_sha256": "8f784167e74cff2fa8f2ea29f10ba1990ceff0d040d8bda52b95aa9464c18b44",
+      "source_sha256": "a6d1b3a8094b7235e9d95e65e23498aec017a719e4838fce240c2aef5f390df2",
+      "dimensions": [
+        1476,
+        1065
+      ]
+    },
+    {
+      "id": "CW6_P08",
+      "type": "photoreal",
+      "display_sha256": "d7cbf1febf4d57b63a24f854093bb1ca1b6291783892f9c6a571e1a017ab3a55",
+      "source_sha256": "9acd63e963495331017f2808ddec90bacdde56f465faa55f7640a327f260f02d",
+      "dimensions": [
+        1476,
+        1065
+      ]
+    },
+    {
+      "id": "CW6_P04",
+      "type": "photoreal",
+      "display_sha256": "c8769e9e0d5eb8e7082246949ce9abcdd730e906d0fe6677d24f0ba3fbc38316",
+      "source_sha256": "c0420e924c3626c58e753ec6247955f45601d19735a2594027ab824d16555956",
+      "dimensions": [
+        1477,
+        1065
+      ]
+    },
+    {
+      "id": "CW6_PLAN01",
+      "type": "resource",
+      "display_sha256": "c1b90e42d57f828f90a22ceb3976623628da6218b15d55169000e760ce88f4a5",
+      "source_sha256": "e8846735700b15752bbb2d48e776e6ccdc6b92c1b3a34c2fce19f91641c32b43",
+      "dimensions": [
+        1600,
+        1300
+      ]
+    }
+  ],
+  "model_branch_not_merged": true
+}
