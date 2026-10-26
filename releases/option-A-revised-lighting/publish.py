@@ -10,7 +10,7 @@ assert subprocess.check_output(['git','hash-object',str(site)],text=True).strip(
 pat=re.compile(r'(<script id="appdata" type="application/json">)(.*?)(</script>)',re.S);match=pat.search(text);assert match
 before=json.loads(match[2]);after=copy.deepcopy(before)
 old={r['id']:r for r in before['photos']};updated={r['id'] for r in M['images']}
-assert len(updated)==16 and updated=={f'CW6_{kind}{i:02}' for kind in ['N','P'] for i in range(1,9)}
+assert len(updated)==10 and updated=={f'CW6_{kind}{i:02}' for kind in ['N','P'] for i in [1,2,3,4,7]}
 assert len(old)==len(before['photos'])
 proof=[]
 for row in M['images']:
@@ -39,5 +39,5 @@ result=text[:match.start(2)]+payload+text[match.end(2):]
 assert result[:match.start(2)]==text[:match.start(2)] and result[pat.search(result).end(2):]==text[match.end(2):]
 assert json.loads(pat.search(result)[2])==after
 site.write_text(result)
-qa={'status':'PASS','issue':25,'revision':'EW1','before_records':len(before['photos']),'after_records':len(after['photos']),'replaced_test_records':16,'all_other_records_and_assets_unchanged':True,'measured_plan_unchanged':True,'production_gallery_unchanged':True,'model_branch_not_merged':True,'UI_and_floorplans_unchanged':True,'html_sha256':sha(result.encode()),'updated_ids':sorted(updated),'published_images':proof}
+qa={'status':'PASS','issue':25,'revision':'EW1','before_records':len(before['photos']),'after_records':len(after['photos']),'replaced_test_records':10,'all_other_records_and_assets_unchanged':True,'measured_plan_unchanged':True,'production_gallery_unchanged':True,'model_branch_not_merged':True,'UI_and_floorplans_unchanged':True,'html_sha256':sha(result.encode()),'updated_ids':sorted(updated),'published_images':proof}
 (ROOT/'PUBLISH_QA.json').write_text(json.dumps(qa,indent=2));print(json.dumps({k:v for k,v in qa.items() if k!='published_images'}),flush=True)

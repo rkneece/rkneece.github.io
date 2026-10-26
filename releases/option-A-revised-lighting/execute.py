@@ -49,7 +49,7 @@ elif REQ['phase']=='publish':
  assert actual==qa['html_sha256'],'Live bytes did not reach reviewed hash; inspect deployment without regenerating'
  run('node',str(ROOT/'check-browser.cjs'),url+'?cw6='+published_commit)
  shutil.copy2(ROOT/'BROWSER_QA.json',ROOT/'LIVE_BROWSER_QA.json')
- live=dict(status='PASS',html_sha256=actual,published_commit=published_commit,replaced_test_records=16,model_branch_not_merged=True,dev_unchanged=True,production_records_unchanged=True,url=url)
+ live=dict(status='PASS',html_sha256=actual,published_commit=published_commit,replaced_test_records=10,model_branch_not_merged=True,dev_unchanged=True,production_records_unchanged=True,url=url)
  (ROOT/'LIVE_QA.json').write_text(json.dumps(live,indent=2))
  run('python','ops/cedar-archive/archive.py','--issue','25','--receipt',str(ROOT/'FINAL_ARCHIVE_RECEIPT.json'),str(SITE),str(ROOT/'RELEASE.json'),str(ROOT/'PUBLISH_QA.json'),str(ROOT/'LIVE_QA.json'),str(ROOT/'LIVE_BROWSER_QA.json'))
  commit([ROOT/'LIVE_QA.json',ROOT/'LIVE_BROWSER_QA.json',ROOT/'FINAL_ARCHIVE_RECEIPT.json'],'Record exact live Option A revised test-gallery verification and archive [skip ci]','main',published_commit)
