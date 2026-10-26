@@ -8,8 +8,12 @@ const base=__dirname;
  const target=process.argv[2]||'file://'+path.resolve('sites/43cedar/interactive_map/index.html');
  await page.goto(target,{waitUntil:'domcontentloaded'});
  async function stage(label){
-  await page.locator('#stageCrumb').click();
-  await page.locator('#sheetContent button').filter({hasText:label}).first().click();
+  if(await page.locator('#stageCrumb').isVisible()){
+   await page.locator('#stageCrumb').click();
+   await page.locator('#sheetContent button').filter({hasText:label}).first().click();
+  }else{
+   await page.locator('#stages button').filter({hasText:label}).first().click();
+  }
  }
  await stage('Proposed · Photoreal');
  for(const id of ['R03','R49']){
