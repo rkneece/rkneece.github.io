@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "issue": 31,
+  "checked_at": "2026-10-26T18:27:03.373672Z",
+  "photo_count": 460,
+  "only_changed_record": "RES01",
+  "only_changed_image": "resourceImages.RES01",
+  "notes_unchanged": true,
+  "all_other_appdata_unchanged": true,
+  "viewer_shell_byte_identical": true,
+  "html_sha256": "0472e12b699c9a636f1f8fbe668697951483426985c753f224e30852e48c3749",
+  "baseline_html_sha256": "2e1ed744cab20f5a4a8f7f037d7b478125ea31c788342b76e375cd407fbbd519",
+  "image_sha256": "eda1d19c88de7289a35d8b990b38a9c78723819181424a3259da592f054ef482",
+  "image_size": [
+    1728,
+    1560
+  ],
+  "visible_image_callout": [
+    "TV MOUNT / BEFORE DRYWALL",
+    "TV supported by MantelMount inside the stud cavity.",
+    "Add a receptacle and install the mount before drywall."
+  ],
+  "visual_review": "Exact PNG visually reviewed in active RES01 conversation; drawing geometry unchanged."
+}
