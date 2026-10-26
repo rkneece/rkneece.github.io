@@ -1,0 +1,44 @@
+name: Option A revised lighting test-gallery correction
+on:
+  push:
+    branches: [test/option-A-revised-lighting-gallery]
+    paths: [releases/option-A-revised-lighting/REQUEST.json]
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: cedar-CW6-lighting-gallery
+  cancel-in-progress: false
+jobs:
+  gallery:
+    if: contains(github.event.head_commit.message, '[cw6:lighting-gallery]')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093
+        with:
+          project_id: cedar-assets
+          workload_identity_provider: projects/293109622606/locations/global/workloadIdentityPools/cedar-github/providers/github
+      - uses: google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db
+      - run: python -m pip install --quiet Pillow
+      - name: Install browser QA
+        run: npm install --prefix "$RUNNER_TEMP/cw6-browser" --no-save playwright
+      - name: Assemble or publish reviewed test gallery only
+        env:
+          NODE_PATH: ${{ runner.temp }}/cw6-browser/node_modules
+        run: python releases/option-A-revised-lighting/execute.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cw6-gallery-${{ github.run_id }}
+          path: |
+            releases/option-A-revised-lighting/*QA.json
+            releases/option-A-revised-lighting/*browser.png
+            releases/option-A-revised-lighting/mobile-test.png
+            releases/option-A-revised-lighting/*RECEIPT.json
