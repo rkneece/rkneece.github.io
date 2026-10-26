@@ -1,0 +1,54 @@
+{
+  "schema": "43cedar-archive-v1",
+  "repository": "rkneece/rkneece.github.io",
+  "source_commit": "66d70cae8aaebce289367a357f01293942a6f697",
+  "source_ref": "refs/heads/release/res01-drawers",
+  "issue": "https://github.com/rkneece/43-cedar-blender/issues/31",
+  "archived_at": "2026-10-26T17:44:27.009246+00:00",
+  "run_url": "https://github.com/rkneece/rkneece.github.io/actions/runs/40371378009",
+  "approval": "archive-only; no design approval or publication implied",
+  "assets": [
+    {
+      "path": "releases/res01-drawers/43_Cedar_Fireplace_Measured_Concept.png",
+      "sha256": "67dd2aba39e1119a9eb3589eb0e4c29d2ef917bd1fe5a863aed2cc2a3a405a52",
+      "bytes": 121358,
+      "uri": "gs://rkneece-43cedar-assets/43cedar/objects/sha256/67/67dd2aba39e1119a9eb3589eb0e4c29d2ef917bd1fe5a863aed2cc2a3a405a52",
+      "verified": true,
+      "record_uri": "gs://rkneece-43cedar-assets/43cedar/records/sha256/d6565f0f95c83e5cd572f415c8554278cfb1f586a2121ee5b07d29297be6765d.json"
+    },
+    {
+      "path": "releases/res01-drawers/PUBLISH_QA.json",
+      "sha256": "f7d1ad0e2a34aad1c64e03ad70bb8a9b96e160a38fcb097ab4290b9e2b136315",
+      "bytes": 837,
+      "uri": "gs://rkneece-43cedar-assets/43cedar/objects/sha256/f7/f7d1ad0e2a34aad1c64e03ad70bb8a9b96e160a38fcb097ab4290b9e2b136315",
+      "verified": true,
+      "record_uri": "gs://rkneece-43cedar-assets/43cedar/records/sha256/b274cbbd35b297a1ee6a36c8c4659e71e99c7443cedaa3aca05dc92e89c7264f.json"
+    },
+    {
+      "path": "releases/res01-drawers/apply.py",
+      "sha256": "d0e86088a45f309115312cb678be84d2683c95dc286a526d7a96360888167c04",
+      "bytes": 3170,
+      "uri": "gs://rkneece-43cedar-assets/43cedar/objects/sha256/d0/d0e86088a45f309115312cb678be84d2683c95dc286a526d7a96360888167c04",
+      "verified": true,
+      "record_uri": "gs://rkneece-43cedar-assets/43cedar/records/sha256/e0c1e6906577835729fdd0508e558990cc285779bceae36d52ba092818810c16.json"
+    },
+    {
+      "path": "releases/res01-drawers/draw_res01.py",
+      "sha256": "1842e1f09f2a6da8ac4c6ed61311a8b7b1d53fcbd16453f84dbab5da1e24335e",
+      "bytes": 5097,
+      "uri": "gs://rkneece-43cedar-assets/43cedar/objects/sha256/18/1842e1f09f2a6da8ac4c6ed61311a8b7b1d53fcbd16453f84dbab5da1e24335e",
+      "verified": true,
+      "record_uri": "gs://rkneece-43cedar-assets/43cedar/records/sha256/301cf15b4cf74fdde644c5205cd9f6cec32e783b47c84e9877705bda859899dd.json"
+    },
+    {
+      "path": "sites/43cedar/interactive_map/index.html",
+      "sha256": "f8be0f69c5954d656bff3769fc7c3e14505ef38f1b70b411251264c741d24a6d",
+      "bytes": 42305683,
+      "uri": "gs://rkneece-43cedar-assets/43cedar/objects/sha256/f8/f8be0f69c5954d656bff3769fc7c3e14505ef38f1b70b411251264c741d24a6d",
+      "verified": true,
+      "record_uri": "gs://rkneece-43cedar-assets/43cedar/records/sha256/102248229e14069b5aedfb1b93cb31d66f8577864f7aebbb2af17724018a4590.json"
+    }
+  ],
+  "manifest_uri": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/b6a56d095d255b0e6a436b9bbc34dffd2e404d83afe0f84b9e9fbf30eef1f087.json",
+  "manifest_sha256": "b6a56d095d255b0e6a436b9bbc34dffd2e404d83afe0f84b9e9fbf30eef1f087"
+}
