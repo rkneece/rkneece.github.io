@@ -1,0 +1,22 @@
+name: Assemble isolated pantry hallway TEST views
+on:
+  push:
+    branches: [release/island-faucet-tests]
+    paths: [releases/island-hallway/**, sites/43cedar/interactive_map/assets/island-hallway-tests/**, .github/workflows/island-hallway.yml]
+permissions:
+  contents: write
+jobs:
+  assemble:
+    if: contains(github.event.head_commit.message, '[assemble:island-hallway]')
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add three reviewed pantry passage test views
+        run: |
+          set -euo pipefail
+          test "$(git ls-remote origin refs/heads/release/island-faucet-tests | cut -f1)" = "$GITHUB_SHA"
+          python releases/island-hallway/publish_hallway.py
+          test "$(git ls-remote origin refs/heads/release/island-faucet-tests | cut -f1)" = "$GITHUB_SHA"
+          git add sites/43cedar/interactive_map/index.html releases/island-hallway/PUBLISH_QA.json
+          git -c user.name='43 Cedar publication' -c user.email='actions@users.noreply.github.com' commit -m 'Assemble matching D E G pantry passage TEST views; existing imagery preserved [skip ci]'
+          git push origin HEAD:release/island-faucet-tests

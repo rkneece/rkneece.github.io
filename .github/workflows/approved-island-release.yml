@@ -1,0 +1,43 @@
+name: Assemble approved NI1 island release
+on:
+  push:
+    branches: [release/approved-north-island-farmhouse]
+    paths:
+      - releases/approved-north-island-farmhouse/**
+      - .github/workflows/approved-island-release.yml
+permissions:
+  contents: write
+  id-token: write
+concurrency:
+  group: approved-ni1-assembly
+  cancel-in-progress: false
+jobs:
+  assemble:
+    if: contains(github.event.head_commit.message, '[assemble:ni1]')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install --quiet Pillow
+      - uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093
+        with:
+          project_id: cedar-assets
+          workload_identity_provider: projects/293109622606/locations/global/workloadIdentityPools/cedar-github/providers/github
+      - uses: google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db
+      - name: Restore and independently verify every release asset
+        run: python releases/approved-north-island-farmhouse/restore.py
+      - name: Assemble approved views while preserving every isolated test
+        run: python releases/approved-north-island-farmhouse/publish.py
+      - name: Guard and checkpoint assembled release branch
+        run: |
+          test "$(git ls-remote origin refs/heads/release/approved-north-island-farmhouse | cut -f1)" = "$GITHUB_SHA"
+          git add sites/43cedar/interactive_map/index.html releases/approved-north-island-farmhouse/ASSET_QA.json releases/approved-north-island-farmhouse/PUBLISH_QA.json
+          git -c user.name='43 Cedar NI1 release' -c user.email='actions@users.noreply.github.com' commit -m 'Assemble reviewed NI1 native/AI images; preserve all A–G tests [skip ci]'
+          git push origin HEAD:release/approved-north-island-farmhouse
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ni1-assembly-${{ github.run_id }}
+          path: |
+            releases/approved-north-island-farmhouse/ASSET_QA.json
+            releases/approved-north-island-farmhouse/PUBLISH_QA.json

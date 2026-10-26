@@ -1,0 +1,66 @@
+{
+  "created_at": "2026-10-25T00:27:31.246586+00:00",
+  "before_html_sha256": "ba8eab4efcbd892754e4aabb477b35c9462f97cbc9c2ec57563c73b19544636f",
+  "view_order": [
+    "Couch",
+    "Kitchen",
+    "Hallway",
+    "Dining",
+    "Porch",
+    "Post",
+    "Plan"
+  ],
+  "images": [
+    {
+      "id": "CUR01",
+      "view": "Couch",
+      "label": "Living-room couch \u00b7 table-to-stool spacing",
+      "path": "assets/current-island-views/Current_Couch.jpg",
+      "sha256": "9377b14ddfe38ef2f06a64b373757cfbdd157d5cd74790e6e4e44badf29909c8"
+    },
+    {
+      "id": "CUR02",
+      "view": "Kitchen",
+      "label": "Within kitchen \u00b7 island appliance face",
+      "path": "assets/current-island-views/Current_Kitchen.jpg",
+      "sha256": "5e08de5702817207b41e9893294a97ea18303acae43a4ae5b729d72a095194d5"
+    },
+    {
+      "id": "CUR03",
+      "view": "Hallway",
+      "label": "Pantry passage \u00b7 kitchen end toward hall",
+      "path": "assets/current-island-views/Current_Hallway.jpg",
+      "sha256": "f1ac4821fc64384813473f9668b32ab23222e2a3fb33567e02ed048e008bd5a0"
+    },
+    {
+      "id": "CUR04",
+      "view": "Dining",
+      "label": "Dining approach",
+      "path": "assets/current-island-views/Current_Dining.jpg",
+      "sha256": "30c516bcb73a5816d974b9c2dbfc4b1b07ffec22f785ccc22e8bef4a506d1f9b"
+    },
+    {
+      "id": "CUR05",
+      "view": "Porch",
+      "label": "West / slider approach",
+      "path": "assets/current-island-views/Current_Porch.jpg",
+      "sha256": "103ca5437aeb8ba9e0dfe1b175e3bf9355c5c95a665d7150805631d319d40994"
+    },
+    {
+      "id": "CUR06",
+      "view": "Post",
+      "label": "Pantry / post approach",
+      "path": "assets/current-island-views/Current_Post.jpg",
+      "sha256": "48240072e5331f50d3b3dbf6cc4273a80233f7fb02893d242298f1e3625056c0"
+    },
+    {
+      "id": "CUR07",
+      "view": "Plan",
+      "label": "North-up overhead",
+      "path": "assets/current-island-views/Current_Plan.jpg",
+      "sha256": "e159cf4561f998586252b144acc644cedccac037846a3d3e455d5c5d34707040"
+    }
+  ],
+  "model_source_ref": "fdb63b893d605f8b69596732fdb9ba7a03ad2e55",
+  "source_scene_sha256": "fefc662d67e1a8b2cd4ddeda76d20726eda7c2c5f2b01c4e5de612f242cf3abe"
+}

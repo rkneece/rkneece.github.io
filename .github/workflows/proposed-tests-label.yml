@@ -1,0 +1,56 @@
+name: Rename Proposed Tests category
+on:
+  push:
+    branches: [release/island-faucet-tests]
+    paths: [.github/workflows/proposed-tests-label.yml]
+permissions:
+  contents: write
+jobs:
+  update:
+    if: contains(github.event.head_commit.message, '[rename:proposed-tests]')
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rename category and verify comparison membership
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git ls-remote origin refs/heads/release/island-faucet-tests | cut -f1)" = "$GITHUB_SHA"
+          python - <<'PY'
+          import collections, hashlib, json, re
+          from pathlib import Path
+          path = Path('sites/43cedar/interactive_map/index.html')
+          before = path.read_text()
+          assert hashlib.sha256(before.encode()).hexdigest() == 'a56e755570569a0ef53522fecc5093ebb0dd82c0df8dbbcf6f91c081e7722501'
+          pattern = r'(<script id="appdata" type="application/json">)(.*?)(</script>)'
+          data_before = json.loads(re.search(pattern, before, re.S)[2])
+          after = before.replace('Proposed-Tests', 'Proposed - Tests')
+          data_after = json.loads(re.search(pattern, after, re.S)[2])
+          tests = [p for p in data_after['photos'] if p['stage'] == 'Proposed - Tests' or p.get('currentDesignComparison')]
+          assert len(tests) == 30
+          assert {p['zone'] for p in tests} == {'Dining Area'}
+          assert {p['id'] for p in tests if p.get('currentDesignComparison')} == {f'CUR{i:02d}' for i in range(1,8)}
+          assert data_after['proposedTests']['label'] == 'Proposed - Tests'
+          assert data_after['proposedTests']['display_count'] == 30
+          for key in data_before:
+              if key not in ('photos', 'counts', 'proposedTests'):
+                  assert data_before[key] == data_after[key], key
+          for old, new in zip(data_before['photos'], data_after['photos']):
+              assert old['id'] == new['id']
+              assert json.dumps(old, ensure_ascii=False).replace('Proposed-Tests','Proposed - Tests') == json.dumps(new, ensure_ascii=False)
+          assert "stage === 'Proposed - Tests' && !!p.currentDesignComparison" in after
+          assert '#proposed-tests' in after
+          path.write_text(after)
+          scripts = re.findall(r'<script(?: [^>]*)?>(.*?)</script>', after, re.S)
+          Path('/tmp/cedar-viewer-label.js').write_text(scripts[-1])
+          print(json.dumps({'category':'Proposed - Tests','location':'Dining Area','total':len(tests),'current':7,'alternatives':21,'graphics':2,'sha256':hashlib.sha256(after.encode()).hexdigest(),'unchanged_images':True}, indent=2))
+          PY
+          node --check /tmp/cedar-viewer-label.js
+      - name: Save verified HTML update
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git ls-remote origin refs/heads/release/island-faucet-tests | cut -f1)" = "$GITHUB_SHA"
+          git add sites/43cedar/interactive_map/index.html
+          git -c user.name='43 Cedar publication' -c user.email='actions@users.noreply.github.com' commit -m 'Rename Proposed - Tests; retain seven current views with alternatives in Dining Area [skip ci]'
+          git push origin HEAD:release/island-faucet-tests

@@ -1,0 +1,1489 @@
+{
+  "created_at": "2026-10-24T16:44:54.798920Z",
+  "before_html_sha256": "a3e600413c18f64203cee8c4554c8ec4c5ab6cb113278a312542174e8b86f2c3",
+  "test_branch": "test/island-DEG-photoreal",
+  "source_scene_sha256": "fefc662d67e1a8b2cd4ddeda76d20726eda7c2c5f2b01c4e5de612f242cf3abe",
+  "model_dev_sha": "fdb63b893d605f8b69596732fdb9ba7a03ad2e55",
+  "view_order": [
+    "Couch",
+    "Kitchen",
+    "Dining",
+    "Porch",
+    "Post",
+    "Plan"
+  ],
+  "case_order": [
+    "D",
+    "E",
+    "G"
+  ],
+  "images": [
+    {
+      "id": "RES19",
+      "case": "D",
+      "view": "Couch",
+      "label": "Living-room couch \u00b7 table-to-stool spacing",
+      "path": "assets/island-fixture-tests/D_Couch.jpg",
+      "file": "D_Couch.jpg",
+      "sha256": "d7592eafe0c612fbcfe23bff0cedf396108bd286d70a529a209eca607182b187",
+      "git_blob_sha1": "a88f040d43d40d1faeab07eab616de4a9c03f80c",
+      "size": 418024,
+      "width": 1512,
+      "height": 1040,
+      "native_sha256": "7eda51eb7bc2577ea3109c9ef7a4ef0f2b3a0f46cca470b44ebf73a211a53ac8",
+      "camera": [
+        0.9254064559936523,
+        0.09687305986881256,
+        -0.36638569831848145,
+        6.199999809265137,
+        -0.37897607684135437,
+        0.23655037581920624,
+        -0.8946625590324402,
+        -17.299999237060547,
+        -2.8116092565255713e-08,
+        0.9667779207229614,
+        0.25561782717704773,
+        5.599999904632568,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "generated_png_sha256": "2a7cf2766ad30a3b540ef45998df63ad76e2a4a1f77a3aa533ff81f36025a032"
+    },
+    {
+      "id": "RES22",
+      "case": "E",
+      "view": "Couch",
+      "label": "Living-room couch \u00b7 table-to-stool spacing",
+      "path": "assets/island-fixture-tests/E_Couch.jpg",
+      "file": "E_Couch.jpg",
+      "sha256": "d5797c992e07e248dcb782052970a1662a393abd5cfbf6161324bcb23361090c",
+      "git_blob_sha1": "165576b0163c7161822fb69032572132733b948b",
+      "size": 396967,
+      "width": 1512,
+      "height": 1040,
+      "native_sha256": "e73dbdf169b93c2071ce8d9e44bbfee9ddd099d37512de15108bab057bb478f7",
+      "camera": [
+        0.9254064559936523,
+        0.09687305986881256,
+        -0.36638569831848145,
+        6.199999809265137,
+        -0.37897607684135437,
+        0.23655037581920624,
+        -0.8946625590324402,
+        -17.299999237060547,
+        -2.8116092565255713e-08,
+        0.9667779207229614,
+        0.25561782717704773,
+        5.599999904632568,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "generated_png_sha256": "29182e4efaa5cbed8dca9e292e9bf0869d3902fd3bba76ad60a8c60243fc8c8e"
+    },
+    {
+      "id": "RES23",
+      "case": "G",
+      "view": "Couch",
+      "label": "Living-room couch \u00b7 table-to-stool spacing",
+      "path": "assets/island-fixture-tests/G_Couch.jpg",
+      "file": "G_Couch.jpg",
+      "sha256": "1a04e061e5f22990a79e8c0e028937bdccba8e33d04ba2b8b5db22d1f552fa5c",
+      "git_blob_sha1": "365df41643131f5424d50df3d44917afb5b71fc8",
+      "size": 425318,
+      "width": 1512,
+      "height": 1040,
+      "native_sha256": "750e0430b3ecb19b64ab0ece5f6027fcf41dd91780a2e5fb7aff7af3f965843e",
+      "camera": [
+        0.9254064559936523,
+        0.09687305986881256,
+        -0.36638569831848145,
+        6.199999809265137,
+        -0.37897607684135437,
+        0.23655037581920624,
+        -0.8946625590324402,
+        -17.299999237060547,
+        -2.8116092565255713e-08,
+        0.9667779207229614,
+        0.25561782717704773,
+        5.599999904632568,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "generated_png_sha256": "95c2e997afea2766428ad5b4f4297e17fe43117cdb311d36fdde78fba03e053e"
+    },
+    {
+      "id": "RES24",
+      "case": "D",
+      "view": "Kitchen",
+      "label": "Within kitchen \u00b7 island appliance face",
+      "path": "assets/island-fixture-tests/D_Kitchen.jpg",
+      "file": "D_Kitchen.jpg",
+      "sha256": "4a0521228bc18961588529f5b2da981c9ee7c90eef74f831a429cc38b016a0f7",
+      "git_blob_sha1": "15464c14ad449a177bec9dd7466c4d571ff319c9",
+      "size": 403647,
+      "width": 1512,
+      "height": 1040,
+      "native_sha256": "f16d4ba88346d4f2a0db64e56f444b439ac362057eb3c7553209ec006196079e",
+      "camera": [
+        -0.4022738039493561,
+        -0.4356244206428528,
+        0.8052372932434082,
+        21.299999237060547,
+        0.9155194163322449,
+        -0.19141080975532532,
+        0.35381650924682617,
+        -4.5,
+        1.2057548737232082e-08,
+        0.8795415163040161,
+        0.4758221507072449,
+        5.599999904632568,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "generated_png_sha256": "411123a4c71af4782ae6d219c245e62ddd3dbb83883898eb9e0f1d89a6bd630c"
+    },
+    {
+      "id": "RES25",
+      "case": "E",
+      "view": "Kitchen",
+      "label": "Within kitchen \u00b7 island appliance face",
+      "path": "assets/island-fixture-tests/E_Kitchen.jpg",
+      "file": "E_Kitchen.jpg",
+      "sha256": "98757c316e0287a9019dccf8cb9e856f17232a8c6b57c9f5eac74b693dac10a6",
+      "git_blob_sha1": "262363c667aaad5e213641653421ff7e62fb3df6",
+      "size": 388895,
+      "width": 1512,
+      "height": 1040,
+      "native_sha256": "19cab7921b94e938ea209df9b6c0981c1ff19a3839bf136034ec720091751328",
+      "camera": [
+        -0.4022738039493561,
+        -0.4356244206428528,
+        0.8052372932434082,
+        21.299999237060547,
+        0.9155194163322449,
+        -0.19141080975532532,
+        0.35381650924682617,
+        -4.5,
+        1.2057548737232082e-08,
+        0.8795415163040161,
+        0.4758221507072449,
+        5.599999904632568,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "generated_png_sha256": "deb05130dd1e2283c687f58407a3a527a054bbdababab3fa5ea5a68707b6158c"
+    },
+    {
+      "id": "RES26",
+      "case": "G",
+      "view": "Kitchen",
+      "label": "Within kitchen \u00b7 island appliance face",
+      "path": "assets/island-fixture-tests/G_Kitchen.jpg",
+      "file": "G_Kitchen.jpg",
+      "sha256": "550c2d2d40e9e593b7f2c20cd5e1d9640b718b81f8c6516b61f338712d71ca9a",
+      "git_blob_sha1": "aae92a267974852dd19d148ce161f09408e41e09",
+      "size": 407154,
+      "width": 1512,
+      "height": 1040,
+      "native_sha256": "107b99b3d6d88cf6ba3a1df4428aa7a1b0f9fe6285c5676f1595c5109181d458",
+      "camera": [
+        -0.4022738039493561,
+        -0.4356244206428528,
+        0.8052372932434082,
+        21.299999237060547,
+        0.9155194163322449,
+        -0.19141080975532532,
+        0.35381650924682617,
+        -4.5,
+        1.2057548737232082e-08,
+        0.8795415163040161,
+        0.4758221507072449,
+        5.599999904632568,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "generated_png_sha256": "47b610da47ce7ac722074c5d793089de02c37c229dc42197e654c6ccdba49b0e"
+    },
+    {
+      "id": "RES09",
+      "case": "D",
+      "view": "Dining",
+      "label": "Dining approach",
+      "path": "assets/island-fixture-tests/D_Dining.jpg",
+      "file": "D_Dining.jpg",
+      "sha256": "2c99030e77e05492c38448140e13efcf641d6c26c5c0bf5073cae4fe19c06827",
+      "git_blob_sha1": "b1380f01ab02df49768a7be437576a6f0c21a94e",
+      "size": 364761,
+      "width": 1512,
+      "height": 1040,
+      "native_sha256": "db9d2e30173604e3b377a3c85be13be5bc6aaae7f196848ec788dad024aa0451",
+      "camera": [
+        0.2596009373664856,
+        0.28722652792930603,
+        -0.9220131635665894,
+        5.5,
+        -0.9657160043716431,
+        0.07721120119094849,
+        -0.24785295128822327,
+        -10.5,
+        -1.9709068510564975e-07,
+        0.9547457098960876,
+        0.2974233329296112,
+        5.699999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "generated_png_sha256": "90f4ebef7288a34ed53990fe04684d8a34d85b6336b09d37dd0801c37ca4986d"
+    },
+    {
+      "id": "RES11",
+      "case": "E",
+      "view": "Dining",
+      "label": "Dining approach",
+      "path": "assets/island-fixture-tests/E_Dining.jpg",
+      "file": "E_Dining.jpg",
+      "sha256": "7b79d4edb290a4d1e3bb202a8eac4fb4fa0b5a63692e36725cef5c7a25911ffe",
+      "git_blob_sha1": "ec2a6fecccb16bd7f60ad7f46fb37899886f5b7b",
+      "size": 363713,
+      "width": 1512,
+      "height": 1040,
+      "native_sha256": "8ad997c28fc1a91e455cdb0ddaa4ce88d54d596b9b402a55fdb3bbba3a75ce9a",
+      "camera": [
+        0.2596009373664856,
+        0.28722652792930603,
+        -0.9220131635665894,
+        5.5,
+        -0.9657160043716431,
+        0.07721120119094849,
+        -0.24785295128822327,
+        -10.5,
+        -1.9709068510564975e-07,
+        0.9547457098960876,
+        0.2974233329296112,
+        5.699999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "generated_png_sha256": "37330dfa6a4d6eb5afd9262e04db8d77c26268258240fac2ae1d4d977ed52cfd"
+    },
+    {
+      "id": "RES15",
+      "case": "G",
+      "view": "Dining",
+      "label": "Dining approach",
+      "path": "assets/island-fixture-tests/G_Dining.jpg",
+      "file": "G_Dining.jpg",
+      "sha256": "ee8cbda3977b6f9f40c60ec545c79c6ba6278621a660d973bb04fc4ff42b70fa",
+      "git_blob_sha1": "4b4ab96d9f65cfca804870f7651d3f0755f86b0f",
+      "size": 381104,
+      "width": 1512,
+      "height": 1040,
+      "native_sha256": "dbceffb767d3b0c19415f64a65877088cf8b3311bfd5a115044eddeb1d24ba48",
+      "camera": [
+        0.2596009373664856,
+        0.28722652792930603,
+        -0.9220131635665894,
+        5.5,
+        -0.9657160043716431,
+        0.07721120119094849,
+        -0.24785295128822327,
+        -10.5,
+        -1.9709068510564975e-07,
+        0.9547457098960876,
+        0.2974233329296112,
+        5.699999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "generated_png_sha256": "42e016730c87f5b4d1689c0d8b16ff8bb36a074e2b1beed92cba0b0505e7bb7d"
+    },
+    {
+      "id": "RES20",
+      "case": "D",
+      "view": "Porch",
+      "label": "West / slider approach",
+      "path": "assets/island-fixture-tests/D_Porch.jpg",
+      "file": "D_Porch.jpg",
+      "sha256": "1e85c96d749671e0188fd54d4b9ea2f4a6980bed5cc3332a13ee829658177ec0",
+      "git_blob_sha1": "66ee571a5a8a20cb0f64563d34ba7562e6069266",
+      "size": 333351,
+      "width": 1512,
+      "height": 1040,
+      "native_sha256": "c614b88fb25c09774d09aa99105b11c76bab3307c9805051c9ac69c57590047e",
+      "camera": [
+        -0.9945054650306702,
+        -0.03371826186776161,
+        0.09910588711500168,
+        15.0,
+        0.1046847552061081,
+        -0.3203241527080536,
+        0.941506028175354,
+        -0.8999999761581421,
+        5.968101390863012e-08,
+        0.9467077255249023,
+        0.3220939040184021,
+        5.400000095367432,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "generated_png_sha256": "0eafc0599059a17f1d50c086efe3c9b37439d085805e1a47942d68b8c5f8f226"
+    },
+    {
+      "id": "RES12",
+      "case": "E",
+      "view": "Porch",
+      "label": "West / slider approach",
+      "path": "assets/island-fixture-tests/E_Porch.jpg",
+      "file": "E_Porch.jpg",
+      "sha256": "38ce8a82f999b0b5f606173b48516eb7792247309316677ce582cabc01b38fb7",
+      "git_blob_sha1": "6223c90e10b66270c715e1d33e38bdc9ab616400",
+      "size": 328241,
+      "width": 1512,
+      "height": 1040,
+      "native_sha256": "0be8f97177273f7bc0ff62f78a2cf84de78bf63916a03654bf2263cc608a7f44",
+      "camera": [
+        -0.9945054650306702,
+        -0.03371826186776161,
+        0.09910588711500168,
+        15.0,
+        0.1046847552061081,
+        -0.3203241527080536,
+        0.941506028175354,
+        -0.8999999761581421,
+        5.968101390863012e-08,
+        0.9467077255249023,
+        0.3220939040184021,
+        5.400000095367432,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "generated_png_sha256": "7966add7af5cf582b94bf58a69178d4cd0265f3022db91ec1969e295ca45be43"
+    },
+    {
+      "id": "RES16",
+      "case": "G",
+      "view": "Porch",
+      "label": "West / slider approach",
+      "path": "assets/island-fixture-tests/G_Porch.jpg",
+      "file": "G_Porch.jpg",
+      "sha256": "d8093eb95eb7bb98cdad11dae3c77dee2456b10bbc6d150a146c8dbb139da7ea",
+      "git_blob_sha1": "b3c38cee1efe0973ff9559fa0fff59aec0ca5f86",
+      "size": 331191,
+      "width": 1512,
+      "height": 1040,
+      "native_sha256": "9586e4533214c37f17ea493262a7226ba4ed3310209e1bdca1b4d0b56dbc6184",
+      "camera": [
+        -0.9945054650306702,
+        -0.03371826186776161,
+        0.09910588711500168,
+        15.0,
+        0.1046847552061081,
+        -0.3203241527080536,
+        0.941506028175354,
+        -0.8999999761581421,
+        5.968101390863012e-08,
+        0.9467077255249023,
+        0.3220939040184021,
+        5.400000095367432,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "generated_png_sha256": "cff84826b1b3db7b4733a1b018402f11f8f6bc3a9106d560c241e4422e776e91"
+    },
+    {
+      "id": "RES10",
+      "case": "D",
+      "view": "Post",
+      "label": "Pantry / post approach",
+      "path": "assets/island-fixture-tests/D_Post.jpg",
+      "file": "D_Post.jpg",
+      "sha256": "85b802e717dfc4e57ad1d0cd9b8709a8c4a7210add97c052e22b12968a733d2a",
+      "git_blob_sha1": "ac6b30c06101ac57ee10da5378d3266498e8ed5e",
+      "size": 352908,
+      "width": 1512,
+      "height": 1040,
+      "native_sha256": "413fa20b8696615bca0ebfcdd4bf5ed138d700de7ed6c18a295eb9d27f0b8f4d",
+      "camera": [
+        0.7273936867713928,
+        -0.24615351855754852,
+        0.6405519843101501,
+        18.299999237060547,
+        0.6862204074859619,
+        0.2609228193759918,
+        -0.6789851784706116,
+        -13.0,
+        -4.513176321552237e-08,
+        0.933449387550354,
+        0.3587091565132141,
+        5.400000095367432,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "generated_png_sha256": "19e301239f25757fa2ccbe51d4e8bdb6f6e8879571dd5cc9fe2f857bb304aae1"
+    },
+    {
+      "id": "RES13",
+      "case": "E",
+      "view": "Post",
+      "label": "Pantry / post approach",
+      "path": "assets/island-fixture-tests/E_Post.jpg",
+      "file": "E_Post.jpg",
+      "sha256": "a837ba452259f6b23bf5614cdeccc0aa424b0db9314c09ef40f991e1ec6b62a3",
+      "git_blob_sha1": "fcadd2b72fff471170fe317e3d592ed060f71aba",
+      "size": 329707,
+      "width": 1512,
+      "height": 1040,
+      "native_sha256": "b8e55813dfb4f287b914e23e799a0522ea9a5702085dda72b3bff27634ef59b0",
+      "camera": [
+        0.7273936867713928,
+        -0.24615351855754852,
+        0.6405519843101501,
+        18.299999237060547,
+        0.6862204074859619,
+        0.2609228193759918,
+        -0.6789851784706116,
+        -13.0,
+        -4.513176321552237e-08,
+        0.933449387550354,
+        0.3587091565132141,
+        5.400000095367432,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "generated_png_sha256": "c4eb9565d346027c7ac924ad25c3db2e901f2f25867929fa6724c5bdb1ac1621"
+    },
+    {
+      "id": "RES17",
+      "case": "G",
+      "view": "Post",
+      "label": "Pantry / post approach",
+      "path": "assets/island-fixture-tests/G_Post.jpg",
+      "file": "G_Post.jpg",
+      "sha256": "1008f8cdfd47d64f46989ae4742278746a5109d12f0037b2549f1e0bf0d68e6c",
+      "git_blob_sha1": "49f6ca2a1a8acc200ae037066edc226fc9602d49",
+      "size": 353018,
+      "width": 1512,
+      "height": 1040,
+      "native_sha256": "18910c50e90c658c2a66eca547eb2a3970f8eb6320f72dea18b673d71661ee08",
+      "camera": [
+        0.7273936867713928,
+        -0.24615351855754852,
+        0.6405519843101501,
+        18.299999237060547,
+        0.6862204074859619,
+        0.2609228193759918,
+        -0.6789851784706116,
+        -13.0,
+        -4.513176321552237e-08,
+        0.933449387550354,
+        0.3587091565132141,
+        5.400000095367432,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "generated_png_sha256": "3ce3ed69e4979f5382610381b395621e859411f6bd424e991907a20bfb588e5f"
+    },
+    {
+      "id": "RES21",
+      "case": "D",
+      "view": "Plan",
+      "label": "North-up overhead",
+      "path": "assets/island-fixture-tests/D_Plan.jpg",
+      "file": "D_Plan.jpg",
+      "sha256": "939eb6c3fcc94e6b98e1a9b8f20e2dd14d9d87545dce1839478834e2ce6d97d3",
+      "git_blob_sha1": "27a011deee2128831fd9cfaceb0c3da990ca4925",
+      "size": 370585,
+      "width": 1254,
+      "height": 1254,
+      "native_sha256": "c9478504559115bf227be7133b98c83fb07293787a3580989bd66d906e97937b",
+      "camera": [
+        -4.371138828673793e-08,
+        1.0,
+        0.0,
+        12.199999809265137,
+        -1.0,
+        -4.371138828673793e-08,
+        0.0,
+        -8.0,
+        0.0,
+        0.0,
+        1.0,
+        34.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "generated_png_sha256": "de3eb777a5318202b14b42be02d637f1b8a42d07a64b0819815c7777071be495"
+    },
+    {
+      "id": "RES14",
+      "case": "E",
+      "view": "Plan",
+      "label": "North-up overhead",
+      "path": "assets/island-fixture-tests/E_Plan.jpg",
+      "file": "E_Plan.jpg",
+      "sha256": "9e3ebdd456f7e2f18fd3c9451b4646b001763de5327ff4f1df4223a88f9d526c",
+      "git_blob_sha1": "31839522b5b6006bd4f68c5b35e9aff26d1d5c4e",
+      "size": 378037,
+      "width": 1254,
+      "height": 1254,
+      "native_sha256": "beb4af76b08aa85e1456e5355b4b12d9517c1fcf92f5b568092c0d1bc3258f46",
+      "camera": [
+        -4.371138828673793e-08,
+        1.0,
+        0.0,
+        12.199999809265137,
+        -1.0,
+        -4.371138828673793e-08,
+        0.0,
+        -8.0,
+        0.0,
+        0.0,
+        1.0,
+        34.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "generated_png_sha256": "2d143160df60d7a4407b32af1310f521b758687c1426b576505f8869c2c9f1e8"
+    },
+    {
+      "id": "RES18",
+      "case": "G",
+      "view": "Plan",
+      "label": "North-up overhead",
+      "path": "assets/island-fixture-tests/G_Plan.jpg",
+      "file": "G_Plan.jpg",
+      "sha256": "6074cd6e0ea08351717aa32397f9b5c1be9bbc9f505d7b8ceb6fa02442f07f71",
+      "git_blob_sha1": "b90085fe4db44e956d8f40ba99996c6f8e926b1a",
+      "size": 370737,
+      "width": 1254,
+      "height": 1254,
+      "native_sha256": "72753e643c4d7c563c851ef7096814a10a0114407ced5c8042f034d91722a072",
+      "camera": [
+        -4.371138828673793e-08,
+        1.0,
+        0.0,
+        12.199999809265137,
+        -1.0,
+        -4.371138828673793e-08,
+        0.0,
+        -8.0,
+        0.0,
+        0.0,
+        1.0,
+        34.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "generated_png_sha256": "8720993d8eb9687d2a4a5dd38a7c64a5303ea8b30fca1cd679a35e3cfa66ea47"
+    }
+  ],
+  "microwave_reference": {
+    "face_inches": [
+      23.875,
+      15.875
+    ],
+    "manufacturer_spec": "https://files.sharpusa.com/Downloads/ForHome/HomeAppliances/MicrowaveOvens/SpecSheets/SMD2470AS_SS_EN.pdf",
+    "scope": "Typical study proportion only, not an appliance selection or construction detail"
+  },
+  "native_qa": {
+    "D": {
+      "case": "D",
+      "source_sha256": "4835090f1f62de8584cab1dcdd8be1c50c48c86a013da0a4ec3f25c71a02d740",
+      "phase": "final",
+      "branch": "test/island-DEG-photoreal",
+      "faucet": {
+        "base": [
+          16.61370849609375,
+          -6.604166507720947,
+          3.180000066757202
+        ],
+        "nozzle": [
+          15.963708877563477,
+          -6.604166507720947,
+          3.700000047683716
+        ],
+        "basin_plan_bounds": [
+          [
+            15.109821319580078,
+            -7.465223789215088
+          ],
+          [
+            16.428709030151367,
+            -5.743109226226807
+          ]
+        ],
+        "nozzle_inside_basin": true,
+        "direction": "South into basin from fixed north mounting point",
+        "native_faucet_already_correct": true
+      },
+      "north_face_run_west_to_east": [
+        [
+          "Dishwasher",
+          24
+        ],
+        [
+          "Sink base",
+          36
+        ],
+        [
+          "Microwave drawer",
+          24
+        ]
+      ],
+      "microwave": "north face",
+      "original_non_microwave_geometry_visibility_and_cameras_unchanged": true,
+      "microwave_face_inches": [
+        23.875,
+        15.875
+      ],
+      "microwave_size_reference": "Sharp SMD2470AS manufacturer sheet; study proportion only, appliance not selected",
+      "microwave_modified_objects": [
+        "ISLAND TEST | MW front",
+        "ISLAND TEST | MW handle",
+        "ISLAND TEST | microwave glass"
+      ],
+      "views": [
+        {
+          "name": "Kitchen",
+          "file": "D/D_Kitchen_final.png",
+          "sha256": "f16d4ba88346d4f2a0db64e56f444b439ac362057eb3c7553209ec006196079e",
+          "camera": [
+            -0.4022738039493561,
+            -0.4356244206428528,
+            0.8052372932434082,
+            21.299999237060547,
+            0.9155194163322449,
+            -0.19141080975532532,
+            0.35381650924682617,
+            -4.5,
+            1.2057548737232082e-08,
+            0.8795415163040161,
+            0.4758221507072449,
+            5.599999904632568,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "eye": [
+            21.3,
+            -4.5,
+            5.6
+          ],
+          "target": [
+            14.7,
+            -7.4,
+            1.7
+          ],
+          "lens": 22,
+          "resolution": [
+            1280,
+            880
+          ]
+        },
+        {
+          "name": "Post",
+          "file": "D/D_Post_final.png",
+          "sha256": "413fa20b8696615bca0ebfcdd4bf5ed138d700de7ed6c18a295eb9d27f0b8f4d",
+          "camera": [
+            0.7273936867713928,
+            -0.24615351855754852,
+            0.6405519843101501,
+            18.299999237060547,
+            0.6862204074859619,
+            0.2609228193759918,
+            -0.6789851784706116,
+            -13.0,
+            -4.513176321552237e-08,
+            0.933449387550354,
+            0.3587091565132141,
+            5.400000095367432,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "eye": [
+            18.3,
+            -13,
+            5.4
+          ],
+          "target": [
+            13.3,
+            -7.7,
+            2.6
+          ],
+          "lens": 24,
+          "resolution": [
+            1280,
+            880
+          ]
+        },
+        {
+          "name": "Couch",
+          "file": "D/D_Couch_final.png",
+          "sha256": "7eda51eb7bc2577ea3109c9ef7a4ef0f2b3a0f46cca470b44ebf73a211a53ac8",
+          "camera": [
+            0.9254064559936523,
+            0.09687305986881256,
+            -0.36638569831848145,
+            6.199999809265137,
+            -0.37897607684135437,
+            0.23655037581920624,
+            -0.8946625590324402,
+            -17.299999237060547,
+            -2.8116092565255713e-08,
+            0.9667779207229614,
+            0.25561782717704773,
+            5.599999904632568,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "eye": [
+            6.2,
+            -17.3,
+            5.6
+          ],
+          "target": [
+            10.5,
+            -6.8,
+            2.6
+          ],
+          "lens": 22,
+          "resolution": [
+            1280,
+            880
+          ]
+        },
+        {
+          "name": "Dining",
+          "file": "D/D_Dining_final.png",
+          "sha256": "db9d2e30173604e3b377a3c85be13be5bc6aaae7f196848ec788dad024aa0451",
+          "camera": [
+            0.2596009373664856,
+            0.28722652792930603,
+            -0.9220131635665894,
+            5.5,
+            -0.9657160043716431,
+            0.07721120119094849,
+            -0.24785295128822327,
+            -10.5,
+            -1.9709068510564975e-07,
+            0.9547457098960876,
+            0.2974233329296112,
+            5.699999809265137,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "eye": [
+            5.5,
+            -10.5,
+            5.7
+          ],
+          "target": [
+            14.8,
+            -8,
+            2.7
+          ],
+          "lens": 24,
+          "resolution": [
+            1280,
+            880
+          ]
+        },
+        {
+          "name": "Porch",
+          "file": "D/D_Porch_final.png",
+          "sha256": "c614b88fb25c09774d09aa99105b11c76bab3307c9805051c9ac69c57590047e",
+          "camera": [
+            -0.9945054650306702,
+            -0.03371826186776161,
+            0.09910588711500168,
+            15.0,
+            0.1046847552061081,
+            -0.3203241527080536,
+            0.941506028175354,
+            -0.8999999761581421,
+            5.968101390863012e-08,
+            0.9467077255249023,
+            0.3220939040184021,
+            5.400000095367432,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "eye": [
+            15,
+            -0.9,
+            5.4
+          ],
+          "target": [
+            14.2,
+            -8.5,
+            2.8
+          ],
+          "lens": 26,
+          "resolution": [
+            1280,
+            880
+          ]
+        },
+        {
+          "name": "Plan",
+          "file": "D/D_Plan_final.png",
+          "sha256": "c9478504559115bf227be7133b98c83fb07293787a3580989bd66d906e97937b",
+          "camera": [
+            -4.371138828673793e-08,
+            1.0,
+            0.0,
+            12.199999809265137,
+            -1.0,
+            -4.371138828673793e-08,
+            0.0,
+            -8.0,
+            0.0,
+            0.0,
+            1.0,
+            34.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "eye": [
+            12.2,
+            -8,
+            34
+          ],
+          "target": [
+            12.2,
+            -8,
+            0
+          ],
+          "lens": 35,
+          "resolution": [
+            1280,
+            1280
+          ]
+        }
+      ],
+      "retained_views_with_microwave_occluded": [
+        "Couch",
+        "Dining",
+        "Porch",
+        "Plan"
+      ]
+    },
+    "E": {
+      "case": "E",
+      "source_sha256": "6aea61ceea3ddcaba595d10eb8ae9a5565625f58465029f99552da7744494248",
+      "phase": "final",
+      "branch": "test/island-DEG-photoreal",
+      "faucet": {
+        "base": [
+          16.61370849609375,
+          -7.437500476837158,
+          3.180000066757202
+        ],
+        "nozzle": [
+          15.963708877563477,
+          -7.437500476837158,
+          3.700000047683716
+        ],
+        "basin_plan_bounds": [
+          [
+            15.109821319580078,
+            -8.298558235168457
+          ],
+          [
+            16.428709030151367,
+            -6.576443195343018
+          ]
+        ],
+        "nozzle_inside_basin": true,
+        "direction": "South into basin from fixed north mounting point",
+        "native_faucet_already_correct": true
+      },
+      "north_face_run_west_to_east": [
+        [
+          "Dishwasher",
+          24
+        ],
+        [
+          "Sink base",
+          36
+        ],
+        [
+          "Microwave drawer",
+          24
+        ]
+      ],
+      "microwave": "north face",
+      "original_non_microwave_geometry_visibility_and_cameras_unchanged": true,
+      "microwave_face_inches": [
+        23.875,
+        15.875
+      ],
+      "microwave_size_reference": "Sharp SMD2470AS manufacturer sheet; study proportion only, appliance not selected",
+      "microwave_modified_objects": [
+        "ISLAND TEST | MW front",
+        "ISLAND TEST | MW handle",
+        "ISLAND TEST | microwave glass"
+      ],
+      "views": [
+        {
+          "name": "Kitchen",
+          "file": "E/E_Kitchen_final.png",
+          "sha256": "19cab7921b94e938ea209df9b6c0981c1ff19a3839bf136034ec720091751328",
+          "camera": [
+            -0.4022738039493561,
+            -0.4356244206428528,
+            0.8052372932434082,
+            21.299999237060547,
+            0.9155194163322449,
+            -0.19141080975532532,
+            0.35381650924682617,
+            -4.5,
+            1.2057548737232082e-08,
+            0.8795415163040161,
+            0.4758221507072449,
+            5.599999904632568,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "eye": [
+            21.3,
+            -4.5,
+            5.6
+          ],
+          "target": [
+            14.7,
+            -7.4,
+            1.7
+          ],
+          "lens": 22,
+          "resolution": [
+            1280,
+            880
+          ]
+        },
+        {
+          "name": "Post",
+          "file": "E/E_Post_final.png",
+          "sha256": "b8e55813dfb4f287b914e23e799a0522ea9a5702085dda72b3bff27634ef59b0",
+          "camera": [
+            0.7273936867713928,
+            -0.24615351855754852,
+            0.6405519843101501,
+            18.299999237060547,
+            0.6862204074859619,
+            0.2609228193759918,
+            -0.6789851784706116,
+            -13.0,
+            -4.513176321552237e-08,
+            0.933449387550354,
+            0.3587091565132141,
+            5.400000095367432,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "eye": [
+            18.3,
+            -13,
+            5.4
+          ],
+          "target": [
+            13.3,
+            -7.7,
+            2.6
+          ],
+          "lens": 24,
+          "resolution": [
+            1280,
+            880
+          ]
+        },
+        {
+          "name": "Couch",
+          "file": "E/E_Couch_final.png",
+          "sha256": "e73dbdf169b93c2071ce8d9e44bbfee9ddd099d37512de15108bab057bb478f7",
+          "camera": [
+            0.9254064559936523,
+            0.09687305986881256,
+            -0.36638569831848145,
+            6.199999809265137,
+            -0.37897607684135437,
+            0.23655037581920624,
+            -0.8946625590324402,
+            -17.299999237060547,
+            -2.8116092565255713e-08,
+            0.9667779207229614,
+            0.25561782717704773,
+            5.599999904632568,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "eye": [
+            6.2,
+            -17.3,
+            5.6
+          ],
+          "target": [
+            10.5,
+            -6.8,
+            2.6
+          ],
+          "lens": 22,
+          "resolution": [
+            1280,
+            880
+          ]
+        },
+        {
+          "name": "Dining",
+          "file": "E/E_Dining_final.png",
+          "sha256": "8ad997c28fc1a91e455cdb0ddaa4ce88d54d596b9b402a55fdb3bbba3a75ce9a",
+          "camera": [
+            0.2596009373664856,
+            0.28722652792930603,
+            -0.9220131635665894,
+            5.5,
+            -0.9657160043716431,
+            0.07721120119094849,
+            -0.24785295128822327,
+            -10.5,
+            -1.9709068510564975e-07,
+            0.9547457098960876,
+            0.2974233329296112,
+            5.699999809265137,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "eye": [
+            5.5,
+            -10.5,
+            5.7
+          ],
+          "target": [
+            14.8,
+            -8,
+            2.7
+          ],
+          "lens": 24,
+          "resolution": [
+            1280,
+            880
+          ]
+        },
+        {
+          "name": "Porch",
+          "file": "E/E_Porch_final.png",
+          "sha256": "0be8f97177273f7bc0ff62f78a2cf84de78bf63916a03654bf2263cc608a7f44",
+          "camera": [
+            -0.9945054650306702,
+            -0.03371826186776161,
+            0.09910588711500168,
+            15.0,
+            0.1046847552061081,
+            -0.3203241527080536,
+            0.941506028175354,
+            -0.8999999761581421,
+            5.968101390863012e-08,
+            0.9467077255249023,
+            0.3220939040184021,
+            5.400000095367432,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "eye": [
+            15,
+            -0.9,
+            5.4
+          ],
+          "target": [
+            14.2,
+            -8.5,
+            2.8
+          ],
+          "lens": 26,
+          "resolution": [
+            1280,
+            880
+          ]
+        },
+        {
+          "name": "Plan",
+          "file": "E/E_Plan_final.png",
+          "sha256": "beb4af76b08aa85e1456e5355b4b12d9517c1fcf92f5b568092c0d1bc3258f46",
+          "camera": [
+            -4.371138828673793e-08,
+            1.0,
+            0.0,
+            12.199999809265137,
+            -1.0,
+            -4.371138828673793e-08,
+            0.0,
+            -8.0,
+            0.0,
+            0.0,
+            1.0,
+            34.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "eye": [
+            12.2,
+            -8,
+            34
+          ],
+          "target": [
+            12.2,
+            -8,
+            0
+          ],
+          "lens": 35,
+          "resolution": [
+            1280,
+            1280
+          ]
+        }
+      ],
+      "retained_views_with_microwave_occluded": [
+        "Couch",
+        "Dining",
+        "Porch",
+        "Plan"
+      ]
+    },
+    "G": {
+      "case": "G",
+      "source_sha256": "ee3bff012e941cbfa39253cc11cab17ff33b9235c0b6612cf95dd846b923c998",
+      "phase": "final",
+      "branch": "test/island-DEG-photoreal",
+      "faucet": {
+        "base": [
+          16.61370849609375,
+          -6.854166507720947,
+          3.180000066757202
+        ],
+        "nozzle": [
+          15.963708877563477,
+          -6.854166507720947,
+          3.700000047683716
+        ],
+        "basin_plan_bounds": [
+          [
+            15.109821319580078,
+            -7.715223789215088
+          ],
+          [
+            16.428709030151367,
+            -5.993109226226807
+          ]
+        ],
+        "nozzle_inside_basin": true,
+        "direction": "South into basin from fixed north mounting point",
+        "native_faucet_already_correct": true
+      },
+      "north_face_run_west_to_east": [
+        [
+          "West knee opening",
+          15
+        ],
+        [
+          "Sink base",
+          36
+        ],
+        [
+          "Dishwasher",
+          24
+        ]
+      ],
+      "microwave": "unallocated",
+      "original_geometry_visibility_and_cameras_unchanged": true,
+      "views": [
+        {
+          "name": "Kitchen",
+          "file": "G/G_Kitchen_final.png",
+          "sha256": "107b99b3d6d88cf6ba3a1df4428aa7a1b0f9fe6285c5676f1595c5109181d458",
+          "camera": [
+            -0.4022738039493561,
+            -0.4356244206428528,
+            0.8052372932434082,
+            21.299999237060547,
+            0.9155194163322449,
+            -0.19141080975532532,
+            0.35381650924682617,
+            -4.5,
+            1.2057548737232082e-08,
+            0.8795415163040161,
+            0.4758221507072449,
+            5.599999904632568,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "eye": [
+            21.3,
+            -4.5,
+            5.6
+          ],
+          "target": [
+            14.7,
+            -7.4,
+            1.7
+          ],
+          "lens": 22,
+          "resolution": [
+            1280,
+            880
+          ]
+        },
+        {
+          "name": "Couch",
+          "file": "G/G_Couch_final.png",
+          "sha256": "750e0430b3ecb19b64ab0ece5f6027fcf41dd91780a2e5fb7aff7af3f965843e",
+          "camera": [
+            0.9254064559936523,
+            0.09687305986881256,
+            -0.36638569831848145,
+            6.199999809265137,
+            -0.37897607684135437,
+            0.23655037581920624,
+            -0.8946625590324402,
+            -17.299999237060547,
+            -2.8116092565255713e-08,
+            0.9667779207229614,
+            0.25561782717704773,
+            5.599999904632568,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "eye": [
+            6.2,
+            -17.3,
+            5.6
+          ],
+          "target": [
+            10.5,
+            -6.8,
+            2.6
+          ],
+          "lens": 22,
+          "resolution": [
+            1280,
+            880
+          ]
+        },
+        {
+          "name": "Dining",
+          "file": "G/G_Dining_final.png",
+          "sha256": "dbceffb767d3b0c19415f64a65877088cf8b3311bfd5a115044eddeb1d24ba48",
+          "camera": [
+            0.2596009373664856,
+            0.28722652792930603,
+            -0.9220131635665894,
+            5.5,
+            -0.9657160043716431,
+            0.07721120119094849,
+            -0.24785295128822327,
+            -10.5,
+            -1.9709068510564975e-07,
+            0.9547457098960876,
+            0.2974233329296112,
+            5.699999809265137,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "eye": [
+            5.5,
+            -10.5,
+            5.7
+          ],
+          "target": [
+            14.8,
+            -8,
+            2.7
+          ],
+          "lens": 24,
+          "resolution": [
+            1280,
+            880
+          ]
+        },
+        {
+          "name": "Porch",
+          "file": "G/G_Porch_final.png",
+          "sha256": "9586e4533214c37f17ea493262a7226ba4ed3310209e1bdca1b4d0b56dbc6184",
+          "camera": [
+            -0.9945054650306702,
+            -0.03371826186776161,
+            0.09910588711500168,
+            15.0,
+            0.1046847552061081,
+            -0.3203241527080536,
+            0.941506028175354,
+            -0.8999999761581421,
+            5.968101390863012e-08,
+            0.9467077255249023,
+            0.3220939040184021,
+            5.400000095367432,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "eye": [
+            15,
+            -0.9,
+            5.4
+          ],
+          "target": [
+            14.2,
+            -8.5,
+            2.8
+          ],
+          "lens": 26,
+          "resolution": [
+            1280,
+            880
+          ]
+        },
+        {
+          "name": "Post",
+          "file": "G/G_Post_final.png",
+          "sha256": "18910c50e90c658c2a66eca547eb2a3970f8eb6320f72dea18b673d71661ee08",
+          "camera": [
+            0.7273936867713928,
+            -0.24615351855754852,
+            0.6405519843101501,
+            18.299999237060547,
+            0.6862204074859619,
+            0.2609228193759918,
+            -0.6789851784706116,
+            -13.0,
+            -4.513176321552237e-08,
+            0.933449387550354,
+            0.3587091565132141,
+            5.400000095367432,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "eye": [
+            18.3,
+            -13,
+            5.4
+          ],
+          "target": [
+            13.3,
+            -7.7,
+            2.6
+          ],
+          "lens": 24,
+          "resolution": [
+            1280,
+            880
+          ]
+        },
+        {
+          "name": "Plan",
+          "file": "G/G_Plan_final.png",
+          "sha256": "72753e643c4d7c563c851ef7096814a10a0114407ced5c8042f034d91722a072",
+          "camera": [
+            -4.371138828673793e-08,
+            1.0,
+            0.0,
+            12.199999809265137,
+            -1.0,
+            -4.371138828673793e-08,
+            0.0,
+            -8.0,
+            0.0,
+            0.0,
+            1.0,
+            34.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "eye": [
+            12.2,
+            -8,
+            34
+          ],
+          "target": [
+            12.2,
+            -8,
+            0
+          ],
+          "lens": 35,
+          "resolution": [
+            1280,
+            1280
+          ]
+        }
+      ]
+    }
+  }
+}

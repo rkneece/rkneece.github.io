@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "images": 18,
+  "views_per_option": 6,
+  "view_group_order": [
+    "Couch",
+    "Kitchen",
+    "Dining",
+    "Porch",
+    "Post",
+    "Plan"
+  ],
+  "option_order_within_each_view": [
+    "D",
+    "E",
+    "G"
+  ],
+  "native_nozzle_inside_basin_all_cases": true,
+  "native_faucet_direction": "North mount, south-facing spout, downward outlet over basin",
+  "compact_microwave_D_E_inches": [
+    23.875,
+    15.875
+  ],
+  "G_microwave": "unallocated; no microwave depicted",
+  "all_six_cameras_match_across_options": true,
+  "all_non_microwave_geometry_unchanged": true,
+  "all_image_decodes_aspects_and_hashes_checked": true,
+  "all_test_labels_and_stool_arrangements_visually_reviewed": true,
+  "visual_corrections": [
+    "Re-rendered all18 native source views and refreshed all18 photoreals",
+    "Compact microwave proxy and navy lower storage corrected in D/E; affected Kitchen/Post views re-rendered",
+    "Removed spurious cooking-wall microwave from E Couch/Dining images",
+    "Native fixture location/nozzle projected over basin checked, all image fixture orientations reviewed"
+  ],
+  "limits": "Photoreal finish studies remain illustrative; native geometry is authority for dimensions.",
+  "derived_scene_sha256": {
+    "D": "a03f6e42dea27d613aafdf325b4c9aa7c71c45941b6b504069ffbe44f37229a2",
+    "E": "eadbc90a26c6a90296ba51560801164ce5ecc6a9caa429d37c58cb68a128f248",
+    "G": "9300e0fa24e70219bee200e65bf6c264af6bde6b30e008dea87583ebd339c370"
+  }
+}

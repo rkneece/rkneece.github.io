@@ -1,0 +1,36 @@
+name: Assemble Proposed-Tests viewing category
+on:
+  push:
+    branches: [release/island-faucet-tests]
+    paths: [releases/proposed-tests/**, .github/workflows/proposed-tests.yml]
+permissions:
+  contents: write
+jobs:
+  assemble:
+    if: contains(github.event.head_commit.message, '[assemble:proposed-tests]')
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply HTML navigation and existing-image organization
+        run: |
+          set -euo pipefail
+          test "$(git ls-remote origin refs/heads/release/island-faucet-tests | cut -f1)" = "$GITHUB_SHA"
+          python releases/proposed-tests/apply.py
+          node --check releases/proposed-tests/viewer.js
+      - name: Check desktop and mobile Proposed-Tests navigation
+        env:
+          CEDAR_BROWSER: /usr/bin/google-chrome
+        run: |
+          set -euo pipefail
+          npm install --prefix "$RUNNER_TEMP/cedar-proposed-tests-qa" --no-save playwright
+          python -m http.server 8765 --bind 127.0.0.1 --directory sites/43cedar/interactive_map > "$RUNNER_TEMP/cedar-tests-http.log" 2>&1 &
+          cedar_server_pid=$!
+          trap 'kill "$cedar_server_pid"' EXIT
+          NODE_PATH="$RUNNER_TEMP/cedar-proposed-tests-qa/node_modules" node releases/proposed-tests/check_ui.cjs
+      - name: Save only reviewed HTML and QA
+        run: |
+          set -euo pipefail
+          test "$(git ls-remote origin refs/heads/release/island-faucet-tests | cut -f1)" = "$GITHUB_SHA"
+          git add sites/43cedar/interactive_map/index.html releases/proposed-tests/PUBLISH_QA.json releases/proposed-tests/BROWSER_QA.json
+          git -c user.name='43 Cedar publication' -c user.email='actions@users.noreply.github.com' commit -m 'Add Proposed-Tests category with current-design comparisons; keep Resources current [skip ci]'
+          git push origin HEAD:release/island-faucet-tests

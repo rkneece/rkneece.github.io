@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "publication_pass": "B",
+  "root_cause": "Prior QA checked nozzle over bowl but failed mounting-edge versus operator; north work-lip collar and south-directed spout were reversed",
+  "reviewed_images": 18,
+  "record_count": 414,
+  "non_test_records_unchanged": 396,
+  "stable_resource_ids": true,
+  "all_other_data_and_ui_unchanged": true,
+  "view_first_option_order_preserved": true,
+  "ordered_ids": [
+    "RES19",
+    "RES22",
+    "RES23",
+    "RES24",
+    "RES25",
+    "RES26",
+    "RES09",
+    "RES11",
+    "RES15",
+    "RES20",
+    "RES12",
+    "RES16",
+    "RES10",
+    "RES13",
+    "RES17",
+    "RES21",
+    "RES14",
+    "RES18"
+  ],
+  "html_sha256": "d09d5ae7abd2cd1fe1b955ee92fa2d87fd4d21d7bbd841f523e4dd0d5238fe9a",
+  "protected_model_refs": {
+    "main": "fdb63b893d605f8b69596732fdb9ba7a03ad2e55",
+    "dev": "fdb63b893d605f8b69596732fdb9ba7a03ad2e55"
+  },
+  "test_branch": "test/island-DEG-photoreal"
+}

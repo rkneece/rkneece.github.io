@@ -1,0 +1,1111 @@
+{
+  "issue": 21,
+  "revision": "NI1",
+  "created_at": "2026-10-26T01:01:40-04:00",
+  "baseline_html_sha256": "59b2691aaa12ae67f0ddb59828107a21abeda24065e30ff86b39b8ac7797d20c",
+  "baseline_html_git_blob": "1e431ca06cdaeefeb44c954b1d6cde7d20e59e83",
+  "model_commit": "b50a6b5705f02565f9f0da715b0c11608b36d709",
+  "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+  "native_rendered_on": "2026-10-25",
+  "native": [
+    {
+      "id": "B59",
+      "sha256": "17ea8e2832d9974dd41020ac6f54a61a901859619dda5eb820f66538508e8710",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/fe5211e12270f24f39670d2a48fef5913b91c31e2e94c89e7d706d1991391634.json"
+    },
+    {
+      "id": "B60",
+      "sha256": "4c0a36ffcc1e3ee6c29111ee3602f0d3333f21d097d10be7703ba33c2eee02a9",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/bf21db0c9d5db54071bc0ca45102b0d9836ec0da0b9d157da28bdcdd36ec20a4.json"
+    },
+    {
+      "id": "B62",
+      "sha256": "1162d02ed96217f10231062972ada3a49f033d58a12b932edcefc70819e237a1",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/dc173dab090699ce2df1362511016777fefdea0b0f7427ca799adbf8f08a2af7.json"
+    },
+    {
+      "id": "B37",
+      "sha256": "0b958c99f75501bac7463e66ec0beca292f76b2abe0740e39335d55c8660af1a",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/5c21dbb9a39b2e8702cc75075bb6f87365b657376742eddba94da1a6222eb2b0.json"
+    },
+    {
+      "id": "B38",
+      "sha256": "b1e2b7f625224ffd90328b491d7a098a0765516f5713ee06ab2be9f1b813ebd7",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/cbd70d50e7d56234f1b6f101be8723d15483ab151dfb513079bcff415baf9fea.json"
+    },
+    {
+      "id": "B39",
+      "sha256": "1884224f8af8ac58a22b4b8875d8804a588fe8c4ef5297f64ae63e98ce7a52dc",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/ccbb6f753c8f99a143859df05c103f2b383fc8c05e9e9829381a9727b9b8a4e9.json"
+    },
+    {
+      "id": "B40",
+      "sha256": "16e4a2520d0188af7e942dabc71a13c4ce629f866e0420f6be171875a5dee9b7",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/3a6b36a30be47827b10cf801dad2a6639ffe7ad10d51b5a06de0f35afbda2118.json"
+    },
+    {
+      "id": "B44",
+      "sha256": "d63da82d3fd5350441085e984ac8698ba3b0797f65469a18afcf5eb1a8a22b5f",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/1c266ef19f78f47f911831382cc764012e6e5c4fbead8ff6548644040f2758a5.json"
+    },
+    {
+      "id": "B45",
+      "sha256": "a8c0917de0bee54a3a47e87d6af0a6b2187e3573e83c31442f2edcd7152dbc62",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/d7b3a88b57e32eedb8f9920780cd7d5a13e4c5a2f89796a3f02905203291bf81.json"
+    },
+    {
+      "id": "B46",
+      "sha256": "913f0cf5e0cc6b9730e55d0b5e9f948da39bc0405e72269ea4741ba9af4cbcc8",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/94960e8d403780b46624741cb6f8cb8630802a84d4a50abc3e1ea419ff5704c2.json"
+    },
+    {
+      "id": "B47",
+      "sha256": "5861560b76e58ca56b06165b9619ef18c857cd0541ddcbe8af89d5030a073077",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/37c2cc4bf4b04aab801e8c0d1dcff015391d4943405029a60b7fa7b0e79a9daa.json"
+    },
+    {
+      "id": "B01",
+      "sha256": "efa6025a71b2cced7949c4cda13f145708709c2c40d2e75b9733a52cf9e728c0",
+      "dimensions": [
+        960,
+        640
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/fca902c90dadf37c066c3ba42a705d217b805acaaf5df1533e1d162d96f8c0c7.json"
+    },
+    {
+      "id": "B02",
+      "sha256": "958228616ccc3796ccab159bec1f41292ba29cf8f562efc08fdca75ab44f43da",
+      "dimensions": [
+        960,
+        640
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/64833a193cd402447120775eaeda635494b9ec7ad3b0aed32c15c875063686bb.json"
+    },
+    {
+      "id": "B03",
+      "sha256": "1e3c150b18251feddf6ef2d25343d3597f4e3c0fa8b079843944f92f469818c1",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/90fd15a474a1153f709af2279051f8407f063220f110f3dc713eb051dfa103b2.json"
+    },
+    {
+      "id": "B04",
+      "sha256": "c408143120c578a6a9c4bc58cd3de3dd512297caae83ca9eb5522c682bbbbe69",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/9076234fa6cd82feb78f9efea94817ae1d4a33c0bc173e0d766b09fcd09c54e9.json"
+    },
+    {
+      "id": "B08",
+      "sha256": "c275b6f634383d582b48d8a847482e3c37ed8da4d0d2619e1e5f146a94d8b65e",
+      "dimensions": [
+        1000,
+        1000
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/74e56d72da4d69719497c8a54a37bb7c26d0f898809a0ad18d784c9b86d2477a.json"
+    },
+    {
+      "id": "B10",
+      "sha256": "be524b1273156f1feb1b840db939e8075b71609f852d8a4f68eab323c1bd02a2",
+      "dimensions": [
+        880,
+        700
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/5296741ae7f3720868e15fbd1eb53f219404571ac960f23f245cda531a6e816e.json"
+    },
+    {
+      "id": "B12",
+      "sha256": "e1e9115675ed585481403e01069f7f1911686dd0955f5b07a88f8296acb5648a",
+      "dimensions": [
+        880,
+        700
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/a83cbe81208208d7376d381757bea58a16345a639aaf9f8d0d50e39d629cfb02.json"
+    },
+    {
+      "id": "B15",
+      "sha256": "d3bbc04b268658464251a1025f4cbe8c10e4a4fa501b768a552cfb1ecad13404",
+      "dimensions": [
+        1000,
+        750
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/7919cbd75898475d1e5c3b61f3950d3bac61a614903075a636a54514945281cc.json"
+    },
+    {
+      "id": "B27",
+      "sha256": "77a799db7b75f5e9b864c2040e687a605920f1d6ec47d3a65e8427165eeb5d86",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/1dd5c90d10f5ba37316157d1ab0234b13a9ee6dc4ce6e10a97dc0c8a4fb806ea.json"
+    },
+    {
+      "id": "B31",
+      "sha256": "3963ceacca94f00e05501d38cd424cdac6175590a20c7c7fdfa19b6dc83c2841",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/082aa954795e4b7c454844e8976967dd0341251a4ec0a69f7dadb198e4c16cef.json"
+    },
+    {
+      "id": "B32",
+      "sha256": "2c338857fb97b0ba1f8f6616c8096a87ab092dbb2636b9c964e179a672942bff",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/6948d8c72660c0a7a5b8dee6e9ba52cca15aa30c4c0a968cd16fb89338bd8f1a.json"
+    },
+    {
+      "id": "B66",
+      "sha256": "7ddcf59e45a43c82b43959c200b66f563ba1328024b58a64006caf55f176e5c8",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/e310d5aa94ff5efc84b10cf33787f60cea2c3ac90292d8c6b1a0c55e0855d29d.json"
+    },
+    {
+      "id": "B67",
+      "sha256": "7987e6095b3999a2d95aeee55356f060ab395aeadd2af9b475e7929bbfebce7c",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/5fa2f4999f98ac9aa2cfe0033ba8c76bb54d256bb84908b2d5360edaeea7ec67.json"
+    },
+    {
+      "id": "B68",
+      "sha256": "254c02baa2bafdb2d373ceffabf633daad46d8fa66d225975e105a1a8b8d32fe",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/5f5a09b6fddd9834a77e27017107e222ad7d14d127da78c5a114c5f7e17c5486.json"
+    },
+    {
+      "id": "B77",
+      "sha256": "cd1e49beb888eedff8b4b4c55a3a46a7c181980be484fbabed5183832443996b",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/2005d26d5506240a5cc5e812ac88dcd646098d718306ab0dc024781d35edd8e7.json"
+    },
+    {
+      "id": "B78",
+      "sha256": "8b65d2d221a2e903788593e6c03ef63e16e0cb456d0f1f8bdd1f10cadce0b8b0",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/972e1f36971958ae3e75bcb25cec27462d1bd01a93a48efb56a9ce1460bbe83a.json"
+    },
+    {
+      "id": "B79",
+      "sha256": "88a0d90e265bfca2147127ec7722df484439eab742ad81615b89a756028cae9f",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/9e007382eb7283552ed93a1230afd06ead7f9f0d979cc35ea4c6e2f9b7f00de9.json"
+    },
+    {
+      "id": "B81",
+      "sha256": "20e056432bc2ecf9eaa724fe0c50c61cccd805dcef2329f328b9f9209fd68d68",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/9004cd06361eef16825b03a6d29bdc258cf8347baf5fb7b5841e71fc8332b941.json"
+    },
+    {
+      "id": "B83",
+      "sha256": "eb915f1f75bb08f0f0dd3c9064903b73c5fdbba525e9f9513d4ab1de227d2ca2",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/e0beea8b65ddad438a274590774071100127a44b7814b187c2a1327fa00f6d91.json"
+    },
+    {
+      "id": "B84",
+      "sha256": "b36153472c893dbcec3fdaae46bd2c902b5176826f5324f5887f3c2689653983",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/1d26212a10330d275ae3642235a4b1f34384bef70a5923d945ed6d2806a8d587.json"
+    },
+    {
+      "id": "B85",
+      "sha256": "a9d184c62b321f6083f3301bc4552f8d932cc06de9a09c4380855752e1af77d3",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/142b0b42ae5552b07b5f5d8fcf77286fdc8ea2a194a35a8da26b7023219fdbe9.json"
+    },
+    {
+      "id": "B86",
+      "sha256": "1f1117228e9fc3e295e047658b951c5ae6a038ba89ccfec0d118fe97680d0730",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/ac511fe87bb9ac12a00e672016c7dadf907b1951c53bc8118bbc29bc965fe865.json"
+    },
+    {
+      "id": "B87",
+      "sha256": "6235bd9dd7ade504547b9953b5125d127531932762faa702590baa3fa214a0c9",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/7a76b7197248d43375ac4efba9bf914b34b3e0fc8121b58cb18a1566e4f29f0a.json"
+    },
+    {
+      "id": "B88",
+      "sha256": "e96d91b1ddd9685adeeade34c6a38bf71b5160e103187d8177745e24ee25865a",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/8afa8f03998cd4556d392d89ca5fd3f302f6a48239dc910175f3d1fe52493af2.json"
+    },
+    {
+      "id": "B89",
+      "sha256": "3ea206e2ccd8fbc2b768fd5c53a1fe8e453d643084091e16b5d235eb5255a056",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/c25b21e52eeed1f51f402fa164804ad856164b75a903ef377820879cd63b93ca.json"
+    },
+    {
+      "id": "B90",
+      "sha256": "06a5ecf969981faac17893387e0a359c322821ef7e81ce9ae75f36b6cdff9671",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/5f7e8fd0093ba3ffa25229f8fe95067f065488cccc8304c27b69d79c44d71121.json"
+    },
+    {
+      "id": "B102",
+      "sha256": "532cae79c790d264ef5d89ba90cf2ec580def99ded2dff8b893f0bbe86a94108",
+      "dimensions": [
+        900,
+        650
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/c1c29342bf650329f4f0d199e8920f56a87ff323da5829b53867571adbe35a9d.json"
+    },
+    {
+      "id": "B103",
+      "sha256": "64e8efd2078811c0c7a9bbdfdcb433dde2a0cc1b2f15738ea0104ca42ccafe52",
+      "dimensions": [
+        800,
+        800
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/84e7a828ca248c42cdddf5259dae268c82e0c2102a5122b1cf2ba013e0acbf2f.json"
+    },
+    {
+      "id": "B105",
+      "sha256": "02db407f03fa38ba9513c8d02a5b21b3bb693d1ef39aa28cf9b745702ebcae91",
+      "dimensions": [
+        800,
+        800
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/a4c3806c1c268a8ffab956b1211433d518190f3243144606a3d11d8af2c36709.json"
+    },
+    {
+      "id": "NI01",
+      "sha256": "c017988f9851d3da60cf0b10b537c92fe8ca9bc419b7d9f5ad9ef6d14ff14598",
+      "dimensions": [
+        1440,
+        1024
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/8f4ac12f2d34fc5b0f7e5bff9ae61daf6291c41e7ed10cdbea2c979873e7daa6.json"
+    },
+    {
+      "id": "NI08",
+      "sha256": "1e7c05bd456cb061f1630d03a62ff31f543dad4ca1c95f594b877a41cb9e80cf",
+      "dimensions": [
+        1440,
+        1024
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/93be9e5d2d27dcd3583c999f3adbf6242b335c71e6f97f0741d3600dce7282e5.json"
+    },
+    {
+      "id": "NM01",
+      "sha256": "0f8d4fd478877528f79b3a8e80826e5be28d7f88f577f80c87d4349b12b2ce09",
+      "dimensions": [
+        1440,
+        1024
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/856f86e01eb94c2ba8dbbea4ba949af5a003c7cd92186e9545ab8deef5e9bfa0.json"
+    },
+    {
+      "id": "NM02",
+      "sha256": "3c694e93d12687a9575fbe2c46ea5dcf1dd382776fce702929dd73dc8c2b854d",
+      "dimensions": [
+        1440,
+        1024
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/5f74d4fb101e7309f96355b568c67ebc5126be5857881a833fcfe3998f54c228.json"
+    },
+    {
+      "id": "NM03",
+      "sha256": "f418cd8d0256d54086e5f4299cf2222b3662dc259f1551ba0141b27083686188",
+      "dimensions": [
+        1440,
+        1024
+      ],
+      "archive_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/a51f7da5384a13483dcd98bc4c46778c9c416584d10fbe5b199730cd30eda33a.json"
+    }
+  ],
+  "affected_native_records": [
+    "B59",
+    "B60",
+    "B62",
+    "B37",
+    "B38",
+    "B39",
+    "B40",
+    "B44",
+    "B45",
+    "B46",
+    "B47",
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B08",
+    "B10",
+    "B12",
+    "B15",
+    "B27",
+    "B28",
+    "B29",
+    "B31",
+    "B32",
+    "B34",
+    "B36",
+    "B66",
+    "B67",
+    "B68",
+    "B77",
+    "B78",
+    "B79",
+    "B81",
+    "B83",
+    "B84",
+    "B85",
+    "B86",
+    "B87",
+    "B88",
+    "B89",
+    "B90",
+    "B102",
+    "B103",
+    "B105"
+  ],
+  "aliases": {
+    "B28": "B04",
+    "B29": "B46",
+    "B34": "B08",
+    "B36": "B10"
+  },
+  "detail_templates": {
+    "NI01": "NWS01",
+    "NI08": "NWS08",
+    "NM01": "NWS10",
+    "NM02": "NWS11",
+    "NM03": "NWS12"
+  },
+  "photoreal": [
+    {
+      "id": "R01",
+      "native": "B37",
+      "output_sha256": "84305871ca339ed10123b36c7f42c4d4ecfcf09fa48a2d960edeb5a467d33f02",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "source_native_sha256": "0b958c99f75501bac7463e66ec0beca292f76b2abe0740e39335d55c8660af1a",
+      "finish_reference_sha256": "1d80ddcd2dd13b58b1ab7688a4748d3ee62ae9168c2c9048991d60fb34ea3806",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. View looks toward island seating side and cooking wall. Crucial: show the built-in microwave below the white cooking countertop to the right of the range, behind the fixed post as in Image 1. Keep south/end and east stools exactly in Image 1. The apron front is hidden from this camera; do not invent a visible apron on a seating face.",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "native_path": "cedar_model/island_north/renders/B37.png",
+      "output_path": "cedar_model/island_north/photoreal/R01.png",
+      "generation": "built-in image_gen",
+      "review": "PASS: inspected geometry, crop, opening positions and approved sink/microwave placement against native; material/lighting variations illustrative"
+    },
+    {
+      "id": "R02",
+      "native": "B38",
+      "output_sha256": "266bc456fa150c30dc7eadc74a5eecec7d04170dea5f2227be24b4a996e1ea95",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "source_native_sha256": "b1e2b7f625224ffd90328b491d7a098a0765516f5713ee06ab2be9f1b813ebd7",
+      "finish_reference_sha256": "d3b6151839aca43fc9f248a8dfad833fb462ded7142004fbf72269795ccd8aaf",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Dining approach toward the island end and cooking wall. Retain microwave on cooking wall to right of range in Image 1. The sink aperture/faucet must be exactly where shown in image 1. Do not place a front apron on the near seating/end face.",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "native_path": "cedar_model/island_north/renders/B38.png",
+      "output_path": "cedar_model/island_north/photoreal/R02.png",
+      "generation": "built-in image_gen",
+      "review": "PASS: inspected geometry, crop, opening positions and approved sink/microwave placement against native; material/lighting variations illustrative"
+    },
+    {
+      "id": "R03",
+      "native": "B39",
+      "output_sha256": "e795e777eb2e3f7f21a5b74bf7eb3ad1f3757a3b6cd6f30925febd71d26d027a",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "source_native_sha256": "1884224f8af8ac58a22b4b8875d8804a588fe8c4ef5297f64ae63e98ce7a52dc",
+      "finish_reference_sha256": "c3c06b271adfcfe6b7c0d9b2a68d786bea2cc9ec111bbab1ed0104646e778b60",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. North workface close view. Preserve the prominent exposed smooth WHITE apron-front sink at foreground RIGHT, immediately beside the stainless dishwasher at foreground LEFT on the SAME north workface. No countertop bridge across the apron. Keep the faucet, large blue painting, dining furniture, and window count precisely as Image 1.",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "native_path": "cedar_model/island_north/renders/B39.png",
+      "output_path": "cedar_model/island_north/photoreal/R03.png",
+      "generation": "built-in image_gen",
+      "review": "PASS: inspected geometry, crop, opening positions and approved sink/microwave placement against native; material/lighting variations illustrative"
+    },
+    {
+      "id": "R04",
+      "native": "B40",
+      "output_sha256": "03fcd5062a4a9879aeddb90d6fe01a026dbebcb3af33a611a96fa9f27c640410",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "source_native_sha256": "16e4a2520d0188af7e942dabc71a13c4ce629f866e0420f6be171875a5dee9b7",
+      "finish_reference_sha256": "e5187e8b61f61a73a624ab8cedacb42a8d4db764d172db7c4c6c4f1eb9589819",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Cooking wall oblique view. Crucial: retain the microwave drawer visibly installed in white cabinetry to the RIGHT of range, below counter, with white drawer below. Retain the same sink position from Image 1 in the foreground, WHITE ceramic, not the old stainless basin. White kitchen cabinets remain WHITE.",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "native_path": "cedar_model/island_north/renders/B40.png",
+      "output_path": "cedar_model/island_north/photoreal/R04.png",
+      "generation": "built-in image_gen",
+      "review": "PASS: inspected geometry, crop, opening positions and approved sink/microwave placement against native; material/lighting variations illustrative"
+    },
+    {
+      "id": "R08",
+      "native": "B44",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Living-room view toward dining and island. Preserve exact fireplace/TV/brick/bench, sofa, single-slope ceiling, beam and post in image 1. Show the new island exactly as in the native; apron and dishwasher can be hidden by seating face. Do not invent an apron on the near/east seating panel.",
+      "review": "PASS: visually compared crop, room geometry, apertures, post, furniture and appliance positions against exact native; photographic finish variations illustrative",
+      "output_sha256": "28dd745af5422fc8eb46909ad93a172144a711c29aa6505ddc79732d4fc7a0a7",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "source_native_sha256": "d63da82d3fd5350441085e984ac8698ba3b0797f65469a18afcf5eb1a8a22b5f",
+      "finish_reference_sha256": "82d9b5c043dcccaf24459b494b608e36d18aa1efa07fdda70eb0a7c8bdd12d81",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "native_path": "cedar_model/island_north/renders/B44.png",
+      "output_path": "cedar_model/island_north/photoreal/R08.png",
+      "generation": "built-in image_gen"
+    },
+    {
+      "id": "R09",
+      "native": "B45",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Hallway view looking away from kitchen. Crucial: the LOWER LEFT edge of image 1 includes the newly installed microwave drawer under the WHITE cooking counter; retain this partial visible dark appliance at lower left. Keep all five-panel doors, recessed lights, WashTower, hall width and white cabinets as shown. Do not add an island or sink in this view.",
+      "review": "PASS: visually compared crop, room geometry, apertures, post, furniture and appliance positions against exact native; photographic finish variations illustrative",
+      "output_sha256": "8a212925e42b551bb3e2d808d511cc8997c5dddfd182a7cfc0597b2f0e814e2a",
+      "dimensions": [
+        1476,
+        1066
+      ],
+      "source_native_sha256": "a8c0917de0bee54a3a47e87d6af0a6b2187e3573e83c31442f2edcd7152dbc62",
+      "finish_reference_sha256": "d07f6ac91517d8833f74b38a127fed910e5cb7d8b05706fc5fc3ea48d71593cc",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "native_path": "cedar_model/island_north/renders/B45.png",
+      "output_path": "cedar_model/island_north/photoreal/R09.png",
+      "generation": "built-in image_gen"
+    },
+    {
+      "id": "R10",
+      "native": "B46",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. View from laundry bay back toward dining. Preserve near-left WashTower, all openings, fixed central post, and distant island/stool arrangement exactly as image 1. Partial cooking counter at right stays white. Do not add a visible sink/apron if hidden.",
+      "review": "PASS: visually compared crop, room geometry, apertures, post, furniture and appliance positions against exact native; photographic finish variations illustrative",
+      "output_sha256": "1ae92b6f79a407bd8c7ca7e37fed6b22cc02f88df4d77a591817bafd65ee3ddb",
+      "dimensions": [
+        1476,
+        1066
+      ],
+      "source_native_sha256": "913f0cf5e0cc6b9730e55d0b5e9f948da39bc0405e72269ea4741ba9af4cbcc8",
+      "finish_reference_sha256": "8cab528d4d56d21cd9513dee5d6392be5c562bb4a1cf5c24e867bbe4785ed99b",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "native_path": "cedar_model/island_north/renders/B46.png",
+      "output_path": "cedar_model/island_north/photoreal/R10.png",
+      "generation": "built-in image_gen"
+    },
+    {
+      "id": "R12",
+      "native": "B47",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. View through a dark foreground doorway toward living/dining. Preserve near right five-panel door and jamb as well as the exact opening and distant post/island/table. Brighten naturally into the distance but preserve native geometry. Appliances largely hidden must remain hidden; no invented visible front-apron or added fixtures.",
+      "review": "PASS: visually compared crop, room geometry, apertures, post, furniture and appliance positions against exact native; photographic finish variations illustrative",
+      "output_sha256": "8014cf8bcec64f978b84f4db570b3fec126df87b60c821a1b48cd77bec9219be",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "source_native_sha256": "5861560b76e58ca56b06165b9619ef18c857cd0541ddcbe8af89d5030a073077",
+      "finish_reference_sha256": "b60d066ae21aedbf47e51af7c4bb97946d875c24fb2ca15dd0a66fd7cfb9dfcb",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "native_path": "cedar_model/island_north/renders/B47.png",
+      "output_path": "cedar_model/island_north/photoreal/R12.png",
+      "generation": "built-in image_gen"
+    },
+    {
+      "id": "R24",
+      "native": "B59",
+      "sourceRenderId": "B59",
+      "source_native_sha256": "17ea8e2832d9974dd41020ac6f54a61a901859619dda5eb820f66538508e8710",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "1dd68d4cf3fc5e088b253172eb0b2124b6508ced1fb806f3d351c49e510276fb",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. View facing sofa and stair wall. Preserve exact sofa location, wall/beam openings and stair geometry. IMPORTANT: through the left opening, show the microwave drawer under the WHITE cooking counter, right of range, exactly as image 1. Do not copy the old closed base-cabinet doors from image 2. No visible sink if it is hidden.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:27:15+00:00",
+      "attempt_id": null,
+      "output_sha256": "2806c9c1fa6dd705ad02af4bd535adf7a1ba65846117cc69804103696a60e077",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "review": "PASS: Compared native B59: same sofa and stair opening, beam/post and visible cooking-wall microwave preserved; photographic finish only.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B59.png",
+      "output_path": "cedar_model/island_north/photoreal/R24.png",
+      "reviewed_at": "2026-10-26T04:29:38+00:00",
+      "reviewed_output_sha256": "2806c9c1fa6dd705ad02af4bd535adf7a1ba65846117cc69804103696a60e077"
+    },
+    {
+      "id": "R25",
+      "native": "B60",
+      "sourceRenderId": "B60",
+      "source_native_sha256": "4c0a36ffcc1e3ee6c29111ee3602f0d3333f21d097d10be7703ba33c2eee02a9",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "2343d7c6d52ca42f3f482c93464144b3f3940db5aecefbbc3c30cccc10499187",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Living room toward staircase and entry. A small piece of the cooking-wall microwave is visible at the far LEFT edge in image 1; retain that partial appliance if in crop. Preserve stair shape, hall doors, beam/post, sofa and window. No invented island or sink.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:27:15+00:00",
+      "attempt_id": null,
+      "output_sha256": "db9f04eb5bf5897904cf743712736c4c1b3626c56d1b919bdfd3ee3c62a4840d",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "review": "PASS: Compared native B60: matching stair opening, hallway doors, large window and sofa edge; no new opening or appliance.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B60.png",
+      "output_path": "cedar_model/island_north/photoreal/R25.png",
+      "reviewed_at": "2026-10-26T04:29:38+00:00",
+      "reviewed_output_sha256": "db9f04eb5bf5897904cf743712736c4c1b3626c56d1b919bdfd3ee3c62a4840d"
+    },
+    {
+      "id": "R27",
+      "native": "B62",
+      "sourceRenderId": "B62",
+      "source_native_sha256": "1162d02ed96217f10231062972ada3a49f033d58a12b932edcefc70819e237a1",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "f2250cd2020de3bd79f8375bc8c97523c7e2a3202fc8c03b09a5230de7f58f77",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Narrow passage toward dining and island, large blank foreground wall at right. Keep exact hallway geometry, near wall and opening widths. Distant island has no microwave; keep new native island face and faucet location. Do not expose a hidden apron or dishwasher on the seating side.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:27:15+00:00",
+      "attempt_id": null,
+      "output_sha256": "e50feb9230f5eae4bd285da4d59adf9ac7d2b4a0c9f844a70a1121fd9920f019",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "review": "PASS: Compared native B62: matching corridor occlusion, dining opening, post and island seating face; hidden appliances remain hidden.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B62.png",
+      "output_path": "cedar_model/island_north/photoreal/R27.png",
+      "reviewed_at": "2026-10-26T04:29:38+00:00",
+      "reviewed_output_sha256": "e50feb9230f5eae4bd285da4d59adf9ac7d2b4a0c9f844a70a1121fd9920f019"
+    },
+    {
+      "id": "R31",
+      "native": "B66",
+      "sourceRenderId": "B66",
+      "source_native_sha256": "7ddcf59e45a43c82b43959c200b66f563ba1328024b58a64006caf55f176e5c8",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "9238d9a68a8f129a8863bfe1d84196f433f607d26fa54b85725b015742256874",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Crucial appliance change: through the opening, image 1 shows a stainless DISHWASHER on the NORTH island face with the smooth white apron sink beside it on the same plane. The old image 2 incorrectly shows a microwave in this position; replace that old island microwave completely with image 1's dishwasher and smooth WHITE ceramic sink. Keep the foreground five-panel door and white cooking cabinetry at right unchanged. Microwave is now on cooking counter and out of this crop.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:27:15+00:00",
+      "attempt_id": null,
+      "output_sha256": "a77ce4a5548341cab6a304fb97b23754dc218421c3ece76c02b57472942aa76c",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "review": "PASS: Compared native B66: same hall framing, range/cooking counter, sink and north-face dishwasher; brass faucet position retained.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B66.png",
+      "output_path": "cedar_model/island_north/photoreal/R31.png",
+      "reviewed_at": "2026-10-26T04:29:38+00:00",
+      "reviewed_output_sha256": "a77ce4a5548341cab6a304fb97b23754dc218421c3ece76c02b57472942aa76c"
+    },
+    {
+      "id": "R32",
+      "native": "B67",
+      "sourceRenderId": "B67",
+      "source_native_sha256": "7987e6095b3999a2d95aeee55356f060ab395aeadd2af9b475e7929bbfebce7c",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "54769e26ca670a05addf183ef1a7d85b81754be2daa89907dddfe62676685aa4",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Hallway approach toward dining room, island seating side and fixed post. Preserve the foreground right occluding wall and exact openings. No apron on the seating side; hidden appliances stay hidden.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:30:44+00:00",
+      "attempt_id": "5ef07507-94cb-4627-ad37-5e442033d9c5",
+      "output_sha256": "52f18ec8905a125c3a11191c98270bdb971be9c8e86528152c85081ebd53e5dd",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "review": "PASS: Compared exact B67 source: foreground wall occlusion, ceiling slope, post, table, island and stool positions retained; no apron on seating face.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B67.png",
+      "output_path": "cedar_model/island_north/photoreal/R32.png",
+      "reviewed_at": "2026-10-26T04:32:52+00:00",
+      "reviewed_output_sha256": "52f18ec8905a125c3a11191c98270bdb971be9c8e86528152c85081ebd53e5dd"
+    },
+    {
+      "id": "R33",
+      "native": "B68",
+      "sourceRenderId": "B68",
+      "source_native_sha256": "254c02baa2bafdb2d373ceffabf633daad46d8fa66d225975e105a1a8b8d32fe",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "d5e1fa00621aab328079c5c58fb1a562d998d05a75ded20ffc4d5b6fe99d0c6c",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Hall junction looking into laundry and bedroom corridor. Keep exact closed end door, closet/room door positions and exposed right stacked washer/dryer. No kitchen or sink is visible; do not invent any. Preserve door panel counts and lever placement from Image 1.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:31:22+00:00",
+      "attempt_id": "2d93bca0-793a-47d9-967f-4065f5b8e11d",
+      "output_sha256": "d4553d0686b8be9984d975868e880844279b4a70a1f6ef982ffbe0de95e0a19e",
+      "dimensions": [
+        1477,
+        1065
+      ],
+      "review": "PASS: Compared exact B68 source: laundry stack, door locations and panel counts, levers, cabinetry and ceiling lights retained; no new opening.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B68.png",
+      "output_path": "cedar_model/island_north/photoreal/R33.png",
+      "reviewed_at": "2026-10-26T04:32:52+00:00",
+      "reviewed_output_sha256": "d4553d0686b8be9984d975868e880844279b4a70a1f6ef982ffbe0de95e0a19e"
+    },
+    {
+      "id": "R42",
+      "native": "B77",
+      "sourceRenderId": "B77",
+      "source_native_sha256": "cd1e49beb888eedff8b4b4c55a3a46a7c181980be484fbabed5183832443996b",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "2cc5ad6bde662708da28de5c5c9f71eedc0e6954f8b145281c1e2b1ba3d0e65c",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Wide dining-side view of navy island seating side, kitchen cooking wall, stairs, white double closet and exposed laundry. Preserve exact native island size, post, stool count and cooking-wall microwave. Smooth WHITE sink is located on far north side as in native; never add an apron on the near seating face.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:34:07+00:00",
+      "attempt_id": "0db5d41b-72a0-473c-8deb-f57754e23226",
+      "output_sha256": "be05096ace0b25fc33088b82a874afc60e786bbe9138255ca270cc96341ba5c5",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "review": "PASS: Compared native B77: island footprint, seating-side face, post, stairs/laundry and white cabinets preserved; white ceramic sink visible at far edge, microwave under cooking counter right of range.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B77.png",
+      "output_path": "cedar_model/island_north/photoreal/R42.png",
+      "reviewed_at": "2026-10-26T04:34:34+00:00",
+      "reviewed_output_sha256": "be05096ace0b25fc33088b82a874afc60e786bbe9138255ca270cc96341ba5c5"
+    },
+    {
+      "id": "R43",
+      "native": "B78",
+      "sourceRenderId": "B78",
+      "source_native_sha256": "8b65d2d221a2e903788593e6c03ef63e16e0cb456d0f1f8bdd1f10cadce0b8b0",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "a524327a1862c70e0f651c65cd1a001fe922d863f7efad466fa381c9f42dfd26",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Dining wall view with large blue coastal canvas, round table and left door. Preserve exact table/chair layout, wall art placement, ceiling, foreground island corner and all room openings from native. Hidden appliances remain hidden.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:34:12+00:00",
+      "attempt_id": "888c943e-162a-497b-994e-5fb57d814d78",
+      "output_sha256": "626f74f3a366dea8f48bb06374ce461fd9e8dd7959331bbbee00385bdb8be328",
+      "dimensions": [
+        1477,
+        1065
+      ],
+      "review": "PASS: Compared native B78: same dining-wall opening and window count, blue canvas position, table/chairs and foreground island corner; finish variation only.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B78.png",
+      "output_path": "cedar_model/island_north/photoreal/R43.png",
+      "reviewed_at": "2026-10-26T04:34:34+00:00",
+      "reviewed_output_sha256": "626f74f3a366dea8f48bb06374ce461fd9e8dd7959331bbbee00385bdb8be328"
+    },
+    {
+      "id": "R44",
+      "native": "B79",
+      "sourceRenderId": "B79",
+      "source_native_sha256": "88a0d90e265bfca2147127ec7722df484439eab742ad81615b89a756028cae9f",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "0e29ac0645a89f63f19736d298d1f17572079c50161fd65221919264a4668768",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Wide living-room sofa toward dining and kitchen. Preserve exact sofa, stair opening at right, fixed post, straight beam, single-slope cathedral ceiling, dining table and island. Microwave drawer is under WHITE cooking counter at back exactly as native; do not copy obsolete base doors.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:35:56+00:00",
+      "attempt_id": "c4334989-9934-4b84-9050-81026182e25d",
+      "output_sha256": "8eb849b6859bce716c1babd7d8dcfac62f1a31405a8ff6f22e9a81b832fc473f",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "review": "PASS: Compared native B79: same ceiling/beam/post, stair opening, sofa/table/window layout and cooking-counter microwave; hidden apron remains hidden.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B79.png",
+      "output_path": "cedar_model/island_north/photoreal/R44.png",
+      "reviewed_at": "2026-10-26T04:37:30+00:00",
+      "reviewed_output_sha256": "8eb849b6859bce716c1babd7d8dcfac62f1a31405a8ff6f22e9a81b832fc473f"
+    },
+    {
+      "id": "R46",
+      "native": "B81",
+      "sourceRenderId": "B81",
+      "source_native_sha256": "20e056432bc2ecf9eaa724fe0c50c61cccd805dcef2329f328b9f9209fd68d68",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "6981ca489037e1ab261a202fd382a58c011bb704e87319f6341d34285bc972f7",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. From kitchen across island seating toward living room. Preserve white double closet at left, post, fireplace/TV/brick, windows, sofa and painting positions. Foreground sink basin MUST be WHITE ceramic in native position with brass faucet, not old stainless. Apron front may be out of frame; do not invent it on seating side. TARGETED CORRECTION: Match Image 1 exactly. The near NORTH-face dishwasher door (large rectangular appliance below counter, immediately LEFT of white sink apron) must be brushed STAINLESS STEEL silver, not navy, not a cabinet panel, with stainless horizontal handle. Keep the white ceramic farmhouse sink at the cropped foreground-right. Native Image 1 does NOT show a faucet inside this crop: faucet is off-frame at right, so do NOT add any visible faucet. Image 2 is only the old finish reference; its visible faucet is outside the native crop and must not be copied. Preserve all native geometry/crop, fireplace/windows/sofa/post.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:38:38+00:00",
+      "attempt_id": "a0f1665a-deb7-436c-9a87-90d742cbc7d7",
+      "output_sha256": "57bebc2d9e0b0fdac70db02713a9075249a1f68244d4ef239d6b0d54ceb2ab6b",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "review": "PASS: Corrected attempt compared with B81: stainless dishwasher face next to smooth white apron sink; no faucet added inside crop; native post/windows/fireplace/sofa/cabinet geometry retained. Rejected prior attempt preserved.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B81.png",
+      "output_path": "cedar_model/island_north/photoreal/R46.png",
+      "reviewed_at": "2026-10-26T04:38:51+00:00",
+      "reviewed_output_sha256": "57bebc2d9e0b0fdac70db02713a9075249a1f68244d4ef239d6b0d54ceb2ab6b"
+    },
+    {
+      "id": "R48",
+      "native": "B83",
+      "sourceRenderId": "B83",
+      "source_native_sha256": "eb915f1f75bb08f0f0dd3c9064903b73c5fdbba525e9f9513d4ab1de227d2ca2",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "907f722c220fa9c093e9774297382de23ca9129398f42dc3ece5ff593e0cb42d",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. From fridge toward white double pantry/closet and living windows. Crucial foreground RIGHT shows dishwasher on NORTH island face and white apron-front sink immediately alongside it on same plane, as native. Cabinet faces remain navy; cooking-wall cabinets white. Microwave is under white cooking counter to right of range, not in island. VIEW-SPECIFIC VISIBILITY OVERRIDES GENERAL FIXTURE DESCRIPTION: Only the brushed stainless-steel dishwasher door is visible on foreground right north face. The sink and faucet are OUTSIDE the crop to the right; do NOT bring a sink, apron or faucet into this image. Dishwasher front must be stainless steel, not navy/paneled.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:40:27+00:00",
+      "attempt_id": "64472386-5b5a-4402-a21e-ebc7f95dacb7",
+      "output_sha256": "bf88f9906be7bb530484f4e75e2aa8a6636758ea42460b63bf05a0444ed5029b",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "review": "PASS: Compared B83: foreground stainless dishwasher on north face, white cooking-wall cabinets, pantry doors, post/windows and stove retained; no faucet introduced.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B83.png",
+      "output_path": "cedar_model/island_north/photoreal/R48.png",
+      "reviewed_at": "2026-10-26T04:40:55+00:00",
+      "reviewed_output_sha256": "bf88f9906be7bb530484f4e75e2aa8a6636758ea42460b63bf05a0444ed5029b"
+    },
+    {
+      "id": "R49",
+      "native": "B84",
+      "sourceRenderId": "B84",
+      "source_native_sha256": "b36153472c893dbcec3fdaae46bd2c902b5176826f5324f5887f3c2689653983",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "b80b9485ba57e933dede4f269c02779d37a1bc9aff84b7c8e90079163ba0462a",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Kitchen view toward white double closet with sink close foreground RIGHT. Crucial sink basin is WHITE ceramic single bowl, smooth farmhouse apron on north workface only, faucet behind; preserve precise native sink cutout. The microwave drawer belongs under WHITE cooking counter, right of range, visible at left as native. Do not copy old stainless basin.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:40:31+00:00",
+      "attempt_id": "ddc0b138-467f-415e-8c01-e042c44e1c9b",
+      "output_sha256": "d2d1fd40ee998bcbb103531ff90e7524e3df5214741d60e46985b1821915c9fe",
+      "dimensions": [
+        1476,
+        1066
+      ],
+      "review": "PASS: Compared B84: white single-bowl ceramic sink and brass faucet match native position; microwave drawer visible under white cooking counter right of range; doors/windows/post retained.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B84.png",
+      "output_path": "cedar_model/island_north/photoreal/R49.png",
+      "reviewed_at": "2026-10-26T04:40:55+00:00",
+      "reviewed_output_sha256": "d2d1fd40ee998bcbb103531ff90e7524e3df5214741d60e46985b1821915c9fe"
+    },
+    {
+      "id": "R50",
+      "native": "B85",
+      "sourceRenderId": "B85",
+      "source_native_sha256": "a9d184c62b321f6083f3301bc4552f8d932cc06de9a09c4380855752e1af77d3",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "a50bc0ed8a3652bee3dc9dfe44e45b798926a79f0cd8590f5f4e3fc4a7dc7413",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Island toward living room cathedral windows and fireplace. Preserve native island corner, stool positions/count, post, white double closet, sofa, fireplace/TV/windows and ceiling shape exactly. Hidden appliances remain hidden; no apron on near seating face.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:42:10+00:00",
+      "attempt_id": "a68383a9-45a2-4940-8ecd-ed80aac66447",
+      "output_sha256": "f6277c4392b1075a4e202847659c2740aa1bfb62545b10b8a1200b6a5e50f5ac",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "review": "PASS: Compared B85: native island edge and stools, post, closet/stair openings, cathedral windows, sofa and fireplace/TV preserved; no hidden fixture introduced.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B85.png",
+      "output_path": "cedar_model/island_north/photoreal/R50.png",
+      "reviewed_at": "2026-10-26T04:42:39+00:00",
+      "reviewed_output_sha256": "f6277c4392b1075a4e202847659c2740aa1bfb62545b10b8a1200b6a5e50f5ac"
+    },
+    {
+      "id": "R51",
+      "native": "B86",
+      "sourceRenderId": "B86",
+      "source_native_sha256": "1f1117228e9fc3e295e047658b951c5ae6a038ba89ccfec0d118fe97680d0730",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "abb2c6133dcbd113b37ea183a229b0c5dc649603d192a89dd5a6c4c60b735158",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Dining-table view toward living room. Preserve large right blue artwork, round table, chairs, pendant, left stair opening, sofa, fireplace and cathedral window geometry. Hidden kitchen fixtures remain hidden.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:42:15+00:00",
+      "attempt_id": "1301c7c9-1291-4f81-8cb5-082f9e25f230",
+      "output_sha256": "9e6d3342e421b47ca2e41ff62374572a08e2afd58d18c43cf9f088fe63987096",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "review": "PASS: Compared B86: exact dining/pendant/art composition and left stair opening retained; matching sofa/fireplace/window geometry, hidden appliances remain hidden.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B86.png",
+      "output_path": "cedar_model/island_north/photoreal/R51.png",
+      "reviewed_at": "2026-10-26T04:42:39+00:00",
+      "reviewed_output_sha256": "9e6d3342e421b47ca2e41ff62374572a08e2afd58d18c43cf9f088fe63987096"
+    },
+    {
+      "id": "R52",
+      "native": "B87",
+      "sourceRenderId": "B87",
+      "source_native_sha256": "6235bd9dd7ade504547b9953b5125d127531932762faa702590baa3fa214a0c9",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "a66b084d037014baaa8b27f0eced33e866017cce8c7087a914a7b9d555240cf2",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Living-room sofa facing dining/kitchen with foreground sofa. Preserve native ceiling, beams/post, open stair inset at right, sofa/table, dining furniture and visible cooking wall. Microwave drawer under WHITE cooking counter right of range, exactly as Image 1.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:43:52+00:00",
+      "attempt_id": "8167bb22-b03f-46bf-b24d-9dce1b9cc4c6",
+      "output_sha256": "dc7699739d2f25807ca9b52eae33a60fc925589c582874493215393b272b5b26",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "review": "PASS: Compared B87: sofa/crop, open stair inset, ceiling beam/post, windows, island seating and cooking-counter microwave preserved; no apron added on seating face.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B87.png",
+      "output_path": "cedar_model/island_north/photoreal/R52.png",
+      "reviewed_at": "2026-10-26T04:44:42+00:00",
+      "reviewed_output_sha256": "dc7699739d2f25807ca9b52eae33a60fc925589c582874493215393b272b5b26"
+    },
+    {
+      "id": "R53",
+      "native": "B88",
+      "sourceRenderId": "B88",
+      "source_native_sha256": "e96d91b1ddd9685adeeade34c6a38bf71b5160e103187d8177745e24ee25865a",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "4ae5193b33775018da8f3ea8e4173e62410bd75f7c5e0008218da186e8c5c903",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Living-room sofa and dining/kitchen view. Preserve exact native geometry/crop, open stair inset, fixed post, sofa and dining furniture. Microwave drawer belongs under WHITE cooking counter at back; do not copy obsolete white cabinet doors from style reference. CRITICAL OCCLUSION: All visible vertical faces of the island from this living-room camera are the navy EAST seating face and navy SOUTH end. Keep ALL these visible vertical panels NAVY with a single UNIFORM thin white countertop edge. Do NOT show any white sink apron, white protruding sink block, white thickened countertop section or white patch on either visible vertical face. The north-facing sink apron is on the far side, fully HIDDEN from this camera. Retain only the faucet/top aperture if native shows it. This invariant overrides generic farmhouse-sink descriptions.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:45:52+00:00",
+      "attempt_id": "93fc5d6c-9f85-4c9a-90d2-ef895b01191d",
+      "output_sha256": "c457978458ad2cdc2ea73c2f57a5e792c39c8e9bfaf2f6a7a16390ec9ece42f3",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "review": "PASS: Corrected B88 comparison: all visible island seating/end panels remain navy with uniform thin counter edge; hidden north apron removed; microwave retained under cooking counter and room framing preserved.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B88.png",
+      "output_path": "cedar_model/island_north/photoreal/R53.png",
+      "reviewed_at": "2026-10-26T04:46:09+00:00",
+      "reviewed_output_sha256": "c457978458ad2cdc2ea73c2f57a5e792c39c8e9bfaf2f6a7a16390ec9ece42f3"
+    },
+    {
+      "id": "R54",
+      "native": "B89",
+      "sourceRenderId": "B89",
+      "source_native_sha256": "3ea206e2ccd8fbc2b768fd5c53a1fe8e453d643084091e16b5d235eb5255a056",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "e509bb4eeb12c6ec3c9fb584d9f326bc022a36721b668007c0c8f10bd73e70d5",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Wide open kitchen/island/stairs from living room. Preserve four stools (three east side and one south end) where native shows them, fixed post with casing, island footprint, white closet, stairs and sofa edge. Microwave is in white cooking counter, not island. Sink/apron hidden from this side stays hidden.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:45:55+00:00",
+      "attempt_id": "a5ef37f6-9683-45d7-b985-b1a96d643907",
+      "output_sha256": "4586badfb76d5f35ff53d77a95510b4fa519696d9ca4f0440109a65e81a520ce",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "review": "PASS: Compared B89: four stools in native arrangement, navy visible island faces, fixed post, stairs and hall opening retained; microwave in white cooking cabinet, apron hidden.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B89.png",
+      "output_path": "cedar_model/island_north/photoreal/R54.png",
+      "reviewed_at": "2026-10-26T04:46:09+00:00",
+      "reviewed_output_sha256": "4586badfb76d5f35ff53d77a95510b4fa519696d9ca4f0440109a65e81a520ce"
+    },
+    {
+      "id": "R55",
+      "native": "B90",
+      "sourceRenderId": "B90",
+      "source_native_sha256": "06a5ecf969981faac17893387e0a359c322821ef7e81ce9ae75f36b6cdff9671",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "998fba2f3d954c07e7e10991928c7dce798916969b723ec44fa5bf35891c546c",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Dining approach toward island seating and cooking wall, round table foreground left. Preserve exact native four stools and island footprint, post, windows, stair/hall openings, white cooking cabinets and light oak hood. Keep microwave under white cooking counter right of range; no microwave in navy island.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:47:17+00:00",
+      "attempt_id": "59f0d8e9-5422-4434-bf53-777abf7b231e",
+      "output_sha256": "44430064f236423b352d0e3120d34a2d8b79869402cd61f65b0593d63fd1d356",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "review": "PASS: Compared B90: four stools, navy seating/end panels, island footprint, fixed post and hall opening preserved; microwave under cooking counter and white basin at far north edge.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B90.png",
+      "output_path": "cedar_model/island_north/photoreal/R55.png",
+      "reviewed_at": "2026-10-26T04:47:35+00:00",
+      "reviewed_output_sha256": "44430064f236423b352d0e3120d34a2d8b79869402cd61f65b0593d63fd1d356"
+    },
+    {
+      "id": "R67",
+      "native": "B102",
+      "sourceRenderId": "B102",
+      "source_native_sha256": "532cae79c790d264ef5d89ba90cf2ec580def99ded2dff8b893f0bbe86a94108",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "09178d6b3e8afc6c3df736b1502f980d958a41334c3f71a879a8f02d70eaf3cc",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Tight foyer corner with two white closet/room doors. Preserve exact native door panel counts, handles/hinges, frame/crop, wall junction and narrow left opening. No kitchen fixture in view; do not invent one. FINAL EXACT-DOOR CORRECTION: Native Image 1 has THREE door leaves in this corner, NOT two. On the LEFT plane is a DOUBLE-DOOR closet: two narrow white Shaker leaves with a vertical center seam and TWO bronze lever handles meeting at that center seam. On the RIGHT perpendicular plane is ONE wider single door with ONE bronze lever at right. Thus THREE lever handles TOTAL. Preserve closet outer opening width and each leaf proportion from native. Old Image 2 shows an obsolete single-door closet; do NOT copy its leaf/handle count. Use Image 1 door geometry only. Keep exact native camera/crop/wall junction and foreground framing. No additional room or opening.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:50:52+00:00",
+      "attempt_id": "1bd398f4-05a0-4638-a6f0-efe6a145ad3d",
+      "output_sha256": "ab6297b1bcea732c62164871dfd6c93df94fa067c350796f68bb5c102dfaf0aa",
+      "dimensions": [
+        1476,
+        1065
+      ],
+      "review": "PASS: Corrected B102 compared at full size: paired narrow closet leaves with center seam and TWO meeting levers plus adjacent single door and THIRD lever; native opening width/crop retained.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B102.png",
+      "output_path": "cedar_model/island_north/photoreal/R67.png",
+      "reviewed_at": "2026-10-26T04:51:48+00:00",
+      "reviewed_output_sha256": "ab6297b1bcea732c62164871dfd6c93df94fa067c350796f68bb5c102dfaf0aa"
+    },
+    {
+      "id": "R68",
+      "native": "B103",
+      "sourceRenderId": "B103",
+      "source_native_sha256": "64e8efd2078811c0c7a9bbdfdcb433dde2a0cc1b2f15738ea0104ca42ccafe52",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "f2c8d57aad0bae8ac1811ff26ecf52b18969a76dafec85f4a9ca93062c70844d",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Foyer/hall door corner with a small glimpse of navy island seating through far right opening. Preserve exact native wall/door occlusion, panel counts and levers. Keep tiny visible island in its current position; no invented sink or apron.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:49:38+00:00",
+      "attempt_id": "06ab4aad-4717-4c89-a2f2-3d795427f9e8",
+      "output_sha256": "117376c179008489466141c49c932f1ad4fc84bc7d146a810077ab4fa098e5b9",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review": "PASS: Compared B103: door/wall occlusion and visible island fragment preserved; matching lever/hinge positions and source framing.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B103.png",
+      "output_path": "cedar_model/island_north/photoreal/R68.png",
+      "reviewed_at": "2026-10-26T04:50:09+00:00",
+      "reviewed_output_sha256": "117376c179008489466141c49c932f1ad4fc84bc7d146a810077ab4fa098e5b9"
+    },
+    {
+      "id": "R70",
+      "native": "B105",
+      "sourceRenderId": "B105",
+      "source_native_sha256": "02db407f03fa38ba9513c8d02a5b21b3bb693d1ef39aa28cf9b745702ebcae91",
+      "source_scene_sha256": "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+      "finish_reference_sha256": "03a8f19b8ee0321fc6c0070efbeef10119590a6d502a12573b66afc68ab37d1e",
+      "prompt": "Use case: precise-object-edit / sketch-to-render. Asset type: 43 Cedar approved NI1 photographic finish study for the live gallery. Image 1 is the EXACT NEW NATIVE BLENDER VIEW and the sole authority for camera, framing, perspective, geometry, objects and appliance locations. Image 2 is the OLD same-camera photoreal, supplied ONLY for its realistic material, lighting and photographic finish style; its sink/appliance geometry is obsolete. Make image 1 a convincing polished coastal interior architectural photograph in the finish style of image 2. Preserve image 1 camera/crop/aspect ratio and all room boundaries, ceiling slopes and beams, straight dining-to-hall alignment, fixed post, windows/doors, furniture positions, stool count and island footprint. Use white Swiss Coffee painted vertical tongue-and-groove where shown, white cooking-wall cabinets, light oak floor and hood, deep Hale Navy island, pale upholstered oak stools, restrained brass hardware, realistic warm daylight and exterior greenery. Preserve every visible approved appliance from IMAGE 1: microwave drawer in the white cooking counter to the right of the range; dishwasher and smooth WHITE single-bowl farmhouse apron sink together on the NORTH island workface; brass faucet behind the sink. No microwave on the island. No stainless basin. No fluting on sink. No additional sink or appliances. Keep any hidden fixture hidden. No new rooms, openings, furniture, people, labels, text, watermarks or collage. Do not redesign the room. Tight foyer door corner view. Preserve exact door count, panel counts, bronze levers/hinges, trim, crop and narrow left opening of native. Hidden kitchen appliances remain hidden.",
+      "generation": "built-in image_gen",
+      "generated_at": "2026-10-26T04:49:43+00:00",
+      "attempt_id": "8a9ad663-b1cd-4952-869f-d39f216617f7",
+      "output_sha256": "f9fb2e0d593f00a2969d92cfd36bf2115ac83306b3580faf5dd67a3314fbc266",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "review": "PASS: Compared B105: paired left closet doors with TWO meeting levers plus single right door/lever retained, three leaves total; native framing and island glimpse match.",
+      "state": "reviewed",
+      "native_path": "cedar_model/island_north/renders/B105.png",
+      "output_path": "cedar_model/island_north/photoreal/R70.png",
+      "reviewed_at": "2026-10-26T04:50:09+00:00",
+      "reviewed_output_sha256": "f9fb2e0d593f00a2969d92cfd36bf2115ac83306b3580faf5dd67a3314fbc266"
+    }
+  ],
+  "additional_archive_objects": [
+    "a50aa53d537c8c4876d66ec53762a8bc82b6e24db47dadbbc9c59b9b85d7af5a",
+    "8e84e0121bc7d7610b1a83271cf4c7d727e7b9855368994a66d14555f1ca7522",
+    "d6218f188556fc3ef3fd7de10ff17e1f3639ea55fe87709a371ba86680186067"
+  ],
+  "exclusions": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+  ]
+}

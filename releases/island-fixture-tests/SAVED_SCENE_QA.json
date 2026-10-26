@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "scenes": [
+    {
+      "case": "D",
+      "saved_scene_sha256": "a03f6e42dea27d613aafdf325b4c9aa7c71c45941b6b504069ffbe44f37229a2",
+      "saved_microwave_face_inches": [
+        23.875000476837158,
+        15.875000953674316
+      ],
+      "saved_faucet_nozzle_inside_basin": true,
+      "kitchen_camera_eye": [
+        21.299999237060547,
+        -4.5,
+        5.599999904632568
+      ],
+      "kitchen_lens": 22.0
+    },
+    {
+      "case": "E",
+      "saved_scene_sha256": "eadbc90a26c6a90296ba51560801164ce5ecc6a9caa429d37c58cb68a128f248",
+      "saved_microwave_face_inches": [
+        23.875000476837158,
+        15.875000953674316
+      ],
+      "saved_faucet_nozzle_inside_basin": true,
+      "kitchen_camera_eye": [
+        21.299999237060547,
+        -4.5,
+        5.599999904632568
+      ],
+      "kitchen_lens": 22.0
+    },
+    {
+      "case": "G",
+      "saved_scene_sha256": "9300e0fa24e70219bee200e65bf6c264af6bde6b30e008dea87583ebd339c370",
+      "saved_microwave_face_inches": null,
+      "saved_faucet_nozzle_inside_basin": true,
+      "kitchen_camera_eye": [
+        21.299999237060547,
+        -4.5,
+        5.599999904632568
+      ],
+      "kitchen_lens": 22.0
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "status": "PASS",
+  "reviewed_on": "2026-10-25 America/New_York",
+  "reviewer": "Resume thread visual inspection",
+  "scope": "12 native/photoreal pairs and seven original exhibits",
+  "checks": [
+    "Camera/framing and door/window positions compared against native views",
+    "North sink and dishwasher layout retained; no sink door added on north panel",
+    "Fixed post and four stool arrangement retained where visible",
+    "West service door and illustrative pipe access retained",
+    "Three cooking-wall microwave views retain drawer beneath and separate range",
+    "MW03 erroneous navy perimeter cabinetry corrected to warm white"
+  ],
+  "limits": [
+    "Photoreals remain finish illustrations; native geometry governs dimensions",
+    "Microwave, sink and dishwasher are proxies; installation and ventilation unverified",
+    "Illustrative plumbing is not a surveyed routing design",
+    "Existing middle-east stool/post conflict remains unresolved"
+  ],
+  "images": {
+    "NWE01": {
+      "sha256": "e181776794edb4f74e6afdd22e8a479afd5232b96bd729713e7b44302e35b122",
+      "path": "publish-assets/NWE01.jpg",
+      "status": "PASS"
+    },
+    "NWE02": {
+      "sha256": "d77415010ca1b3ff8812580f1354e267822649059a63abaebb6394f02daad689",
+      "path": "publish-assets/NWE02.jpg",
+      "status": "PASS"
+    },
+    "NWS01": {
+      "sha256": "afadfb898c49c5f62d9bab22dc3d309d56b59a24372b8f6091f5dbba6b5e7b7b",
+      "path": "publish-assets/NW01_native.jpg",
+      "status": "PASS"
+    },
+    "NWP01": {
+      "sha256": "4adcbc86ec88c902be5fa505aa6295ff06bf797bd82743ff2d6c4f62949b02c0",
+      "path": "publish-assets/NW01_photoreal.jpg",
+      "status": "PASS"
+    },
+    "NWS02": {
+      "sha256": "5c17fafea4278b7f6db9dbcf8dfa8d8799443f944c66c864f13fa35a2a58c5cb",
+      "path": "publish-assets/NW02_native.jpg",
+      "status": "PASS"
+    },
+    "NWP02": {
+      "sha256": "ecffe885aa8940a568c71a00f9b359c6f6ca188cebf5ff22788046ea1ea343df",
+      "path": "publish-assets/NW02_photoreal.jpg",
+      "status": "PASS"
+    },
+    "NWS03": {
+      "sha256": "b222006363dfc555fe66cd1750b92c0879065825c95eadc294907399dc275599",
+      "path": "publish-assets/NW03_native.jpg",
+      "status": "PASS"
+    },
+    "NWP03": {
+      "sha256": "56fb65f63abe31c8f2a99d9e526a35c34a293df3d87dc09d6745dec68b444995",
+      "path": "publish-assets/NW03_photoreal.jpg",
+      "status": "PASS"
+    },
+    "NWS04": {
+      "sha256": "ad9caba50cfa2652ff3bc457b3f5a297bb3a9562c54fa47a5cd9d7e2ea89021e",
+      "path": "publish-assets/NW04_native.jpg",
+      "status": "PASS"
+    },
+    "NWP04": {
+      "sha256": "124710e3c3cb9afd5eff7ef2494a1d235c6bc37beafe58174d0ac9e874743829",
+      "path": "publish-assets/NW04_photoreal.jpg",
+      "status": "PASS"
+    },
+    "NWS05": {
+      "sha256": "f9163854fa3580d9e58883e678c68811b27798bb351eaeb76721cd245102ea08",
+      "path": "publish-assets/NW05_native.jpg",
+      "status": "PASS"
+    },
+    "NWP05": {
+      "sha256": "73b3d33104e502a8db2de0076aaf988754de3d6ab54bd49c49291f03e21b8d43",
+      "path": "publish-assets/NW05_photoreal.jpg",
+      "status": "PASS"
+    },
+    "NWS06": {
+      "sha256": "a568a41947b61832fdff6c5cfaa748c93045cbfcfc2cebd4ae99bc8fef848de8",
+      "path": "publish-assets/NW06_native.jpg",
+      "status": "PASS"
+    },
+    "NWP06": {
+      "sha256": "77f9e8621e0a4009cacf36aea15093fcb237b94c28a62605e075e6f8550c94cd",
+      "path": "publish-assets/NW06_photoreal.jpg",
+      "status": "PASS"
+    },
+    "NWS07": {
+      "sha256": "5d75a487382cceaaf8b53b30b86032d03f8fc8180b04e19214b21172fc2a0102",
+      "path": "publish-assets/NW07_native.jpg",
+      "status": "PASS"
+    },
+    "NWP07": {
+      "sha256": "f01bbfbfd3bec89bc26e5fa8d8a24df332061aa44d4974e439fd699e7621b5bd",
+      "path": "publish-assets/NW07_photoreal.jpg",
+      "status": "PASS"
+    },
+    "NWS08": {
+      "sha256": "05e9970391cec59589c5ef7d4d92ca6761ec3ee8fca296392b91192b7e44a19f",
+      "path": "publish-assets/NW08_native.jpg",
+      "status": "PASS"
+    },
+    "NWP08": {
+      "sha256": "2718fcee9d2188e9e8f5ff31bd6a261bd19603c00220f685e5f7e389d985adce",
+      "path": "publish-assets/NW08_photoreal.jpg",
+      "status": "PASS"
+    },
+    "NWS09": {
+      "sha256": "b9898b9769b7862fc8b6cdbc5049fe01e1999aa19bcbb7006fe4140c37958d94",
+      "path": "publish-assets/NW09_native.jpg",
+      "status": "PASS"
+    },
+    "NWP09": {
+      "sha256": "cfe9b3e09c09c9014833d6bdbfe94c92d074557c77ad44ebd6735490d821b06f",
+      "path": "publish-assets/NW09_photoreal.jpg",
+      "status": "PASS"
+    },
+    "NWS10": {
+      "sha256": "2d3d775c0b1971ff4a1ee290d3b0f7a5de04052c07cf745f16492dbde155a807",
+      "path": "publish-assets/MW01_native.jpg",
+      "status": "PASS"
+    },
+    "NWP10": {
+      "sha256": "3e3e67272d7ad286cfb5468f6e10b85e300889de14a69bc5a6254fcfa8f5ce44",
+      "path": "publish-assets/MW01_photoreal.jpg",
+      "status": "PASS"
+    },
+    "NWS11": {
+      "sha256": "111fd4e016a715269233445ceaa9370722d8e9bd298860863d014b723d5bd84b",
+      "path": "publish-assets/MW02_native.jpg",
+      "status": "PASS"
+    },
+    "NWP11": {
+      "sha256": "dc140a6edea35e10bafcba5269fc83ea85dd19d5889e8adf2a581b6ea5ba085e",
+      "path": "publish-assets/MW02_photoreal.jpg",
+      "status": "PASS"
+    },
+    "NWS12": {
+      "sha256": "c52918d781b15672f14fde1b9941a7c620f81ebb6ee32013887f3c27556bc5b6",
+      "path": "publish-assets/MW03_native.jpg",
+      "status": "PASS"
+    },
+    "NWP12": {
+      "sha256": "d63b3bb592eb066cf89a0d64c334e4728c4efb3d1bd238ea2d5ea2a1ae76259e",
+      "path": "publish-assets/MW03_photoreal.jpg",
+      "status": "PASS"
+    },
+    "NWE03": {
+      "sha256": "e19cc87a8455a5a6d1b674c66855c7e5eb5a40a0a87e626b8cd51deb1ac7611c",
+      "path": "publish-assets/NWE03.jpg",
+      "status": "PASS"
+    },
+    "NWE04": {
+      "sha256": "65abc211d8c4c0a595fafd47879f3ff990d408552fcc712f87290af306796b3d",
+      "path": "publish-assets/NWE04.jpg",
+      "status": "PASS"
+    },
+    "NWE05": {
+      "sha256": "afef84222658711e095d611611f45c855363554a97d98059a9dc2a79ea6dfe73",
+      "path": "publish-assets/NWE05.jpg",
+      "status": "PASS"
+    },
+    "NWE06": {
+      "sha256": "109bd56407f7b6b6c6675fb8119a4db7ca1f9245b509b84161bf599d4cbaf9f6",
+      "path": "publish-assets/NWE06.jpg",
+      "status": "PASS"
+    },
+    "NWE07": {
+      "sha256": "931c35d1685791f8040189207f9fcd0e52f3bdb78a99572f11d8241c86b2cc7a",
+      "path": "publish-assets/NWE07.jpg",
+      "status": "PASS"
+    }
+  },
+  "correction": {
+    "status": "PASS",
+    "viewpointId": "MW03",
+    "change": "Restore the cooking-wall cabinet paint from erroneous navy to the native reference's warm white; retain camera/appliance/drawer geometry.",
+    "method": "Built-in image_gen image edit",
+    "prompt": "Use case: precise-object-edit. Asset: corrected MW03 architectural photographic finish study for 43 Cedar isolated NW island test. Image 1 is the EDIT TARGET, the existing realistic microwave closeup. Image 2 is the NATIVE GEOMETRY AND CABINET COLOR REFERENCE. Make ONE narrowly corrected photograph: change ALL navy blue cooking-wall cabinet paint visible in image 1 to the exact warm OFF-WHITE of the corresponding cabinet frames, door, bottom drawer, toe-kick and right end panel in native image 2. This is the perimeter cooking cabinet, which is WHITE, not the blue island. Preserve the existing photoreal lighting, pale quartz countertop, light oak floor, stainless microwave with dark glass, separate range/oven at left, brass knobs and pulls. Lock camera, crop, proportions, every appliance position, cabinet reveal and door/drawer geometry to the native reference. The microwave must stay under the rightmost cooking counter with ONE white storage drawer below. No new features, no geometry changes, no island, no extra appliances, no text, labels or collage. Output only the corrected single photograph at the same landscape aspect.",
+    "corrected_source_sha256": "62dd0cecc7c35b7f35ef9d71cc94b9b26d324eed939ef913babcc5b67a3fc6d1",
+    "published_jpeg_sha256": "d63b3bb592eb066cf89a0d64c334e4728c4efb3d1bd238ea2d5ea2a1ae76259e",
+    "native_reference_git_blob": "b447488a1e7698537661b25dbcacaeae814ef4fe",
+    "superseded_photoreal_git_blob": "3153cacd850276a13075b3fa2352c7bfbe8f28a4"
+  }
+}

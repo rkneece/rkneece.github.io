@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "added_ids": [
+    "RES27",
+    "RES28",
+    "RES29"
+  ],
+  "existing_images_and_resource_paths_unchanged": true,
+  "non_test_records_unchanged": 396,
+  "existing_test_change_only_view_order_metadata": true,
+  "other_ui_and_data_unchanged": true,
+  "record_count": 417,
+  "test_image_count": 21,
+  "ordered_test_ids": [
+    "RES19",
+    "RES22",
+    "RES23",
+    "RES24",
+    "RES25",
+    "RES26",
+    "RES27",
+    "RES28",
+    "RES29",
+    "RES09",
+    "RES11",
+    "RES15",
+    "RES20",
+    "RES12",
+    "RES16",
+    "RES10",
+    "RES13",
+    "RES17",
+    "RES21",
+    "RES14",
+    "RES18"
+  ],
+  "view_order": [
+    "Couch",
+    "Kitchen",
+    "Hallway",
+    "Dining",
+    "Porch",
+    "Post",
+    "Plan"
+  ],
+  "html_sha256": "ba8eab4efcbd892754e4aabb477b35c9462f97cbc9c2ec57563c73b19544636f",
+  "protected_refs": {
+    "model_main": "fdb63b893d605f8b69596732fdb9ba7a03ad2e55",
+    "model_dev": "fdb63b893d605f8b69596732fdb9ba7a03ad2e55",
+    "website_dev": "1966c264af9316be64fd7f39287064b5bfe18fc9"
+  }
+}

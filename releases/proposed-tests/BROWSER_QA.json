@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "surface": "desktop 1365x900",
+      "status": "PASS",
+      "category": "Proposed-Tests",
+      "comparison_items": 30,
+      "floor1_resources": 11,
+      "viewpoint_order_current_D_E_G": true,
+      "category_not_image_type": true,
+      "current_reference_opens": true,
+      "navigation_counts": true
+    },
+    {
+      "surface": "mobile 390x844",
+      "status": "PASS",
+      "category": "Proposed-Tests",
+      "comparison_items": 30,
+      "floor1_resources": 11,
+      "viewpoint_order_current_D_E_G": true,
+      "category_not_image_type": true,
+      "current_reference_opens": true,
+      "navigation_counts": true
+    }
+  ],
+  "page_errors": []
+}
