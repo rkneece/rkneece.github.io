@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "html_sha256": "1c35b192fcece1d0eb348a83e5d105863b38770448eb09e7912415b882ccd2d6",
+  "published_commit": "0721032ef1e37a116c7e5b7814fc948667534f45",
+  "new_test_records": 17,
+  "model_branch_not_merged": true,
+  "dev_unchanged": true,
+  "production_records_unchanged": true,
+  "url": "https://rkneece.github.io/sites/43cedar/interactive_map/index.html"
+}
