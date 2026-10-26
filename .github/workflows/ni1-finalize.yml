@@ -1,0 +1,48 @@
+name: Verify archive and retire approved NI1 release branches
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/ni1-finalize.yml
+      - ops/cedar-release/**
+      - releases/approved-north-island-farmhouse/RETIRE_PLAN.json
+permissions:
+  contents: write
+  id-token: write
+jobs:
+  finalize:
+    if: contains(github.event.head_commit.message, '[finalize:ni1]')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install --quiet Pillow
+      - uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093
+        with:
+          project_id: cedar-assets
+          workload_identity_provider: projects/293109622606/locations/global/workloadIdentityPools/cedar-github/providers/github
+      - uses: google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db
+      - run: python releases/approved-north-island-farmhouse/verify.py https://rkneece.github.io/sites/43cedar/interactive_map/index.html
+      - run: npm install --prefix "$RUNNER_TEMP/ni1-browser" --no-save playwright
+      - name: Verify desktop and mobile against the public live page
+        env:
+          NODE_PATH: ${{ runner.temp }}/ni1-browser/node_modules
+        run: node releases/approved-north-island-farmhouse/check-browser.cjs https://rkneece.github.io/sites/43cedar/interactive_map/index.html
+      - name: Verify archives, archive final bundle, tag and retire only selected branches
+        run: python ops/cedar-release/finish_ni1.py releases/approved-north-island-farmhouse/RETIRE_PLAN.json
+      - name: Preserve final archive and retirement evidence
+        run: |
+          test "$(git ls-remote origin refs/heads/main | cut -f1)" = "$GITHUB_SHA"
+          git add releases/approved-north-island-farmhouse/FINAL_QA.json releases/approved-north-island-farmhouse/FINAL_ARCHIVE_RECEIPT.json releases/approved-north-island-farmhouse/FINAL_PROOF_RECEIPT.json releases/approved-north-island-farmhouse/LIVE_QA.json releases/approved-north-island-farmhouse/BROWSER_QA.json
+          git -c user.name='43 Cedar NI1 finalize' -c user.email='actions@users.noreply.github.com' commit -m 'Record independently verified NI1 live release, archive and selected branch retirement [skip ci]'
+          git push origin HEAD:main
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ni1-finalize-${{ github.run_id }}
+          path: |
+            releases/approved-north-island-farmhouse/*QA.json
+            releases/approved-north-island-farmhouse/*RECEIPT.json
+            releases/approved-north-island-farmhouse/*browser.png
