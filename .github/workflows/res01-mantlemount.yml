@@ -1,0 +1,42 @@
+name: RES01 MantelMount notes
+run-name: "RES01 MantelMount · ${{ github.ref_name }}"
+on:
+  push:
+    branches: [release/res01-mantlemount, release/res01-mantlemount-live]
+    paths: [releases/res01-mantlemount/apply.py, .github/workflows/res01-mantlemount.yml]
+permissions:
+  contents: write
+  id-token: write
+concurrency:
+  group: res01-mantlemount-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  assemble:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add approved installation notes and verify RES01-only changes
+        run: python releases/res01-mantlemount/apply.py
+      - uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093
+        with:
+          project_id: cedar-assets
+          workload_identity_provider: projects/293109622606/locations/global/workloadIdentityPools/cedar-github/providers/github
+      - uses: google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db
+      - name: Archive source, viewer and QA with independent readback
+        run: python ops/cedar-archive/archive.py --issue 31 --receipt releases/res01-mantlemount/ARCHIVE_RECEIPT.json releases/res01-mantlemount/apply.py releases/res01-drawers/apply.py releases/res01-mantlemount/PUBLISH_QA.json sites/43cedar/interactive_map/index.html
+      - name: Guard source head and checkpoint output
+        run: |
+          test "$(git ls-remote origin refs/heads/${{ github.ref_name }} | cut -f1)" = "$GITHUB_SHA"
+          git add releases/res01-mantlemount sites/43cedar/interactive_map/index.html
+          git -c user.name='43 Cedar publish' -c user.email='actions@users.noreply.github.com' commit -m 'Add RES01 MantelMount in stud cavity and pre-drywall receptacle/mount notes [skip ci]'
+          git push origin HEAD:${{ github.ref_name }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: res01-mantlemount-${{ github.run_id }}
+          path: |
+            releases/res01-mantlemount/PUBLISH_QA.json
+            releases/res01-mantlemount/ARCHIVE_RECEIPT.json
