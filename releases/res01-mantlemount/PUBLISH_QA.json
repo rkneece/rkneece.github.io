@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "issue": 31,
+  "checked_at": "2026-10-26T18:05:33.054420Z",
+  "addition": "TV supported by MantelMount inside the stud cavity. Add a receptacle and install the mount before drywall.",
+  "photo_count": 477,
+  "only_changed_fields": [
+    "photos.RES01.notes",
+    "photos.RES01.updatedAt"
+  ],
+  "all_images_unchanged": true,
+  "all_other_appdata_unchanged": true,
+  "viewer_shell_byte_identical": true,
+  "html_sha256": "adfb30586f6111b1520623eb05f664cf5ce46db5b7ff6a4e1d09c50cc455635e",
+  "baseline_html_sha256": "2fc75efe6cb4d6b8076b797a6bb2d8704a273d552ae238c31305e6de2fe853b5"
+}
