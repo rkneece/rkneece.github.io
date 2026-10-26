@@ -22,7 +22,7 @@ jobs:
       - name: Reproduce exact reviewed diagram and patch RES01 only
         run: |
           python releases/res01-drawers/draw_res01.py
-          echo '67dd2aba39e1119a9eb3589eb0e4c29d2ef917bd1fe5a863aed2cc2a3a405a52  releases/res01-drawers/43_Cedar_Fireplace_Measured_Concept.png' | sha256sum --check
+          echo 'eda1d19c88de7289a35d8b990b38a9c78723819181424a3259da592f054ef482  releases/res01-drawers/43_Cedar_Fireplace_Measured_Concept.png' | sha256sum --check
           python releases/res01-drawers/apply.py
       - uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093
         with:

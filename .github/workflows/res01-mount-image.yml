@@ -1,0 +1,46 @@
+name: RES01 visible MantelMount callout
+run-name: "RES01 image callout · ${{ github.ref_name }}"
+on:
+  push:
+    branches: [release/res01-mount-image, release/res01-mount-image-live]
+    paths: [releases/res01-drawers/draw_res01.py, releases/res01-mount-image/apply.py, .github/workflows/res01-mount-image.yml]
+permissions:
+  contents: write
+  id-token: write
+concurrency:
+  group: res01-mount-image-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  assemble:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install --quiet Pillow==12.3.0
+      - name: Reproduce exact visually reviewed diagram and patch RES01 only
+        run: |
+          python releases/res01-drawers/draw_res01.py
+          python releases/res01-mount-image/apply.py
+      - uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093
+        with:
+          project_id: cedar-assets
+          workload_identity_provider: projects/293109622606/locations/global/workloadIdentityPools/cedar-github/providers/github
+      - uses: google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db
+      - name: Archive reviewed image, source, viewer and QA with independent readback
+        run: python ops/cedar-archive/archive.py --issue 31 --receipt releases/res01-mount-image/ARCHIVE_RECEIPT.json releases/res01-drawers/draw_res01.py releases/res01-drawers/apply.py releases/res01-drawers/43_Cedar_Fireplace_Measured_Concept.png releases/res01-mount-image/apply.py releases/res01-mount-image/PUBLISH_QA.json sites/43cedar/interactive_map/index.html
+      - name: Guard source head and checkpoint image/viewer
+        run: |
+          test "$(git ls-remote origin refs/heads/${{ github.ref_name }} | cut -f1)" = "$GITHUB_SHA"
+          git add releases/res01-mount-image releases/res01-drawers/43_Cedar_Fireplace_Measured_Concept.png sites/43cedar/interactive_map/index.html
+          git -c user.name='43 Cedar publish' -c user.email='actions@users.noreply.github.com' commit -m 'Add visible MantelMount and before-drywall callout to RES01 image [skip ci]'
+          git push origin HEAD:${{ github.ref_name }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: res01-mount-image-${{ github.run_id }}
+          path: |
+            releases/res01-mount-image/PUBLISH_QA.json
+            releases/res01-mount-image/ARCHIVE_RECEIPT.json
+            releases/res01-drawers/43_Cedar_Fireplace_Measured_Concept.png
