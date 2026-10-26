@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "desktop_views": [
+    "R03",
+    "R49",
+    "NI01"
+  ],
+  "mobile_tests": 54,
+  "page_errors": []
+}

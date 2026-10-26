@@ -1,0 +1,30 @@
+{
+  "schema": "43cedar-archive-v1",
+  "repository": "rkneece/rkneece.github.io",
+  "source_commit": "bbe84c5b6f6875b99680706c1704541e71e80981",
+  "source_ref": "refs/heads/main",
+  "issue": "https://github.com/rkneece/43-cedar-blender/issues/21",
+  "archived_at": "2026-10-26T05:24:45.255679+00:00",
+  "run_url": "https://github.com/rkneece/rkneece.github.io/actions/runs/40273988983",
+  "approval": "archive-only; no design approval or publication implied",
+  "assets": [
+    {
+      "path": "releases/approved-north-island-farmhouse/FINAL_RELEASE_BUNDLE.zip",
+      "sha256": "1e408d806226bbc6fd27749b0d71941af5317440eefcaaae8943832aad75d751",
+      "bytes": 31364477,
+      "uri": "gs://rkneece-43cedar-assets/43cedar/objects/sha256/1e/1e408d806226bbc6fd27749b0d71941af5317440eefcaaae8943832aad75d751",
+      "verified": true,
+      "record_uri": "gs://rkneece-43cedar-assets/43cedar/records/sha256/c99503cf26718e15b9e170a380167e280d63af75f87487febbdaf513a87f218f.json"
+    },
+    {
+      "path": "releases/approved-north-island-farmhouse/RETIRE_PLAN.json",
+      "sha256": "3f4f7fda7dc391b6a1527c85261dccdc7de6d212a2f4d3ada1aef31c9a0140c3",
+      "bytes": 7284,
+      "uri": "gs://rkneece-43cedar-assets/43cedar/objects/sha256/3f/3f4f7fda7dc391b6a1527c85261dccdc7de6d212a2f4d3ada1aef31c9a0140c3",
+      "verified": true,
+      "record_uri": "gs://rkneece-43cedar-assets/43cedar/records/sha256/33a8cb02e857c454526ba3a11ec0c4f6b0ebca5ec705931d5ab3562e19fe408c.json"
+    }
+  ],
+  "manifest_uri": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/d490ea0b1336f78471e0d04879b310cca6ea066bba9402f31927dbbb27717571.json",
+  "manifest_sha256": "d490ea0b1336f78471e0d04879b310cca6ea066bba9402f31927dbbb27717571"
+}

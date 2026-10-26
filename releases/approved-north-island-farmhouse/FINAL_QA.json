@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-26T05:25:33.137180+00:00",
+  "live_html_sha256": "1491dcb68147de11bf54c344913e09ada9ef3e18c874a3400c5ec8986a21c020",
+  "verified_existing_archive_objects": 82,
+  "final_bundle_manifest": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/d490ea0b1336f78471e0d04879b310cca6ea066bba9402f31927dbbb27717571.json",
+  "final_bundle_sha256": "1e408d806226bbc6fd27749b0d71941af5317440eefcaaae8943832aad75d751",
+  "retired": [
+    {
+      "branch": "release/approved-north-island-farmhouse",
+      "sha": "2593a7cfdfab2cf3660dbb5932607cd523ba3ee9",
+      "archive_tag": "archive/ni1-20261026/release/approved-north-island-farmhouse"
+    },
+    {
+      "branch": "test/island-NW-side-access",
+      "sha": "67cea19ef5579422557ead3788d94bce832e0f3b",
+      "archive_tag": "archive/ni1-20261026/test/island-NW-side-access"
+    }
+  ],
+  "other_test_branches_unchanged": true
+}

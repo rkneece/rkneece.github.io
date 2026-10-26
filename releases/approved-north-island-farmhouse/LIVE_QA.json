@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "source": "https://rkneece.github.io/sites/43cedar/interactive_map/index.html",
+  "html_sha256": "1491dcb68147de11bf54c344913e09ada9ef3e18c874a3400c5ec8986a21c020",
+  "records": 460,
+  "updated_images_verified": 78,
+  "tests_preserved": 54,
+  "unaffected_records_preserved": 382
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "43cedar-archive-v1",
+  "repository": "rkneece/rkneece.github.io",
+  "source_commit": "bbe84c5b6f6875b99680706c1704541e71e80981",
+  "source_ref": "refs/heads/main",
+  "issue": "https://github.com/rkneece/43-cedar-blender/issues/21",
+  "archived_at": "2026-10-26T05:25:33.195628+00:00",
+  "run_url": "https://github.com/rkneece/rkneece.github.io/actions/runs/40273988983",
+  "approval": "archive-only; no design approval or publication implied",
+  "assets": [
+    {
+      "path": "releases/approved-north-island-farmhouse/FINAL_QA.json",
+      "sha256": "a8b062ad878e70a63856e5792724a8727da86ffb2d9e69c91feeea947102d981",
+      "bytes": 914,
+      "uri": "gs://rkneece-43cedar-assets/43cedar/objects/sha256/a8/a8b062ad878e70a63856e5792724a8727da86ffb2d9e69c91feeea947102d981",
+      "verified": true,
+      "record_uri": "gs://rkneece-43cedar-assets/43cedar/records/sha256/67a645ebc437d886d56728dbcd320e20401e647570d1369306f6aa837757d211.json"
+    }
+  ],
+  "manifest_uri": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/09eda9dc1787775faf6ff0b654938ed58a4d9ee0b98cba7a7fce2f9f5c0eaf6d.json",
+  "manifest_sha256": "09eda9dc1787775faf6ff0b654938ed58a4d9ee0b98cba7a7fce2f9f5c0eaf6d"
+}
