@@ -1,7 +1,7 @@
 {
-  "phase": "assemble",
-  "requested_at": "2026-10-26T16:54:56.954Z",
-  "issue": 25,
+  "phase": "publish",
+  "reviewed_html_sha256": "1c35b192fcece1d0eb348a83e5d105863b38770448eb09e7912415b882ccd2d6",
+  "requested_at": "2026-10-26T16:58:26.672Z",
   "claim_token": "recovery25-1793032168852-h7odfogpuf9",
-  "claim_expires_at": "2026-10-26T17:16:50.761Z"
+  "claim_expires_at": "2026-10-26T17:26:30.776Z"
 }
