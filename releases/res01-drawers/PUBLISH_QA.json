@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "issue": 31,
+  "checked_at": "2026-10-26T17:45:19.585314Z",
+  "photo_count": 477,
+  "only_changed_record": "RES01",
+  "only_changed_image": "resourceImages.RES01",
+  "all_other_appdata_unchanged": true,
+  "viewer_shell_byte_identical": true,
+  "source_html_blob_sha": "c4c0db52953b88b2947b16b0ef9dc906cb79dcf0",
+  "html_sha256": "2fc75efe6cb4d6b8076b797a6bb2d8704a273d552ae238c31305e6de2fe853b5",
+  "image_sha256": "67dd2aba39e1119a9eb3589eb0e4c29d2ef917bd1fe5a863aed2cc2a3a405a52",
+  "image_size": [
+    1728,
+    1440
+  ],
+  "drawers_per_side": 2,
+  "drawer_style": "Shaker",
+  "window_casing": "House-standard square-edge Craftsman: 3.5\u20134-inch legs, 5-inch head, flat butt joints",
+  "visual_review": "Diagram visually reviewed in active RES01 conversation before commit; exact image hash bound below."
+}
