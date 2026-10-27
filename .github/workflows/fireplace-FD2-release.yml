@@ -1,0 +1,52 @@
+name: Stage reviewed FD2 production release
+on:
+  push:
+    branches: [release/fireplace-FD2-recovery]
+    paths: [releases/fireplace-FD2/**, .github/workflows/fireplace-FD2-release.yml]
+permissions:
+  contents: write
+  id-token: write
+concurrency:
+  group: cedar-shared-publisher
+  cancel-in-progress: false
+jobs:
+  assemble:
+    if: contains(github.event.head_commit.message, '[assemble:fd2]')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      CLOUDSDK_CONFIG: ${{ runner.temp }}/fd2-gcloud-session
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install --quiet Pillow
+      - uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093
+        with:
+          project_id: cedar-assets
+          workload_identity_provider: projects/293109622606/locations/global/workloadIdentityPools/cedar-github/providers/github
+      - uses: google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db
+      - name: Verify baseline and archived exact bytes then assemble production only
+        run: |
+          test "$(git ls-remote origin refs/heads/main | cut -f1)" = "a68323fef03fc9f35b0a9ca423a7e6ad43e77dcd"
+          python releases/fireplace-FD2/assemble.py
+      - name: Desktop and mobile browser checks
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+          node releases/fireplace-FD2/browser.cjs
+      - name: Archive staged viewer and release evidence with readback
+        run: python releases/fireplace-FD2/archive.py --issue 32 --receipt releases/fireplace-FD2/ARCHIVE_RECEIPT.json sites/43cedar/interactive_map/index.html releases/fireplace-FD2/RELEASE.json releases/fireplace-FD2/PUBLISH_QA.json releases/fireplace-FD2/BROWSER_QA.json
+      - name: Expected-head checkpoint
+        run: |
+          test "$(git ls-remote origin refs/heads/release/fireplace-FD2-recovery | cut -f1)" = "$GITHUB_SHA"
+          git add sites/43cedar/interactive_map/index.html releases/fireplace-FD2/PUBLISH_QA.json releases/fireplace-FD2/BROWSER_QA.json releases/fireplace-FD2/ARCHIVE_RECEIPT.json
+          git -c user.name='43 Cedar FD2 publisher' -c user.email='actions@users.noreply.github.com' commit -m 'Stage reviewed FD2 production images and verified release evidence [skip ci]'
+          git push origin HEAD:release/fireplace-FD2-recovery
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: fd2-release-${{ github.run_id }}
+          path: |
+            releases/fireplace-FD2/*QA.json
+            releases/fireplace-FD2/*RECEIPT.json
+            releases/fireplace-FD2/desktop.png
+            releases/fireplace-FD2/mobile.png
