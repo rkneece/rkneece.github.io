@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "issue": 25,
+  "native_unique": 4,
+  "native_display": 4,
+  "photoreal": 4,
+  "changed_ids": [
+    "CW6_N01",
+    "CW6_N02",
+    "CW6_N03",
+    "CW6_N07",
+    "CW6_P01",
+    "CW6_P02",
+    "CW6_P07",
+    "CW6_P03"
+  ],
+  "photos_before": 477,
+  "photos_after": 477,
+  "all_unaffected_records_and_assets_preserved": true,
+  "all_other_tests_preserved": true,
+  "resources_UI_preserved": true,
+  "baseline_blob": "fc105ca962b98552b62f9778b67edc3f043c5c14",
+  "html_sha256": "2473ba61c4bdd42e26da7eddd5c8aa7cc22293ea7f54b3c6676cf6c433b143a3",
+  "published_images": [
+    {
+      "id": "CW6_N01",
+      "native": "CW6_N01",
+      "source_sha256": "5fa7aac75d88a0c2ea4f4892af281ca2f705ac00db3518eae85728063269c601",
+      "display_sha256": "a428adcf5ebfc31bf2f548f4db09c0f6ab958f6a0dd63cd60b2d57af87fd5e95",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "CW6_N02",
+      "native": "CW6_N02",
+      "source_sha256": "d83ef2bfe61db416503f9a0369b44653f334625fe11d968bb1604b30961012fc",
+      "display_sha256": "00a3bf011b378dfa9b8951d708a191f8a7e355cd15181db9fdf8b066ceeb7c03",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "CW6_N03",
+      "native": "CW6_N03",
+      "source_sha256": "1828b126a7a0ff234b6c9edd7060741fccdb5f53b9c3cfb658f5a2fb81aaf735",
+      "display_sha256": "5f471fc97b75525b93aadd98685e6f918ced8b15cc5a2723faa456fb32fb54b3",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "CW6_N07",
+      "native": "CW6_N07",
+      "source_sha256": "bf0ae9bb918a814de711354f2ae84831b50c8ee488daea596ab4ea1383f00a4e",
+      "display_sha256": "b1fd24d620e3da2444be510ef86e593d6ecb36f3c987530c1e6e1b5e10ae173e",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "CW6_P01",
+      "native": "CW6_N01",
+      "source_sha256": "48a588150af2a11e5c5ed9b2a45dc27ec42fcbf10847ba355ce4d20176b19417",
+      "display_sha256": "f958f29919e17b7e0c18d5c52a2176106c4de52dee94cbaaa9789074d484a28c",
+      "dimensions": [
+        1476,
+        1065
+      ]
+    },
+    {
+      "id": "CW6_P02",
+      "native": "CW6_N02",
+      "source_sha256": "afb36dc4eb1bfca0f8c173edc2d4fc268e3912dc3deaf2f7b2d0ee281fa375af",
+      "display_sha256": "eafa31f77f2188c8c420669a6d5669cffa5e8fca651c38bd395b9998846983cd",
+      "dimensions": [
+        1476,
+        1065
+      ]
+    },
+    {
+      "id": "CW6_P07",
+      "native": "CW6_N07",
+      "source_sha256": "b7ad1d6a7e814970d6f3bf41c1d056ef04196b6b36f48709f956d4b82edb17c9",
+      "display_sha256": "b833a6a692ef3def33c8c9bd18bb98651f76b0de1e0683aa3bee172829662a37",
+      "dimensions": [
+        1476,
+        1065
+      ]
+    },
+    {
+      "id": "CW6_P03",
+      "native": "CW6_N03",
+      "source_sha256": "6cab2078dbdf9238788afceb42b3d67595838b71ad77a022622ebfd27a912ea2",
+      "display_sha256": "06913f98a3ed585fc1b8302a77ff4f3412186c392db1c7099f303286ad644161",
+      "dimensions": [
+        1475,
+        1067
+      ]
+    }
+  ],
+  "pending_test_overlap": [
+    "CW6_N04",
+    "CW6_P04"
+  ]
+}

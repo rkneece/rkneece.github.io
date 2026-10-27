@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "records": 477,
+      "lighting_images_decoded": 8,
+      "title": "43 Cedar · Interactive Planner",
+      "body_visible": true,
+      "errors": []
+    },
+    {
+      "name": "mobile",
+      "width": 390,
+      "height": 844,
+      "records": 477,
+      "lighting_images_decoded": 8,
+      "title": "43 Cedar · Interactive Planner",
+      "body_visible": true,
+      "errors": []
+    }
+  ]
+}
