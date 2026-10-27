@@ -1,0 +1,24 @@
+name: Verify isolated FD2 test live publication
+on:
+  push:
+    branches: [main]
+    paths: [releases/fireplace-FD2-tests/**, .github/workflows/fireplace-FD2-tests-live.yml]
+permissions:
+  contents: read
+  pages: read
+jobs:
+  verify:
+    if: contains(github.event.head_commit.message, '[live:fd2-tests]')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Observe Pages completion and verify exact live viewer hash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python releases/fireplace-FD2-tests/verify-live.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: fd2-tests-live-${{ github.run_id }}
+          path: releases/fireplace-FD2-tests/LIVE_QA.json

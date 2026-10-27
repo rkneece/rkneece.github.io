@@ -1,0 +1,46 @@
+{
+  "schema": "43cedar-archive-v1",
+  "repository": "rkneece/rkneece.github.io",
+  "source_commit": "15485a4c81246dd27e6f52c2061d2fdbd69b12a8",
+  "source_ref": "refs/heads/release/fireplace-FD2-tests",
+  "issue": "https://github.com/rkneece/43-cedar-blender/issues/32",
+  "archived_at": "2026-10-27T06:38:58.539416+00:00",
+  "run_url": "https://github.com/rkneece/rkneece.github.io/actions/runs/40462267978",
+  "approval": "archive-only; no design approval or publication implied",
+  "assets": [
+    {
+      "path": "releases/fireplace-FD2-tests/BROWSER_QA.json",
+      "sha256": "004fa101c5c5467e45076924d521ce04cd5e29bc117600e0e3d81d73c6694d33",
+      "bytes": 500,
+      "uri": "gs://rkneece-43cedar-assets/43cedar/objects/sha256/00/004fa101c5c5467e45076924d521ce04cd5e29bc117600e0e3d81d73c6694d33",
+      "verified": true,
+      "record_uri": "gs://rkneece-43cedar-assets/43cedar/records/sha256/deb9b7d200b94cdaf35b858f9c5d72aaccc26553389f5426f8c6beaf2a39f651.json"
+    },
+    {
+      "path": "releases/fireplace-FD2-tests/PUBLISH_QA.json",
+      "sha256": "03c05c3a58067ac550df9a91c089186bed49ce0019ce93dd4835f2361de7cb12",
+      "bytes": 2380,
+      "uri": "gs://rkneece-43cedar-assets/43cedar/objects/sha256/03/03c05c3a58067ac550df9a91c089186bed49ce0019ce93dd4835f2361de7cb12",
+      "verified": true,
+      "record_uri": "gs://rkneece-43cedar-assets/43cedar/records/sha256/41a40342069890b434a11978e2593fac60aaabee184ee7cd5b951b584b7139e2.json"
+    },
+    {
+      "path": "releases/fireplace-FD2-tests/RELEASE.json",
+      "sha256": "7d12ffc5f6b9e4b2131a92a32615c304cb4b766f20d98771070ff0f9449d7e6f",
+      "bytes": 13839,
+      "uri": "gs://rkneece-43cedar-assets/43cedar/objects/sha256/7d/7d12ffc5f6b9e4b2131a92a32615c304cb4b766f20d98771070ff0f9449d7e6f",
+      "verified": true,
+      "record_uri": "gs://rkneece-43cedar-assets/43cedar/records/sha256/16b7bd42606bd175a675f2e77d2d425d8a47c2c77a78789224304489c86463f5.json"
+    },
+    {
+      "path": "sites/43cedar/interactive_map/index.html",
+      "sha256": "53abb2525efe0e107db24d98114536ca76e9ea9eab184b6e55b90cad00888705",
+      "bytes": 48723022,
+      "uri": "gs://rkneece-43cedar-assets/43cedar/objects/sha256/53/53abb2525efe0e107db24d98114536ca76e9ea9eab184b6e55b90cad00888705",
+      "verified": true,
+      "record_uri": "gs://rkneece-43cedar-assets/43cedar/records/sha256/1b0a2c8dff3d651cc62564445afe21000d2246a757332860dd9872fa643ce2ba.json"
+    }
+  ],
+  "manifest_uri": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/bbbafb0251add7620896aec80ea43c277cf06adeb25fc266ceb2f5321779086b.json",
+  "manifest_sha256": "bbbafb0251add7620896aec80ea43c277cf06adeb25fc266ceb2f5321779086b"
+}
