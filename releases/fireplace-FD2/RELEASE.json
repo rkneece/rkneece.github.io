@@ -890,7 +890,9 @@
         "evidence": "Recovered same-template prompt text matches pre-call SHA256 exactly; camera/native identifiers from original attempt.",
         "expected_sha256": "cad945128c81adaaa19e7aafbadedef949c1cfc559611aa200e0955de0ba0892",
         "checked_at": "2026-10-27T04:39:30.072Z"
-      }
+      },
+      "native": "B39",
+      "native_identity_reconciled": "Unique SHA256 match against reviewed native manifest"
     },
     {
       "id": "R48",
