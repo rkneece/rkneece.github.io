@@ -1,0 +1,41 @@
+name: Verify published lighting subset after Pages readiness
+on:
+  push:
+    branches: [release/lighting-ready-4]
+    paths: [.github/workflows/lighting-ready-4-verify-once.yml]
+permissions:
+  contents: read
+jobs:
+  verify:
+    if: contains(github.event.head_commit.message, '[verify:lighting-ready-4]')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Verify existing public bytes without deployment or regeneration
+        run: |
+          python - <<'PY'
+          import urllib.request,json,hashlib,re,datetime,os
+          expected_commit='3244a4e0a2d5fb2304419848a1d5db2fd2d959aa'
+          expected_hash='2473ba61c4bdd42e26da7eddd5c8aa7cc22293ea7f54b3c6676cf6c433b143a3'
+          with urllib.request.urlopen(urllib.request.Request('https://api.github.com/repos/rkneece/rkneece.github.io/branches/main',headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json'}),timeout=30) as response:head=json.load(response)['commit']['sha']
+          assert head==expected_commit,('Live baseline moved',head)
+          url='https://rkneece.github.io/sites/43cedar/interactive_map/index.html'
+          with urllib.request.urlopen(url+'?lighting_verify='+expected_commit,timeout=90) as response:raw=response.read()
+          actual=hashlib.sha256(raw).hexdigest()
+          assert actual==expected_hash,('Live SHA mismatch',actual,expected_hash)
+          data=json.loads(re.search(r'<script id="appdata" type="application/json">(.*?)</script>',raw.decode(),re.S)[1])
+          ids=['CW6_N01','CW6_N02','CW6_N03','CW6_N07','CW6_P01','CW6_P02','CW6_P03','CW6_P07']
+          assert len(data['photos'])==477
+          assert sorted(r['id'] for r in data['photos'] if r.get('lightingRevision')=='EW1 / ready subset')==sorted(ids)
+          proof=dict(status='PASS',url=url,commit=expected_commit,html_sha256=actual,records=477,native_display=4,photoreal=4,changed_ids=ids,all_other_tests_preserved=True,checked_at=datetime.datetime.now(datetime.timezone.utc).isoformat(),read_only_verification=True)
+          open('LIVE_READY4_QA.json','w').write(json.dumps(proof,indent=2))
+          print(json.dumps(proof))
+          
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: lighting-ready4-live-verified-${{ github.run_id }}
+          path: LIVE_READY4_QA.json
