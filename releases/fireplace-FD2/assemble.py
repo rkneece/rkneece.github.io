@@ -18,7 +18,7 @@ def replace(ident,nid,h,group):
  with Image.open(io.BytesIO(b)) as im:
   dims=list(im.size);out=io.BytesIO();im.convert('RGB').save(out,'JPEG',quality=91,optimize=True,subsampling=0)
  data=out.getvalue();after[group][ident]='data:image/jpeg;base64,'+base64.b64encode(data).decode()
- row=rows[ident];row.update(updatedAt=M['created_at'],imageSHA256=sha(data),sourceImageSHA256=h,sourceSceneSHA256=M['source_scene_sha256'],validatedCombinedSceneSHA256=M['source_scene_sha256'],sourceRenderId=nid,nativeReferenceSHA256=native[nid]['sha256'],modelCommit=M['model_commit'],fireplaceRevision='RES01 Rev D / FD2',qaStatus='FD2_EXACT_SOURCE_VISUAL_ARCHIVE_PASS')
+ row=rows[ident];row.update(updatedAt=M['created_at'],imageSHA256=sha(data),sourceImageSHA256=h,sourceSceneSHA256=M['source_scene_sha256'],validatedCombinedSceneSHA256=M['source_scene_sha256'],sourceRenderId=nid,nativeReferenceSHA256=native[nid]['sha256'],sourcePNG_SHA256=native[nid]['sha256'],modelCommit=M['model_commit'],fireplaceRevision='RES01 Rev D / FD2',qaStatus='FD2_EXACT_SOURCE_VISUAL_ARCHIVE_PASS')
  row['notes']=row.get('notes','')+' Fireplace benches: exactly two side-by-side Shaker drawers per side in one row, matching RES01 Rev D.'
  changes.append(ident);proof.append(dict(id=ident,native=nid,source_sha256=h,display_sha256=sha(data),dimensions=dims))
 for ident,r in native.items():replace(ident,ident,r['sha256'],'blenderImages')

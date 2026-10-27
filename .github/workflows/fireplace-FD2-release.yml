@@ -27,6 +27,7 @@ jobs:
       - name: Verify baseline and archived exact bytes then assemble production only
         run: |
           test "$(git ls-remote origin refs/heads/main | cut -f1)" = "a68323fef03fc9f35b0a9ca423a7e6ad43e77dcd"
+          git show a68323fef03fc9f35b0a9ca423a7e6ad43e77dcd:sites/43cedar/interactive_map/index.html > sites/43cedar/interactive_map/index.html
           python releases/fireplace-FD2/assemble.py
       - name: Desktop and mobile browser checks
         run: |
