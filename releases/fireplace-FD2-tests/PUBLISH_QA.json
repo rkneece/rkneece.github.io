@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "issue": 32,
+  "native_unique": 3,
+  "native_display": 3,
+  "photoreal": 3,
+  "changed_ids": [
+    "NWS01",
+    "NWS08",
+    "CW6_N06",
+    "NWP01",
+    "CW6_P06",
+    "NWP08"
+  ],
+  "photos_before": 477,
+  "photos_after": 477,
+  "all_unaffected_records_and_assets_preserved": true,
+  "all_other_tests_preserved": true,
+  "resources_UI_preserved": true,
+  "baseline_blob": "3f3dae15c1a324d72a59cac825c3e06ed35b6ec5",
+  "html_sha256": "53abb2525efe0e107db24d98114536ca76e9ea9eab184b6e55b90cad00888705",
+  "published_images": [
+    {
+      "id": "NWS01",
+      "native": "NWS01",
+      "source_sha256": "895baccc22640d0ada950177f7dba481b0434de41ad2b6418a51b2967e38f6d1",
+      "display_sha256": "ac9b4f8b6da6217c8e09c631637272fbbcc47c0fb7a9d49ae5339599d29460a4",
+      "dimensions": [
+        900,
+        640
+      ]
+    },
+    {
+      "id": "NWS08",
+      "native": "NWS08",
+      "source_sha256": "5ba194d327048c1f689502b0e2b0f7977a3da87381fc9c7e22e83dcd2c39e4aa",
+      "display_sha256": "2345f9fce840f8bd49d0db4302826c9d462bdf416a6fff40ba2660bff4591666",
+      "dimensions": [
+        900,
+        640
+      ]
+    },
+    {
+      "id": "CW6_N06",
+      "native": "CW6_N06",
+      "source_sha256": "7017575a94d7d9646b2f4771626ac2f19be1cc66662559624cec494ca4745256",
+      "display_sha256": "4bc646c7f1f8da27c55948169e499e08de5211c4ea75552a5ff43a82d51ff086",
+      "dimensions": [
+        900,
+        650
+      ]
+    },
+    {
+      "id": "NWP01",
+      "native": "NWS01",
+      "source_sha256": "56536d0062ddda58c3cb1f7e60df84ee71131cc38dae380c2a669c28ddf82db5",
+      "display_sha256": "43196fad690a59356134a696fa292692007984137ba77a93ad1546dedb17c8e4",
+      "dimensions": [
+        1487,
+        1058
+      ]
+    },
+    {
+      "id": "CW6_P06",
+      "native": "CW6_N06",
+      "source_sha256": "2f074cbb54744f5fe0f9f4b92ac08a6dac4ae7619b4adae471ec5027e8364f68",
+      "display_sha256": "35c16b5bce64d3f28b60945c9231d69d27b5dc0ee22ef332ce7d7510a6c11f41",
+      "dimensions": [
+        1476,
+        1065
+      ]
+    },
+    {
+      "id": "NWP08",
+      "native": "NWS08",
+      "source_sha256": "0708b81a731293534ea531f46e675c6039f1db6f3b50f79959e7c1c915f3fca7",
+      "display_sha256": "cb9219130fe74e3e8d15cd36c614c17f3126294e78ba2771883c4f1743892e31",
+      "dimensions": [
+        1487,
+        1058
+      ]
+    }
+  ],
+  "pending_test_overlap": []
+}
