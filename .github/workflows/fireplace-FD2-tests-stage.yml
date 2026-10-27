@@ -1,0 +1,54 @@
+name: Stage isolated FD2 test release
+on:
+  push:
+    branches: [release/fireplace-FD2-tests]
+    paths: [releases/fireplace-FD2-tests/**, .github/workflows/fireplace-FD2-tests-stage.yml]
+permissions:
+  contents: write
+  id-token: write
+concurrency:
+  group: cedar-shared-publisher
+  cancel-in-progress: false
+jobs:
+  assemble:
+    if: contains(github.event.head_commit.message, '[assemble:fd2-tests]')
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      CLOUDSDK_CONFIG: /tmp/fd2-tests-release-${{ github.run_id }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install --quiet Pillow
+      - uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093
+        with:
+          project_id: cedar-assets
+          workload_identity_provider: projects/293109622606/locations/global/workloadIdentityPools/cedar-github/providers/github
+      - uses: google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db
+      - name: Restore exact current baseline and verify six archived image hashes
+        run: |
+          test "$(git ls-remote origin refs/heads/main | cut -f1)" = "d86c269e5aa932e40c113331a8d15e83fceff8b3"
+          git fetch --depth=1 origin main
+          git show d86c269e5aa932e40c113331a8d15e83fceff8b3:sites/43cedar/interactive_map/index.html > sites/43cedar/interactive_map/index.html
+          python releases/fireplace-FD2-tests/assemble.py
+      - name: Desktop and mobile six-image browser checks
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+          node releases/fireplace-FD2-tests/browser.cjs
+      - name: Archive staged viewer and review evidence with independent readback
+        run: python releases/fireplace-FD2-tests/archive.py --issue 32 --receipt releases/fireplace-FD2-tests/ARCHIVE_RECEIPT.json sites/43cedar/interactive_map/index.html releases/fireplace-FD2-tests/RELEASE.json releases/fireplace-FD2-tests/PUBLISH_QA.json releases/fireplace-FD2-tests/BROWSER_QA.json
+      - name: Preserve expected-head staged result
+        run: |
+          test "$(git ls-remote origin refs/heads/release/fireplace-FD2-tests | cut -f1)" = "$GITHUB_SHA"
+          git add sites/43cedar/interactive_map/index.html releases/fireplace-FD2-tests/PUBLISH_QA.json releases/fireplace-FD2-tests/BROWSER_QA.json releases/fireplace-FD2-tests/ARCHIVE_RECEIPT.json
+          git -c user.name='43 Cedar isolated FD2 publisher' -c user.email='actions@users.noreply.github.com' commit -m 'Stage six isolated FD2 test views; preserve production and other tests [skip ci]'
+          git push origin HEAD:release/fireplace-FD2-tests
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: fd2-tests-release-${{ github.run_id }}
+          path: |
+            releases/fireplace-FD2-tests/*QA.json
+            releases/fireplace-FD2-tests/*RECEIPT.json
+            releases/fireplace-FD2-tests/desktop.png
+            releases/fireplace-FD2-tests/mobile.png
