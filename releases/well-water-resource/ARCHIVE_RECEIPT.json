@@ -1,0 +1,46 @@
+{
+  "schema": "43cedar-archive-v1",
+  "repository": "rkneece/rkneece.github.io",
+  "source_commit": "b3b3e92db4f75fbf466590d35abdb280a070bfd0",
+  "source_ref": "refs/heads/release/well-water-resource",
+  "issue": "https://github.com/rkneece/43-cedar-blender/issues/35",
+  "archived_at": "2026-11-08T20:39:14.620489+00:00",
+  "run_url": "https://github.com/rkneece/rkneece.github.io/actions/runs/42521191375",
+  "approval": "archive-only; no design approval or publication implied",
+  "assets": [
+    {
+      "path": "releases/well-water-resource/43_Cedar_Well_and_Accessory_Water.png",
+      "sha256": "d1cc3c644de9e79e76142f63518a0e20a6be4f00bcd7bc4ae1d44d2aeacf227f",
+      "bytes": 601272,
+      "uri": "gs://rkneece-43cedar-assets/43cedar/objects/sha256/d1/d1cc3c644de9e79e76142f63518a0e20a6be4f00bcd7bc4ae1d44d2aeacf227f",
+      "verified": true,
+      "record_uri": "gs://rkneece-43cedar-assets/43cedar/records/sha256/e7830b38f4f2ee0ae28730263b28fb5c0b39b0db2f6f0066773f204b050edee5.json"
+    },
+    {
+      "path": "releases/well-water-resource/PUBLISH_QA.json",
+      "sha256": "57e3a8b37429d9b4c32c1ac5344846421ff0d528850296b457fb4bba47982b87",
+      "bytes": 454,
+      "uri": "gs://rkneece-43cedar-assets/43cedar/objects/sha256/57/57e3a8b37429d9b4c32c1ac5344846421ff0d528850296b457fb4bba47982b87",
+      "verified": true,
+      "record_uri": "gs://rkneece-43cedar-assets/43cedar/records/sha256/ba36fba831e8bc07d90211132f9819197594fb17ab0f480fe0f1d58a044ba442.json"
+    },
+    {
+      "path": "releases/well-water-resource/apply.py",
+      "sha256": "7318c472068ccb295ac3507a44616b8191a48613bc73c1508e89a8dd88285b14",
+      "bytes": 3577,
+      "uri": "gs://rkneece-43cedar-assets/43cedar/objects/sha256/73/7318c472068ccb295ac3507a44616b8191a48613bc73c1508e89a8dd88285b14",
+      "verified": true,
+      "record_uri": "gs://rkneece-43cedar-assets/43cedar/records/sha256/08d4b46b39691665a9640ef552b15c97eedc7fecb5c2c44a35268e608cf95d7e.json"
+    },
+    {
+      "path": "sites/43cedar/interactive_map/index.html",
+      "sha256": "9b3901114711c2a2f4d9f92b2255344e9a53a49527a87ded57644d3892b0b664",
+      "bytes": 49464643,
+      "uri": "gs://rkneece-43cedar-assets/43cedar/objects/sha256/9b/9b3901114711c2a2f4d9f92b2255344e9a53a49527a87ded57644d3892b0b664",
+      "verified": true,
+      "record_uri": "gs://rkneece-43cedar-assets/43cedar/records/sha256/17943f354ae2ebebea39cb0343019f78b7501e837a0d5b4b6bfcee1d25784a8a.json"
+    }
+  ],
+  "manifest_uri": "gs://rkneece-43cedar-assets/43cedar/manifests/sha256/f32b4e14f3776d191ac2621901aef55dec380b1c6820a686ce42086d528fbc51.json",
+  "manifest_sha256": "f32b4e14f3776d191ac2621901aef55dec380b1c6820a686ce42086d528fbc51"
+}
