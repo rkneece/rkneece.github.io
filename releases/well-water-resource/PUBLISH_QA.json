@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "issue": 35,
+  "resource_id": "RES30",
+  "baseline_html_sha256": "2473ba61c4bdd42e26da7eddd5c8aa7cc22293ea7f54b3c6676cf6c433b143a3",
+  "html_sha256": "9b3901114711c2a2f4d9f92b2255344e9a53a49527a87ded57644d3892b0b664",
+  "image_sha256": "d1cc3c644de9e79e76142f63518a0e20a6be4f00bcd7bc4ae1d44d2aeacf227f",
+  "photos_before": 477,
+  "photos_after": 478,
+  "all_other_records_preserved": true,
+  "viewer_shell_byte_identical": true
+}
