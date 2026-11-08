@@ -1,0 +1,43 @@
+name: Verify staged 43 Cedar water resource in a browser
+on:
+  push:
+    branches: [release/well-water-browser-qa]
+    paths: [.github/workflows/well-water-browser-qa.yml]
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test Proposed Resources at desktop and phone widths
+        run: |
+          npm install --prefix /tmp/cedar-browser --no-save playwright@1.56.1
+          CHROME=$(command -v google-chrome || command -v chromium || true)
+          if [ -z "$CHROME" ]; then /tmp/cedar-browser/node_modules/.bin/playwright install --with-deps chromium; fi
+          CHROME="$CHROME" node <<'JS'
+          const { chromium } = require('/tmp/cedar-browser/node_modules/playwright');
+          const { pathToFileURL } = require('node:url');
+          const assert = require('node:assert/strict');
+          (async () => {
+            const browser = await chromium.launch({executablePath: process.env.CHROME || undefined, args:['--no-sandbox']});
+            try {
+              for (const viewport of [{width:1440,height:1000},{width:390,height:844}]) {
+                const page = await browser.newPage({viewport});
+                const errors = [];
+                page.on('pageerror', error => errors.push(error.message));
+                const url = pathToFileURL(process.cwd() + '/sites/43cedar/interactive_map/index.html');
+                url.hash = 'proposed-resources';
+                await page.goto(url.href, {waitUntil:'domcontentloaded'});
+                const card = page.locator('#results').getByText('Shared well and accessory-unit water service', {exact:true}).first();
+                await card.waitFor({state:'visible',timeout:15000});
+                await card.click();
+                await page.waitForFunction(() => Array.from(document.images).some(img => img.naturalWidth === 1800 && img.naturalHeight === 1950 && img.getBoundingClientRect().width > 200));
+                assert.deepEqual(errors, []);
+                console.log('PASS', viewport.width, 'resource card opens and 1800 × 1950 PNG decodes, zero page errors');
+                await page.close();
+              }
+            } finally { await browser.close(); }
+          })().catch(error => { console.error(error); process.exitCode=1; });
+          JS
