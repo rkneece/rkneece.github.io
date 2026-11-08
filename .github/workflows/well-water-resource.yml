@@ -1,0 +1,41 @@
+name: Assemble reviewed water service resource
+on:
+  push:
+    branches: [release/well-water-resource]
+    paths: [.github/workflows/well-water-resource.yml]
+permissions:
+  contents: write
+  id-token: write
+concurrency:
+  group: cedar-water-service-resource
+  cancel-in-progress: false
+jobs:
+  assemble:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    env:
+      RELEASE_BRANCH: release/well-water-resource
+      BASELINE: 3244a4e0a2d5fb2304419848a1d5db2fd2d959aa
+    steps:
+      - uses: actions/checkout@v4
+      - name: Guard site branches and assemble exact resource
+        run: |
+          for branch in main dev; do
+            test "$(git ls-remote origin refs/heads/$branch | cut -f1)" = "$BASELINE"
+          done
+          python releases/well-water-resource/apply.py
+      - uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093
+        with:
+          project_id: cedar-assets
+          workload_identity_provider: projects/293109622606/locations/global/workloadIdentityPools/cedar-github/providers/github
+      - uses: google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db
+      - name: Archive exact diagram and reviewed viewer with readback
+        run: |
+          python ops/cedar-archive/archive.py --issue 35 --receipt releases/well-water-resource/ARCHIVE_RECEIPT.json releases/well-water-resource/apply.py releases/well-water-resource/43_Cedar_Well_and_Accessory_Water.png releases/well-water-resource/PUBLISH_QA.json sites/43cedar/interactive_map/index.html
+      - name: Checkpoint on the release branch
+        run: |
+          test "$(git ls-remote origin refs/heads/$RELEASE_BRANCH | cut -f1)" = "$GITHUB_SHA"
+          git rm .github/workflows/well-water-resource.yml
+          git add releases/well-water-resource sites/43cedar/interactive_map/index.html
+          git -c user.name='43 Cedar publish' -c user.email='actions@users.noreply.github.com' commit -m 'Assemble and archive RES30 water service resource'
+          git push origin HEAD:refs/heads/$RELEASE_BRANCH
