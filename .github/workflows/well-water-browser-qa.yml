@@ -30,10 +30,10 @@ jobs:
                 const url = pathToFileURL(process.cwd() + '/sites/43cedar/interactive_map/index.html');
                 url.hash = 'proposed-resources';
                 await page.goto(url.href, {waitUntil:'domcontentloaded'});
-                const card = page.locator('#results').getByText('Shared well and accessory-unit water service', {exact:true}).first();
+                const card = page.locator('[aria-label="RES30 · Shared well and accessory-unit water service · open photo"]');
                 await card.waitFor({state:'visible',timeout:15000});
                 await card.click();
-                await page.waitForFunction(() => Array.from(document.images).some(img => img.naturalWidth === 1800 && img.naturalHeight === 1950 && img.getBoundingClientRect().width > 200));
+                await page.waitForFunction(() => document.querySelector('#photoImage')?.naturalWidth === 1800 && document.querySelector('#photoImage')?.naturalHeight === 1950 && document.querySelector('#photoImage').getBoundingClientRect().width > 200);
                 assert.deepEqual(errors, []);
                 console.log('PASS', viewport.width, 'resource card opens and 1800 × 1950 PNG decodes, zero page errors');
                 await page.close();
