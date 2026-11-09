@@ -11,7 +11,6 @@ on:
   push:
     branches:
       - 'release/**'
-      - 'infra/cedar-publish-checkpoints'
     paths:
       - '.github/workflows/cedar-viewer-qa.yml'
       - 'ops/cedar-release/check-viewer.cjs'
