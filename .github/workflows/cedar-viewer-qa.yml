@@ -1,0 +1,46 @@
+name: 43 Cedar viewer candidate QA
+run-name: "Viewer QA · ${{ github.ref_name }} · ${{ github.sha }}"
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [dev, main]
+    paths:
+      - '.github/workflows/cedar-viewer-qa.yml'
+      - 'ops/cedar-release/check-viewer.cjs'
+  push:
+    branches:
+      - 'release/**'
+    paths:
+      - '.github/workflows/cedar-viewer-qa.yml'
+      - 'ops/cedar-release/check-viewer.cjs'
+      - 'sites/43cedar/interactive_map/**'
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - name: Record the committed candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          viewer_sha="$(sha256sum sites/43cedar/interactive_map/index.html | cut -d ' ' -f 1)"
+          printf 'Candidate commit `%s`\n\nViewer SHA256 `%s`\n\n' "$GITHUB_SHA" "$viewer_sha" >> "$GITHUB_STEP_SUMMARY"
+      - name: Install Playwright
+        run: npm install --prefix "$RUNNER_TEMP/cedar-viewer-qa" --no-save --package-lock=false --ignore-scripts playwright@1.62.1
+      - name: Check desktop and mobile viewer startup
+        shell: bash
+        run: |
+          set -euo pipefail
+          export NODE_PATH="$RUNNER_TEMP/cedar-viewer-qa/node_modules"
+          export CEDAR_BROWSER=/usr/bin/google-chrome
+          node ops/cedar-release/check-viewer.cjs | tee -a "$GITHUB_STEP_SUMMARY"
