@@ -1,0 +1,149 @@
+name: Stage and verify Cedar issue 36
+on:
+  push:
+    branches: [ops/cedar-issue-36-publish]
+    paths: [.github/workflows/cedar-issue-36-publish.yml]
+permissions:
+  contents: write
+  id-token: write
+concurrency:
+  group: cedar-issue-36
+  cancel-in-progress: false
+env:
+  RELEASE_BRANCH: release/site-2026-oct-nov
+  EXPECTED_RELEASE: 3c5830f0f830c7eaf9c88606bebd7bae33303b1f
+  EXPECTED_MAIN: f44633771c57268a3bf575d70c4d02f023c70dd2
+  VIEWER_SHA: d57b0e47bc2a5771cce5f9a022dbe22c38e7df6b4a5b0542f60808c1ebc2c4d5
+jobs:
+  stage:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Confirm release and production heads
+        run: |
+          set -euo pipefail
+          test "$(git ls-remote origin "refs/heads/$RELEASE_BRANCH" | cut -f1)" = "$EXPECTED_RELEASE"
+          test "$(git ls-remote origin refs/heads/main | cut -f1)" = "$EXPECTED_MAIN"
+      - uses: google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093
+        with:
+          project_id: cedar-assets
+          workload_identity_provider: projects/293109622606/locations/global/workloadIdentityPools/cedar-github/providers/github
+      - uses: google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db
+      - name: Verify incoming ZIPs and archive with independent readback
+        run: |
+          set -euo pipefail
+          incoming='gs://rkneece-43cedar-assets/43cedar/issue-36-incoming'
+          staging="$RUNNER_TEMP/cedar-issue-36"
+          mkdir -p "$staging"
+          gcloud storage cp "$incoming/Photos-1-001(2).zip" "$staging/Photos-1-001(2).zip"
+          gcloud storage cp "$incoming/43_Cedar_Viewer_Offline_Build.zip" "$staging/43_Cedar_Viewer_Offline_Build.zip"
+          (
+            cd "$staging"
+            printf '%s  %s\n' \
+              ae1c07c3825a4aa1184ded18b87c37862493580f6ef92e1ce599c13e1beab6f6 'Photos-1-001(2).zip' \
+              57ea6bea82ad4e9d8f1fcaddf4f462d37620bddf41b7ebe8785f91ac13307057 '43_Cedar_Viewer_Offline_Build.zip' \
+              | sha256sum --check
+          )
+          CEDAR_SOURCE_REF="$RELEASE_BRANCH" python ops/cedar-archive/archive.py \
+            --root "$staging" --issue 36 --receipt "$RUNNER_TEMP/cedar-issue-36-receipt.json" \
+            'Photos-1-001(2).zip' 43_Cedar_Viewer_Offline_Build.zip
+      - name: Assemble and commit the verified public viewer
+        run: |
+          set -euo pipefail
+          test "$(git ls-remote origin "refs/heads/$RELEASE_BRANCH" | cut -f1)" = "$EXPECTED_RELEASE"
+          test "$(git ls-remote origin refs/heads/main | cut -f1)" = "$EXPECTED_MAIN"
+          git switch --detach "$EXPECTED_RELEASE"
+          unzip -q -o "$RUNNER_TEMP/cedar-issue-36/43_Cedar_Viewer_Offline_Build.zip"
+          viewer=sites/43cedar/interactive_map
+          printf '%s  %s\n' "$VIEWER_SHA" "$viewer/index.html" | sha256sum --check
+          python - <<'PY'
+          from collections import Counter
+          from hashlib import sha256
+          import json
+          from pathlib import Path
+          import re
+          from urllib.parse import unquote, urlsplit
+
+          root = Path('sites/43cedar/interactive_map')
+          data = json.loads(re.search(r'<script[^>]*id="appdata"[^>]*>(.*?)</script>',
+                                     (root / 'index.html').read_text(), re.S)[1])
+          added = [p for p in data['photos'] if p['id'].startswith('SITE-2026')]
+          assert len(data['photos']) == 541 and len({p['id'] for p in data['photos']}) == 541
+          assert Counter(p['stage'] for p in added) == {'Demo': 49, 'Existing': 14}
+          assert Counter(p['floor'] for p in added) == {'EXT': 35, 'F1': 15, 'ADU': 13}
+          assert all(p['confirmed'] and p['facing'] and
+                     0 <= p['mapX'] <= 100 and 0 <= p['mapY'] <= 100 for p in added)
+          manifest = json.loads((root / 'external-media.json').read_text())
+          assert len(manifest) == 418
+          for name, item in manifest.items():
+              payload = (root / 'assets/content' / name).read_bytes()
+              assert len(payload) == item['bytes'] and sha256(payload).hexdigest() == item['sha256'], name
+          for field in ('photoImages', 'blenderImages', 'photorealImages', 'resourceImages', 'plans', 'proposedPlans'):
+              for url in data[field].values():
+                  assert not url.startswith('data:'), (field, 'embedded image')
+                  if '://' not in url:
+                      assert (root / unquote(urlsplit(url).path)).is_file(), (field, url)
+          print('541 records, 63 mapped additions and 418 extracted files verified')
+          PY
+          git add -- "$viewer/index.html" "$viewer/external-media.json" "$viewer/assets/content"
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+            commit -m 'Stage verified October and November site photos'
+          git push origin "HEAD:refs/heads/$RELEASE_BRANCH"
+          candidate=$(git rev-parse HEAD)
+          test "$(git ls-remote origin "refs/heads/$RELEASE_BRANCH" | cut -f1)" = "$candidate"
+          printf '%s\n' "$candidate" > "$RUNNER_TEMP/cedar-issue-36-candidate.txt"
+          printf '\nCandidate commit: %s\n' "$candidate" >> "$GITHUB_STEP_SUMMARY"
+      - name: Install browser check dependency
+        run: npm install --prefix "$RUNNER_TEMP/cedar-viewer-qa" --no-save --package-lock=false --ignore-scripts playwright@1.62.1
+      - name: Verify committed viewer on desktop and mobile
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "$(cat "$RUNNER_TEMP/cedar-issue-36-candidate.txt")"
+          export NODE_PATH="$RUNNER_TEMP/cedar-viewer-qa/node_modules"
+          export CEDAR_BROWSER=/usr/bin/google-chrome
+          node ops/cedar-release/check-viewer.cjs | tee -a "$GITHUB_STEP_SUMMARY"
+          node <<'JS' | tee -a "$GITHUB_STEP_SUMMARY"
+          const assert = require('node:assert/strict');
+          const { pathToFileURL } = require('node:url');
+          const { chromium } = require('playwright');
+          (async () => {
+            const browser = await chromium.launch({ executablePath: process.env.CEDAR_BROWSER });
+            try {
+              for (const width of [1440, 390]) {
+                const page = await browser.newPage({ viewport: { width, height: 900 } });
+                const errors = [];
+                page.on('pageerror', error => errors.push(error.message));
+                await page.goto(pathToFileURL('sites/43cedar/interactive_map/index.html').href);
+                if (width < 1100) {
+                  await page.locator('#floorCrumb').click();
+                  await page.locator('#sheetContent .chooser-option').filter({hasText: 'Accessory Unit'}).click();
+                } else {
+                  await page.locator('#floorButtons').getByRole('button', { name: 'Accessory Unit', exact: true }).click();
+                }
+                const gallery = page.locator('#gallery .tile');
+                await gallery.first().waitFor({ state: 'visible' });
+                assert.equal(await gallery.count(), 13);
+                await gallery.first().locator('img').evaluate(img => { img.loading = 'eager'; return img.decode(); });
+                if (width < 1100) await page.locator('#mapMode').click();
+                await page.locator('#plan').evaluate(img => img.decode());
+                assert.match(await page.locator('#mapTitle').textContent(), /Accessory Unit/);
+                assert.deepEqual(errors, []);
+                console.log(width + 'px: 13 ADU photos, gallery image and ADU plan verified');
+                await page.close();
+              }
+            } finally {
+              await browser.close();
+            }
+          })().catch(error => { console.error(error); process.exitCode = 1; });
+          JS
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cedar-issue-36-release-proof
+          path: |
+            ${{ runner.temp }}/cedar-issue-36-receipt.json
+            ${{ runner.temp }}/cedar-issue-36-candidate.txt
+          if-no-files-found: warn
