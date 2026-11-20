@@ -44,3 +44,11 @@ jobs:
           export NODE_PATH="$RUNNER_TEMP/cedar-viewer-qa/node_modules"
           export CEDAR_BROWSER=/usr/bin/google-chrome
           node ops/cedar-release/check-viewer.cjs | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Verify new resource floor assignments and full-size images
+        if: hashFiles('releases/proposed-resources-20261120/check-resources.cjs') != ''
+        shell: bash
+        run: |
+          set -euo pipefail
+          export NODE_PATH="$RUNNER_TEMP/cedar-viewer-qa/node_modules"
+          export CEDAR_BROWSER=/usr/bin/google-chrome
+          node releases/proposed-resources-20261120/check-resources.cjs | tee -a "$GITHUB_STEP_SUMMARY"
